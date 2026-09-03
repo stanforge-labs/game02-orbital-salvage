@@ -28,7 +28,7 @@
   ],"resourceFolders":[]},
   "objects":[],"objectsGroups":[],"variables":[],
   "layouts":[{
-    "b":281,"disableInputWhenNotFocused":true,"mangledName":"OrbitalSalvage","name":"OrbitalSalvage","oglFOV":90,"oglZFar":500,"oglZNear":1,"r":281,"standardSortMethod":true,"stopSoundsOnStartup":true,"resourcesPreloading":"at-startup","title":"Космический сборщик",
+    "b":0,"disableInputWhenNotFocused":true,"mangledName":"OrbitalSalvage","name":"OrbitalSalvage","oglFOV":90,"oglZFar":500,"oglZNear":1,"r":0,"standardSortMethod":true,"stopSoundsOnStartup":true,"resourcesPreloading":"at-startup","title":"Космический сборщик",
     "uiSettings":{"grid":false,"gridType":"rectangular","gridWidth":32,"gridHeight":32,"gridOffsetX":0,"gridOffsetY":0,"gridColor":10401023,"gridAlpha":0.8,"snap":false,"zoomFactor":1,"windowMask":false},
     "objectsGroups":[{"name":"CommonSalvage","objects":["CommonSalvage"]},{"name":"Collectibles","objects":["CommonSalvage","RareContainer"]},{"name":"Hazards","objects":["Debris","FastDebris"]}],
     "variables":[{"name":"GameState","type":"string","value":"menu"},{"name":"Credits","type":"number","value":0},{"name":"Cargo","type":"number","value":0},{"name":"CargoValue","type":"number","value":0},{"name":"Hull","type":"number","value":3},{"name":"HullMax","type":"number","value":3},{"name":"CargoMax","type":"number","value":8},{"name":"EngineLevel","type":"number","value":0},{"name":"RunTime","type":"number","value":0},{"name":"DeliveredCargo","type":"number","value":0},{"name":"DeliveredValue","type":"number","value":0},{"name":"ScrapCount","type":"number","value":0},{"name":"ContainerCount","type":"number","value":0},{"name":"Status","type":"string","value":""}],
