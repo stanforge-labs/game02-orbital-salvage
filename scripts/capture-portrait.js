@@ -6,6 +6,6 @@ const { chromium } = require('playwright-core');
   await page.goto('http://127.0.0.1:4173/index.html', { waitUntil: 'networkidle' });
   await page.evaluate(() => document.fonts && document.fonts.ready);
   await page.waitForTimeout(1200);
-  await page.screenshot({ path: 'C:\\Yandex Games\\02 Orbital Salvage\\screenshots\\CorePass02\\13-mobile-rotate-device.png' });
+  await page.screenshot({ path: 'C:\\Yandex Games\\02 Orbital Salvage\\screenshots\\CorePass03\\11-rotate-device.png' });
   process.exit(0);
 })();

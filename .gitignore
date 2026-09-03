@@ -22,11 +22,11 @@ scripts/inspect-viewport.js
 browser-profile/
 debug-dumps/
 
-# Временные кадры. В репозитории хранится только актуальный CorePass02.
+# Временные кадры. В репозитории хранится только актуальный CorePass03.
 screenshots/*
-!screenshots/CorePass02/
-screenshots/CorePass02/*
-!screenshots/CorePass02/*.png
+!screenshots/CorePass03/
+screenshots/CorePass03/*
+!screenshots/CorePass03/*.png
 
 # Секреты и локальные настройки
 .env
