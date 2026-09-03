@@ -9,7 +9,7 @@ Kenney имеют лицензию CC0 и допускают коммерчес�
 | Simple Space | Kenney | https://kenney.nl/assets/simple-space | CC0 1.0 | Да | Да | meteor_detailedSmall.png | Обычный металлолом |
 | Space Shooter Remastered | Kenney | https://kenney.nl/assets/space-shooter-remastered | CC0 1.0 | Да | Да | playerShip1_blue.png, meteorBrown_big1.png, meteorGrey_small1.png, Effects/fire01.png | Корабль, плавающие и быстрые обломки, выхлоп |
 | UI Pack — Sci-Fi | Kenney | https://kenney.nl/assets/ui-pack-sci-fi | CC0 1.0 | Да | Да | PNG/Blue/Default/bar_round_gloss_large.png | Исходный UI-референс; не используется в текущем русском runtime |
-| Exo 2 | The Exo 2 Project / Google Fonts | https://github.com/google/fonts/tree/main/ofl/exo2 | SIL Open Font License 1.1 | Да | Да | Exo2-Variable.ttf, OFL-Exo2.txt | Весь русский интерфейс и HUD |
+| Russo One | Jovanny Lemonad / Google Fonts | https://github.com/google/fonts/tree/main/ofl/russoone | SIL Open Font License 1.1 | Да | Да | RussoOne-Regular.ttf, OFL-RussoOne.txt | Весь русский интерфейс и HUD |
 
 ## Копии в проекте
 
@@ -23,7 +23,7 @@ Kenney имеют лицензию CC0 и допускают коммерчес�
 - hazard_fast.png;
 - vfx_fire01.png;
 - ui_bar_blue.png — сохранён как исходный UI-ресурс, не используется в текущем русском runtime;
-- Exo2-Variable.ttf, OFL-Exo2.txt;
+- RussoOne-Regular.ttf, OFL-RussoOne.txt;
 - rare_container.png, space_haze.png, station_glow.png, scrap_glow.png,
   ui_panel.png, ui_button.png — PNG-версии оригинальных SVG-элементов;
 - favicon.ico.

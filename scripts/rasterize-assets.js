@@ -13,6 +13,7 @@ const path = require('path');
   const files = [
     'salvage_panel', 'salvage_hull', 'salvage_satellite', 'salvage_antenna',
     'debris_field', 'danger_zone', 'rotate_device', 'ui_panel', 'ui_button',
+    'ui_menu_panel', 'ui_result_panel', 'ui_card', 'ui_hud_panel',
     'station_custom', 'station_glow', 'scrap_glow', 'rare_container',
   ];
   for (const name of files) {
