@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1400" viewBox="0 0 1920 1400">
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#071426"/><stop offset=".55" stop-color="#101d3a"/><stop offset="1" stop-color="#1c1634"/></linearGradient>
+    <radialGradient id="neb1"><stop stop-color="#286a96" stop-opacity=".32"/><stop offset="1" stop-color="#286a96" stop-opacity="0"/></radialGradient>
+    <radialGradient id="neb2"><stop stop-color="#8e3e86" stop-opacity=".22"/><stop offset="1" stop-color="#8e3e86" stop-opacity="0"/></radialGradient>
+    <pattern id="stars" width="220" height="175" patternUnits="userSpaceOnUse">
+      <circle cx="22" cy="36" r="1.4" fill="#d8f5ff" opacity=".7"/><circle cx="148" cy="26" r="1" fill="#fff0bb" opacity=".7"/>
+      <circle cx="188" cy="115" r="1.6" fill="#b6ddff" opacity=".6"/><circle cx="76" cy="136" r=".9" fill="#fff" opacity=".55"/>
+      <path d="M112 82v10M107 87h10" stroke="#b8e8ff" stroke-opacity=".42"/>
+    </pattern>
+  </defs>
+  <rect width="1920" height="1400" fill="url(#bg)"/>
+  <ellipse cx="430" cy="310" rx="620" ry="400" fill="url(#neb1)"/>
+  <ellipse cx="1780" cy="1060" rx="720" ry="470" fill="url(#neb2)"/>
+  <rect width="1920" height="1400" fill="url(#stars)" opacity=".78"/>
+  <path d="M0 740C360 620 620 870 980 740S1580 590 1920 720" fill="none" stroke="#6bc8ed" stroke-opacity=".08" stroke-width="2"/>
+  <path d="M0 760C360 640 620 890 980 760S1580 610 1920 740" fill="none" stroke="#bd78d3" stroke-opacity=".05" stroke-width="1"/>
+</svg>

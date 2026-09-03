@@ -1,0 +1,36 @@
+# Локальные и производные файлы
+exports/*
+!exports/.gitkeep
+_downloads/
+_tmp-export/
+node_modules/
+assets/kenney/
+assets/game/kenney_future.ttf
+assets/game/background_darkPurple.png
+assets/game/station_hub.png
+assets/game/station_satellite.png
+assets/game/ui_bar_blue.png
+scripts/*-test.js
+scripts/qa-core-pass02.js
+scripts/inspect-viewport.js
+*.log
+*.tmp
+*.cache
+
+# Локальные профили и служебные данные
+.playwright/
+browser-profile/
+debug-dumps/
+
+# Временные кадры. В репозитории хранится только актуальный CorePass02.
+screenshots/*
+!screenshots/CorePass02/
+screenshots/CorePass02/*
+!screenshots/CorePass02/*.png
+
+# Секреты и локальные настройки
+.env
+*.pem
+*.key
+cookies*.json
+auth*.json

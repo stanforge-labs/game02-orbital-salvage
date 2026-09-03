@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+  <defs>
+    <radialGradient id="hazeA"><stop offset="0" stop-color="#355b8f" stop-opacity=".18"/><stop offset="1" stop-color="#355b8f" stop-opacity="0"/></radialGradient>
+    <radialGradient id="hazeB"><stop offset="0" stop-color="#773f9c" stop-opacity=".12"/><stop offset="1" stop-color="#773f9c" stop-opacity="0"/></radialGradient>
+  </defs>
+  <ellipse cx="240" cy="160" rx="300" ry="180" fill="url(#hazeA)"/>
+  <ellipse cx="790" cy="420" rx="330" ry="170" fill="url(#hazeB)"/>
+</svg>
