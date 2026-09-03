@@ -7,11 +7,13 @@ const path = require('path');
     headless: true,
     executablePath: 'C:\\Program Files\\Yandex\\YandexBrowser\\Application\\browser.exe',
   });
-  const page = await browser.newPage({ viewport: { width: 900, height: 700 } });
+  const context = await browser.newContext({ viewport: { width: 900, height: 700 }, deviceScaleFactor: 2 });
+  const page = await context.newPage();
   const dir = path.resolve(__dirname, '..', 'assets', 'game');
   const files = [
     'salvage_panel', 'salvage_hull', 'salvage_satellite', 'salvage_antenna',
-    'debris_field', 'danger_zone', 'rotate_device',
+    'debris_field', 'danger_zone', 'rotate_device', 'ui_panel', 'ui_button',
+    'station_custom', 'station_glow', 'scrap_glow', 'rare_container',
   ];
   for (const name of files) {
     await page.setContent(fs.readFileSync(path.join(dir, `${name}.svg`), 'utf8'));
@@ -23,4 +25,6 @@ const path = require('path');
     });
   }
   await browser.close();
+  console.log('HD authored assets rasterized');
+  process.exit(0);
 })();
