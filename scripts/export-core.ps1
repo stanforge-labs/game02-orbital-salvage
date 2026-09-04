@@ -24,6 +24,7 @@ if ($data.Contains($mojibakeMarker)) {
 }
 $data = $data.Replace('"image":"assets/game/', '"image":"')
 $data = $data.Replace('"name":"assets/game/', '"name":"')
+$data = $data.Replace('"backgroundImageResourceName":"assets/game/', '"backgroundImageResourceName":"')
 
 # Keep the small set of shipped visual assets self-contained in the generated
 # data file. This avoids a Pixi texture-cache edge case in gdexporter's
@@ -52,6 +53,22 @@ node (Join-Path $PSScriptRoot 'restore-export-cyrillic.js') $dataPath (Join-Path
 
 # The browser requests this conventional root icon during static smoke tests.
 Copy-Item -LiteralPath (Join-Path $projectRoot 'assets\game\favicon.ico') -Destination (Join-Path $exportPath 'favicon.ico') -Force
+
+# Yandex Games loader is provided by the platform and must never be shipped
+# as a local sdk.js file. Keep localhost usable with the adapter's debug stub,
+# while loading the official root loader on a real Yandex host.
+$adapterSource = Join-Path $projectRoot 'assets\game\yandex-adapter.js'
+Copy-Item -LiteralPath $adapterSource -Destination (Join-Path $exportPath 'yandex-adapter.js') -Force
+$indexPath = Join-Path $exportPath 'index.html'
+$html = Get-Content -Raw -LiteralPath $indexPath
+$loader = '<script>if (location.hostname !== "localhost" && location.hostname !== "127.0.0.1") document.write(''<script src="/sdk.js"><\/script>'');</script>'
+$bridge = '<script src="yandex-adapter.js" crossorigin="anonymous"></script>'
+if ($html -notmatch 'yandex-adapter\.js') {
+  $entry = '<script src="code0.js" crossorigin="anonymous"></script>'
+  $replacement = $loader + "`n`t" + $bridge + "`n`t" + $entry
+  $html = $html.Replace($entry, $replacement)
+  Set-Content -LiteralPath $indexPath -Value $html -Encoding UTF8
+}
 
 Write-Output "Core export ready: $exportPath"
 
