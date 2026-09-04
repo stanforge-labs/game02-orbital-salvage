@@ -1,0 +1,572 @@
+{
+  "startedAt": "2026-09-04T20:13:50.555Z",
+  "viewports": {
+    "mobileLandscape": {
+      "innerWidth": 1280,
+      "innerHeight": 720,
+      "touch": true,
+      "canvas": [
+        {
+          "width": 1920,
+          "height": 1080,
+          "clientWidth": 1280,
+          "clientHeight": 720
+        }
+      ]
+    },
+    "mobilePortrait": {
+      "innerWidth": 720,
+      "innerHeight": 1280,
+      "touch": true
+    },
+    "1920x1080": {
+      "innerWidth": 1920,
+      "innerHeight": 1080,
+      "dpr": 1,
+      "canvas": [
+        {
+          "width": 1920,
+          "height": 1080,
+          "clientWidth": 1920,
+          "clientHeight": 1080
+        }
+      ]
+    },
+    "1600x900": {
+      "innerWidth": 1600,
+      "innerHeight": 900,
+      "dpr": 1,
+      "canvas": [
+        {
+          "width": 1920,
+          "height": 1080,
+          "clientWidth": 1600,
+          "clientHeight": 900
+        }
+      ]
+    },
+    "1366x768": {
+      "innerWidth": 1366,
+      "innerHeight": 768,
+      "dpr": 1,
+      "canvas": [
+        {
+          "width": 1921,
+          "height": 1080,
+          "clientWidth": 1366,
+          "clientHeight": 768
+        }
+      ]
+    }
+  },
+  "screenshots": [
+    "01-sector1-start.png",
+    "02-contract-hud.png",
+    "03-debris-variety.png",
+    "06-result-contract.png",
+    "07-upgrade-offers-before-reroll.png",
+    "08-upgrade-offers-after-reroll.png",
+    "10-sector-select.png",
+    "11-sector2-start.png",
+    "04-hit-feedback.png",
+    "05-low-hull.png",
+    "09-reset-confirmation.png",
+    "12-sector2-danger.png",
+    "13-mobile-landscape.png",
+    "14-mobile-portrait.png"
+  ],
+  "naturalPlaythroughSeconds": 112.4,
+  "firstLootSeconds": 5.5,
+  "firstReturnSeconds": 30.2,
+  "firstUpgradeSeconds": 59.5,
+  "firstTechPartSeconds": 98.2,
+  "sector2UnlockSeconds": 98.2,
+  "sector2EnterSeconds": 105.2,
+  "creditsTimeline": [
+    {
+      "time": 30.2,
+      "event": "первый возврат",
+      "credits": 90
+    },
+    {
+      "time": 58.6,
+      "event": "контейнер доставлен",
+      "credits": 220
+    },
+    {
+      "time": 98.2,
+      "event": "ценный груз доставлен",
+      "credits": 320,
+      "techParts": 1
+    }
+  ],
+  "upgradesPurchasedTimeline": [
+    {
+      "time": 59.5,
+      "id": "hull",
+      "state": {
+        "state": "upgrades",
+        "cargo": 4,
+        "cargoMax": 8,
+        "hull": 2,
+        "hullMax": 4,
+        "credits": 70,
+        "techParts": 0,
+        "sector": 1,
+        "runCount": 2,
+        "contractsCompleted": 2,
+        "engineLevel": 0,
+        "shipX": 403.2319529916663,
+        "shipY": 690.7907354473438,
+        "speed": 109.05632054154687,
+        "status": "МОДУЛЬ УСТАНОВЛЕН",
+        "missionType": "container",
+        "missionProgress": 1,
+        "missionTarget": 1,
+        "offers": [
+          "engine",
+          "magnet",
+          "radar"
+        ]
+      }
+    },
+    {
+      "time": 100.4,
+      "id": "magnet",
+      "state": {
+        "state": "upgrades",
+        "cargo": 8,
+        "cargoMax": 8,
+        "hull": 2,
+        "hullMax": 4,
+        "credits": 240,
+        "techParts": 0,
+        "sector": 1,
+        "runCount": 3,
+        "contractsCompleted": 3,
+        "engineLevel": 0,
+        "shipX": 401.5866082155816,
+        "shipY": 720.8630099701428,
+        "speed": 116.66470963535934,
+        "status": "МОДУЛЬ УСТАНОВЛЕН",
+        "missionType": "valuable",
+        "missionProgress": 2,
+        "missionTarget": 2,
+        "offers": [
+          "insurance",
+          "cargo",
+          "engine"
+        ]
+      }
+    }
+  ],
+  "contractsCompleted": [
+    {
+      "type": "scrap",
+      "completed": true
+    },
+    {
+      "type": "container",
+      "completed": true
+    },
+    {
+      "type": "valuable",
+      "completed": true
+    }
+  ],
+  "rerollBefore": [
+    "engine",
+    "magnet",
+    "radar"
+  ],
+  "rerollAfter": [
+    "magnet",
+    "radar",
+    "insurance"
+  ],
+  "resetBefore": {
+    "Credits": 160,
+    "TechParts": 2,
+    "CargoMax": 10,
+    "HullMax": 4,
+    "Hull": 3,
+    "EngineLevel": 1,
+    "MagnetLevel": 1,
+    "RadarLevel": 0,
+    "InsuranceLevel": 0,
+    "RunCount": 1,
+    "RerollCount": 0,
+    "ResetCount": 0,
+    "DoubleRewardUsed": 0,
+    "SecondChanceUsed": 0,
+    "SectorUnlocked": 0,
+    "CurrentSector": 1,
+    "OnboardingSeen": 1,
+    "MissionBonusClaimed": 0,
+    "ContractsCompleted": 0,
+    "SpentCredits": 450,
+    "OfferSeed": 4,
+    "OffersReady": 1,
+    "Offer1": "radar",
+    "Offer2": "insurance",
+    "Offer3": "done"
+  },
+  "resetAfter": {
+    "Credits": 497,
+    "TechParts": 1,
+    "CargoMax": 8,
+    "HullMax": 3,
+    "Hull": 3,
+    "EngineLevel": 0,
+    "MagnetLevel": 0,
+    "RadarLevel": 0,
+    "InsuranceLevel": 0,
+    "RunCount": 1,
+    "RerollCount": 0,
+    "ResetCount": 1,
+    "DoubleRewardUsed": 0,
+    "SecondChanceUsed": 0,
+    "SectorUnlocked": 0,
+    "CurrentSector": 1,
+    "OnboardingSeen": 1,
+    "MissionBonusClaimed": 0,
+    "ContractsCompleted": 0,
+    "SpentCredits": 0,
+    "OfferSeed": 4,
+    "OffersReady": 1,
+    "Offer1": "radar",
+    "Offer2": "insurance",
+    "Offer3": "cargo"
+  },
+  "states": {
+    "firstLoot": {
+      "state": "play",
+      "cargo": 1,
+      "cargoMax": 8,
+      "hull": 3,
+      "hullMax": 3,
+      "credits": 0,
+      "techParts": 0,
+      "sector": 1,
+      "runCount": 1,
+      "contractsCompleted": 0,
+      "engineLevel": 0,
+      "shipX": 442.66440010206685,
+      "shipY": 607.3355998979351,
+      "speed": 28.39268617728837,
+      "status": "+10 МЕТАЛЛОЛОМ",
+      "missionType": "scrap",
+      "missionProgress": 1,
+      "missionTarget": 5,
+      "offers": [
+        "cargo",
+        "engine",
+        "hull"
+      ]
+    },
+    "naturalEnd": {
+      "state": "result",
+      "cargo": 1,
+      "cargoMax": 8,
+      "hull": 4,
+      "hullMax": 4,
+      "credits": 440,
+      "techParts": 0,
+      "sector": 2,
+      "runCount": 5,
+      "contractsCompleted": 5,
+      "engineLevel": 0,
+      "shipX": 403.1080072219988,
+      "shipY": 683.0715450074432,
+      "speed": 105.35996370306131,
+      "status": "КОНТРАКТ ВЫПОЛНЕН +115",
+      "missionType": "speed",
+      "missionProgress": 0,
+      "missionTarget": 1,
+      "offers": [
+        "insurance",
+        "cargo",
+        "engine"
+      ]
+    },
+    "hit": {
+      "state": "play",
+      "cargo": 1,
+      "cargoMax": 8,
+      "hull": 2,
+      "hullMax": 3,
+      "credits": 0,
+      "techParts": 0,
+      "sector": 1,
+      "runCount": 1,
+      "contractsCompleted": 0,
+      "engineLevel": 0,
+      "shipX": 1304.3844072947186,
+      "shipY": 700.6135105210587,
+      "speed": 135.694525401826,
+      "status": "−1 КОРПУС",
+      "missionType": "scrap",
+      "missionProgress": 1,
+      "missionTarget": 5,
+      "offers": [
+        "cargo",
+        "engine",
+        "hull"
+      ]
+    },
+    "lowHull": {
+      "state": "play",
+      "cargo": 0,
+      "cargoMax": 8,
+      "hull": 1,
+      "hullMax": 1,
+      "credits": 0,
+      "techParts": 0,
+      "sector": 1,
+      "runCount": 1,
+      "contractsCompleted": 0,
+      "engineLevel": 0,
+      "shipX": 350,
+      "shipY": 700,
+      "speed": 0,
+      "status": "КРИТИЧЕСКОЕ ПОВРЕЖДЕНИЕ",
+      "missionType": "scrap",
+      "missionProgress": 0,
+      "missionTarget": 5,
+      "offers": [
+        "cargo",
+        "engine",
+        "hull"
+      ]
+    },
+    "resetConfirmation": {
+      "state": "resetConfirm",
+      "cargo": 1,
+      "cargoMax": 10,
+      "hull": 3,
+      "hullMax": 4,
+      "credits": 160,
+      "techParts": 2,
+      "sector": 1,
+      "runCount": 1,
+      "contractsCompleted": 0,
+      "engineLevel": 1,
+      "shipX": 394.96522550769726,
+      "shipY": 648.7830982067276,
+      "speed": 83.94714703988001,
+      "status": "МОДУЛЬ УСТАНОВЛЕН",
+      "missionType": "scrap",
+      "missionProgress": 1,
+      "missionTarget": 5,
+      "offers": [
+        "radar",
+        "insurance",
+        "done"
+      ]
+    },
+    "sector2Danger": {
+      "state": "play",
+      "cargo": 4,
+      "cargoMax": 8,
+      "hull": 98,
+      "hullMax": 99,
+      "credits": 0,
+      "techParts": 0,
+      "sector": 2,
+      "runCount": 1,
+      "contractsCompleted": 0,
+      "engineLevel": 0,
+      "shipX": 1436.6397578529718,
+      "shipY": 383.5115324866843,
+      "speed": 0.9093539200833732,
+      "status": "+15 МЕТАЛЛОЛОМ",
+      "missionType": "scrap",
+      "missionProgress": 4,
+      "missionTarget": 6,
+      "offers": [
+        "cargo",
+        "engine",
+        "magnet"
+      ]
+    }
+  },
+  "camera": {
+    "rows": 1030,
+    "cameraXRange": [
+      480,
+      781.4659337380202
+    ],
+    "cameraYRange": [
+      270.00831467351725,
+      677
+    ],
+    "shipXRange": [
+      350,
+      894.5736658491752
+    ],
+    "shipYRange": [
+      159.70276684112503,
+      700
+    ],
+    "maxDeltaX": 3.3763103748777894,
+    "maxDeltaY": 3.3321654707493735,
+    "segments": [
+      {
+        "keys": "W",
+        "rows": 191,
+        "stats": {
+          "rows": 191,
+          "cameraXRange": [
+            480,
+            480
+          ],
+          "cameraYRange": [
+            273.36445695127134,
+            677
+          ],
+          "shipXRange": [
+            350,
+            350
+          ],
+          "shipYRange": [
+            170.35039002067893,
+            699.867877289643
+          ],
+          "maxDeltaX": 0,
+          "maxDeltaY": 3.3321654707493735
+        }
+      },
+      {
+        "keys": "S",
+        "rows": 192,
+        "stats": {
+          "rows": 192,
+          "cameraXRange": [
+            480,
+            480
+          ],
+          "cameraYRange": [
+            270.00831467351725,
+            572.198587307766
+          ],
+          "shipXRange": [
+            350,
+            350
+          ],
+          "shipYRange": [
+            159.70276684112503,
+            657.5872002451039
+          ],
+          "maxDeltaX": 0,
+          "maxDeltaY": 3.2951385205295765
+        }
+      },
+      {
+        "keys": "D",
+        "rows": 192,
+        "stats": {
+          "rows": 192,
+          "cameraXRange": [
+            480,
+            757.3541838818537
+          ],
+          "cameraYRange": [
+            595.0928762918085,
+            595.0928762918085
+          ],
+          "shipXRange": [
+            350.1244404305903,
+            882.7476840988666
+          ],
+          "shipYRange": [
+            535.8733719615244,
+            540.2226347353359
+          ],
+          "maxDeltaX": 3.3155958129831333,
+          "maxDeltaY": 0
+        }
+      },
+      {
+        "keys": "A",
+        "rows": 192,
+        "stats": {
+          "rows": 192,
+          "cameraXRange": [
+            521.6461419242582,
+            781.4659337380202
+          ],
+          "cameraYRange": [
+            595.0928762918085,
+            595.0928762918085
+          ],
+          "shipXRange": [
+            396.7522412901762,
+            894.5736658491752
+          ],
+          "shipYRange": [
+            535.8720707000982,
+            535.873219495544
+          ],
+          "maxDeltaX": 3.3763103748777894,
+          "maxDeltaY": 0
+        }
+      }
+    ],
+    "tracePath": "docs/camera-trace-gameplay-depth07.csv"
+  },
+  "errors": [],
+  "hoverEvidence": {
+    "screen": "upgrades",
+    "button": "magnet",
+    "visibleState": {
+      "state": "upgrades",
+      "cargo": 8,
+      "cargoMax": 8,
+      "hull": 2,
+      "hullMax": 4,
+      "credits": 320,
+      "techParts": 0,
+      "sector": 1,
+      "runCount": 3,
+      "contractsCompleted": 3,
+      "engineLevel": 0,
+      "shipX": 401.5866082155816,
+      "shipY": 720.8630099701428,
+      "speed": 116.66470963535934,
+      "status": "ПУЛ УЛУЧШЕНИЙ ОБНОВЛЁН",
+      "missionType": "valuable",
+      "missionProgress": 2,
+      "missionTarget": 2,
+      "offers": [
+        "magnet",
+        "radar",
+        "insurance"
+      ]
+    }
+  },
+  "notEnoughTechParts": {
+    "state": "upgrades",
+    "cargo": 8,
+    "cargoMax": 8,
+    "hull": 2,
+    "hullMax": 4,
+    "credits": 320,
+    "techParts": 0,
+    "sector": 1,
+    "runCount": 3,
+    "contractsCompleted": 3,
+    "engineLevel": 0,
+    "shipX": 401.5866082155816,
+    "shipY": 720.8630099701428,
+    "speed": 116.66470963535934,
+    "status": "НУЖНА 1 ТЕХНОДЕТАЛЬ",
+    "missionType": "valuable",
+    "missionProgress": 2,
+    "missionTarget": 2,
+    "offers": [
+      "magnet",
+      "radar",
+      "insurance"
+    ]
+  }
+}

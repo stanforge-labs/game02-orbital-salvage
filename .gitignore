@@ -22,7 +22,7 @@ scripts/inspect-viewport.js
 browser-profile/
 debug-dumps/
 
-# Временные кадры. В репозитории хранится только актуальный CorePass05.
+# Временные кадры. В репозитории хранится только актуальный набор текущего pass.
 screenshots/*
 !screenshots/CorePass05/
 screenshots/CorePass05/*
@@ -32,6 +32,10 @@ screenshots/CorePass05/*
 screenshots/ReleasePolish06/*
 !screenshots/ReleasePolish06/*.png
 !screenshots/ReleasePolish06/*.json
+!screenshots/GameplayDepth07/
+screenshots/GameplayDepth07/*
+!screenshots/GameplayDepth07/*.png
+!screenshots/GameplayDepth07/*.json
 
 # Секреты и локальные настройки
 .env
