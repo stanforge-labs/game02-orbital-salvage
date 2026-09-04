@@ -1,0 +1,5342 @@
+[
+  {
+    "t": 1090.6000000238419,
+    "shipX": 350,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 0,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 1180,
+    "shipX": 350,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 0,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 1201.5,
+    "shipX": 350,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 0,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 1209.6000000238419,
+    "shipX": 350,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 0,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 1226.2999999523163,
+    "shipX": 350,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 0,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 1243,
+    "shipX": 350,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 0,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 1260,
+    "shipX": 350,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 0,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 1276.2999999523163,
+    "shipX": 350,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 0,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 1293.2999999523163,
+    "shipX": 350,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 0,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 1309.6000000238419,
+    "shipX": 350,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 0,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 1326.1000000238419,
+    "shipX": 350,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 0,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 1343.1000000238419,
+    "shipX": 350,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 0,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 1359.7000000476837,
+    "shipX": 350,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 0,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 1376.3999999761581,
+    "shipX": 350,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 0,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 1393.6000000238419,
+    "shipX": 350,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 0,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 1409.3999999761581,
+    "shipX": 350,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 0,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 1426.8999999761581,
+    "shipX": 350,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 0,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 1443.5,
+    "shipX": 350,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 0,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 1460.2999999523163,
+    "shipX": 350,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 0,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 1476.2000000476837,
+    "shipX": 350,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 0,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 1492.7999999523163,
+    "shipX": 350,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 0,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 1509.7000000476837,
+    "shipX": 350,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 0,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 1526.3999999761581,
+    "shipX": 350,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 0,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 1543.2999999523163,
+    "shipX": 350,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 0,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 1560.3999999761581,
+    "shipX": 350,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 0,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 1577.1000000238419,
+    "shipX": 350,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 0,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 1593.1000000238419,
+    "shipX": 350,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 0,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 1609.5,
+    "shipX": 350,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 0,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 1626.5,
+    "shipX": 350,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 0,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 1643.1000000238419,
+    "shipX": 350,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 0,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 1660.2999999523163,
+    "shipX": 350,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 0,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 1676.7000000476837,
+    "shipX": 350,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 0,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 1692.7999999523163,
+    "shipX": 350,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 0,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 1710.1000000238419,
+    "shipX": 350,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 0,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 1726.3999999761581,
+    "shipX": 349.84191623705357,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 9.698390364811713,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 1743,
+    "shipX": 349.5237012302955,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 19.169578720360466,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 1759.5,
+    "shipX": 349.05102139713216,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 28.304181626546992,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 1776.2999999523163,
+    "shipX": 348.432094301108,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 37.06150275593921,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 1793.7000000476837,
+    "shipX": 347.64071644124283,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 45.74438496330541,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 1810,
+    "shipX": 346.76095982534207,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 53.6436960915109,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 1826.7999999523163,
+    "shipX": 345.74320591496075,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 61.310476528996354,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 1843.2000000476837,
+    "shipX": 344.59583983409664,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 68.70455574036723,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 1860.1000000238419,
+    "shipX": 343.33834115297896,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 75.75293259745102,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 1876.7000000476837,
+    "shipX": 341.9508446195491,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 82.58907937082267,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 1893.1000000238419,
+    "shipX": 340.500855805621,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 88.95636895264661,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 1910.1000000238419,
+    "shipX": 338.91087211588786,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 95.20860417563834,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 1926.6000000238419,
+    "shipX": 337.2207885862913,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 101.20260656266652,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 1943.2000000476837,
+    "shipX": 335.4572002480468,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 106.88414171178773,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 1960,
+    "shipX": 333.5331093249402,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 112.51993702377493,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 1976.3999999761581,
+    "shipX": 331.61492512154115,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 117.68001247846722,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 1992.7999999523163,
+    "shipX": 329.5650687599267,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 122.7458899170294,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 2010.1000000238419,
+    "shipX": 327.42088923866027,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 127.62973340871605,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 2026.5,
+    "shipX": 325.2390519322128,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 132.23256402711831,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 2043.2999999523163,
+    "shipX": 322.913927444041,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 136.77202871598595,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 2059.399999976158,
+    "shipX": 320.63086103213647,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 140.9300254262101,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 2076.7000000476837,
+    "shipX": 318.17898887980607,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 145.08119244558048,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 2093.2999999523163,
+    "shipX": 315.65989353513964,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 149.0588961341113,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 2110.100000023842,
+    "shipX": 313.1232824152554,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 152.80789878820417,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 2126.100000023842,
+    "shipX": 310.5748911470273,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 156.34302259068212,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 2143,
+    "shipX": 307.87342391263223,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 159.8501322127248,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 2160.2999999523163,
+    "shipX": 305.08189977509426,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 163.24702558701551,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 2176.5,
+    "shipX": 302.38713324679117,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 166.34361285821217,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 2193.2999999523163,
+    "shipX": 299.5409409742596,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 169.41620669831312,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 2210.2000000476837,
+    "shipX": 296.64527363950685,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 172.3611508781359,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 2226.2999999523163,
+    "shipX": 293.79101935245666,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 175.10762497240873,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 2242.7999999523163,
+    "shipX": 290.8397541776967,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 177.78705872047047,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 2259.899999976158,
+    "shipX": 287.772751361013,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 180.41193039315937,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 2276.7000000476837,
+    "shipX": 284.7000303243139,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 182.90006170828062,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 2293.600000023842,
+    "shipX": 281.6247220336713,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 185.25953558088574,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 2309.5,
+    "shipX": 278.56870392416494,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 187.48577358934767,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 2326.2000000476837,
+    "shipX": 275.4012399774995,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 189.66849980033373,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 2342.899999976158,
+    "shipX": 272.23754602870736,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 191.73902719952105,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 2359.600000023842,
+    "shipX": 268.98243550337344,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 193.75657888892022,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 2376.899999976158,
+    "shipX": 265.6356196068763,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 195.72022786532904,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 2393.100000023842,
+    "shipX": 262.435877715481,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 197.51493156760375,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 2409.7000000476837,
+    "shipX": 259.10784445691627,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 199.2834286565746,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 2426.600000023842,
+    "shipX": 255.7312535957708,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 200.9875512586578,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 2443.2999999523163,
+    "shipX": 252.30682153644804,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 202.62911593626234,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 2459.600000023842,
+    "shipX": 248.97909863539422,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 204.1547792057545,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 2477,
+    "shipX": 245.52406904005107,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 205.6565235323287,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 2493.2999999523163,
+    "shipX": 242.02402855068908,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 207.10298753621694,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 2510.2000000476837,
+    "shipX": 238.54248813303178,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 208.47547411121226,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 2526.2000000476837,
+    "shipX": 235.10222989688054,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 209.7718436677578,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 2542.7999999523163,
+    "shipX": 231.62037034200645,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 211.02179120449088,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 2559.2000000476837,
+    "shipX": 228.07608890363278,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 212.23242145950613,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 2576.5,
+    "shipX": 224.5124249739838,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 213.39304967958412,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 2593.2000000476837,
+    "shipX": 220.86556031851617,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 214.52145032162431,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 2610.2999999523163,
+    "shipX": 217.2219629267644,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 215.59747880187706,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 2626.100000023842,
+    "shipX": 213.73485640820073,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 216.59046699153154,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 2643.399999976158,
+    "shipX": 210.03592017062223,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 217.58448456343845,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 2659.7000000476837,
+    "shipX": 206.4523356890441,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 218.5112488767165,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 2676.2999999523163,
+    "shipX": 202.8101543179532,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 219.40851633077986,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 2693.2000000476837,
+    "shipX": 199.10950827193753,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 220.27655035807183,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 2710,
+    "shipX": 195.43922612779673,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 221.10133398438495,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 2727.100000023842,
+    "shipX": 191.6890753781706,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 221.9024112204809,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 2742.899999976158,
+    "shipX": 188.0375502328915,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 222.6539722731131,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 2759.2999999523163,
+    "shipX": 184.35181164762434,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 223.378096076799,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 2776.7000000476837,
+    "shipX": 180.51987902570391,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 224.08962701289144,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 2793.5,
+    "shipX": 176.81141904824355,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 224.75515014911286,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 2809.7000000476837,
+    "shipX": 173.06984476639238,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 225.39604107537176,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 2826.5,
+    "shipX": 169.31806852716525,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 226.01061682091148,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 2843.399999976158,
+    "shipX": 165.44302265635568,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 226.6108696379831,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 2859.5,
+    "shipX": 161.762915049513,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 227.16713622486037,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 2876.600000023842,
+    "shipX": 157.96014262456623,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 227.7109236495084,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 2893.7999999523163,
+    "shipX": 154.0572505338729,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 228.2393035493133,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 2909.899999976158,
+    "shipX": 150.30601719417152,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 228.7337402256983,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 2926.2000000476837,
+    "shipX": 146.52405715101014,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 229.20969958553914,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 2943.100000023842,
+    "shipX": 142.68858277899596,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 229.6691240727014,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 2959.399999976158,
+    "shipX": 138.8687859003487,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 230.10824570164277,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 2976.100000023842,
+    "shipX": 135.01892558168933,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 230.5305580035577,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 2992.899999976158,
+    "shipX": 131.18541605415786,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 230.93430888743265,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 3009.399999976158,
+    "shipX": 127.32233025858257,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 231.32250272906202,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 3027,
+    "shipX": 123.31392188764103,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 231.69990583476942,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 3043.2999999523163,
+    "shipX": 119.53145726295965,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 232.053044458985,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 3059.7000000476837,
+    "shipX": 115.6504602328309,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 232.39503174423388,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 3076,
+    "shipX": 111.85712205585487,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 232.7201335568161,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 3093.2999999523163,
+    "shipX": 107.91881872293628,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 233.0357001726972,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 3109.5,
+    "shipX": 104.06877370332002,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 233.33606179492423,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 3126.899999976158,
+    "shipX": 100.12049614815925,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 233.62589083791516,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 3143.399999976158,
+    "shipX": 96.19092121503216,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 233.9032698289968,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 3160.2999999523163,
+    "shipX": 92.3271456027675,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 234.16821892513212,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 3176.7000000476837,
+    "shipX": 88.43573033784836,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 234.42260632042561,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 3192.7999999523163,
+    "shipX": 84.51679603338229,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 234.6667248183293,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 3209.5,
+    "shipX": 80.6409375994239,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 234.90051114899296,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 3226.600000023842,
+    "shipX": 76.64381289447343,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 235.12498264414543,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 3243.2000000476837,
+    "shipX": 72.76070184225142,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 235.34006377103023,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 3259.899999976158,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 235.54633485256244,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 3276.600000023842,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 235.74413637934634,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 3293.5,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 235.93249595144323,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 3309.7999999523163,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 236.11516349361733,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 3326.600000023842,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 236.2891266655649,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 3343.100000023842,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 236.45668967072464,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 3359.2999999523163,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 236.6171117455972,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 3376.7000000476837,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 236.7702216817522,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 3393,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 236.91777003475826,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 3409.5,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 237.0588320769841,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 3425.899999976158,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 237.19497718645454,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 3442.7999999523163,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 237.3230154167721,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 3459.2000000476837,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 237.44935474894893,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 3475.7999999523163,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 237.5684610228128,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 3493.5,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 237.6801573240052,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 3509.2999999523163,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 237.7920918983631,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 3526.899999976158,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 237.89503421520448,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 3543.2999999523163,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 237.99573282070702,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 3560.100000023842,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 238.0922723238167,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 3577.2999999523163,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 238.1833552993366,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 3593.100000023842,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 238.27566921517834,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 3610.100000023842,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 238.35908865042322,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 3626.2000000476837,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 238.44435723823324,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 3643.100000023842,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 238.521555004242,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 3660.100000023842,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 238.5911681869513,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 3676.899999976158,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 238.66556983672916,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 3693.2999999523163,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 238.73529460512768,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 3710,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 238.80300973599228,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 3726.5,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 238.8670911793897,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 3742.899999976158,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 238.92854141879488,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 3760.5,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 238.98274636364354,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 3776.2999999523163,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 239.04214305523408,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 3793.7999999523163,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 239.09154599559753,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 3809.600000023842,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 239.14833002076378,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 3826.7000000476837,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 239.19427150695378,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 3843.100000023842,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 239.24513666415902,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 3859.7000000476837,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 239.28700949972273,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 3876.7000000476837,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 239.32919962055954,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 3893.5,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 239.36859555773623,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 3909.7000000476837,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 239.41339199118093,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 3926.2000000476837,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 239.45342848990114,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 3943.2999999523163,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 239.48544616572192,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 3960,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 239.52150655710898,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 3976.100000023842,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 239.55917320259698,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 3993.600000023842,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 239.58672099047806,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 4010.100000023842,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 239.6186230060689,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 4026.7999999523163,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 239.64921511497957,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 4043.899999976158,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 239.67635755097922,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 4060.100000023842,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 239.70457906152313,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 4077.2999999523163,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 239.7282891523211,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 4093.100000023842,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 239.75866510525321,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 4109.700000047684,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 239.78350704202487,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 4126.299999952316,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 239.80620703162174,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 4143.399999976158,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 239.8244988481365,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 4159.899999976158,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 239.84885713903938,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 4176.5,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 239.8688580073971,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 4193.5,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 239.8880327902392,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 4210.399999976158,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 239.90045872684075,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 4226.799999952316,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 239.92393222715316,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 4243.5,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 239.9384762857094,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 4260.5,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 239.95360148412516,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 4276.799999952316,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 239.972721334318,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 4293.600000023842,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 239.98760630391627,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 4309.799999952316,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.00304784388086,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 4327.5,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.0166802533482,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 4342.899999976158,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.03437484563227,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 4359.799999952316,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.04430387800946,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 4376.5,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.0574173979515,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 4393.600000023842,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.06264238441847,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 4409.700000047684,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.08183074865698,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 4426.799999952316,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.08728551077644,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 4443.399999976158,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.0950035841221,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 4460.5,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.10838593320636,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 4476.899999976158,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.11645230448462,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 4493.700000047684,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.12779123234338,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 4510.399999976158,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.13381670759597,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 4526.799999952316,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.1444468538903,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 4543.399999976158,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.1522391332194,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 4559.799999952316,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.1656185020313,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 4576.299999952316,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.17375080578785,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 4593.100000023842,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.1791016200438,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 4609.5,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.18668030278215,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 4626.600000023842,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.1914939663489,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 4643,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.19976983778398,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 4660.200000047684,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.20278756880688,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 4676.600000023842,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.2117964981779,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 4693.899999976158,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.20781630972442,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 4710.100000023842,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.21542593447086,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 4726.299999952316,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.22742499028794,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 4743.5,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.2267254026705,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 4759.5,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.23711854149872,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 4776.899999976158,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.2347039968932,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 4793.299999952316,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.24360494395967,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 4810,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.24222142068305,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 4826.200000047684,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.25199330845444,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 4843.5,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.2502552043356,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 4859.600000023842,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.2597050095835,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 4876.399999976158,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.2639740920835,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 4892.899999976158,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.26682959974733,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 4910.200000047684,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.2644643573269,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 4926.100000023842,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.27334450324008,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 4943.899999976158,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.2639875113823,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 4959.899999976158,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.27405145949055,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 4976.700000047684,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.27895749271295,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 4993,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.28366327108753,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 5010,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.2818882558272,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 5026.899999976158,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.28524648733847,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 5042.899999976158,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.2909095814178,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 5060.100000023842,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.2888300136595,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 5076.799999952316,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.2919032144356,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 5092.799999952316,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.2972962065921,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 5110.200000047684,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.29494821772548,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 5126.799999952316,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.2990012854357,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 5143.700000047684,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.29787246746326,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 5159.5,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.30422561349627,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 5176.399999976158,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.30541863340085,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 5193.399999976158,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.3040216560053,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 5209.799999952316,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.3064710832228,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 5227.399999976158,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.30630808758121,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 5242.799999952316,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.31232099612768,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 5259.399999976158,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.31442964985905,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 5276.899999976158,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.3087284226932,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 5293.700000047684,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.3109845886069,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 5309.5,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.3168088778305,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 5326.600000023842,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.31748217767998,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 5342.799999952316,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.31937891169193,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 5359.799999952316,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.31739858114278,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 5376.5,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.3180475247815,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 5393.100000023842,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.32237969104082,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 5410,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.3215557787636,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 5426.799999952316,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.31948448424907,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 5442.799999952316,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.32496594353384,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 5459.399999976158,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.32655539179274,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 5476.299999952316,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.3229776794483,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 5493,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.3233961924768,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 5509.299999952316,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.32871987915482,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 5526.200000047684,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.32763256634342,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 5543.399999976158,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.32400958182802,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 5559.799999952316,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.32809983294666,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 5576.899999976158,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.32703827970258,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 5593.200000047684,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.32978149275297,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 5610,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.32991899140146,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 5626.200000047684,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.33254461933637,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 5643.399999976158,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.32740156641336,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 5660.100000023842,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.33135418509713,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 5677,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.327574786043,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 5693.100000023842,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.3327299357134,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 5710.600000023842,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.32355009658207,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 5726.5,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 240.3346894781478,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 5742.799999952316,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 230.40827016875315,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 5760.100000023842,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 220.83605238048418,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 5776.299999952316,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 211.76845540010638,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 5793.600000023842,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 202.86811727792391,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 5810.600000023842,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 194.3418481762644,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 5826.299999952316,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 186.69189298777727,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 5843.600000023842,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 178.75516821627977,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 5859.799999952316,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 171.54535930032344,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 5876.799999952316,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 154.4353056616354,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 5893.100000023842,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 138.31912221547046,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 5909.5,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 122.77028876688405,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 5926.399999976158,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 107.77321696593407,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 5943,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 93.47860788523556,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 5960.399999976158,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 79.29395822377572,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 5976.299999952316,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 66.549978213977,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 5993.399999976158,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 53.58302599371656,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 6010.600000023842,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 41.303811696652645,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 6026.799999952316,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 30.006574185098707,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 6043.5,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 18.712540643473638,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 6059.899999976158,
+    "shipX": 70,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 8.13629963598816,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 6076.700000047684,
+    "shipX": 70.0355059340196,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 2.1261038335084645,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 6093.399999976158,
+    "shipX": 70.23745952757525,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 12.021047235455491,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 6109.700000047684,
+    "shipX": 70.5865943591289,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 21.28870924107643,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 6126.200000047684,
+    "shipX": 71.08542526481018,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 30.232176101896187,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 6143.100000023842,
+    "shipX": 71.7399442629171,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 38.959464173030696,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 6159.5,
+    "shipX": 72.5294650807961,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 47.276695681377525,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 6176,
+    "shipX": 73.44586653924611,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 55.20490713554119,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 6192.799999952316,
+    "shipX": 74.48847242969686,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 62.80758376209529,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 6209.5,
+    "shipX": 75.65210075892686,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 70.0980921222883,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 6226.200000047684,
+    "shipX": 76.94015874953145,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 77.12922099428779,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 6243.299999952316,
+    "shipX": 78.34981634869634,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 83.90819042648016,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 6260.399999976158,
+    "shipX": 79.90730554465856,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 90.55169743966479,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 6276.299999952316,
+    "shipX": 81.46139953201578,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 96.52757685448282,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 6292.899999976158,
+    "shipX": 83.17260014202076,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 102.46710239550805,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 6309.5,
+    "shipX": 84.96754450658767,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 108.12917858836646,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 6326.299999952316,
+    "shipX": 86.85262005824458,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 113.55876817210618,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 6343.5,
+    "shipX": 88.84886807810986,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 118.82428689674063,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 6359.700000047684,
+    "shipX": 90.91704455756107,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 123.84290296115216,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 6376.299999952316,
+    "shipX": 93.05225744101733,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 128.6272821359157,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 6393,
+    "shipX": 95.27738231070416,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 133.24101016088795,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 6409.899999976158,
+    "shipX": 97.59055479169905,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 137.688838154456,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 6426.600000023842,
+    "shipX": 99.98993978696,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 141.97544350656725,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 6443.399999976158,
+    "shipX": 102.36888366820317,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 145.94747737688036,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 6459.5,
+    "shipX": 104.84062678087473,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 149.80261288918513,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 6477,
+    "shipX": 107.4361798910561,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 153.58302427109,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 6492.799999952316,
+    "shipX": 110.04480788701981,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 157.14626481708726,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 6510.200000047684,
+    "shipX": 112.79205031918026,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 160.65745217312207,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 6526.5,
+    "shipX": 115.46322873727337,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 163.87597657013615,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 6543.600000023842,
+    "shipX": 118.28668316511492,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 167.06830933973254,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 6559.5,
+    "shipX": 121.05814383381275,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 170.0282618833007,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 6576.299999952316,
+    "shipX": 123.94610867913896,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 172.93202666624308,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 6593.799999952316,
+    "shipX": 126.9340448068053,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 175.76094868625597,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 6610.200000047684,
+    "shipX": 129.8776308741172,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 178.39915559465953,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 6626.200000047684,
+    "shipX": 132.84465155808306,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 180.91589536377654,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 6643.200000047684,
+    "shipX": 135.92548746436017,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 183.38308965935045,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 6659.899999976158,
+    "shipX": 139.02726642161704,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 185.73526690161086,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 6677.200000047684,
+    "shipX": 142.26172398165374,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 188.04985814167057,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 6693.299999952316,
+    "shipX": 145.38059419626302,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 190.17501308592693,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 6710.399999976158,
+    "shipX": 148.53290278276867,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 192.21393820156763,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 6726.700000047684,
+    "shipX": 151.81525665654334,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 194.22212270855465,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 6742.799999952316,
+    "shipX": 155.01147261869917,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 196.08686884392603,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 6759.600000023842,
+    "shipX": 158.31664223812442,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 197.91434846856885,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 6776.799999952316,
+    "shipX": 161.73155064827466,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 199.70224620762076,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 6793.399999976158,
+    "shipX": 165.0743228131306,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 201.3718171599932,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 6809.600000023842,
+    "shipX": 168.38237833622077,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 202.9481916006231,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 6826.799999952316,
+    "shipX": 171.8385606243816,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 204.50782770182767,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 6842.899999976158,
+    "shipX": 175.23710922157275,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 205.97264225400684,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 6860.200000047684,
+    "shipX": 178.67969605156844,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 207.38474879491616,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 6876.600000023842,
+    "shipX": 182.22871244315962,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 208.76567009359673,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 6892.899999976158,
+    "shipX": 185.67353678457667,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 210.05026472055715,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 6909.600000023842,
+    "shipX": 189.20226384247744,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 211.3010214311858,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 6926.299999952316,
+    "shipX": 192.70832493183838,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 212.48855087035975,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 6942.899999976158,
+    "shipX": 196.29754534220592,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 213.64407204568647,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 6959.700000047684,
+    "shipX": 199.86224905128464,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 214.74118729389522,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 6976,
+    "shipX": 203.466078945476,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 215.79819725696962,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 6993.200000047684,
+    "shipX": 207.10859145022002,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 216.81622052047408,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 7010.100000023842,
+    "shipX": 210.74564314210187,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 217.78752645999418,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 7027.600000023842,
+    "shipX": 214.5518531143623,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 218.7476995552043,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 7043,
+    "shipX": 218.02157896701368,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 219.60290206654147,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 7059.899999976158,
+    "shipX": 221.74746440123664,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 220.46659374100918,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 7076.799999952316,
+    "shipX": 225.39858443642646,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 221.28000213271417,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 7093.200000047684,
+    "shipX": 229.10710238135783,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 222.0669428102537,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 7109.600000023842,
+    "shipX": 232.78355034382764,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 222.81502802847174,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 7126.700000047684,
+    "shipX": 236.53904821438312,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 223.54153991402498,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 7143,
+    "shipX": 240.2613037644781,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 224.23226205391234,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 7160,
+    "shipX": 243.9945545050822,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 224.8946229279538,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 7176.5,
+    "shipX": 247.78353811843368,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 225.5347388899812,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 7193.299999952316,
+    "shipX": 251.56017545632983,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 226.14594837700704,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 7210,
+    "shipX": 255.3465984100243,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 226.73191339488335,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 7227.299999952316,
+    "shipX": 259.2334570799488,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 227.3016766037772,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 7243.700000047684,
+    "shipX": 262.9471221175399,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 227.8322108951528,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 7259.899999976158,
+    "shipX": 266.69195003461425,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 228.3431656752619,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 7276.399999976158,
+    "shipX": 270.53646225860354,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 228.84001333270453,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 7293.5,
+    "shipX": 274.43488864585424,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 229.31919925003947,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 7310.399999976158,
+    "shipX": 278.29511701208537,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 229.7754979899472,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 7326.5,
+    "shipX": 282.0013935694914,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 230.20351288235955,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 7343.399999976158,
+    "shipX": 285.9220252467718,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 230.62539278120158,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 7359.700000047684,
+    "shipX": 289.6876817310572,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 231.0218702015551,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 7376.5,
+    "shipX": 293.5753265915116,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 231.40743216991496,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 7393.399999976158,
+    "shipX": 297.42279455175407,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 231.7751783278526,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 7410.600000023842,
+    "shipX": 301.4386993898874,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 232.13322763775895,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 7426.600000023842,
+    "shipX": 305.2512019006477,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 232.4696652902628,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 7443.399999976158,
+    "shipX": 309.1155789113589,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 232.7937958259744,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 7459.899999976158,
+    "shipX": 312.9384751700198,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 233.10343040615987,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 7477,
+    "shipX": 316.9063334926589,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 233.40343074348036,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 7493.700000047684,
+    "shipX": 320.85570200748606,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 233.6904446643244,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 7510.100000023842,
+    "shipX": 324.6927066385264,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 233.96369701465494,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 7526.5,
+    "shipX": 328.5808662421034,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 234.22648214318932,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 7542.799999952316,
+    "shipX": 332.40285300118074,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 234.47771528082757,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 7559.299999952316,
+    "shipX": 336.29919495252886,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 234.71939465951738,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 7576.899999976158,
+    "shipX": 340.2933700824839,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 234.95147823264807,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 7592.700000047684,
+    "shipX": 344.15021651825725,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 235.1735631569192,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 7609.799999952316,
+    "shipX": 348.0811738283201,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 235.38666527321567,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 7626.799999952316,
+    "shipX": 352.062658457873,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 235.5908064824202,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 7643.399999976158,
+    "shipX": 355.95314187186773,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 235.78687357543777,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 7659.600000023842,
+    "shipX": 359.8939184341643,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 235.9746444488985,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 7676.299999952316,
+    "shipX": 363.81408910104227,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 236.15485945047266,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 7692.799999952316,
+    "shipX": 367.73712850219175,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 236.3276747680438,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 7709.600000023842,
+    "shipX": 371.710207697518,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 236.49280924560563,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 7727.100000023842,
+    "shipX": 375.8042381635668,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 236.64915988721438,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 7743.100000023842,
+    "shipX": 379.5930948455984,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 236.80354262696804,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 7759.799999952316,
+    "shipX": 383.550148532095,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 236.9493225447066,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 7776.299999952316,
+    "shipX": 387.48583451364084,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 237.08951696058782,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 7793.600000023842,
+    "shipX": 391.5186083018166,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 237.2219875397502,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 7810.200000047684,
+    "shipX": 395.5298137836373,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 237.3494367941306,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 7826.799999952316,
+    "shipX": 399.4481301632665,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 237.4737199775256,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 7842.799999952316,
+    "shipX": 403.32091205157764,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 237.59398087797572,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 7860.100000023842,
+    "shipX": 407.26685996158676,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 237.70770542223445,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 7876.100000023842,
+    "shipX": 411.238389519158,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 237.8161411719328,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 7893.399999976158,
+    "shipX": 415.3067765101655,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 237.91736789518373,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 7909.899999976158,
+    "shipX": 419.2102899062979,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 238.0191095202595,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 7926.5,
+    "shipX": 423.1392048624719,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 238.11605794993787,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 7943.5,
+    "shipX": 427.16488874683955,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 238.20614700401018,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 7959.899999976158,
+    "shipX": 431.1205813613982,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 238.29473581677902,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 7976.700000047684,
+    "shipX": 435.0776841680109,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 238.37968714534864,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 7993.600000023842,
+    "shipX": 439.05997231998515,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 238.4603683816791,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 8009.700000047684,
+    "shipX": 443.0197117318265,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 238.53851878562998,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 8026.5,
+    "shipX": 446.98069517296756,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 238.61346030969352,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 8042.799999952316,
+    "shipX": 450.9667260914052,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 238.6844861339917,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 8059.899999976158,
+    "shipX": 454.9300330990147,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 238.7534341933425,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 8076.100000023842,
+    "shipX": 458.9183050341189,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 238.81867874875903,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 8093.899999976158,
+    "shipX": 463.0985928705761,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 238.87359065470136,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 8110.100000023842,
+    "shipX": 466.9216308321357,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 238.93987259747323,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 8126.299999952316,
+    "shipX": 470.86511824672505,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 238.99923724784426,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 8143.5,
+    "shipX": 474.9528810073991,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 239.0504538405985,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 8160.200000047684,
+    "shipX": 478.9220136349244,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 239.10437515211729,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 8176.899999976158,
+    "shipX": 482.9637021360808,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 239.15316574890855,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 8193.200000047684,
+    "shipX": 486.83884903958256,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 239.20659898158127,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 8210.299999952316,
+    "shipX": 490.90610059513625,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 239.25009150315884,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 8226.200000047684,
+    "shipX": 494.78275474505955,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 239.2996388841751,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 8243.600000023842,
+    "shipX": 498.8993525016503,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 239.33707887154728,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 8260.399999976158,
+    "shipX": 502.8969687331131,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 239.3782174528485,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 8276.600000023842,
+    "shipX": 506.7756153088962,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 239.42262813477288,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 8293.5,
+    "shipX": 510.8703120155712,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 239.45594775877072,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 8310.100000023842,
+    "shipX": 514.7501673384662,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 239.49724215400366,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 8326.100000023842,
+    "shipX": 518.72641212056,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 239.5328181984439,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 8343.799999952316,
+    "shipX": 522.8229134290225,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 239.56148002703878,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 8360.200000047684,
+    "shipX": 526.8480635210328,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 239.59226738155124,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 8376.700000047684,
+    "shipX": 530.8018760627876,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 239.6250025305958,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 8393.5,
+    "shipX": 534.7801545855118,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 239.65533269424566,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 8410.399999976158,
+    "shipX": 538.8786623351245,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 239.67881576682274,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 8426.899999976158,
+    "shipX": 542.7859375778817,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 239.710137592443,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 8443.399999976158,
+    "shipX": 546.7655713144754,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 239.73697208398042,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 8460.100000023842,
+    "shipX": 550.7935471885085,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 239.7604686924275,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 8476.899999976158,
+    "shipX": 554.7979419962332,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 239.78412022305577,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 8493.5,
+    "shipX": 558.7547908973121,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 239.80902430780915,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 8510,
+    "shipX": 562.7599630925077,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 239.83067037098215,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 8526.700000047684,
+    "shipX": 566.7654818465546,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 239.85142239800948,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 8543.700000047684,
+    "shipX": 570.7953006053623,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 239.87016421475133,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 8559.700000047684,
+    "shipX": 574.6815972118569,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 239.89485225273637,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 8576.5,
+    "shipX": 578.6641713100844,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 239.91410230288457,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 8592.899999976158,
+    "shipX": 582.6470518382882,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 239.9325619399878,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 8609.600000023842,
+    "shipX": 586.6781771101263,
+    "shipY": 700,
+    "cameraX": 480,
+    "cameraY": 677,
+    "speed": 239.9479328474889,
+    "deltaCameraX": 0,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 8626.600000023842,
+    "shipX": 590.6855732655662,
+    "shipY": 700,
+    "cameraX": 480.09567188443214,
+    "cameraY": 677,
+    "speed": 239.96384164313093,
+    "deltaCameraX": 0.09567188443213581,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 8643.600000023842,
+    "shipX": 594.6452665280069,
+    "shipY": 700,
+    "cameraX": 480.7235159126226,
+    "cameraY": 677,
+    "speed": 239.98140984490198,
+    "deltaCameraX": 0.6278440281904523,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 8660.200000047684,
+    "shipX": 598.7491144996804,
+    "shipY": 700,
+    "cameraX": 481.86830533261286,
+    "cameraY": 677,
+    "speed": 239.99110945459017,
+    "deltaCameraX": 1.1447894199902748,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 8677,
+    "shipX": 602.6852573008675,
+    "shipY": 700,
+    "cameraX": 483.352649057823,
+    "cameraY": 677,
+    "speed": 240.008707389464,
+    "deltaCameraX": 1.484343725210124,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 8693.100000023842,
+    "shipX": 606.69362647183,
+    "shipY": 700,
+    "cameraX": 485.2143850873206,
+    "cameraY": 677,
+    "speed": 240.02210604564885,
+    "deltaCameraX": 1.8617360294975924,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 8710.100000023842,
+    "shipX": 610.7501765288046,
+    "shipY": 700,
+    "cameraX": 487.4064481880865,
+    "cameraY": 677,
+    "speed": 240.03254774998086,
+    "deltaCameraX": 2.1920631007658926,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 8726.5,
+    "shipX": 614.6869713432181,
+    "shipY": 700,
+    "cameraX": 489.7777479949956,
+    "cameraY": 677,
+    "speed": 240.04846429351932,
+    "deltaCameraX": 2.3712998069091213,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 8743.200000047684,
+    "shipX": 618.7679331074935,
+    "shipY": 700,
+    "cameraX": 492.47189083975877,
+    "cameraY": 677,
+    "speed": 240.0565743691352,
+    "deltaCameraX": 2.694142844763178,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 8759.700000047684,
+    "shipX": 622.681117463781,
+    "shipY": 700,
+    "cameraX": 495.22937909476025,
+    "cameraY": 677,
+    "speed": 240.07265989492586,
+    "deltaCameraX": 2.7574882550014763,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 8776.299999952316,
+    "shipX": 626.6665219749734,
+    "shipY": 700,
+    "cameraX": 498.2043281124229,
+    "cameraY": 677,
+    "speed": 240.08460910799593,
+    "deltaCameraX": 2.9749490176626523,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 8792.799999952316,
+    "shipX": 630.6521166985057,
+    "shipY": 700,
+    "cameraX": 501.31952993647343,
+    "cameraY": 677,
+    "speed": 240.0960676826617,
+    "deltaCameraX": 3.11520182405053,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 8809.600000023842,
+    "shipX": 634.6618845294751,
+    "shipY": 700,
+    "cameraX": 504.57696012397025,
+    "cameraY": 677,
+    "speed": 240.10585814186445,
+    "deltaCameraX": 3.257430187496823,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 8826.200000047684,
+    "shipX": 638.6718091081292,
+    "shipY": 700,
+    "cameraX": 507.9394010521746,
+    "cameraY": 677,
+    "speed": 240.1152442307972,
+    "deltaCameraX": 3.3624409282043644,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 8842.899999976158,
+    "shipX": 642.6818839604005,
+    "shipY": 700,
+    "cameraX": 511.3922194222221,
+    "cameraY": 677,
+    "speed": 240.12424265095592,
+    "deltaCameraX": 3.4528183700475097,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 8860.399999976158,
+    "shipX": 646.8360522413763,
+    "shipY": 700,
+    "cameraX": 515.0608156434934,
+    "cameraY": 677,
+    "speed": 240.12533416046213,
+    "deltaCameraX": 3.6685962212712298,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 8876.200000047684,
+    "shipX": 650.6783248742472,
+    "shipY": 700,
+    "cameraX": 518.4964374955439,
+    "cameraY": 677,
+    "speed": 240.142039554444,
+    "deltaCameraX": 3.435621852050531,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 8893.200000047684,
+    "shipX": 654.7368171111663,
+    "shipY": 700,
+    "cameraX": 522.1988924443087,
+    "cameraY": 677,
+    "speed": 240.14746964015936,
+    "deltaCameraX": 3.702454948764853,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 8910.200000047684,
+    "shipX": 658.7953972818381,
+    "shipY": 700,
+    "cameraX": 525.9515958120954,
+    "cameraY": 677,
+    "speed": 240.152672820826,
+    "deltaCameraX": 3.752703367786694,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 8926.700000047684,
+    "shipX": 662.7100848644124,
+    "shipY": 700,
+    "cameraX": 529.6027112484295,
+    "cameraY": 677,
+    "speed": 240.1648823665221,
+    "deltaCameraX": 3.6511154363340665,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 8943.200000047684,
+    "shipX": 666.6969574096897,
+    "shipY": 700,
+    "cameraX": 533.3627272847157,
+    "cameraY": 677,
+    "speed": 240.17304489623157,
+    "deltaCameraX": 3.7600160362861743,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 8960,
+    "shipX": 670.7559517410904,
+    "shipY": 700,
+    "cameraX": 537.2278458895829,
+    "cameraY": 677,
+    "speed": 240.17717937282424,
+    "deltaCameraX": 3.8651186048672344,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 8976.5,
+    "shipX": 674.719021393475,
+    "shipY": 700,
+    "cameraX": 541.0216279119945,
+    "cameraY": 677,
+    "speed": 240.18603953845746,
+    "deltaCameraX": 3.7937820224116194,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 8993.100000023842,
+    "shipX": 678.6822312712861,
+    "shipY": 700,
+    "cameraX": 544.8387909772365,
+    "cameraY": 677,
+    "speed": 240.19453804915685,
+    "deltaCameraX": 3.817163065241971,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 9010,
+    "shipX": 682.789569680532,
+    "shipY": 700,
+    "cameraX": 548.8257528708481,
+    "cameraY": 677,
+    "speed": 240.1952286108697,
+    "deltaCameraX": 3.9869618936115785,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 9027.399999976158,
+    "shipX": 687.0169007980622,
+    "shipY": 700,
+    "cameraX": 552.95552176375,
+    "cameraY": 677,
+    "speed": 240.18926804147836,
+    "deltaCameraX": 4.129768892901893,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 9043.399999976158,
+    "shipX": 690.7881467442777,
+    "shipY": 700,
+    "cameraX": 556.6230600457468,
+    "cameraY": 677,
+    "speed": 240.2067481666163,
+    "deltaCameraX": 3.6675382819968263,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 9059.399999976158,
+    "shipX": 694.7036802039693,
+    "shipY": 700,
+    "cameraX": 560.4545762991899,
+    "cameraY": 677,
+    "speed": 240.21677666818314,
+    "deltaCameraX": 3.8315162534430556,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 9076.700000047684,
+    "shipX": 698.8113828189367,
+    "shipY": 700,
+    "cameraX": 564.4994549130876,
+    "cameraY": 677,
+    "speed": 240.21652719107564,
+    "deltaCameraX": 4.044878613897708,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 9093.299999952316,
+    "shipX": 702.775075209634,
+    "shipY": 700,
+    "cameraX": 568.4014903112607,
+    "cameraY": 677,
+    "speed": 240.22378125438573,
+    "deltaCameraX": 3.9020353981730977,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 9109.799999952316,
+    "shipX": 706.7628853308993,
+    "shipY": 700,
+    "cameraX": 572.3373554927674,
+    "cameraY": 677,
+    "speed": 240.22952537744473,
+    "deltaCameraX": 3.935865181506756,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 9127,
+    "shipX": 710.8227942962417,
+    "shipY": 700,
+    "cameraX": 576.3565829357603,
+    "cameraY": 677,
+    "speed": 240.2312997243791,
+    "deltaCameraX": 4.0192274429929284,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 9143.399999976158,
+    "shipX": 714.8347272258093,
+    "shipY": 700,
+    "cameraX": 580.3307135884623,
+    "cameraY": 677,
+    "speed": 240.2355047645437,
+    "deltaCameraX": 3.9741306527020015,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 9159.799999952316,
+    "shipX": 718.7507105124562,
+    "shipY": 700,
+    "cameraX": 584.2085367819504,
+    "cameraY": 677,
+    "speed": 240.24437341390487,
+    "deltaCameraX": 3.877823193488098,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 9176.600000023842,
+    "shipX": 722.7868565884991,
+    "shipY": 700,
+    "cameraX": 588.2187681803674,
+    "cameraY": 677,
+    "speed": 240.24679024065605,
+    "deltaCameraX": 4.010231398416977,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 9193.700000047684,
+    "shipX": 726.7990375250827,
+    "shipY": 700,
+    "cameraX": 592.2071504045916,
+    "cameraY": 677,
+    "speed": 240.25035548404293,
+    "deltaCameraX": 3.9883822242242104,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 9210,
+    "shipX": 730.8112755420987,
+    "shipY": 700,
+    "cameraX": 596.1988617094048,
+    "cameraY": 677,
+    "speed": 240.2537734740272,
+    "deltaCameraX": 3.9917113048131796,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 9227,
+    "shipX": 734.7755574111568,
+    "shipY": 700,
+    "cameraX": 600.1424455113374,
+    "cameraY": 677,
+    "speed": 240.25950721564638,
+    "deltaCameraX": 3.9435838019326184,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 9243.299999952316,
+    "shipX": 738.8359518965625,
+    "shipY": 700,
+    "cameraX": 604.1910307936225,
+    "cameraY": 677,
+    "speed": 240.2600287222362,
+    "deltaCameraX": 4.048585282285103,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 9260.700000047684,
+    "shipX": 742.8723500551763,
+    "shipY": 700,
+    "cameraX": 608.2157155136935,
+    "cameraY": 677,
+    "speed": 240.26179515557578,
+    "deltaCameraX": 4.024684720070923,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 9276.299999952316,
+    "shipX": 746.788744590976,
+    "shipY": 700,
+    "cameraX": 612.1144194847182,
+    "cameraY": 677,
+    "speed": 240.26960342331245,
+    "deltaCameraX": 3.898703971024702,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 9292.899999976158,
+    "shipX": 750.7532769927535,
+    "shipY": 700,
+    "cameraX": 616.0665816154722,
+    "cameraY": 677,
+    "speed": 240.27469101682348,
+    "deltaCameraX": 3.9521621307540045,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 9310,
+    "shipX": 754.8379229753365,
+    "shipY": 700,
+    "cameraX": 620.1483798180554,
+    "cameraY": 677,
+    "speed": 240.2732930931206,
+    "deltaCameraX": 4.081798202583286,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 9326.399999976158,
+    "shipX": 758.7785058111073,
+    "shipY": 700,
+    "cameraX": 624.0771157498115,
+    "cameraY": 677,
+    "speed": 240.27944120554534,
+    "deltaCameraX": 3.928735931756023,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 9343.5,
+    "shipX": 762.8872346940734,
+    "shipY": 700,
+    "cameraX": 628.1866558667616,
+    "cameraY": 677,
+    "speed": 240.27654286351907,
+    "deltaCameraX": 4.109540116950143,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 9360.200000047684,
+    "shipX": 766.8518769229133,
+    "shipY": 700,
+    "cameraX": 632.1424561669667,
+    "cameraY": 677,
+    "speed": 240.28134720241695,
+    "deltaCameraX": 3.9558003002050555,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 9376.899999976158,
+    "shipX": 770.9126250808223,
+    "shipY": 700,
+    "cameraX": 636.2018583491088,
+    "cameraY": 677,
+    "speed": 240.28095608929453,
+    "deltaCameraX": 4.059402182142094,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 9393.399999976158,
+    "shipX": 774.8773371555876,
+    "shipY": 700,
+    "cameraX": 640.1590742187853,
+    "cameraY": 677,
+    "speed": 240.28558028879752,
+    "deltaCameraX": 3.9572158696765882,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 9410.200000047684,
+    "shipX": 778.8181133249414,
+    "shipY": 700,
+    "cameraX": 644.0917777190526,
+    "cameraY": 677,
+    "speed": 240.29122983862086,
+    "deltaCameraX": 3.93270350026728,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 9426.799999952316,
+    "shipX": 782.927035272396,
+    "shipY": 700,
+    "cameraX": 648.2049036637007,
+    "cameraY": 677,
+    "speed": 240.28783318450442,
+    "deltaCameraX": 4.113125944648118,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 9443.100000023842,
+    "shipX": 786.8198268508938,
+    "shipY": 700,
+    "cameraX": 652.0870744967955,
+    "cameraY": 677,
+    "speed": 240.2957764504676,
+    "deltaCameraX": 3.882170833094733,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 9460.5,
+    "shipX": 790.9288232589998,
+    "shipY": 700,
+    "cameraX": 656.201126362065,
+    "cameraY": 677,
+    "speed": 240.29218760853445,
+    "deltaCameraX": 4.114051865269516,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 9476.799999952316,
+    "shipX": 794.941731018726,
+    "shipY": 700,
+    "cameraX": 660.2118834106953,
+    "cameraY": 677,
+    "speed": 240.29387782792847,
+    "deltaCameraX": 4.010757048630353,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 9493.5,
+    "shipX": 798.9306569652067,
+    "shipY": 700,
+    "cameraX": 664.197343956995,
+    "cameraY": 677,
+    "speed": 240.29674376388107,
+    "deltaCameraX": 3.9854605462996915,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 9510.600000023842,
+    "shipX": 802.9676463112878,
+    "shipY": 700,
+    "cameraX": 668.2345151631451,
+    "cameraY": 677,
+    "speed": 240.2969848857617,
+    "deltaCameraX": 4.037171206150106,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 9526.600000023842,
+    "shipX": 806.8605802035497,
+    "shipY": 700,
+    "cameraX": 672.1181976053143,
+    "cameraY": 677,
+    "speed": 240.3045612507524,
+    "deltaCameraX": 3.8836824421691745,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 9543.799999952316,
+    "shipX": 810.9457126382242,
+    "shipY": 700,
+    "cameraX": 676.2079651825195,
+    "cameraY": 677,
+    "speed": 240.3019079220306,
+    "deltaCameraX": 4.08976757720518,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 9559.700000047684,
+    "shipX": 814.8627346405852,
+    "shipY": 700,
+    "cameraX": 680.1178223829166,
+    "cameraY": 677,
+    "speed": 240.30809830434265,
+    "deltaCameraX": 3.9098572003971412,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 9576.200000047684,
+    "shipX": 818.8518869542806,
+    "shipY": 700,
+    "cameraX": 684.1054049468662,
+    "cameraY": 677,
+    "speed": 240.3103803431118,
+    "deltaCameraX": 3.987582563949559,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 9592.799999952316,
+    "shipX": 822.8410755943797,
+    "shipY": 700,
+    "cameraX": 688.0932103947467,
+    "cameraY": 677,
+    "speed": 240.31256868065947,
+    "deltaCameraX": 3.9878054478805325,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 9609.5,
+    "shipX": 826.8543096601367,
+    "shipY": 700,
+    "cameraX": 692.106827470068,
+    "cameraY": 677,
+    "speed": 240.31341711117838,
+    "deltaCameraX": 4.0136170753212355,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 9626.399999976158,
+    "shipX": 830.9395863170439,
+    "shipY": 700,
+    "cameraX": 696.1973389886334,
+    "cameraY": 677,
+    "speed": 240.31039158277272,
+    "deltaCameraX": 4.0905115185654495,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 9642.899999976158,
+    "shipX": 834.8807528811199,
+    "shipY": 700,
+    "cameraX": 700.1333872907677,
+    "cameraY": 677,
+    "speed": 240.31503439488358,
+    "deltaCameraX": 3.9360483021342816,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 9659.799999952316,
+    "shipX": 838.8700156062712,
+    "shipY": 700,
+    "cameraX": 704.1213256394485,
+    "cameraY": 677,
+    "speed": 240.3170316356183,
+    "deltaCameraX": 3.9879383486808138,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 9677.700000047684,
+    "shipX": 842.9073316286939,
+    "shipY": 700,
+    "cameraX": 708.160700446453,
+    "cameraY": 677,
+    "speed": 240.31642990612653,
+    "deltaCameraX": 4.039374807004492,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 9693.200000047684,
+    "shipX": 846.9686479090917,
+    "shipY": 700,
+    "cameraX": 712.2254330916809,
+    "cameraY": 677,
+    "speed": 240.3145728046177,
+    "deltaCameraX": 4.064732645227878,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 9709.600000023842,
+    "shipX": 850.9098802628422,
+    "shipY": 700,
+    "cameraX": 716.1616231842869,
+    "cameraY": 677,
+    "speed": 240.31904596037288,
+    "deltaCameraX": 3.9361900926060116,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 9727.200000047684,
+    "shipX": 855.0432664167436,
+    "shipY": 700,
+    "cameraX": 720.3036413715511,
+    "cameraY": 677,
+    "speed": 240.3131484826607,
+    "deltaCameraX": 4.142018187264171,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 9743.100000023842,
+    "shipX": 858.9124385970966,
+    "shipY": 700,
+    "cameraX": 724.1627163694368,
+    "cameraY": 677,
+    "speed": 240.32125343807255,
+    "deltaCameraX": 3.8590749978857275,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 9759.700000047684,
+    "shipX": 862.949822599197,
+    "shipY": 700,
+    "cameraX": 728.2022455668705,
+    "cameraY": 677,
+    "speed": 240.32047631551643,
+    "deltaCameraX": 4.039529197433694,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 9776.700000047684,
+    "shipX": 866.9631832681532,
+    "shipY": 700,
+    "cameraX": 732.2158400958887,
+    "cameraY": 677,
+    "speed": 240.32099814108494,
+    "deltaCameraX": 4.013594529018178,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 9792.799999952316,
+    "shipX": 870.9285290685195,
+    "shipY": 700,
+    "cameraX": 736.1781909682275,
+    "cameraY": 677,
+    "speed": 240.32398790098588,
+    "deltaCameraX": 3.9623508723387886,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 9809.799999952316,
+    "shipX": 874.9659571010809,
+    "shipY": 700,
+    "cameraX": 740.2178127660702,
+    "cameraY": 677,
+    "speed": 240.3230971762812,
+    "deltaCameraX": 4.039621797842756,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 9826.299999952316,
+    "shipX": 878.9313361218312,
+    "shipY": 700,
+    "cameraX": 744.180278783275,
+    "cameraY": 677,
+    "speed": 240.32600125759933,
+    "deltaCameraX": 3.962466017204747,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 9843.5,
+    "shipX": 883.0408275268468,
+    "shipY": 700,
+    "cameraX": 748.2970123201396,
+    "cameraY": 677,
+    "speed": 240.3211347962237,
+    "deltaCameraX": 4.116733536864672,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 9860.200000047684,
+    "shipX": 887.0541987382428,
+    "shipY": 700,
+    "cameraX": 752.3100833568502,
+    "cameraY": 677,
+    "speed": 240.32162942490433,
+    "deltaCameraX": 4.013071036710585,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 9876.299999952316,
+    "shipX": 890.7913263869925,
+    "shipY": 700,
+    "cameraX": 756.1741178768302,
+    "cameraY": 677,
+    "speed": 230.68689189814836,
+    "deltaCameraX": 3.8640345199800095,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 9893.399999976158,
+    "shipX": 894.5693256328079,
+    "shipY": 700,
+    "cameraX": 760.2244741293706,
+    "cameraY": 677,
+    "speed": 220.93562841025414,
+    "deltaCameraX": 4.050356252540382,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 9910.299999952316,
+    "shipX": 898.126842353625,
+    "shipY": 700,
+    "cameraX": 764.1398531264756,
+    "cameraY": 677,
+    "speed": 211.75694766766534,
+    "deltaCameraX": 3.9153789971049946,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 9926.299999952316,
+    "shipX": 901.4002741235936,
+    "shipY": 700,
+    "cameraX": 767.8170440364056,
+    "cameraY": 677,
+    "speed": 203.31874347632137,
+    "deltaCameraX": 3.6771909099300046,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 9943.399999976158,
+    "shipX": 904.7114242215306,
+    "shipY": 700,
+    "cameraX": 771.6325572349795,
+    "cameraY": 677,
+    "speed": 194.77353517276387,
+    "deltaCameraX": 3.8155131985738535,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 9960.399999976158,
+    "shipX": 907.8834112161186,
+    "shipY": 700,
+    "cameraX": 775.3567731919721,
+    "cameraY": 677,
+    "speed": 186.58747026987217,
+    "deltaCameraX": 3.72421595699268,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 9976.700000047684,
+    "shipX": 910.8021178675057,
+    "shipY": 700,
+    "cameraX": 778.8287140233864,
+    "cameraY": 677,
+    "speed": 179.06175775380171,
+    "deltaCameraX": 3.4719408314142584,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 9993.5,
+    "shipX": 913.7182305022089,
+    "shipY": 700,
+    "cameraX": 782.3597966502168,
+    "cameraY": 677,
+    "speed": 171.5360373354794,
+    "deltaCameraX": 3.5310826268304254,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 10009.700000047684,
+    "shipX": 916.3699098000695,
+    "shipY": 700,
+    "cameraX": 785.5985496331723,
+    "cameraY": 677,
+    "speed": 164.70057750687155,
+    "deltaCameraX": 3.238752982955475,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 10026.700000047684,
+    "shipX": 919.0370389586795,
+    "shipY": 700,
+    "cameraX": 788.9056645478942,
+    "cameraY": 677,
+    "speed": 157.81829340887936,
+    "deltaCameraX": 3.307114914721865,
+    "deltaCameraY": 0
+  },
+  {
+    "t": 10043.100000023842,
+    "shipX": 921.5347504490862,
+    "shipY": 700,
+    "cameraX": 792.0284782399968,
+    "cameraY": 677,
+    "speed": 151.37645396404616,
+    "deltaCameraX": 3.1228136921026817,
+    "deltaCameraY": 0
+  }
+]

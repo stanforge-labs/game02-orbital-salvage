@@ -14,6 +14,7 @@ function visit(value) {
   if (value.type === 'BuiltinCommonInstructions::JsCode' && Array.isArray(value.inlineCode)) {
     let code = value.inlineCode.join('\n');
     const before = code;
+    code = code.replace(/if\(typeof window!=='undefined'&&window\.location\.hostname==='127\.0\.0\.1'\)\{const q=new URLSearchParams\(window\.location\.search\);.*?if\(q\.has\('qaEngine'\)\).*?;\}/g, '');
     code = code.replace(/if\(typeof window!=='undefined'&&window\.location\.hostname==='127\.0\.0\.1'\)\{const q=new URLSearchParams\(window\.location\.search\);[^}]*\}/g, '');
     code = code.replace(/if\(typeof window!=='undefined'&&window\.location\.hostname==='127\.0\.0\.1'&&window\.location\.search\.includes\('qaCredits'\)\)v\.get\('Credits'\)\.setNumber\(Number\(new URLSearchParams\(window\.location\.search\)\.get\('qaCredits'\)\)\|\|0\);/g, '');
     code = code.replace(/if\(q\.has\('qaEngine'\)\)v\.get\('EngineLevel'\)\.setNumber\(Number\(q\.get\('qaEngine'\)\)\|\|0\);\}\}/g, '');

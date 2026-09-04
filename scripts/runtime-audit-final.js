@@ -7,7 +7,7 @@ const { chromium } = require('C:\\Users\\Станислав\\Documents\\ChatGPT\
   const errors = [];
   page.on('pageerror', (error) => errors.push(`pageerror: ${error.message}`));
   page.on('console', (message) => { if (message.type() === 'error' && !message.text().includes('409')) errors.push(`console: ${message.text()}`); });
-  await page.goto('http://127.0.0.1:4184/index.html', { waitUntil: 'networkidle' });
+  await page.goto('http://127.0.0.1:4186/index.html', { waitUntil: 'networkidle' });
   await page.waitForTimeout(900);
   const menu = await page.evaluate(() => {
     const canvas = document.querySelector('canvas');
