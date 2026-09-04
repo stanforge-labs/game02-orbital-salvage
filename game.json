@@ -1085,7 +1085,7 @@
           "persistentUuid": "10000000-0000-4000-8000-000000000070",
           "width": 340,
           "x": 82,
-          "y": 73,
+          "y": 88,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
@@ -1101,7 +1101,7 @@
           "persistentUuid": "10000000-0000-4000-8000-000000000071",
           "width": 380,
           "x": 1450,
-          "y": 70,
+          "y": 88,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
@@ -1117,7 +1117,7 @@
           "persistentUuid": "10000000-0000-4000-8000-000000000072",
           "width": 340,
           "x": 82,
-          "y": 141,
+          "y": 151,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
@@ -1133,7 +1133,7 @@
           "persistentUuid": "10000000-0000-4000-8000-000000000073",
           "width": 380,
           "x": 1450,
-          "y": 124,
+          "y": 132,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
@@ -3936,7 +3936,7 @@
         {
           "type": "BuiltinCommonInstructions::JsCode",
           "inlineCode": [
-            "const v=runtimeScene.getVariables();if(!runtimeScene.__osInit){runtimeScene.__osInit=true;runtimeScene.__os={x:327,y:677,vx:0,vy:0,angle:0,inv:0,toast:0,phase:0};runtimeScene.__osCam={x:480,y:677};gdjs.evtTools.camera.setCameraZoom(runtimeScene,2,'World',0);v.get('GameState').setString('menu');v.get('Credits').setNumber(0);if(typeof window!=='undefined'&&window.location.hostname==='127.0.0.1'){const q=new URLSearchParams(window.location.search);if(q.has('qaCredits'))v.get('Credits').setNumber(Number(q.get('qaCredits'))||0);if(q.has('qaState'))v.get('GameState').setString(q.get('qaState'));if(q.has('qaCargoMax'))v.get('CargoMax').setNumber(Number(q.get('qaCargoMax'))||8);if(q.has('qaHullMax'))v.get('HullMax').setNumber(Number(q.get('qaHullMax'))||3);if(q.has('qaEngine'))v.get('EngineLevel').setNumber(Number(q.get('qaEngine'))||0);}if(typeof window!=='undefined'&&window.location.hostname==='127.0.0.1'){const q=new URLSearchParams(window.location.search);if(q.has('qaCredits'))v.get('Credits').setNumber(Number(q.get('qaCredits'))||0);if(q.has('qaState'))v.get('GameState').setString(q.get('qaState'));if(q.has('qaCargoMax'))v.get('CargoMax').setNumber(Number(q.get('qaCargoMax'))||8);if(q.has('qaHullMax'))v.get('HullMax').setNumber(Number(q.get('qaHullMax'))||3);if(q.has('qaEngine'))v.get('EngineLevel').setNumber(Number(q.get('qaEngine'))||0);}if(typeof window!=='undefined'&&window.location.hostname==='127.0.0.1'&&window.location.search.includes('qaCredits'))v.get('Credits').setNumber(Number(new URLSearchParams(window.location.search).get('qaCredits'))||0);}",
+            "const v=runtimeScene.getVariables();if(!runtimeScene.__osInit){runtimeScene.__osInit=true;runtimeScene.__os={x:327,y:677,vx:0,vy:0,angle:0,inv:0,toast:0,phase:0};runtimeScene.__osCam={x:480,y:677};gdjs.evtTools.camera.setCameraZoom(runtimeScene,2,'World',0);v.get('GameState').setString('menu');v.get('Credits').setNumber(0);}",
             "const im=runtimeScene.getGame().getInputManager(),click=im.isMouseButtonPressed(gdjs.InputManager.MOUSE_LEFT_BUTTON)||im.isMouseButtonReleased(gdjs.InputManager.MOUSE_LEFT_BUTTON);let st=v.get('GameState').getAsString();const iw=typeof window!=='undefined'?(window.visualViewport?window.visualViewport.width:window.innerWidth):960,ih=typeof window!=='undefined'?(window.visualViewport?window.visualViewport.height:window.innerHeight):540;const portrait=ih>iw*1.08;if(portrait&&st!=='rotate'){runtimeScene.__osResume=st;v.get('GameState').setString('rotate');st='rotate';}else if(!portrait&&st==='rotate'){v.get('GameState').setString(runtimeScene.__osResume||'menu');st=v.get('GameState').getAsString();}",
             "const hide=n=>runtimeScene.getObjects(n).forEach(o=>o.hide()),show=n=>runtimeScene.getObjects(n).forEach(o=>o.hide(false));const menu=['MenuPanel','ButtonBg','Title','MenuDescription','PlayText','MenuHint'],hud=['HudPanel','CargoText','CreditsText','HullText','SectorText','ObjectiveText','StatusText','NavMarker'],world=['FieldZone','DangerZone','Station','StationGlow','StationLabel','RiskLabel','Ship','Exhaust','CommonSalvage','RareContainer','Debris','FastDebris'],res=['ResultPanel','ResultButtonBg','ResultTitle','ResultStats','ResultText'],upg=['UpgradePanel','UpgradeTitle','UpgradeStats','UpgradeCardBg','UpgradeButtonBg','UpgradeButtonText','UpgradeCardText','UpgradeBackButtonBg','UpgradeBackText'],rot=['RotatePanel','RotateDevice','RotateTitle','RotateHint'];",
             "['Background','Haze'].forEach(show);menu.concat(hud,world,res,upg,rot,['FieldLabel','DangerLabel']).forEach(hide);if(st==='menu'){menu.forEach(show);}else if(st==='play'){hud.concat(world).forEach(show);runtimeScene.getObjects('FieldLabel').forEach(o=>o.hide(false));runtimeScene.getObjects('DangerLabel').forEach(o=>o.hide(false));}else if(st==='result'||st==='fail'){res.forEach(show);}else if(st==='upgrades'){upg.forEach(show);}else if(st==='rotate'){rot.forEach(show);}",
@@ -3961,7 +3961,7 @@
             "if(rare&&v.get('Cargo').getAsNumber()<=6&&Math.hypot(s.x-1600,s.y-390)<360){rare.getVariables().get('Taken').setBoolean(true);rare.hide();v.get('Cargo').setNumber(v.get('Cargo').getAsNumber()+2);v.get('CargoValue').setNumber(v.get('CargoValue').getAsNumber()+40);v.get('ContainerCount').setNumber(v.get('ContainerCount').getAsNumber()+1);s.toast=1;v.get('Status').setString('+40 КОНТЕЙНЕР');}",
             "const bases=[[820,610],[1040,460],[1340,690],[1510,900],[1140,560],[1530,760]],haz=runtimeScene.getObjects('Debris').concat(runtimeScene.getObjects('FastDebris'));haz.forEach((o,i)=>{const b=bases[i],fast=i>3,amp=fast?180:55,xx=b[0]+Math.sin(s.phase*(fast?1.5:.65)+i)*amp,yy=b[1]+Math.cos(s.phase*(fast?1.15:.52)+i)*amp*.55;o.setCenterPositionInScene(xx,yy);o.setAngle((s.phase*(fast?70:18)+i*50)%360);if(s.inv<=0&&s.x>780&&Math.hypot(s.x-xx,s.y-yy)<42){v.get('Hull').setNumber(v.get('Hull').getAsNumber()-1);s.inv=1.15;s.vx+=(s.x-xx)*2.4;s.vy+=(s.y-yy)*2.4;v.get('Status').setString('УДАР −1 КОРПУС');if(v.get('Hull').getAsNumber()<=0)v.get('GameState').setString('fail');}});",
             "if(v.get('Cargo').getAsNumber()>0&&Math.hypot(s.x-260,s.y-700)<145){v.get('DeliveredCargo').setNumber(v.get('Cargo').getAsNumber());v.get('DeliveredValue').setNumber(v.get('CargoValue').getAsNumber());v.get('Credits').setNumber(v.get('Credits').getAsNumber()+v.get('CargoValue').getAsNumber());v.get('GameState').setString('result');}",
-            "const cam=runtimeScene.__osCam||(runtimeScene.__osCam={x:480,y:677}),deadX=110,deadY=70;let tx=cam.x,ty=cam.y;if(Math.abs(s.x-cam.x)>deadX)tx=s.x-Math.sign(s.x-cam.x)*deadX;if(Math.abs(s.y-cam.y)>deadY)ty=s.y-Math.sign(s.y-cam.y)*deadY;tx=Math.max(480,Math.min(1720,tx));ty=Math.max(270,Math.min(1130,ty));const smooth=1-Math.exp(-9*dt);cam.x+=(tx-cam.x)*smooth;cam.y+=(ty-cam.y)*smooth;gdjs.evtTools.camera.setCameraX(runtimeScene,cam.x,'World',0);gdjs.evtTools.camera.setCameraY(runtimeScene,cam.y,'World',0);gdjs.evtTools.camera.setCameraZoom(runtimeScene,2,'World',0);if(typeof window!=='undefined'&&window.location.search.includes('qaTrace')){window.__osTrace=window.__osTrace||[];window.__osTrace.push({t:performance.now(),shipX:s.x,shipY:s.y,cameraX:cam.x,cameraY:cam.y,speed:Math.hypot(s.vx,s.vy)});if(window.__osTrace.length>900)window.__osTrace.shift();}gdjs.evtTools.camera.setCameraZoom(runtimeScene,2,'World',0);if(typeof window!=='undefined'&&window.location.search.includes('qaTrace')){window.__osTrace=window.__osTrace||[];window.__osTrace.push({t:performance.now(),shipX:s.x,shipY:s.y,cameraX:cam.x,cameraY:cam.y,speed:Math.hypot(s.vx,s.vy)});if(window.__osTrace.length>900)window.__osTrace.shift();}gdjs.evtTools.camera.setCameraZoom(runtimeScene,2,'World',0);if(typeof window!=='undefined'&&window.location.search.includes('qaTrace')){window.__osTrace=window.__osTrace||[];window.__osTrace.push({t:performance.now(),shipX:s.x,shipY:s.y,cameraX:cam.x,cameraY:cam.y,speed:Math.hypot(s.vx,s.vy)});if(window.__osTrace.length>900)window.__osTrace.shift();}gdjs.evtTools.camera.setCameraZoom(runtimeScene,2,'World',0);if(typeof window!=='undefined'&&window.location.search.includes('qaTrace')){window.__osTrace=window.__osTrace||[];window.__osTrace.push({t:performance.now(),shipX:s.x,shipY:s.y,cameraX:cam.x,cameraY:cam.y,speed:Math.hypot(s.vx,s.vy)});if(window.__osTrace.length>900)window.__osTrace.shift();}gdjs.evtTools.camera.setCameraZoom(runtimeScene,2,'World',0);"
+            "const cam=runtimeScene.__osCam||(runtimeScene.__osCam={x:480,y:677}),deadX=110,deadY=70;let tx=cam.x,ty=cam.y;if(Math.abs(s.x-cam.x)>deadX)tx=s.x-Math.sign(s.x-cam.x)*deadX;if(Math.abs(s.y-cam.y)>deadY)ty=s.y-Math.sign(s.y-cam.y)*deadY;tx=Math.max(480,Math.min(1720,tx));ty=Math.max(270,Math.min(1130,ty));const smooth=1-Math.exp(-9*dt);cam.x+=(tx-cam.x)*smooth;cam.y+=(ty-cam.y)*smooth;gdjs.evtTools.camera.setCameraX(runtimeScene,cam.x,'World',0);gdjs.evtTools.camera.setCameraY(runtimeScene,cam.y,'World',0);gdjs.evtTools.camera.setCameraZoom(runtimeScene,2,'World',0);"
           ],
           "parameterObjects": "",
           "useStrict": false,

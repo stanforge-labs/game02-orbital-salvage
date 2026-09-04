@@ -1,0 +1,35 @@
+{
+  "horizontal": {
+    "frames": 532,
+    "maxDeltaX": 4.2192608534217015,
+    "maxDeltaY": 0,
+    "cameraXRange": [
+      480,
+      1138.394569615795
+    ],
+    "shipXRange": [
+      350,
+      1254.0565298046497
+    ]
+  },
+  "vertical": {
+    "frames": 542,
+    "maxDeltaX": 0,
+    "maxDeltaY": 4.160933967424114,
+    "cameraYRange": [
+      270.0000030784551,
+      677
+    ],
+    "shipYRange": [
+      70,
+      700
+    ]
+  },
+  "engine": {
+    "before": 240.22487632027784,
+    "after": 264.2378110177533,
+    "difference": 24.01293469747546,
+    "percent": 9.996023336675751
+  },
+  "runtimeErrors": []
+}
