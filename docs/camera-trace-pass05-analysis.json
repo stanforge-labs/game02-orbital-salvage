@@ -1,0 +1,147 @@
+{
+  "rows": 1207,
+  "shipXRange": [
+    350,
+    1019.8990094659438
+  ],
+  "shipYRange": [
+    70,
+    743.6574891337676
+  ],
+  "cameraXRange": [
+    480,
+    905.9152126733579
+  ],
+  "cameraYRange": [
+    270.0000030874928,
+    677
+  ],
+  "maxAbsDeltaX": 4.249584228148819,
+  "maxAbsDeltaY": 4.1542104823005275,
+  "phases": [
+    "W 3 sec",
+    "S 3 sec",
+    "W→S",
+    "S→W",
+    "D 3 sec",
+    "A 3 sec",
+    "D→A",
+    "A→D"
+  ],
+  "firstTimestamp": 845.3999999761581,
+  "lastTimestamp": 21002.799999952316,
+  "directionStats": [
+    {
+      "name": "W 3 sec",
+      "rows": 184,
+      "cameraXRange": [
+        480,
+        480
+      ],
+      "cameraYRange": [
+        302.819893004247,
+        677
+      ],
+      "maxAbsDeltaX": 0,
+      "maxAbsDeltaY": 4.150637226927699
+    },
+    {
+      "name": "S 3 sec",
+      "rows": 187,
+      "cameraXRange": [
+        480,
+        480
+      ],
+      "cameraYRange": [
+        270.0000030874928,
+        412.1077748139692
+      ],
+      "maxAbsDeltaX": 0,
+      "maxAbsDeltaY": 4.092927993671935
+    },
+    {
+      "name": "W→S",
+      "rows": 116,
+      "cameraXRange": [
+        480,
+        480
+      ],
+      "cameraYRange": [
+        416.1472557207114,
+        616.8387998722499
+      ],
+      "maxAbsDeltaX": 0,
+      "maxAbsDeltaY": 4.1542104823005275
+    },
+    {
+      "name": "S→W",
+      "rows": 115,
+      "cameraXRange": [
+        480,
+        480
+      ],
+      "cameraYRange": [
+        600.3294428687678,
+        619.5476600570462
+      ],
+      "maxAbsDeltaX": 0,
+      "maxAbsDeltaY": 1.9167117449976558
+    },
+    {
+      "name": "D 3 sec",
+      "rows": 187,
+      "cameraXRange": [
+        480,
+        687.319212397856
+      ],
+      "cameraYRange": [
+        621.4553988992225,
+        673.6354268677168
+      ],
+      "maxAbsDeltaX": 4.249584228148819,
+      "maxAbsDeltaY": 1.9077388421762862
+    },
+    {
+      "name": "A 3 sec",
+      "rows": 187,
+      "cameraXRange": [
+        691.3443436510511,
+        905.9152126733579
+      ],
+      "cameraYRange": [
+        673.6363437181298,
+        673.6574807219281
+      ],
+      "maxAbsDeltaX": 4.165708167078719,
+      "maxAbsDeltaY": 0.0009168504129775101
+    },
+    {
+      "name": "D→A",
+      "rows": 115,
+      "cameraXRange": [
+        515.3411036827097,
+        733.7236849285617
+      ],
+      "cameraYRange": [
+        673.6574810629907,
+        673.6574890677084
+      ],
+      "maxAbsDeltaX": 4.1879819529152655,
+      "maxAbsDeltaY": 3.410625595279271e-7
+    },
+    {
+      "name": "A→D",
+      "rows": 116,
+      "cameraXRange": [
+        513.3862366537853,
+        515.3411036827097
+      ],
+      "cameraYRange": [
+        673.6574890703847,
+        673.6574891336337
+      ],
+      "maxAbsDeltaX": 0.837493726703542,
+      "maxAbsDeltaY": 2.6819861886906438e-9
+    }
+  ]
+}

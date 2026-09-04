@@ -32,7 +32,8 @@ const I = {
   btn1: '10000000-0000-4000-8000-000000000093', btn2: '10000000-0000-4000-8000-000000000095', btn3: '10000000-0000-4000-8000-000000000096',
   btnText1: '10000000-0000-4000-8000-000000000094', btnText2: '10000000-0000-4000-8000-000000000097', btnText3: '10000000-0000-4000-8000-000000000098',
   cardText1: '10000000-0000-4000-8000-000000000099', cardText2: '10000000-0000-4000-8000-00000000009a', cardText3: '10000000-0000-4000-8000-00000000009b',
-  backBg: '10000000-0000-4000-8000-0000000000a2', backText: '10000000-0000-4000-8000-0000000000a3'
+  backBg: '10000000-0000-4000-8000-0000000000a2', backText: '10000000-0000-4000-8000-0000000000a3',
+  rotatePanel: '10000000-0000-4000-8000-000000000085', rotateDevice: '10000000-0000-4000-8000-000000000086', rotateTitle: '10000000-0000-4000-8000-000000000087', rotateHint: '10000000-0000-4000-8000-000000000088'
 };
 
 setInstance(I.menu, { x: 500, y: 140, width: 920, height: 760 });
@@ -52,18 +53,22 @@ setInstance(I.nav, { x: 700, y: 176, width: 520, height: 54, customSize: true })
 setInstance(I.result, { x: 400, y: 170, width: 1120, height: 430 });
 setInstance(I.resultTitle, { x: 500, y: 215, width: 920, height: 76 });
 setInstance(I.resultStats, { x: 590, y: 320, width: 740, height: 220 });
-setInstance(I.resultL, { x: 450, y: 680, width: 490, height: 104 });
-setInstance(I.resultR, { x: 980, y: 680, width: 490, height: 104 });
-setInstance(I.resultTextL, { x: 450, y: 725, width: 490, height: 48 });
-setInstance(I.resultTextR, { x: 980, y: 725, width: 490, height: 48 });
+setInstance(I.resultL, { x: 450, y: 480, width: 490, height: 90 });
+setInstance(I.resultR, { x: 980, y: 480, width: 490, height: 90 });
+setInstance(I.resultTextL, { x: 450, y: 530, width: 490, height: 48 });
+setInstance(I.resultTextR, { x: 980, y: 530, width: 490, height: 48 });
 setInstance(I.upgPanel, { x: 100, y: 55, width: 1720, height: 900 });
 setInstance(I.upgTitle, { x: 200, y: 150, width: 1520, height: 76 });
 for (const [card, x] of [[I.card1, 190], [I.card2, 780], [I.card3, 1370]]) setInstance(card, { x, y: 220, width: 360, height: 500 });
 for (const [button, x] of [[I.btn1, 210], [I.btn2, 800], [I.btn3, 1390]]) setInstance(button, { x, y: 625, width: 320, height: 72 });
 for (const [text, x] of [[I.btnText1, 210], [I.btnText2, 800], [I.btnText3, 1390]]) setInstance(text, { x, y: 680, width: 320, height: 46 });
 for (const [text, x] of [[I.cardText1, 210], [I.cardText2, 800], [I.cardText3, 1390]]) setInstance(text, { x, y: 360, width: 320, height: 260 });
-setInstance(I.backBg, { x: 760, y: 795, width: 400, height: 80 });
-setInstance(I.backText, { x: 760, y: 812, width: 400, height: 46 });
+setInstance(I.backBg, { x: 760, y: 795, width: 400, height: 80, zOrder: 21 });
+setInstance(I.backText, { x: 760, y: 832, width: 400, height: 46 });
+setInstance(I.rotatePanel, { x: 35, y: 350, width: 520, height: 350 });
+setInstance(I.rotateDevice, { x: 255, y: 370, width: 80, height: 64 });
+setInstance(I.rotateTitle, { x: 35, y: 485, width: 520, height: 46 });
+setInstance(I.rotateHint, { x: 55, y: 560, width: 480, height: 60 });
 
 const imageFor = { MenuPanel: 'assets/game/ui_menu_panel.png', ResultPanel: 'assets/game/ui_result_panel.png', UpgradePanel: 'assets/game/ui_menu_panel.png', UpgradeCardBg: 'assets/game/ui_card.png', HudPanel: 'assets/game/ui_hud_panel.png' };
 for (const object of layout.objects) {
@@ -82,14 +87,15 @@ for (const action of actions) {
   if (code.includes("v.get('Credits').setNumber(0);}")) code = code.replace("v.get('Credits').setNumber(0);}", "v.get('Credits').setNumber(0);if(typeof window!=='undefined'&&window.location.hostname==='127.0.0.1'&&window.location.search.includes('qaCredits')){const q=new URLSearchParams(window.location.search);v.get('Credits').setNumber(Number(q.get('qaCredits'))||0);if(q.get('qaState'))v.get('GameState').setString(q.get('qaState'));if(q.get('qaCargoMax'))v.get('CargoMax').setNumber(Number(q.get('qaCargoMax'))||8);if(q.get('qaHullMax'))v.get('HullMax').setNumber(Number(q.get('qaHullMax'))||3);if(q.get('qaEngine'))v.get('EngineLevel').setNumber(Number(q.get('qaEngine'))||0);}}");
   code = code.replace("runtimeScene.__osCam={x:480,y:677};v.get('GameState')", "runtimeScene.__osCam={x:480,y:677};gdjs.evtTools.camera.setCameraZoom(runtimeScene,2,'World',0);v.get('GameState')");
   code = code.replace("runtimeScene.__osCam={x:480,y:677};runtimeScene.getObjects", "runtimeScene.__osCam={x:480,y:677};gdjs.evtTools.camera.setCameraZoom(runtimeScene,2,'World',0);runtimeScene.getObjects");
-  code = code.replace("getCursorY(runtimeScene,'HUD',0)>=350&&gdjs.evtTools.input.getCursorY(runtimeScene,'HUD',0)<=440", "getCursorY(runtimeScene,'HUD',0)>=680&&gdjs.evtTools.input.getCursorY(runtimeScene,'HUD',0)<=784");
-  code = code.replace("getCursorY(runtimeScene,'HUD',0)>=720&&gdjs.evtTools.input.getCursorY(runtimeScene,'HUD',0)<=850", "getCursorY(runtimeScene,'HUD',0)>=680&&gdjs.evtTools.input.getCursorY(runtimeScene,'HUD',0)<=784");
+  code = code.replace("getCursorY(runtimeScene,'HUD',0)>=350&&gdjs.evtTools.input.getCursorY(runtimeScene,'HUD',0)<=440", "getCursorY(runtimeScene,'HUD',0)>=470&&gdjs.evtTools.input.getCursorY(runtimeScene,'HUD',0)<=585");
+  code = code.replace("getCursorY(runtimeScene,'HUD',0)>=720&&gdjs.evtTools.input.getCursorY(runtimeScene,'HUD',0)<=850", "getCursorY(runtimeScene,'HUD',0)>=470&&gdjs.evtTools.input.getCursorY(runtimeScene,'HUD',0)<=585");
   code = code.replace("rx<480", "rx<960");
   code = code.replace("ux>=360&&ux<=600&&uy>=405&&uy<=465", "ux>=760&&ux<=1160&&uy>=795&&uy<=875");
   code = code.replace("uy>=280&&uy<=340", "uy>=625&&uy<=697");
   code = code.replace("ux>=125&&ux<=345", "ux>=210&&ux<=530").replace("ux>=370&&ux<=590", "ux>=800&&ux<=1120").replace("ux>=615&&ux<=835", "ux>=1390&&ux<=1710");
   code = code.replace("[135,380,625][i]&&mx<=[355,600,845][i]&&my>=286&&my<=338", "[210,800,1390][i]&&mx<=[530,1120,1710][i]&&my>=625&&my<=697");
-  code = code.replace("gdjs.evtTools.camera.setCameraY(runtimeScene,cam.y,'World',0);", "gdjs.evtTools.camera.setCameraY(runtimeScene,cam.y,'World',0);gdjs.evtTools.camera.setCameraZoom(runtimeScene,2,'World',0);if(typeof window!=='undefined'&&window.location.search.includes('qaTrace')){window.__osTrace=window.__osTrace||[];window.__osTrace.push({t:performance.now(),shipX:s.x,shipY:s.y,cameraX:cam.x,cameraY:cam.y,speed:Math.hypot(s.vx,s.vy)});if(window.__osTrace.length>900)window.__osTrace.shift();}");
+  code = code.replace("const mx=gdjs.evtTools.input.getCursorX(runtimeScene,'HUD',0),my=gdjs.evtTools.input.getCursorY(runtimeScene,'HUD',0);labels.forEach", "const mx=gdjs.evtTools.input.getCursorX(runtimeScene,'HUD',0),my=gdjs.evtTools.input.getCursorY(runtimeScene,'HUD',0),back=runtimeScene.getObjects('UpgradeBackButtonBg')[0],input=runtimeScene.getGame().getInputManager();if(back){const over=mx>=760&&mx<=1160&&my>=795&&my<=875;back.setOpacity(over?(input.isMouseButtonPressed(gdjs.InputManager.MOUSE_LEFT_BUTTON)?205:245):215);}labels.forEach");
+  code = code.replace("gdjs.evtTools.camera.setCameraY(runtimeScene,cam.y,'World',0);", "gdjs.evtTools.camera.setCameraY(runtimeScene,cam.y,'World',0);gdjs.evtTools.camera.setCameraZoom(runtimeScene,2,'World',0);if(typeof window!=='undefined'&&window.location.search.includes('qaTrace')){window.__osTrace=window.__osTrace||[];window.__osTrace.push({t:performance.now(),shipX:s.x,shipY:s.y,cameraX:cam.x,cameraY:cam.y,speed:Math.hypot(s.vx,s.vy)});if(window.__osTrace.length>1800)window.__osTrace.shift();}");
   code = code.replace(/(?:gdjs\.evtTools\.camera\.setCameraZoom\(runtimeScene,2,'World',0\);){2,}/g, "gdjs.evtTools.camera.setCameraZoom(runtimeScene,2,'World',0);");
   code = code.replace(/(?:if\(typeof window!=='undefined'&&window\.location\.search\.includes\('qaTrace'\)\)\{window\.__osTrace=window\.__osTrace\|\|\[\];window\.__osTrace\.push\(\{t:performance\.now\(\),shipX:s\.x,shipY:s\.y,cameraX:cam\.x,cameraY:cam\.y,speed:Math\.hypot\(s\.vx,s\.vy\)\}\);if\(window\.__osTrace\.length>900\)window\.__osTrace\.shift\(\);\}){2,}/g, "if(typeof window!=='undefined'&&window.location.search.includes('qaTrace')){window.__osTrace=window.__osTrace||[];window.__osTrace.push({t:performance.now(),shipX:s.x,shipY:s.y,cameraX:cam.x,cameraY:cam.y,speed:Math.hypot(s.vx,s.vy)});if(window.__osTrace.length>900)window.__osTrace.shift();}");
   code = code.replace("'ГРУЗ '+c+'/'+m", "'ГРУЗ     '+c+' / '+m").replace("'КРЕДИТЫ '+cr", "'КРЕДИТЫ     '+cr").replace("'КОРПУС '+h+'/'+hm", "'КОРПУС     '+h+' / '+hm").replace("'СЕКТОР 1\\nБЕЗОПАСНАЯ ОРБИТА'", "'СЕКТОР 1\\nБезопасная орбита'");

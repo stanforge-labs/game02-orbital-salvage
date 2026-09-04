@@ -1,35 +1,32 @@
 {
-  "horizontal": {
-    "frames": 532,
-    "maxDeltaX": 4.2192608534217015,
-    "maxDeltaY": 0,
+  "cameraTrace": {
+    "rows": 1207,
     "cameraXRange": [
       480,
-      1138.394569615795
+      905.9152126733579
     ],
-    "shipXRange": [
-      350,
-      1254.0565298046497
-    ]
-  },
-  "vertical": {
-    "frames": 542,
-    "maxDeltaX": 0,
-    "maxDeltaY": 4.160933967424114,
     "cameraYRange": [
-      270.0000030784551,
+      270.0000030874928,
       677
     ],
-    "shipYRange": [
-      70,
-      700
-    ]
+    "maxAbsDeltaX": 4.249584228148819,
+    "maxAbsDeltaY": 4.1542104823005275,
+    "scenario": "W3s -> S3s -> W->S -> S->W -> D3s -> A3s -> D->A -> A->D"
   },
   "engine": {
-    "before": 240.22487632027784,
-    "after": 264.2378110177533,
-    "difference": 24.01293469747546,
-    "percent": 9.996023336675751
+    "before": 240.22079462661574,
+    "after": 264.2489721874716,
+    "difference": 24.02817756085588,
+    "percent": 10.002538538848722
+  },
+  "hull": {
+    "creditsBefore": 150,
+    "creditsAfterPurchase": 0,
+    "nextRunHull": "4 / 4"
+  },
+  "newRunButton": {
+    "mouse": "play",
+    "touch": "play"
   },
   "runtimeErrors": []
-}
+}\n

@@ -39,7 +39,7 @@ const result = {
   qaHooksRemaining: /qaCredits|qaState|qaCargoMax|qaHullMax|qaEngine|qaTrace/.test(sourceText),
   customCanvasMarker: sourceText.includes('__orbitalVisual'),
   customCanvasCalls: sourceText.includes('getContext('),
-  exportIndex: fs.existsSync(path.join(root, 'exports', 'core-pass05-final5', 'index.html')),
+  exportIndex: fs.existsSync(path.join(root, 'exports', 'core-pass05-final6', 'index.html')),
 };
 console.log(JSON.stringify(result, null, 2));
 if (!result.colorValid || result.unknownInstances.length || result.missingResources.length || result.qaHooksRemaining || result.customCanvasMarker || result.customCanvasCalls || !result.exportIndex) process.exitCode = 1;

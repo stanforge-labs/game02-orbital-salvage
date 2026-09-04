@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 const root = 'C:\\Yandex Games\\02 Orbital Salvage';
-const base = 'http://127.0.0.1:4181/index.html';
+const base = process.env.COREPASS05_BASE || 'http://127.0.0.1:4189/index.html';
 const shots = path.join(root, 'screenshots', 'CorePass05');
 const browserPath = 'C:\\Program Files\\Yandex\\YandexBrowser\\Application\\browser.exe';
 const errors = [];
@@ -118,8 +118,7 @@ function traceStats(trace) {
   await opened.page.keyboard.up('a');
   await opened.page.waitForTimeout(180);
   const horizontal = traceStats(await opened.page.evaluate(() => window.__osTrace || []));
-  fs.writeFileSync(path.join(root, 'docs', 'camera-trace-pass05.json'), JSON.stringify(horizontal.rows, null, 2));
-  fs.writeFileSync(path.join(root, 'docs', 'camera-trace-pass05.csv'), ['time,shipX,shipY,cameraX,cameraY,deltaCameraX,deltaCameraY', ...horizontal.rows.map((r) => [r.t, r.shipX, r.shipY, r.cameraX, r.cameraY, r.deltaCameraX, r.deltaCameraY].join(','))].join('\n') + '\n');
+  fs.writeFileSync(path.join(root, 'docs', 'camera-trace-pass05-horizontal-qa.json'), JSON.stringify(horizontal.rows, null, 2));
   await opened.context.close();
 
   // Dynamic vertical camera evidence.

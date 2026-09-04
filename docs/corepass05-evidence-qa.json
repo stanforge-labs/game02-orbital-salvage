@@ -1,0 +1,65 @@
+{
+  "errors": [],
+  "hull": {
+    "before": {
+      "state": "upgrades",
+      "credits": 150,
+      "cargo": 0,
+      "cargoMax": 8,
+      "hull": 3,
+      "hullMax": 3,
+      "engine": 0
+    },
+    "afterPurchase": {
+      "state": "upgrades",
+      "credits": 0,
+      "cargo": 0,
+      "cargoMax": 8,
+      "hull": 3,
+      "hullMax": 4,
+      "engine": 0
+    },
+    "afterNewRun": {
+      "state": "play",
+      "credits": 0,
+      "cargo": 0,
+      "cargoMax": 8,
+      "hull": 4,
+      "hullMax": 4,
+      "engine": 0
+    }
+  },
+  "newRun": {
+    "mouse": {
+      "state": "play",
+      "credits": 0,
+      "cargo": 0,
+      "cargoMax": 8,
+      "hull": 3,
+      "hullMax": 3,
+      "engine": 0
+    },
+    "touch": {
+      "state": "play",
+      "credits": 0,
+      "cargo": 0,
+      "cargoMax": 8,
+      "hull": 3,
+      "hullMax": 3,
+      "engine": 0
+    }
+  },
+  "cargoAfterNewRun": {
+    "state": "play",
+    "credits": 0,
+    "cargo": 0,
+    "cargoMax": 10,
+    "hull": 3,
+    "hullMax": 3,
+    "engine": 0
+  },
+  "portrait": {
+    "width": 720,
+    "height": 1280
+  }
+}
