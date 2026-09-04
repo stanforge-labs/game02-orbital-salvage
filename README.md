@@ -7,11 +7,11 @@
 ## Проект
 
 - GDevelop 5.6.281: game.json;
-- локальный экспорт: exports/core-playable/;
+- локальный экспорт: exports/release-polish06/;
 - рабочий путь: C:\Yandex Games\02 Orbital Salvage\.
 - репозиторий: https://github.com/stanforge-labs/game02-orbital-salvage;
-- текущий статус: первый сектор, русская версия, feature pass с миссиями,
-  дополнительными модулями и локальными rewarded-ad заглушками.
+- текущий статус: русская версия, первый сектор и открываемый сектор 2,
+  миссии, шесть улучшений и локальные rewarded-ad заглушки.
 
 ## Локальный запуск
 

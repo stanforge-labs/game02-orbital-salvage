@@ -277,6 +277,46 @@
         "metadata": "",
         "name": "assets/game/RussoOne-Regular.ttf",
         "userAdded": true
+      },
+      {
+        "file": "assets/game/ui_full_screen.svg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/game/ui_full_screen.svg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/game/ui_full_card.svg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/game/ui_full_card.svg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/game/ui_full_hud.svg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/game/ui_full_hud.svg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/game/ui_full_button.svg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/game/ui_full_button.svg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/game/ui_damage_flash.svg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/game/ui_damage_flash.svg",
+        "smoothed": true,
+        "userAdded": true
       }
     ]
   },
@@ -513,6 +553,30 @@
         {
           "name": "SecondChanceUsed",
           "persistentUuid": "910be356-aa90-45c3-a0e7-9112eb7770e9",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "SectorUnlocked",
+          "persistentUuid": "12b4d33b-4b10-4dfc-a5f0-4ad4722a7507",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "CurrentSector",
+          "persistentUuid": "7abd143d-cd31-4e66-ac42-ade117a518ad",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "name": "OnboardingSeen",
+          "persistentUuid": "184991b8-b6f2-4a1d-90c2-27a971263c7f",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "MissionBonusClaimed",
+          "persistentUuid": "70802c24-d953-4441-9ecd-ca1eae75f1d7",
           "type": "number",
           "value": 0
         }
@@ -1024,14 +1088,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 430,
+          "height": 620,
           "layer": "HUD",
           "locked": true,
           "name": "ResultPanel",
           "persistentUuid": "10000000-0000-4000-8000-000000000042",
           "width": 1120,
           "x": 400,
-          "y": 170,
+          "y": 140,
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
@@ -1047,7 +1111,7 @@
           "persistentUuid": "10000000-0000-4000-8000-000000000043",
           "width": 490,
           "x": 450,
-          "y": 500,
+          "y": 540,
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
@@ -1063,7 +1127,7 @@
           "persistentUuid": "10000000-0000-4000-8000-000000000044",
           "width": 490,
           "x": 980,
-          "y": 500,
+          "y": 540,
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
@@ -1120,14 +1184,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 80,
+          "height": 60,
           "layer": "HUD",
           "locked": true,
           "name": "UpgradeBackButtonBg",
           "persistentUuid": "10000000-0000-4000-8000-0000000000a2",
-          "width": 400,
-          "x": 760,
-          "y": 795,
+          "width": 450,
+          "x": 735,
+          "y": 900,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
@@ -1136,14 +1200,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 46,
+          "height": 38,
           "layer": "HUD",
           "locked": true,
           "name": "UpgradeBackText",
           "persistentUuid": "10000000-0000-4000-8000-0000000000a3",
-          "width": 400,
-          "x": 760,
-          "y": 832,
+          "width": 450,
+          "x": 735,
+          "y": 914,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
@@ -1296,14 +1360,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 350,
+          "height": 430,
           "layer": "HUD",
           "locked": true,
           "name": "RotatePanel",
           "persistentUuid": "10000000-0000-4000-8000-000000000085",
           "width": 520,
           "x": 35,
-          "y": 350,
+          "y": 325,
           "zOrder": 30,
           "numberProperties": [],
           "stringProperties": [],
@@ -1328,14 +1392,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 46,
+          "height": 72,
           "layer": "HUD",
           "locked": true,
           "name": "RotateTitle",
           "persistentUuid": "10000000-0000-4000-8000-000000000087",
-          "width": 520,
-          "x": 35,
-          "y": 485,
+          "width": 400,
+          "x": 95,
+          "y": 500,
           "zOrder": 31,
           "numberProperties": [],
           "stringProperties": [],
@@ -1344,14 +1408,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 60,
+          "height": 70,
           "layer": "HUD",
           "locked": true,
           "name": "RotateHint",
           "persistentUuid": "10000000-0000-4000-8000-000000000088",
-          "width": 480,
-          "x": 55,
-          "y": 560,
+          "width": 440,
+          "x": 75,
+          "y": 610,
           "zOrder": 31,
           "numberProperties": [],
           "stringProperties": [],
@@ -1360,14 +1424,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 900,
+          "height": 1020,
           "layer": "HUD",
           "locked": true,
           "name": "UpgradePanel",
           "persistentUuid": "10000000-0000-4000-8000-000000000090",
-          "width": 1720,
-          "x": 100,
-          "y": 55,
+          "width": 1800,
+          "x": 60,
+          "y": 28,
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
@@ -1376,14 +1440,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 76,
+          "height": 56,
           "layer": "HUD",
           "locked": true,
           "name": "UpgradeTitle",
           "persistentUuid": "10000000-0000-4000-8000-000000000091",
-          "width": 1520,
-          "x": 200,
-          "y": 150,
+          "width": 1320,
+          "x": 300,
+          "y": 82,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
@@ -1408,14 +1472,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 500,
+          "height": 340,
           "layer": "HUD",
           "locked": true,
           "name": "UpgradeCardBg",
           "persistentUuid": "10000000-0000-4000-8000-00000000009c",
-          "width": 360,
-          "x": 190,
-          "y": 220,
+          "width": 520,
+          "x": 140,
+          "y": 155,
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
@@ -1424,14 +1488,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 500,
+          "height": 340,
           "layer": "HUD",
           "locked": true,
           "name": "UpgradeCardBg",
           "persistentUuid": "10000000-0000-4000-8000-00000000009d",
-          "width": 360,
-          "x": 780,
-          "y": 220,
+          "width": 520,
+          "x": 700,
+          "y": 155,
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
@@ -1440,14 +1504,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 500,
+          "height": 340,
           "layer": "HUD",
           "locked": true,
           "name": "UpgradeCardBg",
           "persistentUuid": "10000000-0000-4000-8000-00000000009e",
-          "width": 360,
-          "x": 1370,
-          "y": 220,
+          "width": 520,
+          "x": 1260,
+          "y": 155,
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
@@ -1456,15 +1520,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 72,
+          "height": 70,
           "layer": "HUD",
           "locked": true,
           "name": "UpgradeButtonBg",
           "persistentUuid": "10000000-0000-4000-8000-000000000093",
-          "width": 320,
-          "x": 210,
-          "y": 625,
-          "zOrder": 20,
+          "width": 450,
+          "x": 175,
+          "y": 420,
+          "zOrder": 24,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1472,15 +1536,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 72,
+          "height": 70,
           "layer": "HUD",
           "locked": true,
           "name": "UpgradeButtonBg",
           "persistentUuid": "10000000-0000-4000-8000-000000000095",
-          "width": 320,
-          "x": 800,
-          "y": 625,
-          "zOrder": 20,
+          "width": 450,
+          "x": 735,
+          "y": 420,
+          "zOrder": 24,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1488,15 +1552,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 72,
+          "height": 70,
           "layer": "HUD",
           "locked": true,
           "name": "UpgradeButtonBg",
           "persistentUuid": "10000000-0000-4000-8000-000000000096",
-          "width": 320,
-          "x": 1390,
-          "y": 625,
-          "zOrder": 20,
+          "width": 450,
+          "x": 1295,
+          "y": 420,
+          "zOrder": 24,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1504,15 +1568,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 46,
+          "height": 38,
           "layer": "HUD",
           "locked": true,
           "name": "UpgradeButtonText",
           "persistentUuid": "10000000-0000-4000-8000-000000000094",
-          "width": 320,
-          "x": 210,
-          "y": 680,
-          "zOrder": 22,
+          "width": 450,
+          "x": 175,
+          "y": 438,
+          "zOrder": 25,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1520,15 +1584,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 46,
+          "height": 38,
           "layer": "HUD",
           "locked": true,
           "name": "UpgradeButtonText",
           "persistentUuid": "10000000-0000-4000-8000-000000000097",
-          "width": 320,
-          "x": 800,
-          "y": 680,
-          "zOrder": 22,
+          "width": 450,
+          "x": 735,
+          "y": 438,
+          "zOrder": 25,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1536,15 +1600,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 46,
+          "height": 38,
           "layer": "HUD",
           "locked": true,
           "name": "UpgradeButtonText",
           "persistentUuid": "10000000-0000-4000-8000-000000000098",
-          "width": 320,
-          "x": 1390,
-          "y": 680,
-          "zOrder": 22,
+          "width": 450,
+          "x": 1295,
+          "y": 438,
+          "zOrder": 25,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1552,14 +1616,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 260,
+          "height": 180,
           "layer": "HUD",
           "locked": true,
           "name": "UpgradeCardText",
           "persistentUuid": "10000000-0000-4000-8000-000000000099",
-          "width": 320,
-          "x": 210,
-          "y": 360,
+          "width": 480,
+          "x": 160,
+          "y": 270,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
@@ -1568,14 +1632,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 260,
+          "height": 180,
           "layer": "HUD",
           "locked": true,
           "name": "UpgradeCardText",
           "persistentUuid": "10000000-0000-4000-8000-00000000009a",
-          "width": 320,
-          "x": 800,
-          "y": 360,
+          "width": 480,
+          "x": 720,
+          "y": 270,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
@@ -1584,14 +1648,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 260,
+          "height": 180,
           "layer": "HUD",
           "locked": true,
           "name": "UpgradeCardText",
           "persistentUuid": "10000000-0000-4000-8000-00000000009b",
-          "width": 320,
-          "x": 1390,
-          "y": 360,
+          "width": 480,
+          "x": 1280,
+          "y": 270,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
@@ -1616,14 +1680,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 76,
+          "height": 70,
           "layer": "HUD",
           "locked": true,
           "name": "ResultTitle",
           "persistentUuid": "10000000-0000-4000-8000-000000000080",
           "width": 920,
           "x": 500,
-          "y": 215,
+          "y": 185,
           "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
@@ -1639,7 +1703,7 @@
           "persistentUuid": "10000000-0000-4000-8000-000000000081",
           "width": 740,
           "x": 590,
-          "y": 320,
+          "y": 290,
           "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
@@ -1648,14 +1712,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 46,
+          "height": 42,
           "layer": "HUD",
           "locked": true,
           "name": "ResultText",
           "persistentUuid": "10000000-0000-4000-8000-000000000082",
           "width": 490,
           "x": 450,
-          "y": 550,
+          "y": 565,
           "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
@@ -1664,14 +1728,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 46,
+          "height": 42,
           "layer": "HUD",
           "locked": true,
           "name": "ResultText",
           "persistentUuid": "10000000-0000-4000-8000-000000000083",
           "width": 490,
           "x": 980,
-          "y": 550,
+          "y": 565,
           "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
@@ -1680,14 +1744,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 132,
+          "height": 150,
           "layer": "HUD",
           "locked": true,
           "name": "MissionPanel",
           "persistentUuid": "1adb9a5c-1e83-486e-9536-787928729fb8",
           "width": 620,
           "x": 650,
-          "y": 40,
+          "y": 25,
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
@@ -1696,14 +1760,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 58,
+          "height": 86,
           "layer": "HUD",
           "locked": true,
           "name": "MissionText",
           "persistentUuid": "d589eee1-9013-42b9-a13e-5c3b0be667cf",
-          "width": 536,
-          "x": 692,
-          "y": 86,
+          "width": 560,
+          "x": 680,
+          "y": 78,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
@@ -1712,14 +1776,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 44,
+          "height": 70,
           "layer": "HUD",
           "locked": true,
           "name": "TechText",
           "persistentUuid": "9f1be24f-9bf2-448d-accd-2b9b00893300",
-          "width": 170,
-          "x": 1410,
-          "y": 103,
+          "width": 260,
+          "x": 1280,
+          "y": 82,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
@@ -1735,7 +1799,7 @@
           "persistentUuid": "90c24b75-a8cf-4629-bc42-7f04aa557c14",
           "width": 400,
           "x": 760,
-          "y": 405,
+          "y": 455,
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
@@ -1744,14 +1808,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 46,
+          "height": 40,
           "layer": "HUD",
           "locked": true,
           "name": "RewardButtonText",
           "persistentUuid": "54ba46a8-6cae-4f5c-bce9-1b0f7b2d59b2",
           "width": 400,
           "x": 760,
-          "y": 444,
+          "y": 468,
           "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
@@ -1760,15 +1824,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 64,
+          "height": 62,
           "layer": "HUD",
           "locked": true,
           "name": "SystemButtonBg",
           "persistentUuid": "e160f890-1f8b-4f16-918a-c85cdd80241a",
-          "width": 320,
-          "x": 210,
-          "y": 720,
-          "zOrder": 20,
+          "width": 450,
+          "x": 175,
+          "y": 790,
+          "zOrder": 24,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1781,10 +1845,10 @@
           "locked": true,
           "name": "SystemButtonText",
           "persistentUuid": "8b2a72ad-60d5-416c-8975-e42347b7af8f",
-          "width": 320,
-          "x": 210,
-          "y": 746,
-          "zOrder": 23,
+          "width": 450,
+          "x": 175,
+          "y": 805,
+          "zOrder": 25,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1792,15 +1856,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 64,
+          "height": 62,
           "layer": "HUD",
           "locked": true,
           "name": "SystemButtonBg",
           "persistentUuid": "9efa3634-a58b-4109-97d5-9398af79cd8f",
-          "width": 320,
-          "x": 800,
-          "y": 720,
-          "zOrder": 20,
+          "width": 450,
+          "x": 735,
+          "y": 790,
+          "zOrder": 24,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1813,10 +1877,10 @@
           "locked": true,
           "name": "SystemButtonText",
           "persistentUuid": "05596734-48ee-4e9a-8aaf-70d5596fa993",
-          "width": 320,
-          "x": 800,
-          "y": 746,
-          "zOrder": 23,
+          "width": 450,
+          "x": 735,
+          "y": 805,
+          "zOrder": 25,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1824,15 +1888,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 64,
+          "height": 62,
           "layer": "HUD",
           "locked": true,
           "name": "SystemButtonBg",
           "persistentUuid": "34afa0e5-92e5-4f74-979e-3d1c54214159",
-          "width": 320,
-          "x": 1390,
-          "y": 720,
-          "zOrder": 20,
+          "width": 450,
+          "x": 1295,
+          "y": 790,
+          "zOrder": 24,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1845,10 +1909,10 @@
           "locked": true,
           "name": "SystemButtonText",
           "persistentUuid": "1162c68e-f070-40f7-be71-4a16d5438038",
-          "width": 320,
-          "x": 1390,
-          "y": 746,
-          "zOrder": 23,
+          "width": 450,
+          "x": 1295,
+          "y": 805,
+          "zOrder": 25,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1861,9 +1925,9 @@
           "locked": true,
           "name": "ResetButtonBg",
           "persistentUuid": "8f6d4c6a-b30c-4c12-87f4-856de5b4c833",
-          "width": 320,
-          "x": 210,
-          "y": 815,
+          "width": 450,
+          "x": 175,
+          "y": 900,
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
@@ -1872,14 +1936,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 34,
+          "height": 38,
           "layer": "HUD",
           "locked": true,
           "name": "ResetButtonText",
           "persistentUuid": "379daba0-fc78-4cf0-b535-f07f9a5ff581",
-          "width": 320,
-          "x": 210,
-          "y": 838,
+          "width": 450,
+          "x": 175,
+          "y": 914,
           "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
@@ -1888,14 +1952,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 60,
+          "height": 64,
           "layer": "HUD",
           "locked": true,
           "name": "RerollButtonBg",
           "persistentUuid": "6707dd75-7f93-4042-b83a-d3a245d8d86f",
-          "width": 230,
-          "x": 1590,
-          "y": 95,
+          "width": 270,
+          "x": 1550,
+          "y": 92,
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
@@ -1904,14 +1968,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 34,
+          "height": 38,
           "layer": "HUD",
           "locked": true,
           "name": "RerollButtonText",
           "persistentUuid": "254fd9a4-79a2-4d81-b23e-63243ef2bd7a",
-          "width": 230,
-          "x": 1590,
-          "y": 115,
+          "width": 270,
+          "x": 1550,
+          "y": 105,
           "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
@@ -1925,10 +1989,410 @@
           "locked": true,
           "name": "UpgradeNotice",
           "persistentUuid": "0d411066-d51b-4db2-9c24-41e5138104a7",
-          "width": 800,
-          "x": 560,
-          "y": 188,
+          "width": 880,
+          "x": 520,
+          "y": 145,
           "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 340,
+          "layer": "HUD",
+          "locked": true,
+          "name": "UpgradeCardBg",
+          "persistentUuid": "e93c4af8-0f80-4ec4-a14e-5b5f7541100d",
+          "width": 520,
+          "x": 140,
+          "y": 530,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 340,
+          "layer": "HUD",
+          "locked": true,
+          "name": "UpgradeCardBg",
+          "persistentUuid": "51dbd4c9-108f-4b61-93ec-3e35f77b0a0c",
+          "width": 520,
+          "x": 700,
+          "y": 530,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 340,
+          "layer": "HUD",
+          "locked": true,
+          "name": "UpgradeCardBg",
+          "persistentUuid": "de82a005-e6b4-4b85-8580-192afcf09542",
+          "width": 520,
+          "x": 1260,
+          "y": 530,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 180,
+          "layer": "HUD",
+          "locked": true,
+          "name": "UpgradeCardText",
+          "persistentUuid": "879f862a-4d27-4c4d-b475-37b077cec5e4",
+          "width": 480,
+          "x": 160,
+          "y": 645,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 180,
+          "layer": "HUD",
+          "locked": true,
+          "name": "UpgradeCardText",
+          "persistentUuid": "701c393d-11b6-41dc-8d7a-a448fec76323",
+          "width": 480,
+          "x": 720,
+          "y": 645,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 180,
+          "layer": "HUD",
+          "locked": true,
+          "name": "UpgradeCardText",
+          "persistentUuid": "8ce06fd6-a25e-413d-bd43-dd5ce26b0e99",
+          "width": 480,
+          "x": 1280,
+          "y": 645,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 68,
+          "layer": "HUD",
+          "locked": true,
+          "name": "ResultSectorButtonBg",
+          "persistentUuid": "b19b11b8-9abb-4452-a075-96db3e0936c3",
+          "width": 400,
+          "x": 760,
+          "y": 635,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 38,
+          "layer": "HUD",
+          "locked": true,
+          "name": "ResultSectorButtonText",
+          "persistentUuid": "0d9ad94b-817f-4613-9ea2-cffc9c92d769",
+          "width": 400,
+          "x": 760,
+          "y": 650,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 910,
+          "layer": "HUD",
+          "locked": true,
+          "name": "SectorSelectPanel",
+          "persistentUuid": "973889fb-de99-4d69-8694-ed15f0ab9de9",
+          "width": 1560,
+          "x": 180,
+          "y": 85,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 60,
+          "layer": "HUD",
+          "locked": true,
+          "name": "SectorSelectTitle",
+          "persistentUuid": "2f0da530-4183-4107-98e6-2bd103b6a6ca",
+          "width": 1080,
+          "x": 420,
+          "y": 190,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 260,
+          "layer": "HUD",
+          "locked": true,
+          "name": "SectorSelectText",
+          "persistentUuid": "d46fea2b-7ec3-454c-a9bd-31e5ad120d7f",
+          "width": 520,
+          "x": 350,
+          "y": 350,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 260,
+          "layer": "HUD",
+          "locked": true,
+          "name": "SectorSelectText",
+          "persistentUuid": "e2f252f8-7944-48c0-8d29-96d7d240f3fa",
+          "width": 520,
+          "x": 1050,
+          "y": 350,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 78,
+          "layer": "HUD",
+          "locked": true,
+          "name": "SectorSelectButtonBg",
+          "persistentUuid": "e0fe55e6-d738-48f9-9c17-9d833714f45c",
+          "width": 460,
+          "x": 380,
+          "y": 620,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 78,
+          "layer": "HUD",
+          "locked": true,
+          "name": "SectorSelectButtonBg",
+          "persistentUuid": "c19fc50d-5540-4575-b7fa-142b9174824b",
+          "width": 460,
+          "x": 1060,
+          "y": 620,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 42,
+          "layer": "HUD",
+          "locked": true,
+          "name": "SectorSelectButtonText",
+          "persistentUuid": "6356b085-5740-41c1-b005-b944841d8cc9",
+          "width": 460,
+          "x": 380,
+          "y": 640,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 42,
+          "layer": "HUD",
+          "locked": true,
+          "name": "SectorSelectButtonText",
+          "persistentUuid": "8562b531-31b9-4ebc-bd4c-d040507eb15c",
+          "width": 460,
+          "x": 1060,
+          "y": 640,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 70,
+          "layer": "HUD",
+          "locked": true,
+          "name": "SectorSelectHint",
+          "persistentUuid": "0f0d4347-ed69-40e5-8564-ea6ce46fc119",
+          "width": 1080,
+          "x": 420,
+          "y": 260,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "HUD",
+          "locked": true,
+          "name": "OnboardingText",
+          "persistentUuid": "05b84272-0f91-456b-83a4-36e4710970be",
+          "width": 560,
+          "x": 60,
+          "y": 850,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1080,
+          "layer": "HUD",
+          "locked": true,
+          "name": "DamageFlash",
+          "persistentUuid": "72c9986a-81d4-4bd9-a376-4463541b70ad",
+          "width": 1920,
+          "x": 0,
+          "y": 0,
+          "zOrder": 80,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 92,
+          "layer": "World",
+          "locked": true,
+          "name": "RareContainer",
+          "persistentUuid": "587c1f6d-0f41-40b5-9eda-4606b040e7b5",
+          "width": 92,
+          "x": 1600,
+          "y": 390,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 92,
+          "layer": "World",
+          "locked": true,
+          "name": "RareContainer",
+          "persistentUuid": "84856436-c15d-473e-b6d6-2f116a83f0e1",
+          "width": 92,
+          "x": 1750,
+          "y": 960,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 520,
+          "layer": "World",
+          "locked": true,
+          "name": "Sector2Band",
+          "persistentUuid": "7f5b70f3-bdda-4ab4-afa9-cfadb9264f76",
+          "width": 760,
+          "x": 920,
+          "y": 170,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 52,
+          "layer": "World",
+          "locked": true,
+          "name": "Sector2Label",
+          "persistentUuid": "a77e8546-b685-488b-beec-54844557ec12",
+          "width": 520,
+          "x": 1180,
+          "y": 190,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 72,
+          "layer": "HUD",
+          "locked": true,
+          "name": "SectorSelectBackBg",
+          "persistentUuid": "51574983-3e2d-477e-a04f-66ad99a8c60c",
+          "width": 450,
+          "x": 735,
+          "y": 790,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 38,
+          "layer": "HUD",
+          "locked": true,
+          "name": "SectorSelectBackText",
+          "persistentUuid": "730c4001-c966-49dc-ba8d-0119b89c208c",
+          "width": 450,
+          "x": 735,
+          "y": 808,
+          "zOrder": 35,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2140,7 +2604,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets/game/ui_panel.png",
+                      "image": "assets/game/ui_full_screen.svg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2222,7 +2686,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets/game/ui_card.png",
+                      "image": "assets/game/ui_full_card.svg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2263,7 +2727,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets/game/ui_hud_panel.png",
+                      "image": "assets/game/ui_full_hud.svg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2304,7 +2768,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets/game/ui_menu_panel.png",
+                      "image": "assets/game/ui_full_screen.svg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2345,7 +2809,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets/game/ui_button.png",
+                      "image": "assets/game/ui_full_button.svg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2429,7 +2893,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets/game/ui_button.png",
+                      "image": "assets/game/ui_full_button.svg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3001,7 +3465,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets/game/ui_menu_panel.png",
+                      "image": "assets/game/ui_full_screen.svg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3042,7 +3506,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets/game/ui_button.png",
+                      "image": "assets/game/ui_full_button.svg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3083,7 +3547,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets/game/ui_result_panel.png",
+                      "image": "assets/game/ui_full_screen.svg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3124,7 +3588,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets/game/ui_button.png",
+                      "image": "assets/game/ui_full_button.svg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4154,7 +4618,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets/game/ui_hud_panel.png",
+                      "image": "assets/game/ui_full_card.svg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4188,8 +4652,8 @@
           "behaviors": [],
           "string": "ЗАДАНИЕ",
           "font": "assets/game/RussoOne-Regular.ttf",
-          "textAlignment": "left",
-          "characterSize": 18,
+          "textAlignment": "center",
+          "characterSize": 16,
           "color": {
             "b": 217,
             "g": 238,
@@ -4211,10 +4675,10 @@
             "underlined": false,
             "text": "ЗАДАНИЕ",
             "font": "assets/game/RussoOne-Regular.ttf",
-            "textAlignment": "left",
+            "textAlignment": "center",
             "verticalTextAlignment": "center",
-            "characterSize": 18,
-            "lineHeight": 4,
+            "characterSize": 16,
+            "lineHeight": 0,
             "color": "238;238;217"
           }
         },
@@ -4229,7 +4693,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "ТЕХНОДЕТАЛИ  0",
+          "string": "ТЕХНОДЕТАЛИ\n🔧 0",
           "font": "assets/game/RussoOne-Regular.ttf",
           "textAlignment": "right",
           "characterSize": 18,
@@ -4252,7 +4716,7 @@
             "shadowOpacity": 127,
             "smoothed": false,
             "underlined": false,
-            "text": "ТЕХНОДЕТАЛИ  0",
+            "text": "ТЕХНОДЕТАЛИ\n🔧 0",
             "font": "assets/game/RussoOne-Regular.ttf",
             "textAlignment": "right",
             "verticalTextAlignment": "center",
@@ -4281,7 +4745,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets/game/ui_button.png",
+                      "image": "assets/game/ui_full_button.svg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4365,7 +4829,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets/game/ui_button.png",
+                      "image": "assets/game/ui_full_button.svg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4449,7 +4913,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets/game/ui_button.png",
+                      "image": "assets/game/ui_full_button.svg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4532,7 +4996,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets/game/ui_button.png",
+                      "image": "assets/game/ui_full_button.svg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4636,6 +5100,595 @@
             "characterSize": 18,
             "lineHeight": 0,
             "color": "255;222;236"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "DamageFlash",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/game/ui_damage_flash.svg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "OnboardingText",
+          "smoothed": false,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "WASD / СТРЕЛКИ — ДВИЖЕНИЕ\nСОБИРАЙТЕ ЛОМ\nВОЗВРАЩАЙТЕСЬ НА СТАНЦИЮ",
+          "font": "assets/game/RussoOne-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 18,
+          "color": {
+            "b": 217,
+            "g": 238,
+            "r": 238
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": false,
+            "underlined": false,
+            "text": "WASD / СТРЕЛКИ — ДВИЖЕНИЕ",
+            "font": "assets/game/RussoOne-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "center",
+            "characterSize": 18,
+            "lineHeight": 0,
+            "color": "238;238;217"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "SectorSelectPanel",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/game/ui_full_screen.svg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "SectorSelectTitle",
+          "smoothed": false,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "ВЫБЕРИТЕ СЕКТОР",
+          "font": "assets/game/RussoOne-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 42,
+          "color": {
+            "b": 223,
+            "g": 240,
+            "r": 238
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": false,
+            "underlined": false,
+            "text": "ВЫБЕРИТЕ СЕКТОР",
+            "font": "assets/game/RussoOne-Regular.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "center",
+            "characterSize": 42,
+            "lineHeight": 0,
+            "color": "238;240;223"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "SectorSelectText",
+          "smoothed": false,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "ТРЮМ\n8 → 10\n100 КРЕДИТОВ",
+          "font": "assets/game/RussoOne-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 22,
+          "color": {
+            "b": 220,
+            "g": 236,
+            "r": 231
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": false,
+            "underlined": false,
+            "text": "ТРЮМ\n8 → 10\n100 КРЕДИТОВ",
+            "font": "assets/game/RussoOne-Regular.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "center",
+            "characterSize": 22,
+            "lineHeight": 0,
+            "color": "231;236;220"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "SectorSelectButtonBg",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/game/ui_full_button.svg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "SectorSelectButtonText",
+          "smoothed": false,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "ПОКАЗАТЬ УЛУЧШЕНИЯ",
+          "font": "assets/game/RussoOne-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 22,
+          "color": {
+            "b": 255,
+            "g": 250,
+            "r": 239
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": false,
+            "underlined": false,
+            "text": "ПОКАЗАТЬ УЛУЧШЕНИЯ",
+            "font": "assets/game/RussoOne-Regular.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "center",
+            "characterSize": 22,
+            "lineHeight": 0,
+            "color": "239;250;255"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "SectorSelectHint",
+          "smoothed": false,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Выберите маршрут вылета",
+          "font": "assets/game/RussoOne-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 18,
+          "color": {
+            "b": 217,
+            "g": 238,
+            "r": 238
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": false,
+            "underlined": false,
+            "text": "Выберите маршрут вылета",
+            "font": "assets/game/RussoOne-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "center",
+            "characterSize": 18,
+            "lineHeight": 4,
+            "color": "238;238;217"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "ResultSectorButtonBg",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/game/ui_full_button.svg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "ResultSectorButtonText",
+          "smoothed": false,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "СЛЕДУЮЩИЙ ВЫЛЕТ",
+          "font": "assets/game/RussoOne-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 20,
+          "color": {
+            "b": 255,
+            "g": 250,
+            "r": 239
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": false,
+            "underlined": false,
+            "text": "СЛЕДУЮЩИЙ ВЫЛЕТ",
+            "font": "assets/game/RussoOne-Regular.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "center",
+            "characterSize": 20,
+            "lineHeight": 0,
+            "color": "239;250;255"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Sector2Band",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/game/debris_field.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "Sector2Label",
+          "smoothed": false,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "ПОЯС ОБЛОМКОВ",
+          "font": "assets/game/RussoOne-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 13,
+          "color": {
+            "b": 112,
+            "g": 167,
+            "r": 255
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": false,
+            "underlined": false,
+            "text": "ПОЯС ОБЛОМКОВ",
+            "font": "assets/game/RussoOne-Regular.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "center",
+            "characterSize": 13,
+            "lineHeight": 0,
+            "color": "255;167;112"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "SectorSelectBackBg",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/game/ui_full_button.svg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "SectorSelectBackText",
+          "smoothed": false,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "НОВЫЙ ВЫЛЕТ",
+          "font": "assets/game/RussoOne-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 22,
+          "color": {
+            "b": 255,
+            "g": 250,
+            "r": 239
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "underlined": false,
+            "text": "НОВЫЙ ВЫЛЕТ",
+            "font": "assets/game/RussoOne-Regular.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "center",
+            "characterSize": 22,
+            "lineHeight": 0,
+            "color": "239;250;255"
           }
         }
       ],
@@ -4786,7 +5839,7 @@
         {
           "type": "BuiltinCommonInstructions::JsCode",
           "inlineCode": [
-            "const v=runtimeScene.getVariables();\nconst get=(n)=>v.get(n);\nif(!runtimeScene.__osInit){\n  runtimeScene.__osInit=true;\n  runtimeScene.__os={x:327,y:677,vx:0,vy:0,angle:0,inv:0,toast:0,phase:0,zoneTick:0,rewardBusy:false,pointer:null};\n  runtimeScene.__osCam={x:480,y:677};\n  gdjs.evtTools.camera.setCameraZoom(runtimeScene,2,'World',0);\n  const defaults={Credits:0,TechParts:0,CargoMax:8,HullMax:3,Hull:3,EngineLevel:0,MagnetLevel:0,RadarLevel:0,InsuranceLevel:0,RunCount:0,RerollCount:0,ResetCount:0,DoubleRewardUsed:0,SecondChanceUsed:0};\n  Object.keys(defaults).forEach((n)=>get(n).setNumber(defaults[n]));\n  get('GameState').setString('menu');\n  try{const raw=typeof localStorage!=='undefined'?localStorage.getItem('orbitalSalvageSave'):null;if(raw){const saved=JSON.parse(raw);Object.keys(defaults).forEach((n)=>{if(Number.isFinite(Number(saved[n])))get(n).setNumber(Number(saved[n]));});}}catch(e){console.error('Не удалось прочитать локальное сохранение',e);}\n  runtimeScene.__osSave=()=>{try{if(typeof localStorage!=='undefined')localStorage.setItem('orbitalSalvageSave',JSON.stringify({Credits:get('Credits').getAsNumber(),TechParts:get('TechParts').getAsNumber(),CargoMax:get('CargoMax').getAsNumber(),HullMax:get('HullMax').getAsNumber(),Hull:get('Hull').getAsNumber(),EngineLevel:get('EngineLevel').getAsNumber(),MagnetLevel:get('MagnetLevel').getAsNumber(),RadarLevel:get('RadarLevel').getAsNumber(),InsuranceLevel:get('InsuranceLevel').getAsNumber(),RunCount:get('RunCount').getAsNumber(),RerollCount:get('RerollCount').getAsNumber(),ResetCount:get('ResetCount').getAsNumber()}));}catch(e){console.error('Не удалось сохранить прогресс',e);}};\n  runtimeScene.__osMission=()=>{const n=get('RunCount').getAsNumber()%3;if(n===0){get('Mission').setString('СОБЕРИТЕ 5 ЕД. МЕТАЛЛОЛОМА');get('MissionType').setString('scrap');get('MissionTarget').setNumber(5);get('MissionReward').setNumber(30);}else if(n===1){get('Mission').setString('ДОСТАВЬТЕ РЕДКИЙ КОНТЕЙНЕР');get('MissionType').setString('container');get('MissionTarget').setNumber(1);get('MissionReward').setNumber(50);}else{get('Mission').setString('ВЕРНИТЕСЬ БЕЗ УРОНА');get('MissionType').setString('nodamage');get('MissionTarget').setNumber(1);get('MissionReward').setNumber(40);}get('MissionProgress').setNumber(0);};\n  runtimeScene.__osReward=(kind)=>{const s=runtimeScene.__os;if(s.rewardBusy)return;s.rewardBusy=true;const done=(ok)=>{s.rewardBusy=false;if(!ok){get('Status').setString('РЕКЛАМА НЕДОСТУПНА');s.toast=2;return;}if(kind==='double'&&get('DoubleRewardUsed').getAsNumber()===0){const value=get('DeliveredValue').getAsNumber();get('Credits').setNumber(get('Credits').getAsNumber()+value);get('DoubleRewardUsed').setNumber(1);get('Status').setString('НАГРАДА УДВОЕНА');s.toast=2;runtimeScene.__osSave();}else if(kind==='second'&&get('SecondChanceUsed').getAsNumber()===0){get('SecondChanceUsed').setNumber(1);get('Hull').setNumber(1);get('GameState').setString('play');s.x=327;s.y=677;s.vx=0;s.vy=0;s.inv=1.2;get('Status').setString('ВТОРОЙ ШАНС');s.toast=2;}else if(kind==='reroll'){get('RerollCount').setNumber(get('RerollCount').getAsNumber()+1);get('TechParts').setNumber(Math.max(0,get('TechParts').getAsNumber()-1));get('Status').setString('ПУЛ УЛУЧШЕНИЙ ОБНОВЛЁН');s.toast=2;runtimeScene.__osSave();}};if(typeof window!=='undefined'&&window.__osYandex&&typeof window.__osYandex.showRewarded==='function')window.__osYandex.showRewarded(kind).then(done).catch(()=>done(false));else if(typeof location!=='undefined'&&(location.hostname==='localhost'||location.hostname==='127.0.0.1'))done(true);else{console.error('Рекламный SDK недоступен на production host');done(false);}};\n  if(!runtimeScene.__osPointerBound&&typeof document!=='undefined'){\n    runtimeScene.__osPointerBound=true;\n    const pointer=(event)=>{const canvas=document.querySelector('canvas');if(!canvas)return;const rect=canvas.getBoundingClientRect();if(rect.width<=0||rect.height<=0)return;const point={x:(event.clientX-rect.left)*1920/rect.width,y:(event.clientY-rect.top)*1080/rect.height};runtimeScene.__osPointer={x:point.x,y:point.y,active:event.type!=='pointerup'&&event.type!=='pointercancel'};if(event.type==='pointerup')runtimeScene.__osPendingClick=point;};\n    document.addEventListener('pointerdown',pointer,{passive:true});document.addEventListener('pointermove',pointer,{passive:true});document.addEventListener('pointerup',pointer,{passive:true});document.addEventListener('pointercancel',pointer,{passive:true});\n  }\n}\nconst im=runtimeScene.getGame().getInputManager();\nconst keyStart=im.wasKeyJustPressed(32)||im.wasKeyJustPressed(13);\nlet st=get('GameState').getAsString();if(typeof location!=='undefined'&&location.search.indexOf('traceCamera')>=0)window.__osQAState={state:st,hull:get('Hull').getAsNumber(),hullMax:get('HullMax').getAsNumber(),x:runtimeScene.__os&&runtimeScene.__os.x,y:runtimeScene.__os&&runtimeScene.__os.y};\nconst iw=typeof window!=='undefined'?(window.visualViewport?window.visualViewport.width:window.innerWidth):960;\nconst ih=typeof window!=='undefined'?(window.visualViewport?window.visualViewport.height:window.innerHeight):540;\nconst portrait=ih>iw*1.08;\nif(portrait&&st!=='rotate'){runtimeScene.__osResume=st;get('GameState').setString('rotate');st='rotate';}\nelse if(!portrait&&st==='rotate'){get('GameState').setString(runtimeScene.__osResume||'menu');st=get('GameState').getAsString();}\nconst hide=(n)=>runtimeScene.getObjects(n).forEach((o)=>o.hide());\nconst show=(n)=>runtimeScene.getObjects(n).forEach((o)=>o.hide(false));\nconst menu=['MenuPanel','ButtonBg','Title','MenuDescription','PlayText','MenuHint'];\nconst hud=['HudPanel','CargoText','CreditsText','HullText','SectorText','ObjectiveText','StatusText','NavMarker','MissionPanel','MissionText'];\nconst world=['FieldZone','DangerZone','Station','StationGlow','StationLabel','RiskLabel','Ship','Exhaust','CommonSalvage','RareContainer','Debris','FastDebris'];\nconst res=['ResultPanel','ResultButtonBg','ResultTitle','ResultStats','ResultText','RewardButtonBg','RewardButtonText'];\nconst upg=['UpgradePanel','UpgradeTitle','UpgradeStats','UpgradeNotice','UpgradeCardBg','UpgradeButtonBg','UpgradeButtonText','UpgradeCardText','UpgradeBackButtonBg','UpgradeBackText','SystemButtonBg','SystemButtonText','ResetButtonBg','ResetButtonText','RerollButtonBg','RerollButtonText','TechText'];\nconst rot=['RotatePanel','RotateDevice','RotateTitle','RotateHint'];\n['Background','Haze'].forEach(show);menu.concat(hud,world,res,upg,rot,['FieldLabel','DangerLabel']).forEach(hide);\nif(st==='menu'){menu.forEach(show);}\nelse if(st==='play'){hud.concat(world).forEach(show);runtimeScene.getObjects('FieldLabel').forEach((o)=>o.hide(false));runtimeScene.getObjects('DangerLabel').forEach((o)=>o.hide(false));if(window.__osYandex&&window.__osYandex.gameplayStart)window.__osYandex.gameplayStart();}\nelse if(st==='result'||st==='fail'){res.forEach(show);if(window.__osYandex&&window.__osYandex.gameplayStop)window.__osYandex.gameplayStop();}\nelse if(st==='upgrades'){upg.forEach(show);if(window.__osYandex&&window.__osYandex.gameplayStop)window.__osYandex.gameplayStop();}\nelse if(st==='rotate'){rot.forEach(show);if(window.__osYandex&&window.__osYandex.gameplayStop)window.__osYandex.gameplayStop();}\nconst reset=()=>{get('GameState').setString('play');get('Cargo').setNumber(0);get('CargoValue').setNumber(0);get('ScrapCount').setNumber(0);get('ContainerCount').setNumber(0);get('Hull').setNumber(get('HullMax').getAsNumber());get('RunTime').setNumber(0);get('RunDamage').setNumber(0);get('MissionProgress').setNumber(0);get('DoubleRewardUsed').setNumber(0);get('SecondChanceUsed').setNumber(0);get('RunCount').setNumber(get('RunCount').getAsNumber()+1);runtimeScene.__os={x:327,y:677,vx:0,vy:0,angle:0,inv:0,toast:0,phase:0,zoneTick:0,rewardBusy:false,pointer:runtimeScene.__osPointer||null};runtimeScene.__osCam={x:480,y:677};runtimeScene.__osMission();gdjs.evtTools.camera.setCameraZoom(runtimeScene,2,'World',0);runtimeScene.getObjects('CommonSalvage').forEach((o)=>{o.hide(false);o.getVariables().get('Taken').setBoolean(false);});runtimeScene.getObjects('RareContainer').forEach((o)=>{o.hide(false);o.getVariables().get('Taken').setBoolean(false);});runtimeScene.__osSave();};\nconst uiClick=runtimeScene.__osPendingClick;runtimeScene.__osPendingClick=null;const release=!!uiClick;const cx=uiClick?uiClick.x:gdjs.evtTools.input.getCursorX(runtimeScene,'HUD',0),cy=uiClick?uiClick.y:gdjs.evtTools.input.getCursorY(runtimeScene,'HUD',0);\nif(st==='menu'&&((keyStart)||(release&&cx>=700&&cx<=1220&&cy>=630&&cy<=780)))reset();\nif(st==='result'&&release){if(cy>=400&&cy<=490&&cx>=740&&cx<=1180)runtimeScene.__osReward('double');else if(cy>=490&&cy<=600){if(cx<960)get('GameState').setString('upgrades');else reset();}}\nif(st==='fail'&&release){if(cy>=400&&cy<=490&&cx>=740&&cx<=1180)runtimeScene.__osReward('second');else if(cy>=490&&cy<=600)reset();}\nif(st==='upgrades'&&release){\n  if(cx>=760&&cx<=1160&&cy>=795&&cy<=885)reset();\n  else if(cx>=210&&cx<=530&&cy>=625&&cy<=697){const cr=get('Credits').getAsNumber(),done=get('CargoMax').getAsNumber()>=10;if(done)get('Status').setString('ТРЮМ УЖЕ УЛУЧШЕН');else if(cr<100)get('Status').setString('НЕДОСТАТОЧНО КРЕДИТОВ: НУЖНО ЕЩЁ '+(100-cr));else{get('Credits').setNumber(cr-100);get('CargoMax').setNumber(10);get('Status').setString('ТРЮМ УЛУЧШЕН');}runtimeScene.__osSave();runtimeScene.__os.toast=3;}\n  else if(cx>=800&&cx<=1120&&cy>=625&&cy<=697){const cr=get('Credits').getAsNumber(),done=get('EngineLevel').getAsNumber()>=1;if(done)get('Status').setString('ДВИГАТЕЛЬ УЖЕ УЛУЧШЕН');else if(cr<120)get('Status').setString('НЕДОСТАТОЧНО КРЕДИТОВ: НУЖНО ЕЩЁ '+(120-cr));else{get('Credits').setNumber(cr-120);get('EngineLevel').setNumber(1);get('Status').setString('ДВИГАТЕЛЬ УЛУЧШЕН');}runtimeScene.__osSave();runtimeScene.__os.toast=3;}\n  else if(cx>=1390&&cx<=1710&&cy>=625&&cy<=697){const cr=get('Credits').getAsNumber(),done=get('HullMax').getAsNumber()>=4;if(done)get('Status').setString('КОРПУС УЖЕ УЛУЧШЕН');else if(cr<150)get('Status').setString('НЕДОСТАТОЧНО КРЕДИТОВ: НУЖНО ЕЩЁ '+(150-cr));else{get('Credits').setNumber(cr-150);get('HullMax').setNumber(4);get('Status').setString('КОРПУС УЛУЧШЕН');}runtimeScene.__osSave();runtimeScene.__os.toast=3;}\n  else if(cx>=210&&cx<=530&&cy>=710&&cy<=790){const cr=get('Credits').getAsNumber(),done=get('MagnetLevel').getAsNumber()>=1;if(done)get('Status').setString('МАГНИТ УЖЕ УСТАНОВЛЕН');else if(cr<80)get('Status').setString('НЕДОСТАТОЧНО КРЕДИТОВ: НУЖНО ЕЩЁ '+(80-cr));else{get('Credits').setNumber(cr-80);get('MagnetLevel').setNumber(1);get('Status').setString('МАГНИТ УСТАНОВЛЕН');}runtimeScene.__osSave();runtimeScene.__os.toast=3;}\n  else if(cx>=800&&cx<=1120&&cy>=710&&cy<=790){const cr=get('Credits').getAsNumber(),done=get('RadarLevel').getAsNumber()>=1;if(done)get('Status').setString('РАДАР УЖЕ УСТАНОВЛЕН');else if(cr<90)get('Status').setString('НЕДОСТАТОЧНО КРЕДИТОВ: НУЖНО ЕЩЁ '+(90-cr));else{get('Credits').setNumber(cr-90);get('RadarLevel').setNumber(1);get('Status').setString('РАДАР УСТАНОВЛЕН');}runtimeScene.__osSave();runtimeScene.__os.toast=3;}\n  else if(cx>=1390&&cx<=1710&&cy>=710&&cy<=790){const cr=get('Credits').getAsNumber(),done=get('InsuranceLevel').getAsNumber()>=1;if(done)get('Status').setString('СТРАХОВКА УЖЕ УСТАНОВЛЕНА');else if(cr<120)get('Status').setString('НЕДОСТАТОЧНО КРЕДИТОВ: НУЖНО ЕЩЁ '+(120-cr));else{get('Credits').setNumber(cr-120);get('InsuranceLevel').setNumber(1);get('Status').setString('СТРАХОВКА УСТАНОВЛЕНА');}runtimeScene.__osSave();runtimeScene.__os.toast=3;}\n  else if(cx>=210&&cx<=530&&cy>=805&&cy<=885){const tech=get('TechParts').getAsNumber();if(tech<1)get('Status').setString('НУЖНА 1 ТЕХНОДЕТАЛЬ');else{get('TechParts').setNumber(tech-1);get('CargoMax').setNumber(8);get('HullMax').setNumber(3);get('EngineLevel').setNumber(0);get('MagnetLevel').setNumber(0);get('RadarLevel').setNumber(0);get('InsuranceLevel').setNumber(0);get('ResetCount').setNumber(get('ResetCount').getAsNumber()+1);get('Status').setString('МОДУЛИ СБРОШЕНЫ');}runtimeScene.__osSave();}\n  else if(cx>=1590&&cx<=1820&&cy>=95&&cy<=165){if(get('TechParts').getAsNumber()<1)get('Status').setString('НУЖНА 1 ТЕХНОДЕТАЛЬ');else runtimeScene.__osReward('reroll');}\n}\n"
+            "const v=runtimeScene.getVariables();\nconst get=(n)=>v.get(n);\nif(!runtimeScene.__osInit){\n  runtimeScene.__osInit=true;\n  runtimeScene.__os={x:327,y:677,vx:0,vy:0,angle:0,inv:0,toast:0,phase:0,zoneTick:0,rewardBusy:false,pointer:null,shake:0,flash:0,pickup:0};\n  runtimeScene.__osCam={x:480,y:677};\n  gdjs.evtTools.camera.setCameraZoom(runtimeScene,2,'World',0);\n  const defaults={Credits:0,TechParts:0,CargoMax:8,HullMax:3,Hull:3,EngineLevel:0,MagnetLevel:0,RadarLevel:0,InsuranceLevel:0,RunCount:0,RerollCount:0,ResetCount:0,DoubleRewardUsed:0,SecondChanceUsed:0,SectorUnlocked:0,CurrentSector:1,OnboardingSeen:0,MissionBonusClaimed:0};\n  Object.keys(defaults).forEach((n)=>get(n).setNumber(defaults[n]));\n  get('GameState').setString('menu');\n  try{const raw=typeof localStorage!=='undefined'?localStorage.getItem('orbitalSalvageSave'):null;if(raw){const saved=JSON.parse(raw);Object.keys(defaults).forEach((n)=>{if(Number.isFinite(Number(saved[n])))get(n).setNumber(Number(saved[n]));});}}catch(e){console.error('Не удалось прочитать локальное сохранение',e);}\n  runtimeScene.__osSave=()=>{try{if(typeof localStorage!=='undefined')localStorage.setItem('orbitalSalvageSave',JSON.stringify({Credits:get('Credits').getAsNumber(),TechParts:get('TechParts').getAsNumber(),CargoMax:get('CargoMax').getAsNumber(),HullMax:get('HullMax').getAsNumber(),Hull:get('Hull').getAsNumber(),EngineLevel:get('EngineLevel').getAsNumber(),MagnetLevel:get('MagnetLevel').getAsNumber(),RadarLevel:get('RadarLevel').getAsNumber(),InsuranceLevel:get('InsuranceLevel').getAsNumber(),RunCount:get('RunCount').getAsNumber(),RerollCount:get('RerollCount').getAsNumber(),ResetCount:get('ResetCount').getAsNumber(),DoubleRewardUsed:get('DoubleRewardUsed').getAsNumber(),SecondChanceUsed:get('SecondChanceUsed').getAsNumber(),SectorUnlocked:get('SectorUnlocked').getAsNumber(),CurrentSector:get('CurrentSector').getAsNumber(),OnboardingSeen:get('OnboardingSeen').getAsNumber(),MissionBonusClaimed:get('MissionBonusClaimed').getAsNumber()}));}catch(e){console.error('Не удалось сохранить прогресс',e);}};\n  runtimeScene.__osMission=()=>{const n=get('RunCount').getAsNumber()%3,sector=get('CurrentSector').getAsNumber();if(n===0){get('Mission').setString('СОБЕРИТЕ МЕТАЛЛОЛОМ');get('MissionType').setString('scrap');get('MissionTarget').setNumber(sector===2?6:5);get('MissionReward').setNumber(sector===2?70:50);}else if(n===1){get('Mission').setString('ДОСТАВЬТЕ РЕДКИЙ КОНТЕЙНЕР');get('MissionType').setString('container');get('MissionTarget').setNumber(1);get('MissionReward').setNumber(sector===2?100:70);}else{get('Mission').setString('ВЕРНИТЕСЬ БЕЗ УРОНА');get('MissionType').setString('nodamage');get('MissionTarget').setNumber(1);get('MissionReward').setNumber(sector===2?100:60);}get('MissionProgress').setNumber(0);get('MissionBonusClaimed').setNumber(0);};\n  runtimeScene.__osReward=(kind)=>{const s=runtimeScene.__os;if(s.rewardBusy)return;s.rewardBusy=true;const done=(ok)=>{s.rewardBusy=false;if(!ok){get('Status').setString('РЕКЛАМА НЕДОСТУПНА');s.toast=2;return;}if(kind==='double'&&get('DoubleRewardUsed').getAsNumber()===0){const value=get('DeliveredValue').getAsNumber();get('Credits').setNumber(get('Credits').getAsNumber()+value);get('DoubleRewardUsed').setNumber(1);get('Status').setString('НАГРАДА УДВОЕНА');s.toast=2;runtimeScene.__osSave();}else if(kind==='second'&&get('SecondChanceUsed').getAsNumber()===0){get('SecondChanceUsed').setNumber(1);get('Hull').setNumber(1);get('GameState').setString('play');s.x=327;s.y=677;s.vx=0;s.vy=0;s.inv=1.2;get('Status').setString('ВТОРОЙ ШАНС');s.toast=2;}else if(kind==='reroll'){get('RerollCount').setNumber(get('RerollCount').getAsNumber()+1);get('TechParts').setNumber(Math.max(0,get('TechParts').getAsNumber()-1));get('Status').setString('ПУЛ УЛУЧШЕНИЙ ОБНОВЛЁН');s.toast=2;runtimeScene.__osSave();}};if(typeof window!=='undefined'&&window.__osYandex&&typeof window.__osYandex.showRewarded==='function')window.__osYandex.showRewarded(kind).then(done).catch(()=>done(false));else if(typeof location!=='undefined'&&(location.hostname==='localhost'||location.hostname==='127.0.0.1'))done(true);else{console.error('Рекламный SDK недоступен на production host');done(false);}};\n  if(!runtimeScene.__osPointerBound&&typeof document!=='undefined'){\n    runtimeScene.__osPointerBound=true;\n    const pointer=(event)=>{const canvas=document.querySelector('canvas');if(!canvas)return;const rect=canvas.getBoundingClientRect();if(rect.width<=0||rect.height<=0)return;const point={x:(event.clientX-rect.left)*1920/rect.width,y:(event.clientY-rect.top)*1080/rect.height};runtimeScene.__osPointer={x:point.x,y:point.y,active:event.type!=='pointerup'&&event.type!=='pointercancel'};if(event.type==='pointerup')runtimeScene.__osPendingClick=point;};\n    document.addEventListener('pointerdown',pointer,{passive:true});document.addEventListener('pointermove',pointer,{passive:true});document.addEventListener('pointerup',pointer,{passive:true});document.addEventListener('pointercancel',pointer,{passive:true});\n  }\n}\nconst im=runtimeScene.getGame().getInputManager();\nconst keyStart=im.wasKeyJustPressed(32)||im.wasKeyJustPressed(13);\nlet st=get('GameState').getAsString();if(typeof location!=='undefined'&&location.search.indexOf('traceCamera')>=0)window.__osQAState={state:st,hull:get('Hull').getAsNumber(),hullMax:get('HullMax').getAsNumber(),x:runtimeScene.__os&&runtimeScene.__os.x,y:runtimeScene.__os&&runtimeScene.__os.y};\nconst iw=typeof window!=='undefined'?(window.visualViewport?window.visualViewport.width:window.innerWidth):960;\nconst ih=typeof window!=='undefined'?(window.visualViewport?window.visualViewport.height:window.innerHeight):540;\nconst portrait=ih>iw*1.08;\nif(portrait&&st!=='rotate'){runtimeScene.__osResume=st;get('GameState').setString('rotate');st='rotate';}\nelse if(!portrait&&st==='rotate'){get('GameState').setString(runtimeScene.__osResume||'menu');st=get('GameState').getAsString();}\nconst hide=(n)=>runtimeScene.getObjects(n).forEach((o)=>o.hide());\nconst show=(n)=>runtimeScene.getObjects(n).forEach((o)=>o.hide(false));\nconst menu=['MenuPanel','ButtonBg','Title','MenuDescription','PlayText','MenuHint'];\nconst hud=['HudPanel','CargoText','CreditsText','HullText','SectorText','ObjectiveText','StatusText','NavMarker','MissionPanel','MissionText'];\nconst world=['FieldZone','DangerZone','Station','StationGlow','StationLabel','RiskLabel','Ship','Exhaust','CommonSalvage','RareContainer','Debris','FastDebris'];\nconst res=['ResultPanel','ResultButtonBg','ResultTitle','ResultStats','ResultText','RewardButtonBg','RewardButtonText','ResultSectorButtonBg','ResultSectorButtonText'];\nconst upg=['UpgradePanel','UpgradeTitle','UpgradeNotice','UpgradeCardBg','UpgradeButtonBg','UpgradeButtonText','UpgradeCardText','UpgradeBackButtonBg','UpgradeBackText','SystemButtonBg','SystemButtonText','ResetButtonBg','ResetButtonText','RerollButtonBg','RerollButtonText','TechText'];\nconst rot=['RotatePanel','RotateDevice','RotateTitle','RotateHint'];\nconst sectors=['SectorSelectPanel','SectorSelectTitle','SectorSelectText','SectorSelectButtonBg','SectorSelectButtonText','SectorSelectHint','SectorSelectBackBg','SectorSelectBackText'];\n['Background','Haze'].forEach(show);menu.concat(hud,world,res,upg,sectors,rot,['UpgradeStats','FieldLabel','DangerLabel','Sector2Band','Sector2Label','OnboardingText','DamageFlash','ResultSectorButtonBg','ResultSectorButtonText']).forEach(hide);\nif(st==='menu'){menu.forEach(show);}\nelse if(st==='play'){hud.concat(world).forEach(show);runtimeScene.getObjects('FieldLabel').forEach((o)=>o.hide(false));runtimeScene.getObjects('DangerLabel').forEach((o)=>o.hide(false));if(window.__osYandex&&window.__osYandex.gameplayStart)window.__osYandex.gameplayStart();}\nelse if(st==='result'||st==='fail'){res.forEach(show);if(window.__osYandex&&window.__osYandex.gameplayStop)window.__osYandex.gameplayStop();}\nelse if(st==='upgrades'){upg.forEach(show);if(window.__osYandex&&window.__osYandex.gameplayStop)window.__osYandex.gameplayStop();}\nelse if(st==='sectorSelect'){sectors.forEach(show);if(window.__osYandex&&window.__osYandex.gameplayStop)window.__osYandex.gameplayStop();}\nelse if(st==='rotate'){rot.forEach(show);if(window.__osYandex&&window.__osYandex.gameplayStop)window.__osYandex.gameplayStop();}\nconst reset=()=>{get('GameState').setString('play');get('Cargo').setNumber(0);get('CargoValue').setNumber(0);get('ScrapCount').setNumber(0);get('ContainerCount').setNumber(0);get('Hull').setNumber(get('HullMax').getAsNumber());get('RunTime').setNumber(0);get('RunDamage').setNumber(0);get('MissionProgress').setNumber(0);get('MissionBonusClaimed').setNumber(0);get('DoubleRewardUsed').setNumber(0);get('SecondChanceUsed').setNumber(0);get('RunCount').setNumber(get('RunCount').getAsNumber()+1);runtimeScene.__os={x:327,y:677,vx:0,vy:0,angle:0,inv:0,toast:0,phase:0,zoneTick:0,rewardBusy:false,pointer:runtimeScene.__osPointer||null,shake:0,flash:0,pickup:0};runtimeScene.__osCam={x:480,y:677};runtimeScene.__osMission();gdjs.evtTools.camera.setCameraZoom(runtimeScene,2,'World',0);runtimeScene.getObjects('CommonSalvage').forEach((o)=>{o.hide(false);o.getVariables().get('Taken').setBoolean(false);});runtimeScene.getObjects('RareContainer').forEach((o)=>{o.hide(false);o.getVariables().get('Taken').setBoolean(false);});runtimeScene.__osSave();};\nconst s=runtimeScene.__os;\nconst uiClick=runtimeScene.__osPendingClick;runtimeScene.__osPendingClick=null;const release=!!uiClick;const cx=uiClick?uiClick.x:gdjs.evtTools.input.getCursorX(runtimeScene,'HUD',0),cy=uiClick?uiClick.y:gdjs.evtTools.input.getCursorY(runtimeScene,'HUD',0);\nif(st==='menu'&&((keyStart)||(release&&cx>=700&&cx<=1220&&cy>=630&&cy<=780)))reset();\nif(st==='result'&&release){if(cy>=430&&cy<=525&&cx>=740&&cx<=1180)runtimeScene.__osReward('double');else if(cy>=525&&cy<=630){if(cx<960){s.toast=0;get('Status').setString('');get('GameState').setString('upgrades');}else if(get('SectorUnlocked').getAsNumber()>=1){s.toast=0;get('Status').setString('');get('GameState').setString('sectorSelect');}else reset();}}\nif(st==='fail'&&release){if(cy>=400&&cy<=490&&cx>=740&&cx<=1180)runtimeScene.__osReward('second');else if(cy>=490&&cy<=600)reset();}\nif(st==='sectorSelect'&&release){if(cy>=610&&cy<=710&&cx>=350&&cx<=850){get('CurrentSector').setNumber(1);reset();}else if(cy>=610&&cy<=710&&cx>=1050&&cx<=1550&&get('SectorUnlocked').getAsNumber()>=1){get('CurrentSector').setNumber(2);reset();}else if(cy>=775&&cy<=875&&cx>=720&&cx<=1200)get('GameState').setString('upgrades');}\nif(st==='upgrades'&&release){\n  if(cx>=735&&cx<=1185&&cy>=895&&cy<=970)reset();\n  else if(cx>=175&&cx<=625&&cy>=415&&cy<=500){const cr=get('Credits').getAsNumber(),done=get('CargoMax').getAsNumber()>=10;if(done)get('Status').setString('ТРЮМ УЖЕ УЛУЧШЕН');else if(cr<100)get('Status').setString('НЕДОСТАТОЧНО КРЕДИТОВ: НУЖНО ЕЩЁ '+(100-cr));else{get('Credits').setNumber(cr-100);get('CargoMax').setNumber(10);get('Status').setString('ТРЮМ УЛУЧШЕН');}runtimeScene.__osSave();runtimeScene.__os.toast=3;}\n  else if(cx>=735&&cx<=1285&&cy>=415&&cy<=500){const cr=get('Credits').getAsNumber(),done=get('EngineLevel').getAsNumber()>=1;if(done)get('Status').setString('ДВИГАТЕЛЬ УЖЕ УЛУЧШЕН');else if(cr<120)get('Status').setString('НЕДОСТАТОЧНО КРЕДИТОВ: НУЖНО ЕЩЁ '+(120-cr));else{get('Credits').setNumber(cr-120);get('EngineLevel').setNumber(1);get('Status').setString('ДВИГАТЕЛЬ УЛУЧШЕН');}runtimeScene.__osSave();runtimeScene.__os.toast=3;}\n  else if(cx>=1295&&cx<=1845&&cy>=415&&cy<=500){const cr=get('Credits').getAsNumber(),done=get('HullMax').getAsNumber()>=4;if(done)get('Status').setString('КОРПУС УЖЕ УЛУЧШЕН');else if(cr<150)get('Status').setString('НЕДОСТАТОЧНО КРЕДИТОВ: НУЖНО ЕЩЁ '+(150-cr));else{get('Credits').setNumber(cr-150);get('HullMax').setNumber(4);get('Status').setString('КОРПУС УЛУЧШЕН');}runtimeScene.__osSave();runtimeScene.__os.toast=3;}\n  else if(cx>=175&&cx<=625&&cy>=785&&cy<=855){const cr=get('Credits').getAsNumber(),done=get('MagnetLevel').getAsNumber()>=1;if(done)get('Status').setString('МАГНИТ УЖЕ УСТАНОВЛЕН');else if(cr<80)get('Status').setString('НЕДОСТАТОЧНО КРЕДИТОВ: НУЖНО ЕЩЁ '+(80-cr));else{get('Credits').setNumber(cr-80);get('MagnetLevel').setNumber(1);get('Status').setString('МАГНИТ УСТАНОВЛЕН');}runtimeScene.__osSave();runtimeScene.__os.toast=3;}\n  else if(cx>=735&&cx<=1285&&cy>=785&&cy<=855){const cr=get('Credits').getAsNumber(),done=get('RadarLevel').getAsNumber()>=1;if(done)get('Status').setString('РАДАР УЖЕ УСТАНОВЛЕН');else if(cr<90)get('Status').setString('НЕДОСТАТОЧНО КРЕДИТОВ: НУЖНО ЕЩЁ '+(90-cr));else{get('Credits').setNumber(cr-90);get('RadarLevel').setNumber(1);get('Status').setString('РАДАР УСТАНОВЛЕН');}runtimeScene.__osSave();runtimeScene.__os.toast=3;}\n  else if(cx>=1295&&cx<=1845&&cy>=785&&cy<=855){const cr=get('Credits').getAsNumber(),done=get('InsuranceLevel').getAsNumber()>=1;if(done)get('Status').setString('СТРАХОВКА УЖЕ УСТАНОВЛЕНА');else if(cr<120)get('Status').setString('НЕДОСТАТОЧНО КРЕДИТОВ: НУЖНО ЕЩЁ '+(120-cr));else{get('Credits').setNumber(cr-120);get('InsuranceLevel').setNumber(1);get('Status').setString('СТРАХОВКА УСТАНОВЛЕНА');}runtimeScene.__osSave();runtimeScene.__os.toast=3;}\n  else if(cx>=175&&cx<=625&&cy>=895&&cy<=970){const tech=get('TechParts').getAsNumber();if(tech<1)get('Status').setString('НЕДОСТАТОЧНО ТЕХНОДЕТАЛЕЙ');else{get('TechParts').setNumber(tech-1);get('CargoMax').setNumber(8);get('HullMax').setNumber(3);get('EngineLevel').setNumber(0);get('MagnetLevel').setNumber(0);get('RadarLevel').setNumber(0);get('InsuranceLevel').setNumber(0);get('ResetCount').setNumber(get('ResetCount').getAsNumber()+1);get('Status').setString('УЛУЧШЕНИЯ СБРОШЕНЫ');}runtimeScene.__osSave();runtimeScene.__os.toast=3;}\n  else if(cx>=1590&&cx<=1820&&cy>=95&&cy<=165){if(get('TechParts').getAsNumber()<1)get('Status').setString('НУЖНА 1 ТЕХНОДЕТАЛЬ');else runtimeScene.__osReward('reroll');}\n}\n"
           ],
           "parameterObjects": "",
           "useStrict": false,
@@ -4795,7 +5848,7 @@
         {
           "type": "BuiltinCommonInstructions::JsCode",
           "inlineCode": [
-            "const v=runtimeScene.getVariables(),st=v.get('GameState').getAsString(),s=runtimeScene.__os;if(st!=='play'||!s)return;\nconst dt=Math.min(runtimeScene.getElapsedTime()/1000,.04);s.phase+=dt;s.inv=Math.max(0,s.inv-dt);v.get('RunTime').setNumber(v.get('RunTime').getAsNumber()+dt);\nconst actor=runtimeScene.getObjects('Ship')[0];s.x=actor.getCenterXInScene();s.y=actor.getCenterYInScene();const im=runtimeScene.getGame().getInputManager();let ax=(im.isKeyPressed(65)?-1:0)+(im.isKeyPressed(68)?1:0),ay=(im.isKeyPressed(87)?-1:0)+(im.isKeyPressed(83)?1:0);\nconst pointer=runtimeScene.__osPointer,down=im.isMouseButtonPressed(gdjs.InputManager.MOUSE_LEFT_BUTTON)||(pointer&&pointer.active),cameraNow=runtimeScene.__osCam||{x:480,y:677},px=pointer&&pointer.active?cameraNow.x+(pointer.x-960)/2:gdjs.evtTools.input.getCursorX(runtimeScene,'World',0),py=pointer&&pointer.active?cameraNow.y+(pointer.y-540)/2:gdjs.evtTools.input.getCursorY(runtimeScene,'World',0);if(down&&py>100){const dx=px-s.x,dy=py-s.y,d=Math.hypot(dx,dy);if(d>28){ax=dx/d;ay=dy/d;}}\nconst al=Math.hypot(ax,ay);if(al>1){ax/=al;ay/=al;}const engine=v.get('EngineLevel').getAsNumber(),acc=620*(1+engine*.1),max=250*(1+engine*.1);s.vx+=ax*acc*dt;s.vy+=ay*acc*dt;const drag=Math.pow(.08,dt);s.vx*=drag;s.vy*=drag;const sp=Math.hypot(s.vx,s.vy);if(sp>max){s.vx=s.vx/sp*max;s.vy=s.vy/sp*max;}s.x=Math.max(70,Math.min(2130,s.x+s.vx*dt));s.y=Math.max(70,Math.min(1330,s.y+s.vy*dt));if(sp>8)s.angle=Math.atan2(s.vy,s.vx)*180/Math.PI+90;\nconst ship=runtimeScene.getObjects('Ship')[0],ex=runtimeScene.getObjects('Exhaust')[0];ship.setCenterPositionInScene(s.x,s.y);ship.setAngle(s.angle);ship.setOpacity(s.inv>0&&Math.floor(s.inv*12)%2===0?70:255);ex.setCenterPositionInScene(s.x-Math.cos((s.angle-90)*Math.PI/180)*23,s.y-Math.sin((s.angle-90)*Math.PI/180)*23);ex.setAngle(s.angle);ex.setOpacity(sp>12?210:0);\nconst scraps=runtimeScene.getObjects('CommonSalvage'),glows=runtimeScene.getObjects('ScrapGlow'),pos=[[500,600],[650,820],[850,510],[1100,740],[1320,920],[1660,1030]];scraps.forEach((o,i)=>{if(o.getVariables().get('Taken').getAsBoolean()){o.hide();if(glows[i])glows[i].hide();return;}o.hide(false);o.setAnimationFrame(i%4);o.setCenterPositionInScene(pos[i][0],pos[i][1]);o.setAngle((s.phase*18+i*31)%360);if(glows[i]){glows[i].hide(false);glows[i].setCenterPositionInScene(pos[i][0],pos[i][1]);glows[i].setOpacity(90+Math.sin(s.phase*3+i)*35);}if(v.get('Cargo').getAsNumber()<v.get('CargoMax').getAsNumber()&&Math.hypot(s.x-pos[i][0],s.y-pos[i][1])<92*(1+v.get('MagnetLevel').getAsNumber()*.25)){o.getVariables().get('Taken').setBoolean(true);v.get('Cargo').setNumber(v.get('Cargo').getAsNumber()+1);v.get('CargoValue').setNumber(v.get('CargoValue').getAsNumber()+10);v.get('ScrapCount').setNumber(v.get('ScrapCount').getAsNumber()+1);if(v.get('MissionType').getAsString()==='scrap')v.get('MissionProgress').setNumber(Math.min(v.get('MissionTarget').getAsNumber(),v.get('MissionProgress').getAsNumber()+1));s.toast=1.5;v.get('Status').setString('+10 МЕТАЛЛОЛОМ');}});\nconst rare=runtimeScene.getObjects('RareContainer')[0];if(rare&&!rare.getVariables().get('Taken').getAsBoolean()){rare.hide(false);rare.setCenterPositionInScene(1600,390);rare.setAngle(Math.sin(s.phase)*4);rare.setOpacity(220+Math.sin(s.phase*3)*35);if(v.get('Cargo').getAsNumber()+2<=v.get('CargoMax').getAsNumber()&&Math.hypot(s.x-1600,s.y-390)<120*(1+v.get('MagnetLevel').getAsNumber()*.2)){rare.getVariables().get('Taken').setBoolean(true);v.get('Cargo').setNumber(v.get('Cargo').getAsNumber()+2);v.get('CargoValue').setNumber(v.get('CargoValue').getAsNumber()+40);v.get('ContainerCount').setNumber(v.get('ContainerCount').getAsNumber()+1);if(v.get('MissionType').getAsString()==='container')v.get('MissionProgress').setNumber(1);s.toast=2;v.get('Status').setString('+40 КОНТЕЙНЕР');}}\nconst bases=[[820,610],[1040,460],[1340,690],[1510,900],[1140,560],[1530,760]],haz=runtimeScene.getObjects('Debris').concat(runtimeScene.getObjects('FastDebris'));haz.forEach((o,i)=>{const b=bases[i],fast=i>3,amp=fast?180:55,xx=b[0]+Math.sin(s.phase*(fast?1.5:.65)+i)*amp,yy=b[1]+Math.cos(s.phase*(fast?1.15:.52)+i)*amp*.55;o.setCenterPositionInScene(xx,yy);o.setAngle((s.phase*(fast?70:18)+i*50)%360);if(s.inv<=0&&s.x>700&&Math.hypot(s.x-xx,s.y-yy)<42){v.get('Hull').setNumber(v.get('Hull').getAsNumber()-1);v.get('RunDamage').setNumber(v.get('RunDamage').getAsNumber()+1);s.inv=1.15;s.vx+=(s.x-xx)*2.4;s.vy+=(s.y-yy)*2.4;v.get('Status').setString('УДАР −1 КОРПУС');s.toast=1.5;if(v.get('Hull').getAsNumber()<=0){if(v.get('InsuranceLevel').getAsNumber()>=1&&v.get('CargoValue').getAsNumber()>0){v.get('Credits').setNumber(v.get('Credits').getAsNumber()+Math.floor(v.get('CargoValue').getAsNumber()*.25));v.get('Status').setString('СТРАХОВКА СОХРАНИЛА ЧАСТЬ ДОБЫЧИ');}v.get('GameState').setString('fail');}}});\nconst inDanger=Math.hypot(s.x-1540,s.y-300)<230;if(inDanger){s.zoneTick+=dt;if(s.zoneTick>2&&s.inv<=0){s.zoneTick=0;v.get('Hull').setNumber(v.get('Hull').getAsNumber()-1);v.get('RunDamage').setNumber(v.get('RunDamage').getAsNumber()+1);s.inv=1.15;v.get('Status').setString('РАДИАЦИЯ −1 КОРПУС');s.toast=1.5;if(v.get('Hull').getAsNumber()<=0)v.get('GameState').setString('fail');}}else s.zoneTick=0;\nif(v.get('Cargo').getAsNumber()>0&&Math.hypot(s.x-260,s.y-700)<145){v.get('DeliveredCargo').setNumber(v.get('Cargo').getAsNumber());v.get('DeliveredValue').setNumber(v.get('CargoValue').getAsNumber());let bonus=0;if(v.get('MissionType').getAsString()==='nodamage'&&v.get('RunDamage').getAsNumber()===0){v.get('MissionProgress').setNumber(1);bonus=v.get('MissionReward').getAsNumber();}else if(v.get('MissionProgress').getAsNumber()>=v.get('MissionTarget').getAsNumber())bonus=v.get('MissionReward').getAsNumber();v.get('Credits').setNumber(v.get('Credits').getAsNumber()+v.get('CargoValue').getAsNumber()+bonus);if(bonus>0)v.get('Status').setString('ЗАДАНИЕ ВЫПОЛНЕНО +'+bonus);v.get('TechParts').setNumber(v.get('TechParts').getAsNumber()+(v.get('ContainerCount').getAsNumber()>0?2:1));v.get('GameState').setString('result');runtimeScene.__osSave();}\nconst cam=runtimeScene.__osCam||(runtimeScene.__osCam={x:480,y:677}),deadX=110,deadY=70;let tx=cam.x,ty=cam.y;if(Math.abs(s.x-cam.x)>deadX)tx=s.x-Math.sign(s.x-cam.x)*deadX;if(Math.abs(s.y-cam.y)>deadY)ty=s.y-Math.sign(s.y-cam.y)*deadY;tx=Math.max(480,Math.min(1720,tx));ty=Math.max(270,Math.min(1130,ty));const smooth=1-Math.exp(-9*dt);cam.x+=(tx-cam.x)*smooth;cam.y+=(ty-cam.y)*smooth;gdjs.evtTools.camera.setCameraX(runtimeScene,cam.x,'World',0);gdjs.evtTools.camera.setCameraY(runtimeScene,cam.y,'World',0);gdjs.evtTools.camera.setCameraZoom(runtimeScene,2,'World',0);if(typeof location!=='undefined'&&location.search.indexOf('traceCamera')>=0){if(!window.__osCameraTrace)window.__osCameraTrace=[];const prev=runtimeScene.__osTraceLast||{x:cam.x,y:cam.y};window.__osCameraTrace.push({time:performance.now()/1000,shipX:s.x,shipY:s.y,cameraX:cam.x,cameraY:cam.y,deltaCameraX:cam.x-prev.x,deltaCameraY:cam.y-prev.y});runtimeScene.__osTraceLast={x:cam.x,y:cam.y};}"
+            "const v=runtimeScene.getVariables(),st=v.get('GameState').getAsString(),s=runtimeScene.__os;if(st!=='play'||!s)return;\nconst dt=Math.min(runtimeScene.getElapsedTime()/1000,.04);const sector=v.get('CurrentSector').getAsNumber();s.phase+=dt;s.inv=Math.max(0,s.inv-dt);s.flash=Math.max(0,s.flash-dt);s.pickup=Math.max(0,s.pickup-dt);s.shake=Math.max(0,s.shake-dt);v.get('RunTime').setNumber(v.get('RunTime').getAsNumber()+dt);\nconst actor=runtimeScene.getObjects('Ship')[0];s.x=actor.getCenterXInScene();s.y=actor.getCenterYInScene();const im=runtimeScene.getGame().getInputManager();let ax=(im.isKeyPressed(65)?-1:0)+(im.isKeyPressed(68)?1:0),ay=(im.isKeyPressed(87)?-1:0)+(im.isKeyPressed(83)?1:0);\nconst pointer=runtimeScene.__osPointer,down=im.isMouseButtonPressed(gdjs.InputManager.MOUSE_LEFT_BUTTON)||(pointer&&pointer.active),cameraNow=runtimeScene.__osCam||{x:480,y:677},px=pointer&&pointer.active?cameraNow.x+(pointer.x-960)/2:gdjs.evtTools.input.getCursorX(runtimeScene,'World',0),py=pointer&&pointer.active?cameraNow.y+(pointer.y-540)/2:gdjs.evtTools.input.getCursorY(runtimeScene,'World',0);if(down&&py>100){const dx=px-s.x,dy=py-s.y,d=Math.hypot(dx,dy);if(d>28){ax=dx/d;ay=dy/d;}}\nconst al=Math.hypot(ax,ay);if(al>1){ax/=al;ay/=al;}const engine=v.get('EngineLevel').getAsNumber(),acc=620*(1+engine*.1),max=250*(1+engine*.1);s.vx+=ax*acc*dt;s.vy+=ay*acc*dt;const drag=Math.pow(.08,dt);s.vx*=drag;s.vy*=drag;const sp=Math.hypot(s.vx,s.vy);if(sp>max){s.vx=s.vx/sp*max;s.vy=s.vy/sp*max;}s.x=Math.max(70,Math.min(2130,s.x+s.vx*dt));s.y=Math.max(70,Math.min(1330,s.y+s.vy*dt));if(sp>8)s.angle=Math.atan2(s.vy,s.vx)*180/Math.PI+90;\nconst ship=runtimeScene.getObjects('Ship')[0],ex=runtimeScene.getObjects('Exhaust')[0];ship.setCenterPositionInScene(s.x,s.y);ship.setAngle(s.angle);ship.setOpacity(s.inv>0&&Math.floor(s.inv*12)%2===0?70:255);ex.setCenterPositionInScene(s.x-Math.cos((s.angle-90)*Math.PI/180)*23,s.y-Math.sin((s.angle-90)*Math.PI/180)*23);ex.setAngle(s.angle);ex.setOpacity(sp>12?210:0);\nconst scraps=runtimeScene.getObjects('CommonSalvage'),glows=runtimeScene.getObjects('ScrapGlow'),pos=sector===2?[[600,500],[780,850],[980,420],[1200,760],[1430,980],[1750,650]]:[[500,600],[650,820],[850,510],[1100,740],[1320,920],[1660,1030]],scrapValue=sector===2?15:10;scraps.forEach((o,i)=>{if(o.getVariables().get('Taken').getAsBoolean()){o.hide();if(glows[i])glows[i].hide();return;}o.hide(false);o.setAnimationFrame(i%4);o.setCenterPositionInScene(pos[i][0],pos[i][1]);o.setAngle((s.phase*18+i*31)%360);if(glows[i]){glows[i].hide(false);glows[i].setCenterPositionInScene(pos[i][0],pos[i][1]);glows[i].setOpacity(90+Math.sin(s.phase*3+i)*35);}if(v.get('Cargo').getAsNumber()<v.get('CargoMax').getAsNumber()&&Math.hypot(s.x-pos[i][0],s.y-pos[i][1])<92*(1+v.get('MagnetLevel').getAsNumber()*.25)){o.getVariables().get('Taken').setBoolean(true);v.get('Cargo').setNumber(v.get('Cargo').getAsNumber()+1);v.get('CargoValue').setNumber(v.get('CargoValue').getAsNumber()+scrapValue);v.get('ScrapCount').setNumber(v.get('ScrapCount').getAsNumber()+1);if(v.get('MissionType').getAsString()==='scrap')v.get('MissionProgress').setNumber(Math.min(v.get('MissionTarget').getAsNumber(),v.get('MissionProgress').getAsNumber()+1));s.toast=1.5;s.pickup=.35;v.get('Status').setString('+'+scrapValue+' МЕТАЛЛОЛОМ');}});\nconst rare=runtimeScene.getObjects('RareContainer'),rarePos=sector===2?[[1600,390],[1750,960],[1400,240]]:[[1600,390],[1850,1000],[1600,390]];rare.forEach((o,i)=>{const rp=rarePos[i]||rarePos[0];if(o.getVariables().get('Taken').getAsBoolean()){o.hide();return;}o.hide(false);o.setCenterPositionInScene(rp[0],rp[1]);o.setAngle(Math.sin(s.phase+i)*4);o.setOpacity(220+Math.sin(s.phase*3+i)*35);if(v.get('Cargo').getAsNumber()+2<=v.get('CargoMax').getAsNumber()&&Math.hypot(s.x-rp[0],s.y-rp[1])<120*(1+v.get('MagnetLevel').getAsNumber()*.2)){o.getVariables().get('Taken').setBoolean(true);v.get('Cargo').setNumber(v.get('Cargo').getAsNumber()+2);v.get('CargoValue').setNumber(v.get('CargoValue').getAsNumber()+(sector===2?60:40));v.get('ContainerCount').setNumber(v.get('ContainerCount').getAsNumber()+1);if(v.get('MissionType').getAsString()==='container')v.get('MissionProgress').setNumber(Math.min(v.get('MissionTarget').getAsNumber(),v.get('MissionProgress').getAsNumber()+1));s.toast=2;s.pickup=.45;v.get('Status').setString('+'+(sector===2?60:40)+' КОНТЕЙНЕР');}});\nif(sector===1)runtimeScene.getObjects('RareContainer').slice(1).forEach((o)=>o.hide());\nconst bases=[[820,610],[1040,460],[1340,690],[1510,900],[1140,560],[1530,760]],haz=runtimeScene.getObjects('Debris').concat(runtimeScene.getObjects('FastDebris'));haz.forEach((o,i)=>{const b=bases[i],fast=i>3,amp=sector===2?(fast?250:80):(fast?180:55),xx=b[0]+Math.sin(s.phase*(fast?1.5:.65)+i)*amp,yy=b[1]+Math.cos(s.phase*(fast?1.15:.52)+i)*amp*.55;o.setCenterPositionInScene(xx,yy);o.setAngle((s.phase*(fast?70:18)+i*50)%360);if(s.inv<=0&&s.x>700&&Math.hypot(s.x-xx,s.y-yy)<(sector===2?48:42)){v.get('Hull').setNumber(v.get('Hull').getAsNumber()-1);v.get('RunDamage').setNumber(v.get('RunDamage').getAsNumber()+1);s.inv=1.15;s.shake=.28;s.flash=.22;s.vx+=(s.x-xx)*2.4;s.vy+=(s.y-yy)*2.4;v.get('Status').setString('УДАР −1 КОРПУС');s.toast=1.5;if(v.get('Hull').getAsNumber()<=1)v.get('Status').setString('КОРПУС КРИТИЧЕСКИ ПОВРЕЖДЁН');if(v.get('Hull').getAsNumber()<=0){if(v.get('InsuranceLevel').getAsNumber()>=1&&v.get('CargoValue').getAsNumber()>0){v.get('Credits').setNumber(v.get('Credits').getAsNumber()+Math.floor(v.get('CargoValue').getAsNumber()*.25));v.get('Status').setString('СТРАХОВКА СОХРАНИЛА ЧАСТЬ ДОБЫЧИ');}v.get('GameState').setString('fail');}}});\nconst inDanger=Math.hypot(s.x-(sector===2?1550:1540),s.y-(sector===2?300:300))<(sector===2?270:230);if(inDanger){s.zoneTick+=dt;if(s.zoneTick>(sector===2?1.6:2)&&s.inv<=0){s.zoneTick=0;v.get('Hull').setNumber(v.get('Hull').getAsNumber()-1);v.get('RunDamage').setNumber(v.get('RunDamage').getAsNumber()+1);s.inv=1.15;s.shake=.22;s.flash=.16;v.get('Status').setString('РАДИАЦИЯ −1 КОРПУС');s.toast=1.5;if(v.get('Hull').getAsNumber()<=0)v.get('GameState').setString('fail');}}else s.zoneTick=0;\nif(v.get('Cargo').getAsNumber()>0&&Math.hypot(s.x-260,s.y-700)<145){v.get('DeliveredCargo').setNumber(v.get('Cargo').getAsNumber());v.get('DeliveredValue').setNumber(v.get('CargoValue').getAsNumber());let bonus=0;if(v.get('MissionType').getAsString()==='nodamage'&&v.get('RunDamage').getAsNumber()===0){v.get('MissionProgress').setNumber(1);bonus=v.get('MissionReward').getAsNumber();}else if(v.get('MissionProgress').getAsNumber()>=v.get('MissionTarget').getAsNumber())bonus=v.get('MissionReward').getAsNumber();if(bonus>0){v.get('MissionBonusClaimed').setNumber(1);v.get('Status').setString('КОНТРАКТ ВЫПОЛНЕН +'+bonus);}if(v.get('RunCount').getAsNumber()>=3)v.get('SectorUnlocked').setNumber(1);v.get('Credits').setNumber(v.get('Credits').getAsNumber()+v.get('CargoValue').getAsNumber()+bonus);v.get('TechParts').setNumber(v.get('TechParts').getAsNumber()+(v.get('ContainerCount').getAsNumber()>0?2:1));v.get('OnboardingSeen').setNumber(1);v.get('GameState').setString('result');runtimeScene.__osSave();}\nconst cam=runtimeScene.__osCam||(runtimeScene.__osCam={x:480,y:677}),deadX=110,deadY=70;let tx=cam.x,ty=cam.y;if(Math.abs(s.x-cam.x)>deadX)tx=s.x-Math.sign(s.x-cam.x)*deadX;if(Math.abs(s.y-cam.y)>deadY)ty=s.y-Math.sign(s.y-cam.y)*deadY;tx=Math.max(480,Math.min(1720,tx));ty=Math.max(270,Math.min(1130,ty));const smooth=1-Math.exp(-9*dt);cam.x+=(tx-cam.x)*smooth;cam.y+=(ty-cam.y)*smooth;const shakeX=s.shake>0?Math.sin(s.phase*80)*s.shake*18:0,shakeY=s.shake>0?Math.cos(s.phase*73)*s.shake*12:0;gdjs.evtTools.camera.setCameraX(runtimeScene,cam.x+shakeX,'World',0);gdjs.evtTools.camera.setCameraY(runtimeScene,cam.y+shakeY,'World',0);gdjs.evtTools.camera.setCameraZoom(runtimeScene,2,'World',0);if(typeof location!=='undefined'&&location.search.indexOf('traceCamera')>=0){if(!window.__osCameraTrace)window.__osCameraTrace=[];const prev=runtimeScene.__osTraceLast||{x:cam.x,y:cam.y};window.__osCameraTrace.push({time:performance.now()/1000,shipX:s.x,shipY:s.y,cameraX:cam.x,cameraY:cam.y,deltaCameraX:cam.x-prev.x,deltaCameraY:cam.y-prev.y});runtimeScene.__osTraceLast={x:cam.x,y:cam.y};}"
           ],
           "parameterObjects": "",
           "useStrict": false,
@@ -4804,7 +5857,7 @@
         {
           "type": "BuiltinCommonInstructions::JsCode",
           "inlineCode": [
-            "const v=runtimeScene.getVariables(),st=v.get('GameState').getAsString(),s=runtimeScene.__os;if(!s)return;const set=(n,x)=>{const o=runtimeScene.getObjects(n)[0];if(o)o.setString(x);};const setMany=(n,x)=>runtimeScene.getObjects(n).forEach((o)=>o.setString(x));const input=runtimeScene.getGame().getInputManager(),mx=gdjs.evtTools.input.getCursorX(runtimeScene,'HUD',0),my=gdjs.evtTools.input.getCursorY(runtimeScene,'HUD',0),pressed=input.isMouseButtonPressed(gdjs.InputManager.MOUSE_LEFT_BUTTON);\nconst ship=runtimeScene.getObjects('Ship')[0],station=runtimeScene.getObjects('Station')[0],nav=runtimeScene.getObjects('NavMarker')[0],stationLabel=runtimeScene.getObjects('StationLabel')[0];\nif(st==='play'){const c=v.get('Cargo').getAsNumber(),m=v.get('CargoMax').getAsNumber(),h=Math.max(0,v.get('Hull').getAsNumber()),hm=v.get('HullMax').getAsNumber(),cr=v.get('Credits').getAsNumber(),mp=v.get('MissionProgress').getAsNumber(),mt=v.get('MissionTarget').getAsNumber(),missionType=v.get('MissionType').getAsString();set('CargoText','ГРУЗ     '+c+' / '+m);set('CreditsText','КРЕДИТЫ     '+cr);set('HullText','КОРПУС     '+h+' / '+hm);set('SectorText','СЕКТОР 1\\nБезопасная орбита');const missionLine=missionType==='scrap'?'ЗАДАНИЕ: ЛОМ  '+mp+'/'+mt:missionType==='container'?'ЗАДАНИЕ: КОНТЕЙНЕР  '+mp+'/'+mt:'ЗАДАНИЕ: БЕЗ УРОНА';set('MissionText',missionLine);set('ObjectiveText',c>=m?'ТРЮМ ЗАПОЛНЕН\\nВОЗВРАЩАЙТЕСЬ НА СТАНЦИЮ':c>0?'ВЕРНИТЕСЬ НА СТАНЦИЮ':'НАЙДИТЕ ЛОМ');set('StatusText',s.toast>0?v.get('Status').getAsString():'');s.toast=Math.max(0,s.toast-.016);const dist=Math.hypot(ship.getCenterXInScene()-260,ship.getCenterYInScene()-700),radarRange=v.get('RadarLevel').getAsNumber()>=1?360:520;if(nav){if(dist>radarRange){nav.hide(false);nav.setString('◀ СТАНЦИЯ  '+Math.round(dist)+' м');}else nav.hide();}if(stationLabel)stationLabel.hide(dist>780);}\nelse if(st==='result'){set('ResultTitle','ГРУЗ ДОСТАВЛЕН');set('ResultStats','МЕТАЛЛОЛОМ ×'+v.get('ScrapCount').getAsNumber()+'    +'+(v.get('ScrapCount').getAsNumber()*10)+'\\nКОНТЕЙНЕР ×'+v.get('ContainerCount').getAsNumber()+'    +'+(v.get('ContainerCount').getAsNumber()*40)+'\\n────────────────\\nИТОГО    +'+v.get('DeliveredValue').getAsNumber()+'\\nВРЕМЯ    '+Math.floor(v.get('RunTime').getAsNumber()/60)+':'+String(Math.floor(v.get('RunTime').getAsNumber()%60)).padStart(2,'0'));set('ResultText','УЛУЧШЕНИЯ');const rb=runtimeScene.getObjects('RewardButtonBg')[0],rt=runtimeScene.getObjects('RewardButtonText')[0];if(rb)rb.setOpacity(v.get('DoubleRewardUsed').getAsNumber()>=1?110:(mx>=740&&mx<=1180&&my>=400&&my<=490?(pressed?190:255):220));if(rt)rt.setString(v.get('DoubleRewardUsed').getAsNumber()>=1?'НАГРАДА УДВОЕНА ✓':'УДВОИТЬ НАГРАДУ');}\nelse if(st==='fail'){set('ResultTitle','КОРАБЛЬ ПОВРЕЖДЁН');set('ResultStats','НЕДОСТАВЛЕННЫЙ ГРУЗ ПОТЕРЯН\\nКРЕДИТЫ НЕ ПОТЕРЯНЫ');set('ResultText','НОВЫЙ ВЫЛЕТ');const rb=runtimeScene.getObjects('RewardButtonBg')[0],rt=runtimeScene.getObjects('RewardButtonText')[0];if(rb)rb.setOpacity(v.get('SecondChanceUsed').getAsNumber()>=1?110:(mx>=740&&mx<=1180&&my>=400&&my<=490?(pressed?190:255):220));if(rt)rt.setString(v.get('SecondChanceUsed').getAsNumber()>=1?'ВТОРОЙ ШАНС ИСПОЛЬЗОВАН ✓':'ВТОРОЙ ШАНС');}\nelse if(st==='upgrades'){set('UpgradeTitle','УЛУЧШЕНИЯ КОРАБЛЯ');set('TechText','ТЕХНОДЕТАЛИ  '+v.get('TechParts').getAsNumber());set('UpgradeNotice',s.toast>0?v.get('Status').getAsString():'');s.toast=Math.max(0,s.toast-.016);const cm=v.get('CargoMax').getAsNumber(),el=v.get('EngineLevel').getAsNumber(),hm=v.get('HullMax').getAsNumber(),cr=v.get('Credits').getAsNumber(),done=[cm>=10,el>=1,hm>=4],costs=[100,120,150];set('UpgradeStats','');const cards=runtimeScene.getObjects('UpgradeCardText'),cardText=[done[0]?'ТРЮМ\\n\\n10 МЕСТ\\n\\nПОЛУЧЕНО ✓':'ТРЮМ\\n\\n'+cm+' → 10\\n+2 МЕСТА В ТРЮМЕ\\n\\n100 КРЕДИТОВ',done[1]?'ДВИГАТЕЛЬ\\n\\n+10% СКОРОСТИ\\n\\nПОЛУЧЕНО ✓':'ДВИГАТЕЛЬ\\n\\n+10% СКОРОСТИ\\n+10% УСКОРЕНИЯ\\n\\n120 КРЕДИТОВ',done[2]?'КОРПУС\\n\\n4 / 4\\n\\nПОЛУЧЕНО ✓':'КОРПУС\\n\\n'+hm+' → 4\\n+1 ПРОЧНОСТЬ\\n\\n150 КРЕДИТОВ'];cardText.forEach((x,i)=>{if(cards[i])cards[i].setString(x);});const bs=runtimeScene.getObjects('UpgradeButtonText'),bgs=runtimeScene.getObjects('UpgradeButtonBg');done.forEach((d,i)=>{const label=d?'ПОЛУЧЕНО ✓':cr<costs[i]?'НУЖНО ЕЩЁ '+(costs[i]-cr):'УЛУЧШИТЬ';if(bs[i])bs[i].setString(label);if(bgs[i]){const over=mx>=[210,800,1390][i]&&mx<=[530,1120,1710][i]&&my>=595&&my<=675;bgs[i].setOpacity(d?105:over?(pressed?190:255):220);}});const systems=runtimeScene.getObjects('SystemButtonText'),systemBg=runtimeScene.getObjects('SystemButtonBg');const systemDone=[v.get('MagnetLevel').getAsNumber()>=1,v.get('RadarLevel').getAsNumber()>=1,v.get('InsuranceLevel').getAsNumber()>=1],systemCost=[80,90,120],systemLabel=['МАГНИТ  80 КРЕДИТОВ','РАДАР  90 КРЕДИТОВ','СТРАХОВКА  120 КРЕДИТОВ'];systems.forEach((o,i)=>{if(!o)return;const label=systemDone[i]?'ПОЛУЧЕНО ✓':cr<systemCost[i]?'НУЖНО ЕЩЁ '+(systemCost[i]-cr):systemLabel[i];o.setString(label);const b=systemBg[i];if(b){const over=mx>=[210,800,1390][i]&&mx<=[530,1120,1710][i]&&my>=710&&my<=790;b.setOpacity(systemDone[i]?105:over?(pressed?190:255):220);}});const resetBg=runtimeScene.getObjects('ResetButtonBg')[0],resetText=runtimeScene.getObjects('ResetButtonText')[0],overReset=mx>=210&&mx<=530&&my>=805&&my<=885;if(resetBg)resetBg.setOpacity(overReset?(pressed?190:245):215);if(resetText)resetText.setString(v.get('TechParts').getAsNumber()>0?'СБРОСИТЬ  1 ДЕТАЛЬ':'НУЖНА 1 ДЕТАЛЬ');const rerollBg=runtimeScene.getObjects('RerollButtonBg')[0],rerollText=runtimeScene.getObjects('RerollButtonText')[0],overReroll=mx>=1590&&mx<=1820&&my>=95&&my<=165;if(rerollBg)rerollBg.setOpacity(overReroll?(pressed?190:255):220);if(rerollText)rerollText.setString(v.get('TechParts').getAsNumber()>0?'ОБНОВИТЬ ПУЛ':'НУЖНА ДЕТАЛЬ');const back=runtimeScene.getObjects('UpgradeBackButtonBg')[0],backText=runtimeScene.getObjects('UpgradeBackText')[0],overBack=mx>=760&&mx<=1160&&my>=795&&my<=885;if(back)back.setOpacity(overBack?(pressed?190:255):215);if(backText)backText.setString('НОВЫЙ ВЫЛЕТ');}\nelse if(st==='rotate'){set('RotateTitle','ПОВЕРНИТЕ\\nУСТРОЙСТВО');set('RotateHint','Игра работает\\nв горизонтальном режиме');}"
+            "\nconst v=runtimeScene.getVariables(),st=v.get('GameState').getAsString(),s=runtimeScene.__os;if(!s)return;\nconst set=(n,x)=>{const o=runtimeScene.getObjects(n)[0];if(o)o.setString(x);};\nconst setAt=(n,i,x)=>{const o=runtimeScene.getObjects(n)[i];if(o)o.setString(x);};\nconst input=runtimeScene.getGame().getInputManager(),mx=gdjs.evtTools.input.getCursorX(runtimeScene,'HUD',0),my=gdjs.evtTools.input.getCursorY(runtimeScene,'HUD',0),pressed=input.isMouseButtonPressed(gdjs.InputManager.MOUSE_LEFT_BUTTON);\nconst ship=runtimeScene.getObjects('Ship')[0],nav=runtimeScene.getObjects('NavMarker')[0],stationLabel=runtimeScene.getObjects('StationLabel')[0],sector=v.get('CurrentSector').getAsNumber();\nif(typeof window!=='undefined')window.__osQAState={state:st,cargo:v.get('Cargo').getAsNumber(),cargoMax:v.get('CargoMax').getAsNumber(),hull:v.get('Hull').getAsNumber(),hullMax:v.get('HullMax').getAsNumber(),credits:v.get('Credits').getAsNumber(),techParts:v.get('TechParts').getAsNumber(),sector,runCount:v.get('RunCount').getAsNumber(),engineLevel:v.get('EngineLevel').getAsNumber(),shipX:s.x,shipY:s.y,speed:Math.hypot(s.vx,s.vy),status:v.get('Status').getAsString()};\nif(st==='play'){\n  const c=v.get('Cargo').getAsNumber(),m=v.get('CargoMax').getAsNumber(),h=Math.max(0,v.get('Hull').getAsNumber()),hm=v.get('HullMax').getAsNumber(),cr=v.get('Credits').getAsNumber(),mp=v.get('MissionProgress').getAsNumber(),mt=v.get('MissionTarget').getAsNumber(),missionType=v.get('MissionType').getAsString(),reward=v.get('MissionReward').getAsNumber();\n  set('CargoText','ГРУЗ     '+c+' / '+m);set('CreditsText','КРЕДИТЫ     '+cr);set('HullText','КОРПУС     '+h+' / '+hm);set('SectorText','СЕКТОР '+sector+'\\n'+(sector===2?'Пояс обломков':'Безопасная орбита'));\n  const missionName=missionType==='scrap'?'МЕТАЛЛОЛОМ':missionType==='container'?'РЕДКИЙ КОНТЕЙНЕР':'БЕЗ УРОНА',missionProgress=missionType==='nodamage'?(v.get('RunDamage').getAsNumber()===0?'КОРПУС: ЦЕЛ':'ПОВРЕЖДЁН'):mp+' / '+mt;\n  set('MissionText','КОНТРАКТ  •  ДОСТАВЬТЕ: '+missionName+'\\n'+missionProgress+'  •  НАГРАДА '+reward+' + 🔧1');\n  set('ObjectiveText',c>=m?'ТРЮМ ЗАПОЛНЕН\\nВОЗВРАЩАЙТЕСЬ НА СТАНЦИЮ':c>0?'ВЕРНИТЕСЬ НА СТАНЦИЮ':'НАЙДИТЕ ЛОМ');set('StatusText',s.toast>0?v.get('Status').getAsString():'');\n  const dist=Math.hypot(ship.getCenterXInScene()-260,ship.getCenterYInScene()-700),radarRange=v.get('RadarLevel').getAsNumber()>=1?360:520;if(nav){if(dist>radarRange){nav.hide(false);nav.setString('◀ СТАНЦИЯ  '+Math.round(dist)+' м');}else nav.hide();}if(stationLabel)stationLabel.hide(dist>780);\n  const onboarding=runtimeScene.getObjects('OnboardingText')[0];if(onboarding){if(v.get('OnboardingSeen').getAsNumber()<1&&v.get('RunCount').getAsNumber()<=1&&v.get('RunTime').getAsNumber()<9){onboarding.hide(false);const portraitHint=typeof window!=='undefined'&&window.innerWidth<window.innerHeight?'ВЕДИТЕ ПАЛЬЦЕМ — ДВИЖЕНИЕ\\nСОБИРАЙТЕ ЛОМ\\nВОЗВРАЩАЙТЕСЬ НА СТАНЦИЮ':'WASD / СТРЕЛКИ — ДВИЖЕНИЕ\\nСОБИРАЙТЕ ЛОМ\\nВОЗВРАЩАЙТЕСЬ НА СТАНЦИЮ';onboarding.setString(portraitHint);}else onboarding.hide();}\n  const band=runtimeScene.getObjects('Sector2Band')[0],bandLabel=runtimeScene.getObjects('Sector2Label')[0];if(band){if(sector===2){band.hide(false);band.setOpacity(120);}else band.hide();}if(bandLabel){if(sector===2){bandLabel.hide(false);bandLabel.setString('ПОЯС ОБЛОМКОВ');}else bandLabel.hide();}\n  const flash=runtimeScene.getObjects('DamageFlash')[0];if(flash){if(s.flash>0){flash.hide(false);flash.setOpacity(Math.min(150,Math.round(s.flash*700)));}else flash.hide();}\n  s.toast=Math.max(0,s.toast-.016);\n}\nelse if(st==='result'){\n  set('ResultTitle','ГРУЗ ДОСТАВЛЕН');const sv=sector===2?15:10,cv=sector===2?60:40;set('ResultStats','МЕТАЛЛОЛОМ ×'+v.get('ScrapCount').getAsNumber()+'    +'+(v.get('ScrapCount').getAsNumber()*sv)+'\\nКОНТЕЙНЕР ×'+v.get('ContainerCount').getAsNumber()+'    +'+(v.get('ContainerCount').getAsNumber()*cv)+'\\n────────────────\\nИТОГО    +'+v.get('DeliveredValue').getAsNumber()+'\\nВРЕМЯ    '+Math.floor(v.get('RunTime').getAsNumber()/60)+':'+String(Math.floor(v.get('RunTime').getAsNumber()%60)).padStart(2,'0'));\n  setAt('ResultText',0,'УЛУЧШЕНИЯ');setAt('ResultText',1,v.get('SectorUnlocked').getAsNumber()>=1?'ВЫБОР СЕКТОРА':'СЛЕДУЮЩИЙ ВЫЛЕТ');const rb=runtimeScene.getObjects('RewardButtonBg')[0],rt=runtimeScene.getObjects('RewardButtonText')[0],rewardHover=mx>=740&&mx<=1180&&my>=430&&my<=525;if(rb)rb.setOpacity(v.get('DoubleRewardUsed').getAsNumber()>=1?110:(rewardHover?(pressed?190:255):220));if(rt)rt.setString(v.get('DoubleRewardUsed').getAsNumber()>=1?'НАГРАДА УДВОЕНА ✓':'▶ x2 НАГРАДА\\nЗА РЕКЛАМУ');const sb=runtimeScene.getObjects('ResultSectorButtonBg')[0],stx=runtimeScene.getObjects('ResultSectorButtonText')[0];if(sb)sb.hide();if(stx)stx.hide();\n}\nelse if(st==='fail'){\n  set('ResultTitle','КОРАБЛЬ ПОВРЕЖДЁН');set('ResultStats','НЕДОСТАВЛЕННЫЙ ГРУЗ ПОТЕРЯН\\nКРЕДИТЫ НЕ ПОТЕРЯНЫ');setAt('ResultText',0,'НОВЫЙ ВЫЛЕТ');setAt('ResultText',1,'');const rb=runtimeScene.getObjects('RewardButtonBg')[0],rt=runtimeScene.getObjects('RewardButtonText')[0],rewardHover=mx>=740&&mx<=1180&&my>=400&&my<=525;if(rb)rb.setOpacity(v.get('SecondChanceUsed').getAsNumber()>=1?110:(rewardHover?(pressed?190:255):220));if(rt)rt.setString(v.get('SecondChanceUsed').getAsNumber()>=1?'ВТОРОЙ ШАНС ИСПОЛЬЗОВАН ✓':'▶ ВТОРОЙ ШАНС\\nЗА РЕКЛАМУ');\n}\nelse if(st==='upgrades'){\n  set('UpgradeTitle','УЛУЧШЕНИЯ КОРАБЛЯ');set('TechText','ТЕХНОДЕТАЛИ\\n🔧 '+v.get('TechParts').getAsNumber());set('UpgradeNotice',s.toast>0?v.get('Status').getAsString():'');s.toast=Math.max(0,s.toast-.016);\n  const cm=v.get('CargoMax').getAsNumber(),el=v.get('EngineLevel').getAsNumber(),hm=v.get('HullMax').getAsNumber(),cr=v.get('Credits').getAsNumber(),done=[cm>=10,el>=1,hm>=4],costs=[100,120,150],cards=runtimeScene.getObjects('UpgradeCardText');\n  const primary=[done[0]?'ТРЮМ\\n10 МЕСТ\\nПОЛУЧЕНО ✓':'ТРЮМ\\n'+cm+' → 10\\n+2 МЕСТА В ТРЮМЕ\\n100 КРЕДИТОВ',done[1]?'ДВИГАТЕЛЬ\\n+10% СКОРОСТИ\\nПОЛУЧЕНО ✓':'ДВИГАТЕЛЬ\\n+10% СКОРОСТИ\\n+10% УСКОРЕНИЯ\\n120 КРЕДИТОВ',done[2]?'КОРПУС\\n4 / 4\\nПОЛУЧЕНО ✓':'КОРПУС\\n'+hm+' → 4\\n+1 ПРОЧНОСТЬ\\n150 КРЕДИТОВ'];primary.forEach((x,i)=>{if(cards[i])cards[i].setString(x);});\n  const bs=runtimeScene.getObjects('UpgradeButtonText'),bgs=runtimeScene.getObjects('UpgradeButtonBg');done.forEach((d,i)=>{const label=d?'ПОЛУЧЕНО ✓':cr<costs[i]?'НУЖНО ЕЩЁ '+(costs[i]-cr):'УЛУЧШИТЬ';if(bs[i])bs[i].setString(label);const over=mx>=[175,735,1295][i]&&mx<=[625,1285,1845][i]&&my>=415&&my<=500;if(bgs[i])bgs[i].setOpacity(d?105:over?(pressed?190:255):220);});\n  const systems=runtimeScene.getObjects('SystemButtonText'),systemBg=runtimeScene.getObjects('SystemButtonBg'),systemDone=[v.get('MagnetLevel').getAsNumber()>=1,v.get('RadarLevel').getAsNumber()>=1,v.get('InsuranceLevel').getAsNumber()>=1],systemCost=[80,90,120],systemNames=['МАГНИТ','РАДАР','СТРАХОВКА'],systemEffects=['+25% РАДИУСА СБОРА','ДАЛЬНИЙ МАРКЕР СТАНЦИИ','СОХРАНЯЕТ 25% ДОБЫЧИ'];systemNames.forEach((name,i)=>{if(cards[i+3])cards[i+3].setString(systemDone[i]?name+'\\nУРОВЕНЬ 1\\n'+systemEffects[i]+'\\nПОЛУЧЕНО ✓':name+'\\nУРОВЕНЬ 0\\n'+systemEffects[i]+'\\n'+systemCost[i]+' КРЕДИТОВ');const label=systemDone[i]?'ПОЛУЧЕНО ✓':cr<systemCost[i]?'НУЖНО ЕЩЁ '+(systemCost[i]-cr):'УЛУЧШИТЬ';if(systems[i])systems[i].setString(label);const over=mx>=[175,735,1295][i]&&mx<=[625,1285,1845][i]&&my>=785&&my<=855;if(systemBg[i])systemBg[i].setOpacity(systemDone[i]?105:over?(pressed?190:255):220);});\n  const resetBg=runtimeScene.getObjects('ResetButtonBg')[0],resetText=runtimeScene.getObjects('ResetButtonText')[0],overReset=mx>=175&&mx<=625&&my>=895&&my<=970;if(resetBg)resetBg.setOpacity(overReset?(pressed?190:255):220);if(resetText)resetText.setString(v.get('TechParts').getAsNumber()>0?'СБРОСИТЬ\\nУЛУЧШЕНИЯ':'НЕДОСТАТОЧНО\\nТЕХНОДЕТАЛЕЙ');const rerollBg=runtimeScene.getObjects('RerollButtonBg')[0],rerollText=runtimeScene.getObjects('RerollButtonText')[0],overReroll=mx>=1550&&mx<=1820&&my>=90&&my<=165;if(rerollBg)rerollBg.setOpacity(overReroll?(pressed?190:255):220);if(rerollText)rerollText.setString(v.get('TechParts').getAsNumber()>0?'ОБНОВИТЬ\\nПРЕДЛОЖЕНИЯ':'НУЖНА ДЕТАЛЬ');const back=runtimeScene.getObjects('UpgradeBackButtonBg')[0],backText=runtimeScene.getObjects('UpgradeBackText')[0],overBack=mx>=735&&mx<=1185&&my>=895&&my<=970;if(back)back.setOpacity(overBack?(pressed?190:255):220);if(backText)backText.setString('НОВЫЙ ВЫЛЕТ');\n}\nelse if(st==='sectorSelect'){\n  set('SectorSelectTitle','ВЫБЕРИТЕ СЕКТОР');set('SectorSelectHint','Выберите маршрут вылета');const texts=runtimeScene.getObjects('SectorSelectText'),buttons=runtimeScene.getObjects('SectorSelectButtonText'),bgs=runtimeScene.getObjects('SectorSelectButtonBg');if(texts[0])texts[0].setString('СЕКТОР 1\\nБЕЗОПАСНАЯ ОРБИТА\\n\\nРиск: низкий\\nНаграда: ×1');if(texts[1])texts[1].setString('СЕКТОР 2\\nПОЯС ОБЛОМКОВ\\n\\nРиск: средний\\nНаграда: ×1,5');if(buttons[0])buttons[0].setString('ВЫЛЕТЕТЬ');if(buttons[1])buttons[1].setString(v.get('SectorUnlocked').getAsNumber()>=1?'ВЫЛЕТЕТЬ':'ЗАКРЫТ');bgs.forEach((b,i)=>{const over=mx>=(i?1050:350)&&mx<=(i?1550:850)&&my>=610&&my<=710;b.setOpacity(i===1&&v.get('SectorUnlocked').getAsNumber()<1?100:over?(pressed?190:255):220);});const back=runtimeScene.getObjects('SectorSelectBackBg')[0],backText=runtimeScene.getObjects('SectorSelectBackText')[0],over=mx>=720&&mx<=1200&&my>=775&&my<=875;if(back)back.setOpacity(over?(pressed?190:255):220);if(backText)backText.setString('НАЗАД К УЛУЧШЕНИЯМ');\n}\nelse if(st==='rotate'){set('RotateTitle','ПОВЕРНИТЕ\\nУСТРОЙСТВО');set('RotateHint','Игра работает\\nв горизонтальном режиме');}"
           ],
           "parameterObjects": "",
           "useStrict": false,

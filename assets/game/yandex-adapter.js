@@ -6,6 +6,10 @@
 
   function init() {
     if (state.initPromise) return state.initPromise;
+    if (localHost) {
+      state.initPromise = Promise.resolve(null);
+      return state.initPromise;
+    }
     if (typeof YaGames === 'undefined') {
       if (!localHost) console.error('[Orbital Salvage] /sdk.js не загрузился на production host.');
       state.initPromise = Promise.resolve(null);

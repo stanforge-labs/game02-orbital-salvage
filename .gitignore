@@ -28,9 +28,10 @@ screenshots/*
 screenshots/CorePass05/*
 !screenshots/CorePass05/*.png
 !screenshots/CorePass05/*.json
-!screenshots/FeatureExpansion/
-!screenshots/FeatureExpansion/*.png
-!screenshots/FeatureExpansion/*.csv
+!screenshots/ReleasePolish06/
+screenshots/ReleasePolish06/*
+!screenshots/ReleasePolish06/*.png
+!screenshots/ReleasePolish06/*.json
 
 # Секреты и локальные настройки
 .env
