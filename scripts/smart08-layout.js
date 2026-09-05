@@ -7,7 +7,7 @@ const addType=(name,source)=>{if(!obj(name)){const o=clone(obj(source));o.name=n
 const add=(name,source,a)=>{const i=clone(all(source)[0]);i.name=name;i.persistentUuid=crypto.randomUUID();Object.assign(i,a);l.instances.push(i);};
 // Keep the established background at native desktop density on the bottom layer.
 set('Background',{layer:'',x:-120,y:-60,width:2160,height:1215});set('Haze',{layer:'',x:0,y:0,width:1920,height:1080});
-set('MissionPanel',{x:700,y:28,width:520,height:108});set('MissionText',{x:716,y:82,width:488,height:84});sizeText('MissionText',20);
+set('MissionPanel',{x:740,y:28,width:440,height:108});set('MissionText',{x:752,y:82,width:416,height:84});sizeText('MissionText',20);
 set('NavMarker',{x:590,y:165,width:740,height:70});sizeText('NavMarker',22);
 set('ResultStats',{x:570,y:325,width:780,height:230});sizeText('ResultStats',24);
 set('ResultPanel',{height:530});

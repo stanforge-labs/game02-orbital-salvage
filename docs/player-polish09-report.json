@@ -1,0 +1,31 @@
+{
+  "screenshots": [
+    "01-menu.png",
+    "02-sector1.png",
+    "03-world-indicator.png",
+    "04-streak.png",
+    "05-full-cargo.png",
+    "06-hit.png",
+    "07-result.png",
+    "08-upgrades.png",
+    "09-sector2.png",
+    "10-sector2-landmark.png",
+    "11-mobile-landscape.png",
+    "12-mobile-portrait.png"
+  ],
+  "checks": [
+    {
+      "touch": true,
+      "shipXBefore": 350,
+      "shipXAfter": 594.9593590590558
+    },
+    {
+      "mouseHoverDoesNotSteer": "covered by smart-polish08-checks.json",
+      "collision": "real hazard route completed",
+      "worldSafeMargin": "current runtime",
+      "responsive": "1366x768 covered by smart-polish08-checks.json"
+    }
+  ],
+  "errors": [],
+  "fixtures": "UI states are isolated runtime fixtures; movement/collision/touch smoke tests use real input."
+}
