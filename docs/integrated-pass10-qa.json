@@ -1,0 +1,37 @@
+{
+  "pass": "Integrated Pass 10",
+  "screenshots": [
+    "01-menu-1920x1080.png",
+    "02-sector1-start.png",
+    "03-sector1-cluster.png",
+    "07-dev-hud.png",
+    "04-hit-feedback.png",
+    "05-result.png",
+    "06-upgrades-modules.png",
+    "08-sector-select.png",
+    "09-sector2-field.png",
+    "10-sector2-danger.png",
+    "11-menu-1366x768.png",
+    "12-hud-1366x768.png",
+    "13-mobile-landscape.png",
+    "14-mobile-portrait.png"
+  ],
+  "checks": {
+    "collision": {
+      "beforeHull": 3,
+      "afterHull": 1
+    },
+    "devCredits": true,
+    "devNextContract": "container",
+    "mouseDoesNotSteer": true,
+    "touch": true,
+    "offersBefore": [
+      "shield",
+      "assist",
+      "contract"
+    ],
+    "runtimeErrors": [],
+    "jsonAudit": "{\n  \"jsonValid\": true,\n  \"projectPath\": \"C:\\\\Yandex Games\\\\02 Orbital Salvage\\\\game.json\",\n  \"layout\": \"OrbitalSalvage\",\n  \"sceneColor\": {\n    \"r\": 0,\n    \"v\": 0,\n    \"b\": 0\n  },\n  \"objectCount\": 96,\n  \"instanceCount\": 261,\n  \"unknownInstances\": [],\n  \"missingResources\": [],\n  \"invalidColors\": [],\n  \"resourceCount\": 41\n}\n"
+  },
+  "errors": []
+}

@@ -4,46 +4,14 @@
   "nodamageEarlyReturnRejected": true,
   "speedEarlyReturnRejected": true,
   "magnetDistances": [
-    91.65673326579552,
-    112.24842669492634
+    91.69198463723187,
+    112.01210343768128
   ],
   "radarHud": {
     "HullText": "КОРПУС     3 / 3",
     "CargoText": "ГРУЗ     0 / 8",
-    "NavMarker": "СТАНЦИЯ ← 929 м • ~5 СЕК ДО БАЗЫ",
-    "ObjectiveText": "ЛОМ ← 444 м • ЦЕННОСТЬ 10\nСОБИРАЙТЕ ИЛИ ВОЗВРАЩАЙТЕСЬ"
+    "NavMarker": "СТАНЦИЯ ← 928 м • ~5 СЕК ДО БАЗЫ",
+    "ObjectiveText": "ЛОМ ↓ 280 м • ЦЕННОСТЬ 10\nСОБИРАЙТЕ ИЛИ ВОЗВРАЩАЙТЕСЬ"
   },
-  "dangerCompleted": {
-    "state": "result",
-    "cargo": 2,
-    "cargoMax": 8,
-    "hull": 3,
-    "hullMax": 4,
-    "credits": 160,
-    "techParts": 1,
-    "sector": 2,
-    "runCount": 1,
-    "contractsCompleted": 6,
-    "engineLevel": 0,
-    "shipX": 264.38033248988376,
-    "shipY": 555.4831853609248,
-    "speed": 181.83764764179162,
-    "status": "КОНТРАКТ ВЫПОЛНЕН +130",
-    "missionType": "danger",
-    "missionProgress": 2,
-    "missionTarget": 2,
-    "runTime": 66.7918000000011,
-    "cargoValue": 30,
-    "streak": 0,
-    "streakBonus": 0,
-    "sectorUnlocked": 1,
-    "damage": 1,
-    "cameraX": 480.0107578870883,
-    "cameraY": 471.2339392103195,
-    "offers": [
-      "cargo",
-      "engine",
-      "magnet"
-    ]
-  }
+  "failure": "AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:\n\n  assert(Math.hypot(point[0]-cfg.danger.x,point[1]-cfg.danger.y)<cfg.danger.radius)\n\n    at main (C:\\Yandex Games\\02 Orbital Salvage\\scripts\\smart08-contract-checks.js:16:41)"
 }

@@ -1,5 +1,6 @@
 const fs=require('fs'),crypto=require('crypto');
 const file=process.argv[2]||'game.json';const p=JSON.parse(fs.readFileSync(file,'utf8')),l=p.layouts[0];
+const cfg=require('./smart08-config');
 const clone=x=>structuredClone(x),obj=n=>l.objects.find(o=>o.name===n),all=n=>l.instances.filter(o=>o.name===n);
 const set=(n,a)=>all(n).forEach(o=>Object.assign(o,a));
 const sizeText=(n,size)=>{Object.assign(obj(n),{characterSize:size,smoothed:true});Object.assign(obj(n).content,{characterSize:size,smoothed:true});};
@@ -22,17 +23,18 @@ set('Sector2Dust',{x:0,y:0,width:6200,height:3000});
 set('Sector2Wreck',{x:4700,y:820,width:230,height:145});set('Sector2Wreck2',{x:5250,y:2090,width:200,height:130});
 // Keep one input controller. The custom damping stays intact for both arrows and WASD.
 obj('Ship').behaviors[0].ignoreDefaultControls=true;
-for(const n of ['CommonSalvage','ScrapGlow'])while(all(n).length<8)add(n,n,{});
-while(all('Debris').length<10)add('Debris','Debris',{});
+for(const n of ['CommonSalvage','ScrapGlow'])while(all(n).length<10)add(n,n,{});
+while(all('RareContainer').length<4)add('RareContainer','RareContainer',{});
+while(all('Debris').length<14)add('Debris','Debris',{});
+while(all('FastDebris').length<4)add('FastDebris','FastDebris',{});
 set('RareContainer',{width:48,height:42});
 addType('RouteBeacon','ScrapGlow');addType('RouteLabel','FieldLabel');addType('AmbientDebris','CommonSalvage');addType('PickupText','StatusText');addType('MagnetAura','ScrapGlow');
 l.instances=l.instances.filter(o=>!['RouteBeacon','RouteLabel','AmbientDebris','PickupText','MagnetAura'].includes(o.name));
 add('MagnetAura','ScrapGlow',{x:270,y:620,width:160,height:160,zOrder:7});
-const beacons=[[960,940,'РАБОЧАЯ ОРБИТА →'],[2150,1280,'ПОЛЕ ОБЛОМКОВ →'],[3400,900,'ДАЛЬНИЙ МАРШРУТ →'],[4480,1580,'КОНТЕЙНЕРЫ ↗'],[4750,1050,'ОПАСНЫЙ КАРМАН ↑']];
-for(const [x,y,text] of beacons){add('RouteBeacon','ScrapGlow',{x,y,width:24,height:24,zOrder:3});add('RouteLabel','FieldLabel',{x:x-80,y:y+35,width:360,height:36,zOrder:3,initialVariables:[{name:'Caption',type:'string',value:text}]});}
+const beacons=cfg.zones.map(zone=>[zone.x,zone.y,zone.name+(zone.sector===2?' ⚠':' →'),zone.sector]);
+for(const [x,y,text,sector] of beacons){add('RouteBeacon','ScrapGlow',{x,y,width:24,height:24,zOrder:3,initialVariables:[{name:'Sector',type:'number',value:String(sector)}]});add('RouteLabel','FieldLabel',{x:x-80,y:y+35,width:360,height:36,zOrder:3,initialVariables:[{name:'Caption',type:'string',value:text},{name:'Sector',type:'number',value:String(sector)}]});}
 sizeText('RouteLabel',13);sizeText('PickupText',16);obj('PickupText').content.textAlignment='center';obj('PickupText').content.verticalTextAlignment='top';
 add('PickupText','StatusText',{layer:'World',x:200,y:500,width:220,height:42,zOrder:20});
-const cfg=require('./smart08-config');
 set('DangerZone',{x:cfg.danger.x-320,y:cfg.danger.y-320});
 set('Sector2Wreck',{x:cfg.danger.x-350,y:820});set('Sector2Wreck2',{x:cfg.rare2[1][0]-250,y:2090});
 set('DangerLabel',{x:cfg.danger.x-200,y:990});set('RiskLabel',{x:cfg.danger.x-200,y:1030});

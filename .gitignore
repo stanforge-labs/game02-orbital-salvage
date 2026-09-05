@@ -39,6 +39,9 @@ screenshots/GameplayDepth07/*
 !screenshots/SmartPolish08/
 screenshots/SmartPolish08/*
 !screenshots/SmartPolish08/*.png
+!screenshots/IntegratedPass10/
+screenshots/IntegratedPass10/*
+!screenshots/IntegratedPass10/*.png
 
 # Секреты и локальные настройки
 .env
