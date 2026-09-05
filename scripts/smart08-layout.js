@@ -8,6 +8,7 @@ const add=(name,source,a)=>{const i=clone(all(source)[0]);i.name=name;i.persiste
 // Keep the established background at native desktop density on the bottom layer.
 set('Background',{layer:'',x:-120,y:-60,width:2160,height:1215});set('Haze',{layer:'',x:0,y:0,width:1920,height:1080});
 set('MissionPanel',{x:740,y:28,width:440,height:108});set('MissionText',{x:752,y:82,width:416,height:84});sizeText('MissionText',20);
+sizeText('ObjectiveText',24);
 set('NavMarker',{x:590,y:165,width:740,height:70});sizeText('NavMarker',22);
 set('ResultStats',{x:570,y:325,width:780,height:230});sizeText('ResultStats',24);
 set('ResultPanel',{height:530});
@@ -37,6 +38,8 @@ set('Sector2Wreck',{x:cfg.danger.x-350,y:820});set('Sector2Wreck2',{x:cfg.rare2[
 set('DangerLabel',{x:cfg.danger.x-200,y:990});set('RiskLabel',{x:cfg.danger.x-200,y:1030});
 for(let i=0;i<38;i++){const x=550+(i*421)%5200,y=380+(i*347)%2130;add('AmbientDebris','CommonSalvage',{x,y,width:14+i%4*4,height:12+i%3*4,angle:(i*73)%360,zOrder:2});}
 for(const [x,y] of cfg.scrap){for(let i=0;i<4;i++)add('AmbientDebris','CommonSalvage',{x:x+140+i*38,y:y+120+(i%2)*46,width:18+i*4,height:16+i*3,angle:i*53,zOrder:2});}
+const clusters=[[1050,930],[1750,1120],[2420,860],[3180,1360],[3860,820],[4380,1510]];
+for(const [x,y] of clusters)for(const [dx,dy,w,h,a] of [[0,0,24,18,-12],[48,28,18,28,28],[92,-18,28,16,64]])add('AmbientDebris','CommonSalvage',{x:x+dx,y:y+dy,width:w,height:h,angle:a,zOrder:2});
 // Leave source scene instances on the same authored positions as runtime.
 all('CommonSalvage').forEach((o,i)=>Object.assign(o,{x:cfg.scrap[i][0]-17,y:cfg.scrap[i][1]-15,width:34,height:30}));
 all('RareContainer').forEach((o,i)=>Object.assign(o,{x:cfg.rare[i][0]-24,y:cfg.rare[i][1]-21}));

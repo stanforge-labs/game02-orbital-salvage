@@ -1,0 +1,39 @@
+{
+  "screenshots": [
+    "01-sector1-start.png",
+    "02-sector1-after-tutorial.png",
+    "03-streak-single.png",
+    "04-full-cargo-safehud.png",
+    "05-contract-hud.png",
+    "06-sector1-density.png",
+    "07-sector2-wreck.png",
+    "08-mobile-landscape.png",
+    "09-mobile-portrait.png"
+  ],
+  "checks": [
+    {
+      "streak": 3,
+      "status": ""
+    },
+    {
+      "touch": true,
+      "shipXBefore": 350,
+      "shipXAfter": 575.7643209935517
+    }
+  ],
+  "errors": [],
+  "viewportChecks": [
+    {
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "width": 720,
+      "height": 1280
+    }
+  ]
+}
