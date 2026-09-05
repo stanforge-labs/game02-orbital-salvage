@@ -36,6 +36,9 @@ screenshots/ReleasePolish06/*
 screenshots/GameplayDepth07/*
 !screenshots/GameplayDepth07/*.png
 !screenshots/GameplayDepth07/*.json
+!screenshots/SmartPolish08/
+screenshots/SmartPolish08/*
+!screenshots/SmartPolish08/*.png
 
 # Секреты и локальные настройки
 .env

@@ -24,6 +24,7 @@ if ($data.Contains($mojibakeMarker)) {
 }
 $data = $data.Replace('"image":"assets/game/', '"image":"')
 $data = $data.Replace('"name":"assets/game/', '"name":"')
+$data = $data.Replace('"font":"assets/game/', '"font":"')
 $data = $data.Replace('"backgroundImageResourceName":"assets/game/', '"backgroundImageResourceName":"')
 
 # Keep the small set of shipped visual assets self-contained in the generated

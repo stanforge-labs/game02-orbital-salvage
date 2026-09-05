@@ -37,3 +37,12 @@ SVG-панели `ui_full_screen.svg`, `ui_full_card.svg`, `ui_full_hud.svg`,
 
 Старые неиспользуемые файлы пакетов не входят в игровой runtime и не считаются
 отправляемыми ассетами.
+
+## Оригинальная графика GameplayDepth07 / SmartPolish08
+
+`salvage_engine.svg`, `salvage_beam.svg`, `asteroid_small.svg`,
+`asteroid_medium.svg`, `asteroid_large.svg`, `asteroid_crystal.svg`,
+`sector2_haze.svg`, `sector2_wreck.svg`, `sector2_wreck2.svg` — оригинальная
+векторная графика проекта. В SmartPolish08 силуэты wreck заменены на детали
+разрушенных кораблей: секции корпуса, панели, балки, антенны и двигатели.
+Новых внешних пакетов и платных ассетов не добавлялось.
