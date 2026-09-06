@@ -95,5 +95,6 @@ layout.events[2].inlineCode = [fixedCode2, code3];
 layout.events = layout.events.slice(0, 3);
 require('./smart08-runtime')(layout);
 require('./integrated-pass10-runtime')(layout);
+require('./release11-runtime')(layout);
 fs.writeFileSync(file, JSON.stringify(project, null, 2) + '\n', 'utf8');
 console.log('Gameplay Depth 07 runtime applied');

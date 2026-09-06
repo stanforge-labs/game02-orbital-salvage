@@ -42,6 +42,9 @@ screenshots/SmartPolish08/*
 !screenshots/IntegratedPass10/
 screenshots/IntegratedPass10/*
 !screenshots/IntegratedPass10/*.png
+!screenshots/ReleaseCandidateExpansion11/
+screenshots/ReleaseCandidateExpansion11/*
+!screenshots/ReleaseCandidateExpansion11/*.png
 
 # Секреты и локальные настройки
 .env

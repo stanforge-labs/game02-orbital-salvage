@@ -1,0 +1,79 @@
+{
+  "pass": "Release Candidate Expansion 11",
+  "screenshots": [
+    "01-main-menu.png",
+    "02-sector1-start.png",
+    "03-debris-field.png",
+    "05-world-density.png",
+    "06-hit-feedback.png",
+    "07-death-screen.png",
+    "08-result.png",
+    "09-upgrades.png",
+    "10-sector-select.png",
+    "11-sector2.png",
+    "04-meteor-stream.png",
+    "12-portal-locked.png",
+    "13-access-key.png",
+    "14-portal-active.png",
+    "15-secret-zone.png",
+    "16-laser-challenge.png",
+    "17-secret-cache.png",
+    "18-mobile-landscape.png",
+    "19-mobile-portrait.png"
+  ],
+  "checks": {
+    "secretCache": {
+      "state": "play",
+      "cargo": 1,
+      "cargoMax": 8,
+      "hull": 3,
+      "hullMax": 3,
+      "credits": 500,
+      "techParts": 11,
+      "sector": 2,
+      "runCount": 2,
+      "contractsCompleted": 0,
+      "engineLevel": 0,
+      "shipX": 5859,
+      "shipY": 2584,
+      "speed": 0,
+      "status": "ТЕХ-КЭШ: +180 КРЕДИТОВ • +1 ДЕТАЛЬ",
+      "missionType": "scrap",
+      "missionProgress": 0,
+      "missionTarget": 6,
+      "runTime": 5.917200000000015,
+      "cargoValue": 180,
+      "streak": 0,
+      "streakBonus": 0,
+      "sectorUnlocked": 1,
+      "damage": 0,
+      "cameraX": 5718.297709449315,
+      "cameraY": 2513.7910825233253,
+      "offers": [
+        "repair",
+        "scanner",
+        "shield"
+      ],
+      "dev": false
+    },
+    "touch": true,
+    "audit": {
+      "jsonValid": true,
+      "projectPath": "C:\\Yandex Games\\02 Orbital Salvage\\game.json",
+      "layout": "OrbitalSalvage",
+      "sceneColor": {
+        "r": 0,
+        "v": 0,
+        "b": 0
+      },
+      "objectCount": 108,
+      "instanceCount": 321,
+      "unknownInstances": [],
+      "missingResources": [],
+      "invalidColors": [],
+      "resourceCount": 41
+    },
+    "runtimeErrors": []
+  },
+  "errors": []
+}
