@@ -1,0 +1,24 @@
+const {fs,path,assert,root,sleep,state,click,steer,launch}=require('./smart08-play');
+const out=path.join(root,'screenshots','ReleaseQualityPass12'),report={pass:'Release Quality Pass 12',screenshots:[],checks:{},errors:[]};
+const url='http://127.0.0.1:4226/index.html?dev=1';fs.rmSync(out,{recursive:true,force:true});fs.mkdirSync(out,{recursive:true});
+const shot=async(p,name)=>{await p.screenshot({path:path.join(out,name)});report.screenshots.push(name);};
+async function attach(p){await p.evaluate(()=>{const proto=gdjs.RuntimeScene.prototype,old=proto.renderAndStep;if(window.__rq12)return;window.__rq12=true;proto.renderAndStep=function(...a){window.__rq12Scene=this;return old.apply(this,a);};});await sleep(p,100);}
+async function vars(p,values){await p.evaluate(values=>{const v=window.__rq12Scene.getVariables();for(const [n,value] of Object.entries(values)){const x=v.get(n);typeof value==='string'?x.setString(value):x.setNumber(value);}},values);await sleep(p,140);}
+async function objClick(p,name,index=0){const pt=await p.evaluate(([name,index])=>{const o=window.__rq12Scene.getObjects(name)[index];return{x:o.getX()+o.getWidth()/2,y:o.getY()+o.getHeight()/2};},[name,index]);return click(p,pt.x,pt.y);}
+async function main(){const session=await launch(url,{width:1920,height:1080}),{p,browser,errors}=session;try{
+ await attach(p);await shot(p,'01-menu.png');await objClick(p,'ButtonBg');assert.equal((await state(p)).state,'play');await shot(p,'02-sector1-start.png');
+ await steer(p,1100,820);await shot(p,'03-working-orbit.png');await steer(p,2250,1120);await shot(p,'04-debris-field.png');await steer(p,3550,720);await shot(p,'05-satellite-graveyard.png');await steer(p,2334,1260);await shot(p,'07-sector1-dense.png');await steer(p,1383,850);await sleep(p,150);await shot(p,'08-hit-feedback.png');
+ await vars(p,{GameState:'result',Cargo:4,ScrapCount:4,CargoValue:70,ContractRewardEarned:45,Credits:115});await shot(p,'09-result.png');await vars(p,{GameState:'fail',SecondChanceUsed:1});await shot(p,'10-death.png');await vars(p,{GameState:'upgrades',Credits:500,TechParts:2,Offer1:'repair',Offer2:'scanner',Offer3:'shield'});await shot(p,'11-upgrades.png');
+ await vars(p,{Hull:3,RunDamage:0,Cargo:0,CargoValue:0});await p.keyboard.press('F8');await sleep(p,180);assert.equal((await state(p)).state,'sectorSelect');await shot(p,'12-sector-select.png');await objClick(p,'SectorSelectButtonBg',1);await sleep(p,220);await shot(p,'13-sector2-start.png');
+ await p.evaluate(()=>{const s=window.__rq12Scene.__os;s.phase=3;s.x=3400;s.y=850;s.vx=0;s.vy=0;window.__rq12Scene.__osCam={x:3400,y:850};window.__rq12Scene.getObjects('Ship')[0].setCenterPositionInScene(3400,850);});await sleep(p,180);await shot(p,'06-meteor-stream.png');await shot(p,'14-sector2-danger.png');
+ // Full secret interaction uses normal keyboard steering; F8 above only exposes Sector 2 for this focused smoke route.
+ await steer(p,5355,1065,90);await shot(p,'15-signal-locked.png');await steer(p,4412,2168,62);await shot(p,'16-access-key.png');await vars(p,{Hull:3,RunDamage:0});await steer(p,5355,1065,72);await sleep(p,280);await shot(p,'17-gate-active.png');await sleep(p,350);await shot(p,'18-secret-entry.png');
+ // F9 is deliberately used only after the keyboard-driven signal/key/gate smoke path, to capture deterministic secret-area visuals.
+ await p.keyboard.press('F9');await sleep(p,260);await vars(p,{Hull:3,RunDamage:0,Status:''});await p.evaluate(()=>{window.__rq12Scene.__os.toast=0;});await sleep(p,120);
+ await steer(p,5230,2370,70);await sleep(p,380);await shot(p,'19-laser-room-1.png');await steer(p,5680,2300,70);await sleep(p,500);await shot(p,'20-laser-room-2.png');await steer(p,5859,2584,70);await shot(p,'21-secret-cache.png');await sleep(p,180);await shot(p,'22-secret-reward.png');report.checks.secretFlow=await state(p);report.errors.push(...errors);
+ }finally{await browser.close();}
+ const mobile=await launch(url,{width:1280,height:720},true);try{await attach(mobile.p);await objClick(mobile.p,'ButtonBg');await mobile.p.touchscreen.tap(900,420);await sleep(mobile.p,160);await shot(mobile.p,'23-mobile-landscape.png');report.checks.touch=true;report.errors.push(...mobile.errors);}finally{await mobile.browser.close();}
+ const portrait=await launch(url,{width:720,height:1280},true);try{await attach(portrait.p);assert.equal((await state(portrait.p)).state,'rotate');await shot(portrait.p,'24-mobile-portrait.png');report.errors.push(...portrait.errors);}finally{await portrait.browser.close();}
+ report.checks.audit=JSON.parse(require('child_process').execFileSync(process.execPath,['scripts/audit-project.js'],{cwd:root,encoding:'utf8'}));report.checks.runtimeErrors=report.errors;fs.writeFileSync(path.join(root,'docs','release12-qa.json'),JSON.stringify(report,null,2));if(report.errors.length)throw new Error(report.errors.join('\n'));
+}
+main().catch(error=>{console.error(error.stack);process.exit(1);});

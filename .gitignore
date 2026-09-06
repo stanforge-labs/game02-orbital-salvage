@@ -45,6 +45,9 @@ screenshots/IntegratedPass10/*
 !screenshots/ReleaseCandidateExpansion11/
 screenshots/ReleaseCandidateExpansion11/*
 !screenshots/ReleaseCandidateExpansion11/*.png
+!screenshots/ReleaseQualityPass12/
+screenshots/ReleaseQualityPass12/*
+!screenshots/ReleaseQualityPass12/*.png
 
 # Секреты и локальные настройки
 .env

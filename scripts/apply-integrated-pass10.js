@@ -5,4 +5,5 @@ run('scripts/update-runtime-feature.js');
 run('scripts/smart08-layout.js');
 run('scripts/integrated-pass10-layout.js');
 run('scripts/release11-layout.js');
+run('scripts/release12-layout.js');
 run('scripts/audit-project.js');
