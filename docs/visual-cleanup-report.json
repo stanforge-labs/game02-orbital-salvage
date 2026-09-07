@@ -1,34 +1,34 @@
 {
   "seeds": [
     {
-      "seed": 1974550908,
-      "decor": 47,
-      "pois": 9,
+      "seed": 130013,
+      "decor": 52,
+      "pois": 11,
+      "hazards": 20
+    },
+    {
+      "seed": 230027,
+      "decor": 45,
+      "pois": 7,
       "hazards": 23
     },
     {
-      "seed": 1974550908,
-      "decor": 47,
-      "pois": 9,
-      "hazards": 23
+      "seed": 330037,
+      "decor": 48,
+      "pois": 10,
+      "hazards": 26
     },
     {
-      "seed": 1974550908,
-      "decor": 47,
-      "pois": 9,
-      "hazards": 23
+      "seed": 430049,
+      "decor": 48,
+      "pois": 8,
+      "hazards": 24
     },
     {
-      "seed": 1974550908,
-      "decor": 47,
-      "pois": 9,
-      "hazards": 23
-    },
-    {
-      "seed": 1974550908,
-      "decor": 47,
-      "pois": 9,
-      "hazards": 23
+      "seed": 530051,
+      "decor": 45,
+      "pois": 8,
+      "hazards": 29
     }
   ],
   "errors": [],
@@ -53,16 +53,16 @@
   ],
   "performance": {
     "sector1": {
-      "decor": 33,
-      "pois": 5,
-      "activeLoot": 12,
-      "activeHazards": 0
+      "decor": 37,
+      "pois": 4,
+      "activeLoot": 14,
+      "activeHazards": 2
     },
     "sector2": {
-      "decor": 47,
-      "pois": 9,
+      "decor": 44,
+      "pois": 8,
       "activeLoot": 15,
-      "activeHazards": 1
+      "activeHazards": 5
     }
   }
 }

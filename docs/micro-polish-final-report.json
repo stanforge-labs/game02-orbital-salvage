@@ -1,0 +1,15 @@
+{
+  "floatingGap": 110.4008,
+  "productionDevLabelsHidden": true,
+  "topHudExclusion": true,
+  "emptyReturnTitle": "ВОЗВРАЩЕНИЕ ЗАВЕРШЕНО",
+  "lootReturnTitle": "ГРУЗ ДОСТАВЛЕН",
+  "seeds": [
+    130013,
+    230027,
+    330037,
+    430049,
+    530051
+  ],
+  "runtimeErrors": []
+}
