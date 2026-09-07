@@ -1,0 +1,68 @@
+{
+  "seeds": [
+    {
+      "seed": 1974550908,
+      "decor": 47,
+      "pois": 9,
+      "hazards": 23
+    },
+    {
+      "seed": 1974550908,
+      "decor": 47,
+      "pois": 9,
+      "hazards": 23
+    },
+    {
+      "seed": 1974550908,
+      "decor": 47,
+      "pois": 9,
+      "hazards": 23
+    },
+    {
+      "seed": 1974550908,
+      "decor": 47,
+      "pois": 9,
+      "hazards": 23
+    },
+    {
+      "seed": 1974550908,
+      "decor": 47,
+      "pois": 9,
+      "hazards": 23
+    }
+  ],
+  "errors": [],
+  "screenshots": [
+    "01-sector1-clean.png",
+    "02-debris-field.png",
+    "03-meteor-warning.png",
+    "04-meteor-flight.png",
+    "05-result-dim.png",
+    "06-upgrades-dim.png",
+    "07-signal.png",
+    "08-access-key.png",
+    "09-gate.png",
+    "10-secret-entry.png",
+    "11-secret-route.png",
+    "12-tech-cache.png",
+    "13-return-route.png",
+    "14-desktop-1366.png",
+    "15-desktop-1280.png",
+    "16-mobile-landscape.png",
+    "17-mobile-portrait.png"
+  ],
+  "performance": {
+    "sector1": {
+      "decor": 33,
+      "pois": 5,
+      "activeLoot": 12,
+      "activeHazards": 0
+    },
+    "sector2": {
+      "decor": 47,
+      "pois": 9,
+      "activeLoot": 15,
+      "activeHazards": 1
+    }
+  }
+}

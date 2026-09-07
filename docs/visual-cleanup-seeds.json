@@ -1,0 +1,47 @@
+[
+  {
+    "seed": 130013,
+    "decor": 36,
+    "pois": 6,
+    "hazards": 16,
+    "stationSafe": true,
+    "secretSafe": true,
+    "resources": true
+  },
+  {
+    "seed": 230027,
+    "decor": 35,
+    "pois": 4,
+    "hazards": 16,
+    "stationSafe": true,
+    "secretSafe": true,
+    "resources": true
+  },
+  {
+    "seed": 330037,
+    "decor": 35,
+    "pois": 5,
+    "hazards": 20,
+    "stationSafe": true,
+    "secretSafe": true,
+    "resources": true
+  },
+  {
+    "seed": 430049,
+    "decor": 33,
+    "pois": 4,
+    "hazards": 11,
+    "stationSafe": true,
+    "secretSafe": true,
+    "resources": true
+  },
+  {
+    "seed": 530051,
+    "decor": 42,
+    "pois": 8,
+    "hazards": 10,
+    "stationSafe": true,
+    "secretSafe": true,
+    "resources": true
+  }
+]
