@@ -1,0 +1,159 @@
+{
+  "pass": "Gameplay Overhaul 13",
+  "natural": {
+    "events": [
+      {
+        "name": "newGame",
+        "seconds": 0.3
+      },
+      {
+        "name": "contract1Loot",
+        "seconds": 7.9
+      },
+      {
+        "name": "return1",
+        "seconds": 12
+      },
+      {
+        "name": "return2",
+        "seconds": 48.2
+      },
+      {
+        "name": "upgrade2",
+        "seconds": 48.7
+      },
+      {
+        "name": "return3",
+        "seconds": 58.1
+      },
+      {
+        "name": "upgrade3",
+        "seconds": 58.6
+      },
+      {
+        "name": "return4",
+        "seconds": 67.7
+      },
+      {
+        "name": "sector2",
+        "seconds": 68.2
+      },
+      {
+        "name": "signal",
+        "seconds": 93.1
+      },
+      {
+        "name": "key",
+        "seconds": 108.3
+      },
+      {
+        "name": "secretEntry",
+        "seconds": 134.7
+      },
+      {
+        "name": "cache",
+        "seconds": 159.5
+      },
+      {
+        "name": "finalReturn",
+        "seconds": 188.7
+      }
+    ],
+    "final": {
+      "state": "result",
+      "cargo": 10,
+      "cargoMax": 10,
+      "hull": 1,
+      "hullMax": 4,
+      "credits": 615,
+      "techParts": 2,
+      "sector": 2,
+      "runCount": 5,
+      "contractsCompleted": 4,
+      "engineLevel": 0,
+      "shipX": 251.26361543815477,
+      "shipY": 842.9866215615237,
+      "speed": 190,
+      "status": "СЕКРЕТНЫЙ МАРШРУТ ЗАВЕРШЁН",
+      "missionType": "speed",
+      "missionProgress": 0,
+      "missionTarget": 4,
+      "runTime": 120.71980000001246,
+      "cargoValue": 416,
+      "streak": 3,
+      "streakBonus": 5,
+      "sectorUnlocked": 1,
+      "damage": 3,
+      "cameraX": 480.00000000000017,
+      "cameraY": 932.5526683546061,
+      "offers": [
+        "shield",
+        "assist",
+        "contract"
+      ],
+      "dev": false,
+      "seed": 4259032060,
+      "region": "graveyard",
+      "secretStage": 6,
+      "secretTemplate": 0,
+      "activeLoot": 15,
+      "activeHazards": 0
+    },
+    "seconds": 188.7
+  },
+  "seeds": [
+    4048871632,
+    4270375229,
+    44394603,
+    2745568026,
+    3698008075
+  ],
+  "checks": {
+    "audit": {
+      "jsonValid": true,
+      "projectPath": "C:\\Yandex Games\\02 Orbital Salvage\\game.json",
+      "layout": "OrbitalSalvage",
+      "sceneColor": {
+        "r": 0,
+        "v": 0,
+        "b": 0
+      },
+      "objectCount": 130,
+      "instanceCount": 557,
+      "unknownInstances": [],
+      "missingResources": [],
+      "invalidColors": [],
+      "resourceCount": 52
+    },
+    "runtimeErrors": []
+  },
+  "errors": [],
+  "screenshots": [
+    "01-menu.png",
+    "02-sector1-spawn.png",
+    "03-region-working-orbit.png",
+    "04-region-debris-field.png",
+    "08-poi-wreck.png",
+    "05-meteor-warning.png",
+    "06-meteor-flight.png",
+    "07-multi-loot-choice.png",
+    "09-mission-event.png",
+    "10-sector2.png",
+    "11-secret-signal.png",
+    "12-access-key-encounter.png",
+    "13-gate-locked.png",
+    "14-gate-opening.png",
+    "15-secret-layout-start.png",
+    "16-secret-laser-pattern1.png",
+    "17-secret-laser-pattern2.png",
+    "18-secret-debris-maze.png",
+    "19-secret-final-challenge.png",
+    "20-secret-cache.png",
+    "21-upgraded-ship.png",
+    "22-result.png",
+    "23-upgrades.png",
+    "26-dev-procedural-seed.png",
+    "24-mobile-landscape.png",
+    "25-mobile-portrait.png"
+  ]
+}
