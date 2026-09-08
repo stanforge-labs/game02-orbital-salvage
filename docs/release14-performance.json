@@ -1,0 +1,22 @@
+[
+  {
+    "port": 4230,
+    "mode": "15-second stationary dense-area fixture, not natural play",
+    "frames": 898,
+    "p50ms": 16.69999999999891,
+    "p95ms": 17.100000000000364,
+    "heap": 30255242,
+    "state": "play",
+    "errors": []
+  },
+  {
+    "port": 4231,
+    "mode": "15-second stationary dense-area fixture, not natural play",
+    "frames": 899,
+    "p50ms": 16.699999999999818,
+    "p95ms": 17.100000000000364,
+    "heap": 37033691,
+    "state": "play",
+    "errors": []
+  }
+]

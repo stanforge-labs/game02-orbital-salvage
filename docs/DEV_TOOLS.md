@@ -20,3 +20,35 @@ DEV HUD также показывает seed, текущий регион, FPS/f
 ```powershell
 node scripts/apply-integrated-pass10.js
 ```
+
+## Full Release Rebuild 14
+
+F9 использует текущий процедурный секретный маршрут. Сначала включите F3,
+затем нажмите F9. Команда является DEV-телепортом, не доказательством обычного
+прохождения. F10/F11 и остальные существующие клавиши сохранены.
+Новые плагины не устанавливались.
+
+Локальный экспорт:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts/export-core.ps1 -OutputDirectory exports/full-release14
+node scripts/local-static-server.js exports/full-release14 4231
+```
+
+Проверки выполняются в отдельных headless Chromium, не трогают активное окно:
+
+```powershell
+node scripts/audit-project.js
+node scripts/release14-qa.js 1
+node scripts/release14-qa.js 2
+node scripts/release14-qa.js responsive
+node scripts/release14-qa.js seeds
+node scripts/release14-fixtures.js
+node scripts/release14-modules-qa.js
+```
+
+Только `release14-qa.js 1/2` являются обычными маршрутами с чистым сохранением:
+управление клавиатурой, чтение координат целей для навигации, без изменения
+координат/кредитов/корпуса/прогресса. Fixtures и modules-qa намеренно используют
+DEV-состояния. Их кадры нельзя представлять как естественную экономику.
+Отчёты находятся в `docs/release14-*.json`.

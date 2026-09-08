@@ -48,6 +48,8 @@ screenshots/ReleaseCandidateExpansion11/*
 !screenshots/ReleaseQualityPass12/
 screenshots/ReleaseQualityPass12/*
 !screenshots/ReleaseQualityPass12/*.png
+!screenshots/FullReleaseRebuild14/
+!screenshots/FullReleaseRebuild14/*.png
 
 # Секреты и локальные настройки
 .env

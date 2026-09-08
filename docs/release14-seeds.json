@@ -1,0 +1,186 @@
+{
+  "mode": "explicit generation fixture, not natural gameplay",
+  "seeds": [
+    {
+      "seed": 130013,
+      "regions": 9,
+      "variants": [
+        "working-trail",
+        "debris-crescent",
+        "graveyard-trail",
+        "meteor-crescent",
+        "pass-trail",
+        "open-crescent",
+        "pass-trail",
+        "meteor-crescent",
+        "graveyard-trail"
+      ],
+      "loot": 38,
+      "hazards": 14,
+      "stationSafe": true
+    },
+    {
+      "seed": 230027,
+      "regions": 9,
+      "variants": [
+        "working-trail",
+        "debris-crescent",
+        "graveyard-trail",
+        "meteor-crescent",
+        "graveyard-trail",
+        "meteor-crescent",
+        "working-trail",
+        "trail-crescent",
+        "meteor-trail"
+      ],
+      "loot": 39,
+      "hazards": 13,
+      "stationSafe": true
+    },
+    {
+      "seed": 330037,
+      "regions": 9,
+      "variants": [
+        "working-trail",
+        "debris-crescent",
+        "graveyard-trail",
+        "meteor-crescent",
+        "open-trail",
+        "meteor-crescent",
+        "open-trail",
+        "working-crescent",
+        "trail-trail"
+      ],
+      "loot": 39,
+      "hazards": 11,
+      "stationSafe": true
+    },
+    {
+      "seed": 430049,
+      "regions": 9,
+      "variants": [
+        "working-trail",
+        "debris-crescent",
+        "graveyard-trail",
+        "meteor-crescent",
+        "working-trail",
+        "trail-crescent",
+        "open-trail",
+        "open-crescent",
+        "trail-trail"
+      ],
+      "loot": 42,
+      "hazards": 8,
+      "stationSafe": true
+    },
+    {
+      "seed": 530051,
+      "regions": 9,
+      "variants": [
+        "working-trail",
+        "debris-crescent",
+        "graveyard-trail",
+        "meteor-crescent",
+        "open-trail",
+        "radiation-crescent",
+        "working-trail",
+        "pass-crescent",
+        "relay-trail"
+      ],
+      "loot": 39,
+      "hazards": 8,
+      "stationSafe": true
+    },
+    {
+      "seed": 630061,
+      "regions": 9,
+      "variants": [
+        "working-trail",
+        "debris-crescent",
+        "graveyard-trail",
+        "meteor-crescent",
+        "working-trail",
+        "trail-crescent",
+        "trail-trail",
+        "pass-crescent",
+        "trail-trail"
+      ],
+      "loot": 43,
+      "hazards": 8,
+      "stationSafe": true
+    },
+    {
+      "seed": 730069,
+      "regions": 9,
+      "variants": [
+        "working-trail",
+        "debris-crescent",
+        "graveyard-trail",
+        "meteor-crescent",
+        "graveyard-trail",
+        "trail-crescent",
+        "relay-trail",
+        "radiation-crescent",
+        "relay-trail"
+      ],
+      "loot": 43,
+      "hazards": 15,
+      "stationSafe": true
+    },
+    {
+      "seed": 830077,
+      "regions": 9,
+      "variants": [
+        "working-trail",
+        "debris-crescent",
+        "graveyard-trail",
+        "meteor-crescent",
+        "open-trail",
+        "meteor-crescent",
+        "open-trail",
+        "working-crescent",
+        "graveyard-trail"
+      ],
+      "loot": 39,
+      "hazards": 12,
+      "stationSafe": true
+    },
+    {
+      "seed": 930079,
+      "regions": 9,
+      "variants": [
+        "working-trail",
+        "debris-crescent",
+        "graveyard-trail",
+        "meteor-crescent",
+        "working-trail",
+        "radiation-crescent",
+        "pass-trail",
+        "open-crescent",
+        "trail-trail"
+      ],
+      "loot": 40,
+      "hazards": 12,
+      "stationSafe": true
+    },
+    {
+      "seed": 1030087,
+      "regions": 9,
+      "variants": [
+        "working-trail",
+        "debris-crescent",
+        "graveyard-trail",
+        "meteor-crescent",
+        "relay-trail",
+        "debris-crescent",
+        "relay-trail",
+        "trail-crescent",
+        "trail-trail"
+      ],
+      "loot": 44,
+      "hazards": 11,
+      "stationSafe": true
+    }
+  ],
+  "errors": []
+}

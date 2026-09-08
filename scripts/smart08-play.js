@@ -3,7 +3,12 @@ const path = require('path');
 const assert = require('assert/strict');
 const {chromium} = require('C:/Users/Станислав/Documents/ChatGPT/Yandex Games/node_modules/playwright-core');
 const root = path.resolve(__dirname,'..');
-const browserPath = 'C:/Users/Станислав/AppData/Local/ms-playwright/chromium-1169/chrome-win/chrome.exe';
+const browserCache = path.join(process.env.LOCALAPPDATA, 'ms-playwright');
+const browserPath = process.env.ORBITAL_QA_BROWSER || fs.readdirSync(browserCache)
+ .filter(n=>/^chromium-\d+$/.test(n)).sort((a,b)=>Number(b.split('-')[1])-Number(a.split('-')[1]))
+ .flatMap(n=>['chrome-win64/chrome.exe','chrome-win/chrome.exe'].map(p=>path.join(browserCache,n,p)))
+ .find(p=>fs.existsSync(p));
+if(!browserPath)throw new Error('Install Chromium for Playwright or set ORBITAL_QA_BROWSER.');
 const sleep = (p,ms)=>p.waitForTimeout(ms);
 const state = p=>p.evaluate(()=>window.__osQAState);
 // One-frame, read-only observation of native GDevelop Text objects.
@@ -13,7 +18,7 @@ async function steer(p,x,y,tolerance=65){
  const start=Date.now();const held=new Set();
  try{while(Date.now()-start<80000){const s=await state(p);if(!s||s.state!=='play')return s;
   const dx=x-s.shipX,dy=y-s.shipY;if(Math.hypot(dx,dy)<tolerance)break;
-  const want=new Set();if(Math.abs(dx)>22)want.add(dx>0?'d':'a');if(Math.abs(dy)>22)want.add(dy>0?'s':'w');
+  const want=new Set(),axisTolerance=Math.min(22,tolerance*.45);if(Math.abs(dx)>axisTolerance)want.add(dx>0?'d':'a');if(Math.abs(dy)>axisTolerance)want.add(dy>0?'s':'w');
   for(const k of held)if(!want.has(k)){await p.keyboard.up(k);held.delete(k);}
   for(const k of want)if(!held.has(k)){await p.keyboard.down(k);held.add(k);}
   await sleep(p,100);

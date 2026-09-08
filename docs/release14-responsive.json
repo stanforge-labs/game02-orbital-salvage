@@ -1,0 +1,38 @@
+[
+  {
+    "width": 1920,
+    "height": 1080,
+    "mobile": false,
+    "errors": []
+  },
+  {
+    "width": 1600,
+    "height": 900,
+    "mobile": false,
+    "errors": []
+  },
+  {
+    "width": 1366,
+    "height": 768,
+    "mobile": false,
+    "errors": []
+  },
+  {
+    "width": 1280,
+    "height": 720,
+    "mobile": false,
+    "errors": []
+  },
+  {
+    "width": 1280,
+    "height": 720,
+    "mobile": true,
+    "errors": []
+  },
+  {
+    "width": 720,
+    "height": 1280,
+    "mobile": true,
+    "errors": []
+  }
+]
