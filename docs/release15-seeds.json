@@ -1,0 +1,460 @@
+{
+  "mode": "generated fixture audit, no claim of natural traversal",
+  "seeds": [
+    {
+      "seed": 130013,
+      "sector": 1,
+      "variants": [
+        "split-lanes",
+        "horseshoe",
+        "broken-cross",
+        "offset-chicane",
+        "split-lanes",
+        "horseshoe",
+        "broken-cross",
+        "offset-chicane",
+        "split-lanes"
+      ],
+      "loot": 38,
+      "walls": 17,
+      "stationSafe": true,
+      "blockedLoot": [],
+      "keyBlocked": false
+    },
+    {
+      "seed": 230016,
+      "sector": 1,
+      "variants": [
+        "horseshoe",
+        "broken-cross",
+        "offset-chicane",
+        "split-lanes",
+        "horseshoe",
+        "broken-cross",
+        "offset-chicane",
+        "split-lanes",
+        "horseshoe"
+      ],
+      "loot": 38,
+      "walls": 17,
+      "stationSafe": true,
+      "blockedLoot": [],
+      "keyBlocked": false
+    },
+    {
+      "seed": 330019,
+      "sector": 1,
+      "variants": [
+        "broken-cross",
+        "offset-chicane",
+        "split-lanes",
+        "horseshoe",
+        "broken-cross",
+        "offset-chicane",
+        "split-lanes",
+        "horseshoe",
+        "broken-cross"
+      ],
+      "loot": 41,
+      "walls": 19,
+      "stationSafe": true,
+      "blockedLoot": [],
+      "keyBlocked": false
+    },
+    {
+      "seed": 430022,
+      "sector": 1,
+      "variants": [
+        "offset-chicane",
+        "split-lanes",
+        "horseshoe",
+        "broken-cross",
+        "offset-chicane",
+        "split-lanes",
+        "horseshoe",
+        "broken-cross",
+        "offset-chicane"
+      ],
+      "loot": 41,
+      "walls": 18,
+      "stationSafe": true,
+      "blockedLoot": [],
+      "keyBlocked": false
+    },
+    {
+      "seed": 530025,
+      "sector": 1,
+      "variants": [
+        "split-lanes",
+        "horseshoe",
+        "broken-cross",
+        "offset-chicane",
+        "split-lanes",
+        "horseshoe",
+        "broken-cross",
+        "offset-chicane",
+        "split-lanes"
+      ],
+      "loot": 43,
+      "walls": 17,
+      "stationSafe": true,
+      "blockedLoot": [],
+      "keyBlocked": false
+    },
+    {
+      "seed": 630028,
+      "sector": 1,
+      "variants": [
+        "horseshoe",
+        "broken-cross",
+        "offset-chicane",
+        "split-lanes",
+        "horseshoe",
+        "broken-cross",
+        "offset-chicane",
+        "split-lanes",
+        "horseshoe"
+      ],
+      "loot": 42,
+      "walls": 18,
+      "stationSafe": true,
+      "blockedLoot": [],
+      "keyBlocked": false
+    },
+    {
+      "seed": 730031,
+      "sector": 1,
+      "variants": [
+        "broken-cross",
+        "offset-chicane",
+        "split-lanes",
+        "horseshoe",
+        "broken-cross",
+        "offset-chicane",
+        "split-lanes",
+        "horseshoe",
+        "broken-cross"
+      ],
+      "loot": 37,
+      "walls": 18,
+      "stationSafe": true,
+      "blockedLoot": [],
+      "keyBlocked": false
+    },
+    {
+      "seed": 830034,
+      "sector": 1,
+      "variants": [
+        "offset-chicane",
+        "split-lanes",
+        "horseshoe",
+        "broken-cross",
+        "offset-chicane",
+        "split-lanes",
+        "horseshoe",
+        "broken-cross",
+        "offset-chicane"
+      ],
+      "loot": 40,
+      "walls": 18,
+      "stationSafe": true,
+      "blockedLoot": [],
+      "keyBlocked": false
+    },
+    {
+      "seed": 930037,
+      "sector": 1,
+      "variants": [
+        "split-lanes",
+        "horseshoe",
+        "broken-cross",
+        "offset-chicane",
+        "split-lanes",
+        "horseshoe",
+        "broken-cross",
+        "offset-chicane",
+        "split-lanes"
+      ],
+      "loot": 41,
+      "walls": 18,
+      "stationSafe": true,
+      "blockedLoot": [],
+      "keyBlocked": false
+    },
+    {
+      "seed": 1030040,
+      "sector": 1,
+      "variants": [
+        "horseshoe",
+        "broken-cross",
+        "offset-chicane",
+        "split-lanes",
+        "horseshoe",
+        "broken-cross",
+        "offset-chicane",
+        "split-lanes",
+        "horseshoe"
+      ],
+      "loot": 38,
+      "walls": 17,
+      "stationSafe": true,
+      "blockedLoot": [],
+      "keyBlocked": false
+    },
+    {
+      "seed": 1130043,
+      "sector": 2,
+      "variants": [
+        "broken-cross",
+        "offset-chicane",
+        "split-lanes",
+        "horseshoe",
+        "broken-cross",
+        "offset-chicane",
+        "split-lanes",
+        "horseshoe",
+        "broken-cross",
+        "offset-chicane",
+        "split-lanes"
+      ],
+      "loot": 51,
+      "walls": 21,
+      "stationSafe": true,
+      "blockedLoot": [],
+      "keyBlocked": false
+    },
+    {
+      "seed": 1230046,
+      "sector": 2,
+      "variants": [
+        "offset-chicane",
+        "split-lanes",
+        "horseshoe",
+        "broken-cross",
+        "offset-chicane",
+        "split-lanes",
+        "horseshoe",
+        "broken-cross",
+        "offset-chicane",
+        "split-lanes",
+        "horseshoe"
+      ],
+      "loot": 53,
+      "walls": 22,
+      "stationSafe": true,
+      "blockedLoot": [],
+      "keyBlocked": false
+    },
+    {
+      "seed": 1330049,
+      "sector": 2,
+      "variants": [
+        "split-lanes",
+        "horseshoe",
+        "broken-cross",
+        "offset-chicane",
+        "split-lanes",
+        "horseshoe",
+        "broken-cross",
+        "offset-chicane",
+        "split-lanes",
+        "horseshoe",
+        "broken-cross"
+      ],
+      "loot": 42,
+      "walls": 23,
+      "stationSafe": true,
+      "blockedLoot": [],
+      "keyBlocked": false
+    },
+    {
+      "seed": 1430052,
+      "sector": 2,
+      "variants": [
+        "horseshoe",
+        "broken-cross",
+        "offset-chicane",
+        "split-lanes",
+        "horseshoe",
+        "broken-cross",
+        "offset-chicane",
+        "split-lanes",
+        "horseshoe",
+        "broken-cross",
+        "offset-chicane"
+      ],
+      "loot": 49,
+      "walls": 25,
+      "stationSafe": true,
+      "blockedLoot": [],
+      "keyBlocked": false
+    },
+    {
+      "seed": 1530055,
+      "sector": 2,
+      "variants": [
+        "broken-cross",
+        "offset-chicane",
+        "split-lanes",
+        "horseshoe",
+        "broken-cross",
+        "offset-chicane",
+        "split-lanes",
+        "horseshoe",
+        "broken-cross",
+        "offset-chicane",
+        "split-lanes"
+      ],
+      "loot": 50,
+      "walls": 20,
+      "stationSafe": true,
+      "blockedLoot": [],
+      "keyBlocked": false
+    },
+    {
+      "seed": 1630058,
+      "sector": 2,
+      "variants": [
+        "offset-chicane",
+        "split-lanes",
+        "horseshoe",
+        "broken-cross",
+        "offset-chicane",
+        "split-lanes",
+        "horseshoe",
+        "broken-cross",
+        "offset-chicane",
+        "split-lanes",
+        "horseshoe"
+      ],
+      "loot": 50,
+      "walls": 23,
+      "stationSafe": true,
+      "blockedLoot": [],
+      "keyBlocked": false
+    },
+    {
+      "seed": 1730061,
+      "sector": 2,
+      "variants": [
+        "split-lanes",
+        "horseshoe",
+        "broken-cross",
+        "offset-chicane",
+        "split-lanes",
+        "horseshoe",
+        "broken-cross",
+        "offset-chicane",
+        "split-lanes",
+        "horseshoe",
+        "broken-cross"
+      ],
+      "loot": 48,
+      "walls": 26,
+      "stationSafe": true,
+      "blockedLoot": [],
+      "keyBlocked": false
+    },
+    {
+      "seed": 1830064,
+      "sector": 2,
+      "variants": [
+        "horseshoe",
+        "broken-cross",
+        "offset-chicane",
+        "split-lanes",
+        "horseshoe",
+        "broken-cross",
+        "offset-chicane",
+        "split-lanes",
+        "horseshoe",
+        "broken-cross",
+        "offset-chicane"
+      ],
+      "loot": 47,
+      "walls": 23,
+      "stationSafe": true,
+      "blockedLoot": [],
+      "keyBlocked": false
+    },
+    {
+      "seed": 1930067,
+      "sector": 2,
+      "variants": [
+        "broken-cross",
+        "offset-chicane",
+        "split-lanes",
+        "horseshoe",
+        "broken-cross",
+        "offset-chicane",
+        "split-lanes",
+        "horseshoe",
+        "broken-cross",
+        "offset-chicane",
+        "split-lanes"
+      ],
+      "loot": 51,
+      "walls": 21,
+      "stationSafe": true,
+      "blockedLoot": [],
+      "keyBlocked": false
+    },
+    {
+      "seed": 2030070,
+      "sector": 2,
+      "variants": [
+        "offset-chicane",
+        "split-lanes",
+        "horseshoe",
+        "broken-cross",
+        "offset-chicane",
+        "split-lanes",
+        "horseshoe",
+        "broken-cross",
+        "offset-chicane",
+        "split-lanes",
+        "horseshoe"
+      ],
+      "loot": 50,
+      "walls": 23,
+      "stationSafe": true,
+      "blockedLoot": [],
+      "keyBlocked": false
+    }
+  ],
+  "secret": [
+    {
+      "template": "ZIGZAG SECURITY",
+      "walls": 20,
+      "pockets": 6,
+      "pathNodes": 24,
+      "blockedPockets": [],
+      "blockedPath": []
+    },
+    {
+      "template": "WRECK MAZE",
+      "walls": 14,
+      "pockets": 6,
+      "pathNodes": 18,
+      "blockedPockets": [],
+      "blockedPath": []
+    },
+    {
+      "template": "SECURITY CHAMBERS",
+      "walls": 22,
+      "pockets": 6,
+      "pathNodes": 16,
+      "blockedPockets": [],
+      "blockedPath": []
+    },
+    {
+      "template": "METEOR HYBRID",
+      "walls": 18,
+      "pockets": 6,
+      "pathNodes": 16,
+      "blockedPockets": [],
+      "blockedPath": []
+    }
+  ],
+  "errors": []
+}

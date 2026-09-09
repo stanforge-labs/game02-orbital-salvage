@@ -1,0 +1,69 @@
+{
+  "mode": "isolated DEV funds + real UI clicks",
+  "purchases": [
+    {
+      "id": "cargo",
+      "paid": 180
+    },
+    {
+      "id": "hull",
+      "paid": 200
+    },
+    {
+      "id": "radar",
+      "paid": 160
+    },
+    {
+      "id": "shield",
+      "paid": 210
+    },
+    {
+      "id": "contract",
+      "paid": 190
+    },
+    {
+      "id": "scanner",
+      "paid": 185
+    },
+    {
+      "id": "magnet",
+      "paid": 140
+    },
+    {
+      "id": "repair",
+      "paid": 175
+    },
+    {
+      "id": "assist",
+      "paid": 170
+    },
+    {
+      "id": "insurance",
+      "paid": 180
+    },
+    {
+      "id": "engine",
+      "paid": 180
+    }
+  ],
+  "before": {
+    "CargoMax": 10,
+    "EngineLevel": 1,
+    "HullMax": 4,
+    "MagnetLevel": 1,
+    "Credits": 780,
+    "TechParts": 11,
+    "SpentCredits": 1970
+  },
+  "after": {
+    "CargoMax": 8,
+    "EngineLevel": 0,
+    "HullMax": 3,
+    "MagnetLevel": 0,
+    "Credits": 2257,
+    "TechParts": 10,
+    "SpentCredits": 0
+  },
+  "saveOffersRestored": true,
+  "errors": []
+}

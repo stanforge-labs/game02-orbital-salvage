@@ -99,5 +99,6 @@ require('./release11-runtime')(layout);
 require('./release12-runtime')(layout);
 require('./gameplay13-runtime')(layout);
 require('./release14-runtime')(layout);
+require('./release15-runtime')(layout);
 fs.writeFileSync(file, JSON.stringify(project, null, 2) + '\n', 'utf8');
 console.log('Gameplay Depth 07 runtime applied');

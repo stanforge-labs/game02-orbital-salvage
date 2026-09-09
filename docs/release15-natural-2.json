@@ -1,0 +1,1996 @@
+{
+  "mode": "coordinate-aware keyboard automation; fresh storage; no state edits",
+  "seconds": 389.58,
+  "firstSeed": 2325831558,
+  "firstLoot": 2.61,
+  "firstReturn": 21.586,
+  "firstUpgrade": 62.388,
+  "sector2Unlock": 289.255,
+  "sector2Enter": 289.5,
+  "secretSeconds": 42.50899999999996,
+  "complete": true,
+  "events": [
+    {
+      "name": "start",
+      "seconds": 0.26,
+      "state": {
+        "state": "play",
+        "seed": 2325831558,
+        "cargo": 0,
+        "cargoMax": 8,
+        "hull": 3,
+        "hullMax": 3,
+        "credits": 0,
+        "techParts": 0,
+        "contractsCompleted": 0,
+        "missionType": "scrap",
+        "missionProgress": 0,
+        "missionTarget": 6,
+        "sector": 1,
+        "runTime": 0.24989999999999993,
+        "cargoValue": 0,
+        "offers": [
+          "cargo",
+          "engine",
+          "hull"
+        ],
+        "vars": {
+          "MissionReward": 48,
+          "MissionTechReward": 0,
+          "ContractRewardEarned": 0,
+          "DeliveredValue": 0,
+          "SpentCredits": 0,
+          "MissionTimeLimit": 0,
+          "ShieldLevel": 0,
+          "RepairLevel": 0
+        },
+        "shipX": 350,
+        "shipY": 700
+      },
+      "secret": {
+        "stage": 0,
+        "cache": false,
+        "template": 3
+      }
+    },
+    {
+      "name": "loot",
+      "seconds": 2.61,
+      "state": {
+        "state": "play",
+        "seed": 2325831558,
+        "cargo": 1,
+        "cargoMax": 8,
+        "hull": 3,
+        "hullMax": 3,
+        "credits": 0,
+        "techParts": 0,
+        "contractsCompleted": 0,
+        "missionType": "scrap",
+        "missionProgress": 1,
+        "missionTarget": 6,
+        "sector": 1,
+        "runTime": 2.5999999999999983,
+        "cargoValue": 12,
+        "offers": [
+          "cargo",
+          "engine",
+          "hull"
+        ],
+        "vars": {
+          "MissionReward": 48,
+          "MissionTechReward": 0,
+          "ContractRewardEarned": 0,
+          "DeliveredValue": 0,
+          "SpentCredits": 0,
+          "MissionTimeLimit": 0,
+          "ShieldLevel": 0,
+          "RepairLevel": 0
+        },
+        "shipX": 711.8778238068753,
+        "shipY": 700
+      },
+      "secret": {
+        "stage": 0,
+        "cache": false,
+        "template": 3
+      }
+    },
+    {
+      "name": "loot",
+      "seconds": 4.245,
+      "state": {
+        "state": "play",
+        "seed": 2325831558,
+        "cargo": 2,
+        "cargoMax": 8,
+        "hull": 3,
+        "hullMax": 3,
+        "credits": 0,
+        "techParts": 0,
+        "contractsCompleted": 0,
+        "missionType": "scrap",
+        "missionProgress": 2,
+        "missionTarget": 6,
+        "sector": 1,
+        "runTime": 4.233399999999999,
+        "cargoValue": 24,
+        "offers": [
+          "cargo",
+          "engine",
+          "hull"
+        ],
+        "vars": {
+          "MissionReward": 48,
+          "MissionTechReward": 0,
+          "ContractRewardEarned": 0,
+          "DeliveredValue": 0,
+          "SpentCredits": 0,
+          "MissionTimeLimit": 0,
+          "ShieldLevel": 0,
+          "RepairLevel": 0
+        },
+        "shipX": 887.9659963048853,
+        "shipY": 763.9152879230364
+      },
+      "secret": {
+        "stage": 0,
+        "cache": false,
+        "template": 3
+      }
+    },
+    {
+      "name": "loot",
+      "seconds": 6.47,
+      "state": {
+        "state": "play",
+        "seed": 2325831558,
+        "cargo": 3,
+        "cargoMax": 8,
+        "hull": 3,
+        "hullMax": 3,
+        "credits": 0,
+        "techParts": 0,
+        "contractsCompleted": 0,
+        "missionType": "scrap",
+        "missionProgress": 3,
+        "missionTarget": 6,
+        "sector": 1,
+        "runTime": 6.466800000000022,
+        "cargoValue": 41,
+        "offers": [
+          "cargo",
+          "engine",
+          "hull"
+        ],
+        "vars": {
+          "MissionReward": 48,
+          "MissionTechReward": 0,
+          "ContractRewardEarned": 0,
+          "DeliveredValue": 0,
+          "SpentCredits": 0,
+          "MissionTimeLimit": 0,
+          "ShieldLevel": 0,
+          "RepairLevel": 0
+        },
+        "shipX": 960.8165511366338,
+        "shipY": 581.995645746635
+      },
+      "secret": {
+        "stage": 0,
+        "cache": false,
+        "template": 3
+      }
+    },
+    {
+      "name": "loot",
+      "seconds": 12.721,
+      "state": {
+        "state": "play",
+        "seed": 2325831558,
+        "cargo": 5,
+        "cargoMax": 8,
+        "hull": 3,
+        "hullMax": 3,
+        "credits": 0,
+        "techParts": 0,
+        "contractsCompleted": 0,
+        "missionType": "scrap",
+        "missionProgress": 5,
+        "missionTarget": 6,
+        "sector": 1,
+        "runTime": 12.716999999999993,
+        "cargoValue": 75,
+        "offers": [
+          "cargo",
+          "engine",
+          "hull"
+        ],
+        "vars": {
+          "MissionReward": 48,
+          "MissionTechReward": 0,
+          "ContractRewardEarned": 0,
+          "DeliveredValue": 0,
+          "SpentCredits": 0,
+          "MissionTimeLimit": 0,
+          "ShieldLevel": 0,
+          "RepairLevel": 0
+        },
+        "shipX": 1091.0709862738686,
+        "shipY": 1191.2556149517125
+      },
+      "secret": {
+        "stage": 0,
+        "cache": false,
+        "template": 3
+      }
+    },
+    {
+      "name": "loot",
+      "seconds": 13.775,
+      "state": {
+        "state": "play",
+        "seed": 2325831558,
+        "cargo": 6,
+        "cargoMax": 8,
+        "hull": 3,
+        "hullMax": 3,
+        "credits": 0,
+        "techParts": 0,
+        "contractsCompleted": 0,
+        "missionType": "scrap",
+        "missionProgress": 6,
+        "missionTarget": 6,
+        "sector": 1,
+        "runTime": 13.766999999999983,
+        "cargoValue": 87,
+        "offers": [
+          "cargo",
+          "engine",
+          "hull"
+        ],
+        "vars": {
+          "MissionReward": 48,
+          "MissionTechReward": 0,
+          "ContractRewardEarned": 0,
+          "DeliveredValue": 0,
+          "SpentCredits": 0,
+          "MissionTimeLimit": 0,
+          "ShieldLevel": 0,
+          "RepairLevel": 0
+        },
+        "shipX": 1078.5458507396231,
+        "shipY": 1270.073915050206
+      },
+      "secret": {
+        "stage": 0,
+        "cache": false,
+        "template": 3
+      }
+    },
+    {
+      "name": "return",
+      "seconds": 21.586,
+      "state": {
+        "state": "result",
+        "seed": 2325831558,
+        "cargo": 6,
+        "cargoMax": 8,
+        "hull": 3,
+        "hullMax": 3,
+        "credits": 135,
+        "techParts": 0,
+        "contractsCompleted": 1,
+        "missionType": "scrap",
+        "missionProgress": 6,
+        "missionTarget": 6,
+        "sector": 1,
+        "runTime": 21.400499999999838,
+        "cargoValue": 87,
+        "offers": [
+          "cargo",
+          "engine",
+          "hull"
+        ],
+        "vars": {
+          "MissionReward": 48,
+          "MissionTechReward": 0,
+          "ContractRewardEarned": 48,
+          "DeliveredValue": 87,
+          "SpentCredits": 0,
+          "MissionTimeLimit": 0,
+          "ShieldLevel": 0,
+          "RepairLevel": 0
+        },
+        "shipX": 365.94285065578487,
+        "shipY": 744.3160867248289
+      },
+      "secret": {
+        "stage": 0,
+        "cache": false,
+        "template": 3
+      }
+    },
+    {
+      "name": "loot",
+      "seconds": 41.956,
+      "state": {
+        "state": "play",
+        "seed": 3438319135,
+        "cargo": 7,
+        "cargoMax": 8,
+        "hull": 3,
+        "hullMax": 3,
+        "credits": 135,
+        "techParts": 0,
+        "contractsCompleted": 1,
+        "missionType": "container",
+        "missionProgress": 1,
+        "missionTarget": 1,
+        "sector": 1,
+        "runTime": 19.91719999999984,
+        "cargoValue": 206,
+        "offers": [
+          "cargo",
+          "engine",
+          "hull"
+        ],
+        "vars": {
+          "MissionReward": 78,
+          "MissionTechReward": 0,
+          "ContractRewardEarned": 0,
+          "DeliveredValue": 87,
+          "SpentCredits": 0,
+          "MissionTimeLimit": 0,
+          "ShieldLevel": 0,
+          "RepairLevel": 0
+        },
+        "shipX": 2741.3877401415048,
+        "shipY": 1285.4668004979774
+      },
+      "secret": {
+        "stage": 0,
+        "cache": false,
+        "template": 0
+      }
+    },
+    {
+      "name": "return",
+      "seconds": 61.702,
+      "state": {
+        "state": "result",
+        "seed": 3438319135,
+        "cargo": 7,
+        "cargoMax": 8,
+        "hull": 3,
+        "hullMax": 3,
+        "credits": 419,
+        "techParts": 0,
+        "contractsCompleted": 2,
+        "missionType": "container",
+        "missionProgress": 1,
+        "missionTarget": 1,
+        "sector": 1,
+        "runTime": 39.48429999999992,
+        "cargoValue": 206,
+        "offers": [
+          "cargo",
+          "engine",
+          "hull"
+        ],
+        "vars": {
+          "MissionReward": 78,
+          "MissionTechReward": 0,
+          "ContractRewardEarned": 78,
+          "DeliveredValue": 206,
+          "SpentCredits": 0,
+          "MissionTimeLimit": 0,
+          "ShieldLevel": 0,
+          "RepairLevel": 0
+        },
+        "shipX": 361.429967777793,
+        "shipY": 750.9945866796804
+      },
+      "secret": {
+        "stage": 0,
+        "cache": false,
+        "template": 0
+      }
+    },
+    {
+      "name": "purchase",
+      "seconds": 62.388,
+      "state": {
+        "state": "upgrades",
+        "seed": 3438319135,
+        "cargo": 7,
+        "cargoMax": 10,
+        "hull": 3,
+        "hullMax": 3,
+        "credits": 239,
+        "techParts": 0,
+        "contractsCompleted": 2,
+        "missionType": "container",
+        "missionProgress": 1,
+        "missionTarget": 1,
+        "sector": 1,
+        "runTime": 39.48429999999992,
+        "cargoValue": 206,
+        "offers": [
+          "hull",
+          "magnet",
+          "radar"
+        ],
+        "vars": {
+          "MissionReward": 78,
+          "MissionTechReward": 0,
+          "ContractRewardEarned": 78,
+          "DeliveredValue": 206,
+          "SpentCredits": 180,
+          "MissionTimeLimit": 0,
+          "ShieldLevel": 0,
+          "RepairLevel": 0
+        },
+        "shipX": 361.429967777793,
+        "shipY": 750.9945866796804
+      },
+      "secret": {
+        "stage": 0,
+        "cache": false,
+        "template": 0
+      }
+    },
+    {
+      "name": "loot",
+      "seconds": 67.077,
+      "state": {
+        "state": "play",
+        "seed": 892643133,
+        "cargo": 2,
+        "cargoMax": 10,
+        "hull": 3,
+        "hullMax": 3,
+        "credits": 239,
+        "techParts": 0,
+        "contractsCompleted": 2,
+        "missionType": "valuable",
+        "missionProgress": 1,
+        "missionTarget": 2,
+        "sector": 1,
+        "runTime": 4.666799999999994,
+        "cargoValue": 42,
+        "offers": [
+          "hull",
+          "magnet",
+          "radar"
+        ],
+        "vars": {
+          "MissionReward": 112,
+          "MissionTechReward": 1,
+          "ContractRewardEarned": 0,
+          "DeliveredValue": 206,
+          "SpentCredits": 180,
+          "MissionTimeLimit": 0,
+          "ShieldLevel": 0,
+          "RepairLevel": 0
+        },
+        "shipX": 1005.2628531088839,
+        "shipY": 641.2668761529582
+      },
+      "secret": {
+        "stage": 0,
+        "cache": false,
+        "template": 3
+      }
+    },
+    {
+      "name": "loot",
+      "seconds": 67.871,
+      "state": {
+        "state": "play",
+        "seed": 892643133,
+        "cargo": 3,
+        "cargoMax": 10,
+        "hull": 3,
+        "hullMax": 3,
+        "credits": 239,
+        "techParts": 0,
+        "contractsCompleted": 2,
+        "missionType": "valuable",
+        "missionProgress": 2,
+        "missionTarget": 2,
+        "sector": 1,
+        "runTime": 5.466900000000008,
+        "cargoValue": 77,
+        "offers": [
+          "hull",
+          "magnet",
+          "radar"
+        ],
+        "vars": {
+          "MissionReward": 112,
+          "MissionTechReward": 1,
+          "ContractRewardEarned": 0,
+          "DeliveredValue": 206,
+          "SpentCredits": 180,
+          "MissionTimeLimit": 0,
+          "ShieldLevel": 0,
+          "RepairLevel": 0
+        },
+        "shipX": 1054.2596968015457,
+        "shipY": 697.9160041872127
+      },
+      "secret": {
+        "stage": 0,
+        "cache": false,
+        "template": 3
+      }
+    },
+    {
+      "name": "return",
+      "seconds": 72.272,
+      "state": {
+        "state": "result",
+        "seed": 892643133,
+        "cargo": 3,
+        "cargoMax": 10,
+        "hull": 3,
+        "hullMax": 3,
+        "credits": 428,
+        "techParts": 1,
+        "contractsCompleted": 3,
+        "missionType": "valuable",
+        "missionProgress": 2,
+        "missionTarget": 2,
+        "sector": 1,
+        "runTime": 9.683600000000006,
+        "cargoValue": 77,
+        "offers": [
+          "hull",
+          "magnet",
+          "radar"
+        ],
+        "vars": {
+          "MissionReward": 112,
+          "MissionTechReward": 1,
+          "ContractRewardEarned": 112,
+          "DeliveredValue": 77,
+          "SpentCredits": 180,
+          "MissionTimeLimit": 0,
+          "ShieldLevel": 0,
+          "RepairLevel": 0
+        },
+        "shipX": 374.30880600744354,
+        "shipY": 698.1968692165646
+      },
+      "secret": {
+        "stage": 0,
+        "cache": false,
+        "template": 3
+      }
+    },
+    {
+      "name": "purchase",
+      "seconds": 72.972,
+      "state": {
+        "state": "upgrades",
+        "seed": 892643133,
+        "cargo": 3,
+        "cargoMax": 10,
+        "hull": 3,
+        "hullMax": 4,
+        "credits": 228,
+        "techParts": 1,
+        "contractsCompleted": 3,
+        "missionType": "valuable",
+        "missionProgress": 2,
+        "missionTarget": 2,
+        "sector": 1,
+        "runTime": 9.683600000000006,
+        "cargoValue": 77,
+        "offers": [
+          "radar",
+          "insurance",
+          "shield"
+        ],
+        "vars": {
+          "MissionReward": 112,
+          "MissionTechReward": 1,
+          "ContractRewardEarned": 112,
+          "DeliveredValue": 77,
+          "SpentCredits": 380,
+          "MissionTimeLimit": 0,
+          "ShieldLevel": 0,
+          "RepairLevel": 0
+        },
+        "shipX": 374.30880600744354,
+        "shipY": 698.1968692165646
+      },
+      "secret": {
+        "stage": 0,
+        "cache": false,
+        "template": 3
+      }
+    },
+    {
+      "name": "loot",
+      "seconds": 75.505,
+      "state": {
+        "state": "play",
+        "seed": 860815913,
+        "cargo": 1,
+        "cargoMax": 10,
+        "hull": 4,
+        "hullMax": 4,
+        "credits": 228,
+        "techParts": 1,
+        "contractsCompleted": 3,
+        "missionType": "nodamage",
+        "missionProgress": 0,
+        "missionTarget": 6,
+        "sector": 1,
+        "runTime": 2.517699999999994,
+        "cargoValue": 12,
+        "offers": [
+          "radar",
+          "insurance",
+          "shield"
+        ],
+        "vars": {
+          "MissionReward": 68,
+          "MissionTechReward": 0,
+          "ContractRewardEarned": 0,
+          "DeliveredValue": 77,
+          "SpentCredits": 380,
+          "MissionTimeLimit": 0,
+          "ShieldLevel": 0,
+          "RepairLevel": 0
+        },
+        "shipX": 705.6483657866935,
+        "shipY": 700
+      },
+      "secret": {
+        "stage": 0,
+        "cache": false,
+        "template": 3
+      }
+    },
+    {
+      "name": "loot",
+      "seconds": 77.279,
+      "state": {
+        "state": "play",
+        "seed": 860815913,
+        "cargo": 2,
+        "cargoMax": 10,
+        "hull": 4,
+        "hullMax": 4,
+        "credits": 228,
+        "techParts": 1,
+        "contractsCompleted": 3,
+        "missionType": "nodamage",
+        "missionProgress": 0,
+        "missionTarget": 6,
+        "sector": 1,
+        "runTime": 4.283499999999996,
+        "cargoValue": 24,
+        "offers": [
+          "radar",
+          "insurance",
+          "shield"
+        ],
+        "vars": {
+          "MissionReward": 68,
+          "MissionTechReward": 0,
+          "ContractRewardEarned": 0,
+          "DeliveredValue": 77,
+          "SpentCredits": 380,
+          "MissionTimeLimit": 0,
+          "ShieldLevel": 0,
+          "RepairLevel": 0
+        },
+        "shipX": 887.9571847523168,
+        "shipY": 766.7076480811602
+      },
+      "secret": {
+        "stage": 0,
+        "cache": false,
+        "template": 3
+      }
+    },
+    {
+      "name": "loot",
+      "seconds": 79.554,
+      "state": {
+        "state": "play",
+        "seed": 860815913,
+        "cargo": 3,
+        "cargoMax": 10,
+        "hull": 4,
+        "hullMax": 4,
+        "credits": 228,
+        "techParts": 1,
+        "contractsCompleted": 3,
+        "missionType": "nodamage",
+        "missionProgress": 0,
+        "missionTarget": 6,
+        "sector": 1,
+        "runTime": 6.566900000000006,
+        "cargoValue": 41,
+        "offers": [
+          "radar",
+          "insurance",
+          "shield"
+        ],
+        "vars": {
+          "MissionReward": 68,
+          "MissionTechReward": 0,
+          "ContractRewardEarned": 0,
+          "DeliveredValue": 77,
+          "SpentCredits": 380,
+          "MissionTimeLimit": 0,
+          "ShieldLevel": 0,
+          "RepairLevel": 0
+        },
+        "shipX": 961.4548686073091,
+        "shipY": 576.7006007568087
+      },
+      "secret": {
+        "stage": 0,
+        "cache": false,
+        "template": 3
+      }
+    },
+    {
+      "name": "loot",
+      "seconds": 84.828,
+      "state": {
+        "state": "play",
+        "seed": 860815913,
+        "cargo": 4,
+        "cargoMax": 10,
+        "hull": 4,
+        "hullMax": 4,
+        "credits": 228,
+        "techParts": 1,
+        "contractsCompleted": 3,
+        "missionType": "nodamage",
+        "missionProgress": 0,
+        "missionTarget": 6,
+        "sector": 1,
+        "runTime": 11.833599999999981,
+        "cargoValue": 53,
+        "offers": [
+          "radar",
+          "insurance",
+          "shield"
+        ],
+        "vars": {
+          "MissionReward": 68,
+          "MissionTechReward": 0,
+          "ContractRewardEarned": 0,
+          "DeliveredValue": 77,
+          "SpentCredits": 380,
+          "MissionTimeLimit": 0,
+          "ShieldLevel": 0,
+          "RepairLevel": 0
+        },
+        "shipX": 1117.431706542137,
+        "shipY": 1108.6838610351547
+      },
+      "secret": {
+        "stage": 0,
+        "cache": false,
+        "template": 3
+      }
+    },
+    {
+      "name": "loot",
+      "seconds": 87.289,
+      "state": {
+        "state": "play",
+        "seed": 860815913,
+        "cargo": 5,
+        "cargoMax": 10,
+        "hull": 4,
+        "hullMax": 4,
+        "credits": 228,
+        "techParts": 1,
+        "contractsCompleted": 3,
+        "missionType": "nodamage",
+        "missionProgress": 0,
+        "missionTarget": 6,
+        "sector": 1,
+        "runTime": 14.300399999999945,
+        "cargoValue": 75,
+        "offers": [
+          "radar",
+          "insurance",
+          "shield"
+        ],
+        "vars": {
+          "MissionReward": 68,
+          "MissionTechReward": 0,
+          "ContractRewardEarned": 0,
+          "DeliveredValue": 77,
+          "SpentCredits": 380,
+          "MissionTimeLimit": 0,
+          "ShieldLevel": 0,
+          "RepairLevel": 0
+        },
+        "shipX": 1321.8887962816948,
+        "shipY": 1169.9741888042465
+      },
+      "secret": {
+        "stage": 0,
+        "cache": false,
+        "template": 3
+      }
+    },
+    {
+      "name": "loot",
+      "seconds": 88.52,
+      "state": {
+        "state": "play",
+        "seed": 860815913,
+        "cargo": 6,
+        "cargoMax": 10,
+        "hull": 4,
+        "hullMax": 4,
+        "credits": 228,
+        "techParts": 1,
+        "contractsCompleted": 3,
+        "missionType": "nodamage",
+        "missionProgress": 0,
+        "missionTarget": 6,
+        "sector": 1,
+        "runTime": 15.534299999999941,
+        "cargoValue": 87,
+        "offers": [
+          "radar",
+          "insurance",
+          "shield"
+        ],
+        "vars": {
+          "MissionReward": 68,
+          "MissionTechReward": 0,
+          "ContractRewardEarned": 0,
+          "DeliveredValue": 77,
+          "SpentCredits": 380,
+          "MissionTimeLimit": 0,
+          "ShieldLevel": 0,
+          "RepairLevel": 0
+        },
+        "shipX": 1405.2629163106772,
+        "shipY": 1221.7643243897214
+      },
+      "secret": {
+        "stage": 0,
+        "cache": false,
+        "template": 3
+      }
+    },
+    {
+      "name": "return",
+      "seconds": 98.753,
+      "state": {
+        "state": "result",
+        "seed": 860815913,
+        "cargo": 6,
+        "cargoMax": 10,
+        "hull": 4,
+        "hullMax": 4,
+        "credits": 383,
+        "techParts": 1,
+        "contractsCompleted": 4,
+        "missionType": "nodamage",
+        "missionProgress": 0,
+        "missionTarget": 6,
+        "sector": 1,
+        "runTime": 25.584099999999975,
+        "cargoValue": 87,
+        "offers": [
+          "radar",
+          "insurance",
+          "shield"
+        ],
+        "vars": {
+          "MissionReward": 68,
+          "MissionTechReward": 0,
+          "ContractRewardEarned": 68,
+          "DeliveredValue": 87,
+          "SpentCredits": 380,
+          "MissionTimeLimit": 0,
+          "ShieldLevel": 0,
+          "RepairLevel": 0
+        },
+        "shipX": 319.54273952572595,
+        "shipY": 796.412015095464
+      },
+      "secret": {
+        "stage": 0,
+        "cache": false,
+        "template": 3
+      }
+    },
+    {
+      "name": "purchase",
+      "seconds": 99.405,
+      "state": {
+        "state": "upgrades",
+        "seed": 860815913,
+        "cargo": 6,
+        "cargoMax": 10,
+        "hull": 4,
+        "hullMax": 4,
+        "credits": 223,
+        "techParts": 1,
+        "contractsCompleted": 4,
+        "missionType": "nodamage",
+        "missionProgress": 0,
+        "missionTarget": 6,
+        "sector": 1,
+        "runTime": 25.584099999999975,
+        "cargoValue": 87,
+        "offers": [
+          "shield",
+          "assist",
+          "contract"
+        ],
+        "vars": {
+          "MissionReward": 68,
+          "MissionTechReward": 0,
+          "ContractRewardEarned": 68,
+          "DeliveredValue": 87,
+          "SpentCredits": 540,
+          "MissionTimeLimit": 0,
+          "ShieldLevel": 0,
+          "RepairLevel": 0
+        },
+        "shipX": 319.54273952572595,
+        "shipY": 796.412015095464
+      },
+      "secret": {
+        "stage": 0,
+        "cache": false,
+        "template": 3
+      }
+    },
+    {
+      "name": "loot",
+      "seconds": 125.408,
+      "state": {
+        "state": "play",
+        "seed": 3497293,
+        "cargo": 5,
+        "cargoMax": 10,
+        "hull": 4,
+        "hullMax": 4,
+        "credits": 223,
+        "techParts": 1,
+        "contractsCompleted": 4,
+        "missionType": "speed",
+        "missionProgress": 0,
+        "missionTarget": 4,
+        "sector": 1,
+        "runTime": 25.984000000000005,
+        "cargoValue": 154,
+        "offers": [
+          "shield",
+          "assist",
+          "contract"
+        ],
+        "vars": {
+          "MissionReward": 92,
+          "MissionTechReward": 0,
+          "ContractRewardEarned": 0,
+          "DeliveredValue": 87,
+          "SpentCredits": 540,
+          "MissionTimeLimit": 100,
+          "ShieldLevel": 0,
+          "RepairLevel": 0
+        },
+        "shipX": 4535.20431902129,
+        "shipY": 764.2885600375733
+      },
+      "secret": {
+        "stage": 0,
+        "cache": false,
+        "template": 3
+      }
+    },
+    {
+      "name": "return",
+      "seconds": 151.955,
+      "state": {
+        "state": "result",
+        "seed": 3497293,
+        "cargo": 6,
+        "cargoMax": 10,
+        "hull": 2,
+        "hullMax": 4,
+        "credits": 481,
+        "techParts": 1,
+        "contractsCompleted": 5,
+        "missionType": "speed",
+        "missionProgress": 0,
+        "missionTarget": 4,
+        "sector": 1,
+        "runTime": 52.36830000000098,
+        "cargoValue": 166,
+        "offers": [
+          "shield",
+          "assist",
+          "contract"
+        ],
+        "vars": {
+          "MissionReward": 92,
+          "MissionTechReward": 0,
+          "ContractRewardEarned": 92,
+          "DeliveredValue": 166,
+          "SpentCredits": 540,
+          "MissionTimeLimit": 100,
+          "ShieldLevel": 0,
+          "RepairLevel": 0
+        },
+        "shipX": 368.33259324445237,
+        "shipY": 671.0936133163686
+      },
+      "secret": {
+        "stage": 0,
+        "cache": false,
+        "template": 3
+      }
+    },
+    {
+      "name": "purchase",
+      "seconds": 152.61,
+      "state": {
+        "state": "upgrades",
+        "seed": 3497293,
+        "cargo": 6,
+        "cargoMax": 10,
+        "hull": 2,
+        "hullMax": 4,
+        "credits": 271,
+        "techParts": 1,
+        "contractsCompleted": 5,
+        "missionType": "speed",
+        "missionProgress": 0,
+        "missionTarget": 4,
+        "sector": 1,
+        "runTime": 52.36830000000098,
+        "cargoValue": 166,
+        "offers": [
+          "contract",
+          "repair",
+          "scanner"
+        ],
+        "vars": {
+          "MissionReward": 92,
+          "MissionTechReward": 0,
+          "ContractRewardEarned": 92,
+          "DeliveredValue": 166,
+          "SpentCredits": 750,
+          "MissionTimeLimit": 100,
+          "ShieldLevel": 1,
+          "RepairLevel": 0
+        },
+        "shipX": 368.33259324445237,
+        "shipY": 671.0936133163686
+      },
+      "secret": {
+        "stage": 0,
+        "cache": false,
+        "template": 3
+      }
+    },
+    {
+      "name": "loot",
+      "seconds": 161.793,
+      "state": {
+        "state": "play",
+        "seed": 4027765954,
+        "cargo": 2,
+        "cargoMax": 10,
+        "hull": 4,
+        "hullMax": 4,
+        "credits": 271,
+        "techParts": 1,
+        "contractsCompleted": 5,
+        "missionType": "danger",
+        "missionProgress": 1,
+        "missionTarget": 3,
+        "sector": 1,
+        "runTime": 9.166999999999966,
+        "cargoValue": 42,
+        "offers": [
+          "contract",
+          "repair",
+          "scanner"
+        ],
+        "vars": {
+          "MissionReward": 105,
+          "MissionTechReward": 1,
+          "ContractRewardEarned": 0,
+          "DeliveredValue": 166,
+          "SpentCredits": 750,
+          "MissionTimeLimit": 0,
+          "ShieldLevel": 1,
+          "RepairLevel": 0
+        },
+        "shipX": 1545.484791771239,
+        "shipY": 734.6815023299039
+      },
+      "secret": {
+        "stage": 0,
+        "cache": false,
+        "template": 4
+      }
+    },
+    {
+      "name": "loot",
+      "seconds": 162.946,
+      "state": {
+        "state": "play",
+        "seed": 4027765954,
+        "cargo": 4,
+        "cargoMax": 10,
+        "hull": 4,
+        "hullMax": 4,
+        "credits": 271,
+        "techParts": 1,
+        "contractsCompleted": 5,
+        "missionType": "danger",
+        "missionProgress": 3,
+        "missionTarget": 3,
+        "sector": 1,
+        "runTime": 10.31699999999995,
+        "cargoValue": 89,
+        "offers": [
+          "contract",
+          "repair",
+          "scanner"
+        ],
+        "vars": {
+          "MissionReward": 105,
+          "MissionTechReward": 1,
+          "ContractRewardEarned": 0,
+          "DeliveredValue": 166,
+          "SpentCredits": 750,
+          "MissionTimeLimit": 0,
+          "ShieldLevel": 1,
+          "RepairLevel": 0
+        },
+        "shipX": 1640.3513205184595,
+        "shipY": 734.992541732481
+      },
+      "secret": {
+        "stage": 0,
+        "cache": false,
+        "template": 4
+      }
+    },
+    {
+      "name": "return",
+      "seconds": 171.247,
+      "state": {
+        "state": "result",
+        "seed": 4027765954,
+        "cargo": 4,
+        "cargoMax": 10,
+        "hull": 4,
+        "hullMax": 4,
+        "credits": 465,
+        "techParts": 2,
+        "contractsCompleted": 6,
+        "missionType": "danger",
+        "missionProgress": 3,
+        "missionTarget": 3,
+        "sector": 1,
+        "runTime": 18.43379999999994,
+        "cargoValue": 89,
+        "offers": [
+          "contract",
+          "repair",
+          "scanner"
+        ],
+        "vars": {
+          "MissionReward": 105,
+          "MissionTechReward": 1,
+          "ContractRewardEarned": 105,
+          "DeliveredValue": 89,
+          "SpentCredits": 750,
+          "MissionTimeLimit": 0,
+          "ShieldLevel": 1,
+          "RepairLevel": 0
+        },
+        "shipX": 365.5889441129392,
+        "shipY": 661.0712241655293
+      },
+      "secret": {
+        "stage": 0,
+        "cache": false,
+        "template": 4
+      }
+    },
+    {
+      "name": "purchase",
+      "seconds": 171.875,
+      "state": {
+        "state": "upgrades",
+        "seed": 4027765954,
+        "cargo": 4,
+        "cargoMax": 10,
+        "hull": 4,
+        "hullMax": 4,
+        "credits": 275,
+        "techParts": 2,
+        "contractsCompleted": 6,
+        "missionType": "danger",
+        "missionProgress": 3,
+        "missionTarget": 3,
+        "sector": 1,
+        "runTime": 18.43379999999994,
+        "cargoValue": 89,
+        "offers": [
+          "scanner",
+          "engine",
+          "magnet"
+        ],
+        "vars": {
+          "MissionReward": 105,
+          "MissionTechReward": 1,
+          "ContractRewardEarned": 105,
+          "DeliveredValue": 89,
+          "SpentCredits": 940,
+          "MissionTimeLimit": 0,
+          "ShieldLevel": 1,
+          "RepairLevel": 0
+        },
+        "shipX": 365.5889441129392,
+        "shipY": 661.0712241655293
+      },
+      "secret": {
+        "stage": 0,
+        "cache": false,
+        "template": 4
+      }
+    },
+    {
+      "name": "loot",
+      "seconds": 206.041,
+      "state": {
+        "state": "play",
+        "seed": 1107341293,
+        "cargo": 4,
+        "cargoMax": 10,
+        "hull": 4,
+        "hullMax": 4,
+        "credits": 275,
+        "techParts": 2,
+        "contractsCompleted": 6,
+        "missionType": "blackbox",
+        "missionProgress": 1,
+        "missionTarget": 1,
+        "sector": 1,
+        "runTime": 34.151400000000216,
+        "cargoValue": 129,
+        "offers": [
+          "scanner",
+          "engine",
+          "magnet"
+        ],
+        "vars": {
+          "MissionReward": 98,
+          "MissionTechReward": 1,
+          "ContractRewardEarned": 0,
+          "DeliveredValue": 89,
+          "SpentCredits": 940,
+          "MissionTimeLimit": 0,
+          "ShieldLevel": 1,
+          "RepairLevel": 0
+        },
+        "shipX": 5116.617988261542,
+        "shipY": 166.9282169769067
+      },
+      "secret": {
+        "stage": 0,
+        "cache": false,
+        "template": 3
+      }
+    },
+    {
+      "name": "return",
+      "seconds": 238.722,
+      "state": {
+        "state": "result",
+        "seed": 1107341293,
+        "cargo": 7,
+        "cargoMax": 10,
+        "hull": 4,
+        "hullMax": 4,
+        "credits": 585,
+        "techParts": 3,
+        "contractsCompleted": 7,
+        "missionType": "blackbox",
+        "missionProgress": 1,
+        "missionTarget": 1,
+        "sector": 1,
+        "runTime": 66.63500000000167,
+        "cargoValue": 193,
+        "offers": [
+          "scanner",
+          "engine",
+          "magnet"
+        ],
+        "vars": {
+          "MissionReward": 98,
+          "MissionTechReward": 1,
+          "ContractRewardEarned": 117,
+          "DeliveredValue": 193,
+          "SpentCredits": 940,
+          "MissionTimeLimit": 0,
+          "ShieldLevel": 1,
+          "RepairLevel": 0
+        },
+        "shipX": 364.4235420291069,
+        "shipY": 654.0383935966247
+      },
+      "secret": {
+        "stage": 0,
+        "cache": false,
+        "template": 3
+      }
+    },
+    {
+      "name": "purchase",
+      "seconds": 239.358,
+      "state": {
+        "state": "upgrades",
+        "seed": 1107341293,
+        "cargo": 7,
+        "cargoMax": 10,
+        "hull": 4,
+        "hullMax": 4,
+        "credits": 400,
+        "techParts": 3,
+        "contractsCompleted": 7,
+        "missionType": "blackbox",
+        "missionProgress": 1,
+        "missionTarget": 1,
+        "sector": 1,
+        "runTime": 66.63500000000167,
+        "cargoValue": 193,
+        "offers": [
+          "magnet",
+          "insurance",
+          "assist"
+        ],
+        "vars": {
+          "MissionReward": 98,
+          "MissionTechReward": 1,
+          "ContractRewardEarned": 117,
+          "DeliveredValue": 193,
+          "SpentCredits": 1125,
+          "MissionTimeLimit": 0,
+          "ShieldLevel": 1,
+          "RepairLevel": 0
+        },
+        "shipX": 364.4235420291069,
+        "shipY": 654.0383935966247
+      },
+      "secret": {
+        "stage": 0,
+        "cache": false,
+        "template": 3
+      }
+    },
+    {
+      "name": "loot",
+      "seconds": 243.591,
+      "state": {
+        "state": "play",
+        "seed": 2631206845,
+        "cargo": 2,
+        "cargoMax": 10,
+        "hull": 4,
+        "hullMax": 4,
+        "credits": 400,
+        "techParts": 3,
+        "contractsCompleted": 7,
+        "missionType": "tech",
+        "missionProgress": 1,
+        "missionTarget": 2,
+        "sector": 1,
+        "runTime": 4.217299999999984,
+        "cargoValue": 42,
+        "offers": [
+          "magnet",
+          "insurance",
+          "assist"
+        ],
+        "vars": {
+          "MissionReward": 102,
+          "MissionTechReward": 1,
+          "ContractRewardEarned": 0,
+          "DeliveredValue": 193,
+          "SpentCredits": 1125,
+          "MissionTimeLimit": 0,
+          "ShieldLevel": 1,
+          "RepairLevel": 0
+        },
+        "shipX": 1031.7560351867178,
+        "shipY": 700
+      },
+      "secret": {
+        "stage": 0,
+        "cache": false,
+        "template": 0
+      }
+    },
+    {
+      "name": "loot",
+      "seconds": 247.525,
+      "state": {
+        "state": "play",
+        "seed": 2631206845,
+        "cargo": 3,
+        "cargoMax": 10,
+        "hull": 4,
+        "hullMax": 4,
+        "credits": 400,
+        "techParts": 3,
+        "contractsCompleted": 7,
+        "missionType": "tech",
+        "missionProgress": 2,
+        "missionTarget": 2,
+        "sector": 1,
+        "runTime": 8.150399999999978,
+        "cargoValue": 77,
+        "offers": [
+          "magnet",
+          "insurance",
+          "assist"
+        ],
+        "vars": {
+          "MissionReward": 102,
+          "MissionTechReward": 1,
+          "ContractRewardEarned": 0,
+          "DeliveredValue": 193,
+          "SpentCredits": 1125,
+          "MissionTimeLimit": 0,
+          "ShieldLevel": 1,
+          "RepairLevel": 0
+        },
+        "shipX": 1008.999768270956,
+        "shipY": 331.3342311607637
+      },
+      "secret": {
+        "stage": 0,
+        "cache": false,
+        "template": 0
+      }
+    },
+    {
+      "name": "return",
+      "seconds": 254.273,
+      "state": {
+        "state": "result",
+        "seed": 2631206845,
+        "cargo": 3,
+        "cargoMax": 10,
+        "hull": 4,
+        "hullMax": 4,
+        "credits": 599,
+        "techParts": 4,
+        "contractsCompleted": 8,
+        "missionType": "tech",
+        "missionProgress": 2,
+        "missionTarget": 2,
+        "sector": 1,
+        "runTime": 14.783799999999882,
+        "cargoValue": 77,
+        "offers": [
+          "magnet",
+          "insurance",
+          "assist"
+        ],
+        "vars": {
+          "MissionReward": 102,
+          "MissionTechReward": 1,
+          "ContractRewardEarned": 122,
+          "DeliveredValue": 77,
+          "SpentCredits": 1125,
+          "MissionTimeLimit": 0,
+          "ShieldLevel": 1,
+          "RepairLevel": 0
+        },
+        "shipX": 364.5802245522841,
+        "shipY": 654.8285882308181
+      },
+      "secret": {
+        "stage": 0,
+        "cache": false,
+        "template": 0
+      }
+    },
+    {
+      "name": "purchase",
+      "seconds": 254.894,
+      "state": {
+        "state": "upgrades",
+        "seed": 2631206845,
+        "cargo": 3,
+        "cargoMax": 10,
+        "hull": 4,
+        "hullMax": 4,
+        "credits": 459,
+        "techParts": 4,
+        "contractsCompleted": 8,
+        "missionType": "tech",
+        "missionProgress": 2,
+        "missionTarget": 2,
+        "sector": 1,
+        "runTime": 14.783799999999882,
+        "cargoValue": 77,
+        "offers": [
+          "repair",
+          "engine",
+          "insurance"
+        ],
+        "vars": {
+          "MissionReward": 102,
+          "MissionTechReward": 1,
+          "ContractRewardEarned": 122,
+          "DeliveredValue": 77,
+          "SpentCredits": 1265,
+          "MissionTimeLimit": 0,
+          "ShieldLevel": 1,
+          "RepairLevel": 0
+        },
+        "shipX": 364.5802245522841,
+        "shipY": 654.8285882308181
+      },
+      "secret": {
+        "stage": 0,
+        "cache": false,
+        "template": 0
+      }
+    },
+    {
+      "name": "loot",
+      "seconds": 272.339,
+      "state": {
+        "state": "play",
+        "seed": 3892527629,
+        "cargo": 5,
+        "cargoMax": 10,
+        "hull": 4,
+        "hullMax": 4,
+        "credits": 459,
+        "techParts": 4,
+        "contractsCompleted": 8,
+        "missionType": "highrisk",
+        "missionProgress": 1,
+        "missionTarget": 2,
+        "sector": 1,
+        "runTime": 17.4336999999999,
+        "cargoValue": 111,
+        "offers": [
+          "repair",
+          "engine",
+          "insurance"
+        ],
+        "vars": {
+          "MissionReward": 116,
+          "MissionTechReward": 1,
+          "ContractRewardEarned": 0,
+          "DeliveredValue": 77,
+          "SpentCredits": 1265,
+          "MissionTimeLimit": 0,
+          "ShieldLevel": 1,
+          "RepairLevel": 0
+        },
+        "shipX": 2968.649607095078,
+        "shipY": 879.6195343437483
+      },
+      "secret": {
+        "stage": 0,
+        "cache": false,
+        "template": 4
+      }
+    },
+    {
+      "name": "return",
+      "seconds": 288.382,
+      "state": {
+        "state": "result",
+        "seed": 3892527629,
+        "cargo": 7,
+        "cargoMax": 10,
+        "hull": 3,
+        "hullMax": 4,
+        "credits": 594,
+        "techParts": 4,
+        "contractsCompleted": 8,
+        "missionType": "highrisk",
+        "missionProgress": 1,
+        "missionTarget": 2,
+        "sector": 1,
+        "runTime": 33.31789999999973,
+        "cargoValue": 135,
+        "offers": [
+          "repair",
+          "engine",
+          "insurance"
+        ],
+        "vars": {
+          "MissionReward": 116,
+          "MissionTechReward": 1,
+          "ContractRewardEarned": 0,
+          "DeliveredValue": 135,
+          "SpentCredits": 1265,
+          "MissionTimeLimit": 0,
+          "ShieldLevel": 1,
+          "RepairLevel": 0
+        },
+        "shipX": 367.2831736053587,
+        "shipY": 741.2123329260686
+      },
+      "secret": {
+        "stage": 0,
+        "cache": false,
+        "template": 4
+      }
+    },
+    {
+      "name": "purchase",
+      "seconds": 288.999,
+      "state": {
+        "state": "upgrades",
+        "seed": 3892527629,
+        "cargo": 7,
+        "cargoMax": 10,
+        "hull": 3,
+        "hullMax": 4,
+        "credits": 419,
+        "techParts": 4,
+        "contractsCompleted": 8,
+        "missionType": "highrisk",
+        "missionProgress": 1,
+        "missionTarget": 2,
+        "sector": 1,
+        "runTime": 33.31789999999973,
+        "cargoValue": 135,
+        "offers": [
+          "assist",
+          "engine",
+          "insurance"
+        ],
+        "vars": {
+          "MissionReward": 116,
+          "MissionTechReward": 1,
+          "ContractRewardEarned": 0,
+          "DeliveredValue": 135,
+          "SpentCredits": 1440,
+          "MissionTimeLimit": 0,
+          "ShieldLevel": 1,
+          "RepairLevel": 1
+        },
+        "shipX": 367.2831736053587,
+        "shipY": 741.2123329260686
+      },
+      "secret": {
+        "stage": 0,
+        "cache": false,
+        "template": 4
+      }
+    },
+    {
+      "name": "unlock",
+      "seconds": 289.255,
+      "state": {
+        "state": "sectorSelect",
+        "seed": 3892527629,
+        "cargo": 7,
+        "cargoMax": 10,
+        "hull": 3,
+        "hullMax": 4,
+        "credits": 419,
+        "techParts": 4,
+        "contractsCompleted": 8,
+        "missionType": "highrisk",
+        "missionProgress": 1,
+        "missionTarget": 2,
+        "sector": 1,
+        "runTime": 33.31789999999973,
+        "cargoValue": 135,
+        "offers": [
+          "assist",
+          "engine",
+          "insurance"
+        ],
+        "vars": {
+          "MissionReward": 116,
+          "MissionTechReward": 1,
+          "ContractRewardEarned": 0,
+          "DeliveredValue": 135,
+          "SpentCredits": 1440,
+          "MissionTimeLimit": 0,
+          "ShieldLevel": 1,
+          "RepairLevel": 1
+        },
+        "shipX": 367.2831736053587,
+        "shipY": 741.2123329260686
+      },
+      "secret": {
+        "stage": 0,
+        "cache": false,
+        "template": 4
+      }
+    },
+    {
+      "name": "sector2",
+      "seconds": 289.5,
+      "state": {
+        "state": "play",
+        "seed": 2152192364,
+        "cargo": 0,
+        "cargoMax": 10,
+        "hull": 4,
+        "hullMax": 4,
+        "credits": 419,
+        "techParts": 4,
+        "contractsCompleted": 8,
+        "missionType": "highrisk",
+        "missionProgress": 0,
+        "missionTarget": 2,
+        "sector": 2,
+        "runTime": 0.2332999999999884,
+        "cargoValue": 0,
+        "offers": [
+          "assist",
+          "engine",
+          "insurance"
+        ],
+        "vars": {
+          "MissionReward": 152,
+          "MissionTechReward": 1,
+          "ContractRewardEarned": 0,
+          "DeliveredValue": 135,
+          "SpentCredits": 1440,
+          "MissionTimeLimit": 0,
+          "ShieldLevel": 1,
+          "RepairLevel": 1
+        },
+        "shipX": 350,
+        "shipY": 699.9999999999999
+      },
+      "secret": {
+        "stage": 0,
+        "cache": false,
+        "template": 4
+      }
+    },
+    {
+      "name": "signal",
+      "seconds": 310.645,
+      "state": {
+        "state": "play",
+        "seed": 2152192364,
+        "cargo": 3,
+        "cargoMax": 10,
+        "hull": 4,
+        "hullMax": 4,
+        "credits": 419,
+        "techParts": 4,
+        "contractsCompleted": 8,
+        "missionType": "highrisk",
+        "missionProgress": 0,
+        "missionTarget": 2,
+        "sector": 2,
+        "runTime": 21.384299999999815,
+        "cargoValue": 41,
+        "offers": [
+          "assist",
+          "engine",
+          "insurance"
+        ],
+        "vars": {
+          "MissionReward": 152,
+          "MissionTechReward": 1,
+          "ContractRewardEarned": 0,
+          "DeliveredValue": 135,
+          "SpentCredits": 1440,
+          "MissionTimeLimit": 0,
+          "ShieldLevel": 1,
+          "RepairLevel": 1
+        },
+        "shipX": 3389.092029484958,
+        "shipY": 447.7248660113312
+      },
+      "secret": {
+        "stage": 1,
+        "cache": false,
+        "template": 4
+      }
+    },
+    {
+      "name": "key",
+      "seconds": 317.472,
+      "state": {
+        "state": "play",
+        "seed": 2152192364,
+        "cargo": 3,
+        "cargoMax": 10,
+        "hull": 4,
+        "hullMax": 4,
+        "credits": 419,
+        "techParts": 4,
+        "contractsCompleted": 8,
+        "missionType": "highrisk",
+        "missionProgress": 0,
+        "missionTarget": 2,
+        "sector": 2,
+        "runTime": 28.20069999999979,
+        "cargoValue": 41,
+        "offers": [
+          "assist",
+          "engine",
+          "insurance"
+        ],
+        "vars": {
+          "MissionReward": 152,
+          "MissionTechReward": 1,
+          "ContractRewardEarned": 0,
+          "DeliveredValue": 135,
+          "SpentCredits": 1440,
+          "MissionTimeLimit": 0,
+          "ShieldLevel": 1,
+          "RepairLevel": 1
+        },
+        "shipX": 2957.4399884923973,
+        "shipY": 1137.524374794442
+      },
+      "secret": {
+        "stage": 2,
+        "cache": false,
+        "template": 4
+      }
+    },
+    {
+      "name": "gate",
+      "seconds": 325.273,
+      "state": {
+        "state": "play",
+        "seed": 2152192364,
+        "cargo": 3,
+        "cargoMax": 10,
+        "hull": 4,
+        "hullMax": 4,
+        "credits": 419,
+        "techParts": 4,
+        "contractsCompleted": 8,
+        "missionType": "highrisk",
+        "missionProgress": 0,
+        "missionTarget": 2,
+        "sector": 2,
+        "runTime": 36.00089999999984,
+        "cargoValue": 41,
+        "offers": [
+          "assist",
+          "engine",
+          "insurance"
+        ],
+        "vars": {
+          "MissionReward": 152,
+          "MissionTechReward": 1,
+          "ContractRewardEarned": 0,
+          "DeliveredValue": 135,
+          "SpentCredits": 1440,
+          "MissionTimeLimit": 0,
+          "ShieldLevel": 1,
+          "RepairLevel": 1
+        },
+        "shipX": 4997.822917424919,
+        "shipY": 2317.822917424918
+      },
+      "secret": {
+        "stage": 4,
+        "cache": false,
+        "progress": 0,
+        "template": 4
+      }
+    },
+    {
+      "name": "secret-end",
+      "seconds": 367.782,
+      "state": {
+        "state": "play",
+        "seed": 2152192364,
+        "cargo": 3,
+        "cargoMax": 10,
+        "hull": 3,
+        "hullMax": 4,
+        "credits": 419,
+        "techParts": 5,
+        "contractsCompleted": 8,
+        "missionType": "highrisk",
+        "missionProgress": 0,
+        "missionTarget": 2,
+        "sector": 2,
+        "runTime": 78.51870000000208,
+        "cargoValue": 221,
+        "offers": [
+          "assist",
+          "engine",
+          "insurance"
+        ],
+        "vars": {
+          "MissionReward": 152,
+          "MissionTechReward": 1,
+          "ContractRewardEarned": 0,
+          "DeliveredValue": 135,
+          "SpentCredits": 1440,
+          "MissionTimeLimit": 0,
+          "ShieldLevel": 1,
+          "RepairLevel": 1
+        },
+        "shipX": 3949.634087276645,
+        "shipY": 466.9078649394214
+      },
+      "secret": {
+        "stage": 6,
+        "cache": true,
+        "progress": 6,
+        "template": 4
+      }
+    },
+    {
+      "name": "sector2-return",
+      "seconds": 389.572,
+      "state": {
+        "state": "result",
+        "seed": 2152192364,
+        "cargo": 4,
+        "cargoMax": 10,
+        "hull": 3,
+        "hullMax": 4,
+        "credits": 670,
+        "techParts": 5,
+        "contractsCompleted": 8,
+        "missionType": "highrisk",
+        "missionProgress": 0,
+        "missionTarget": 2,
+        "sector": 2,
+        "runTime": 100.18590000000611,
+        "cargoValue": 251,
+        "offers": [
+          "assist",
+          "engine",
+          "insurance"
+        ],
+        "vars": {
+          "MissionReward": 152,
+          "MissionTechReward": 1,
+          "ContractRewardEarned": 0,
+          "DeliveredValue": 251,
+          "SpentCredits": 1440,
+          "MissionTimeLimit": 0,
+          "ShieldLevel": 1,
+          "RepairLevel": 1
+        },
+        "shipX": 373.1777215866304,
+        "shipY": 704.4101231441991
+      },
+      "secret": {
+        "stage": 6,
+        "cache": true,
+        "progress": 6,
+        "template": 4
+      }
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,134 @@
+{
+  "mode": "responsive UI, isolated state fixtures and real mouse/touch input",
+  "views": [
+    {
+      "w": 1920,
+      "h": 1080,
+      "mobile": false,
+      "hoverDoesNotSteer": true,
+      "deathButtons": 1,
+      "sector2Click": true,
+      "render": {
+        "inner": [
+          1920,
+          1080
+        ],
+        "dpr": 1,
+        "css": [
+          1920,
+          1080
+        ],
+        "backing": [
+          1920,
+          1080
+        ]
+      },
+      "errors": []
+    },
+    {
+      "w": 1600,
+      "h": 900,
+      "mobile": false,
+      "hoverDoesNotSteer": true,
+      "deathButtons": 1,
+      "render": {
+        "inner": [
+          1600,
+          900
+        ],
+        "dpr": 1,
+        "css": [
+          1600,
+          900
+        ],
+        "backing": [
+          1920,
+          1080
+        ]
+      },
+      "errors": []
+    },
+    {
+      "w": 1366,
+      "h": 768,
+      "mobile": false,
+      "hoverDoesNotSteer": true,
+      "deathButtons": 1,
+      "render": {
+        "inner": [
+          1366,
+          768
+        ],
+        "dpr": 1,
+        "css": [
+          1366,
+          768
+        ],
+        "backing": [
+          1921,
+          1080
+        ]
+      },
+      "errors": []
+    },
+    {
+      "w": 1280,
+      "h": 720,
+      "mobile": false,
+      "hoverDoesNotSteer": true,
+      "deathButtons": 1,
+      "render": {
+        "inner": [
+          1280,
+          720
+        ],
+        "dpr": 1,
+        "css": [
+          1280,
+          720
+        ],
+        "backing": [
+          1920,
+          1080
+        ]
+      },
+      "errors": []
+    },
+    {
+      "w": 1280,
+      "h": 720,
+      "mobile": true,
+      "hoverDoesNotSteer": true,
+      "touchMoves": true,
+      "deathButtons": 1,
+      "render": {
+        "inner": [
+          1280,
+          720
+        ],
+        "dpr": 1,
+        "css": [
+          1280,
+          720
+        ],
+        "backing": [
+          1920,
+          1080
+        ]
+      },
+      "errors": []
+    },
+    {
+      "w": 720,
+      "h": 1280,
+      "mobile": true,
+      "rotate": true,
+      "errors": []
+    }
+  ],
+  "ads": [
+    "second chance",
+    "double",
+    "reroll"
+  ]
+}

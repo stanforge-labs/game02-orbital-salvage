@@ -52,3 +52,19 @@ node scripts/release14-modules-qa.js
 координат/кредитов/корпуса/прогресса. Fixtures и modules-qa намеренно используют
 DEV-состояния. Их кадры нельзя представлять как естественную экономику.
 Отчёты находятся в `docs/release14-*.json`.
+
+## Release Candidate Polish 15
+
+Новые расширения не установлены. Существующие F3/F4/F6/F7/F8/F9 сохранены.
+Сборка: `node scripts/apply-integrated-pass10.js`; экспорт:
+`powershell -ExecutionPolicy Bypass -File scripts/export-core.ps1 -OutputDirectory exports/release15`.
+QA ожидает экспорт по `http://127.0.0.1:4232` (локальный static server).
+
+Проверки: `release15-ui-qa.js`, `release15-contracts.js`, `release15-modules-qa.js`,
+`release15-seeds.js`, `release15-traverse.js`, `release15-perf.js`, `release15-screens.js`
+в папке scripts. Они используют изолированные тестовые состояния и не служат доказательством natural progression.
+
+`release15-natural.js` — чистое сохранение, клавиатура и UI, координатно-информированная навигация без записи состояния игры.
+`release15-hud-navigation.js` — короткая проверка только по видимым текстам HUD.
+`release15-report.js` собирает успешные исходные трассы из локальной `_tmp-export`; готовые компактные результаты хранятся в docs и не требуют этой временной папки для чтения.
+Ограничения и точные результаты перечислены в `docs/RELEASE15_REVIEW.md`.

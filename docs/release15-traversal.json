@@ -1,0 +1,61 @@
+{
+  "mode": "five seeded traversal fixtures; normal keyboard navigation, fixture selection/starting position only",
+  "runs": [
+    {
+      "seed": 130013,
+      "seconds": 35.885,
+      "state": "result",
+      "visited": [
+        0,
+        1,
+        2
+      ],
+      "hull": 1
+    },
+    {
+      "seed": 230016,
+      "seconds": 31.399,
+      "state": "result",
+      "visited": [
+        0,
+        1,
+        2
+      ],
+      "hull": 2
+    },
+    {
+      "seed": 330019,
+      "seconds": 30.969,
+      "state": "result",
+      "visited": [
+        0,
+        1,
+        2
+      ],
+      "hull": 1
+    },
+    {
+      "seed": 430022,
+      "seconds": 33.515,
+      "state": "result",
+      "visited": [
+        0,
+        1,
+        2
+      ],
+      "hull": 2
+    },
+    {
+      "seed": 530025,
+      "seconds": 38.439,
+      "state": "result",
+      "visited": [
+        0,
+        1,
+        2
+      ],
+      "hull": 2
+    }
+  ],
+  "errors": []
+}

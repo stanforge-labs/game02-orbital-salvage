@@ -1,0 +1,515 @@
+{
+  "mode": "fresh save; keyboard navigation from visible HUD direction/distance only; no map or target coordinates",
+  "events": [
+    {
+      "seconds": 0.241,
+      "hud": {
+        "ObjectiveText": "ДОБЫЧА → 350 м\nСобирайте добычу или возвращайтесь",
+        "NavMarker": "",
+        "CargoText": "ГРУЗ     0 / 8",
+        "MissionText": "КОНТРАКТ\nКВОТА МЕТАЛЛОЛОМА\n0 / 6  •  НАГРАДА 48",
+        "ResultTitle": "",
+        "ResultStats": ""
+      }
+    },
+    {
+      "seconds": 1.69,
+      "hud": {
+        "ObjectiveText": "ДОБЫЧА → 154 м\nСобирайте добычу или возвращайтесь",
+        "NavMarker": "",
+        "CargoText": "ГРУЗ     0 / 8",
+        "MissionText": "КОНТРАКТ\nКВОТА МЕТАЛЛОЛОМА\n0 / 6  •  НАГРАДА 48",
+        "ResultTitle": "",
+        "ResultStats": ""
+      }
+    },
+    {
+      "seconds": 2.513,
+      "hud": {
+        "ObjectiveText": "ДОБЫЧА → 40 м\nСобирайте добычу или возвращайтесь",
+        "NavMarker": "",
+        "CargoText": "ГРУЗ     0 / 8",
+        "MissionText": "КОНТРАКТ\nКВОТА МЕТАЛЛОЛОМА\n0 / 6  •  НАГРАДА 48",
+        "ResultTitle": "",
+        "ResultStats": ""
+      }
+    },
+    {
+      "seconds": 2.923,
+      "hud": {
+        "ObjectiveText": "ДОБЫЧА ↘ 192 м\nСобирайте добычу или возвращайтесь",
+        "NavMarker": "",
+        "CargoText": "ГРУЗ     1 / 8",
+        "MissionText": "КОНТРАКТ\nКВОТА МЕТАЛЛОЛОМА\n1 / 6  •  НАГРАДА 48",
+        "ResultTitle": "",
+        "ResultStats": ""
+      }
+    },
+    {
+      "seconds": 3.907,
+      "hud": {
+        "ObjectiveText": "ДОБЫЧА → 70 м\nСобирайте добычу или возвращайтесь",
+        "NavMarker": "СТАНЦИЯ ← 555 м",
+        "CargoText": "ГРУЗ     1 / 8",
+        "MissionText": "КОНТРАКТ\nКВОТА МЕТАЛЛОЛОМА\n1 / 6  •  НАГРАДА 48",
+        "ResultTitle": "",
+        "ResultStats": ""
+      }
+    },
+    {
+      "seconds": 4.422,
+      "hud": {
+        "ObjectiveText": "ДОБЫЧА ↗ 250 м\nСобирайте добычу или возвращайтесь",
+        "NavMarker": "СТАНЦИЯ ← 611 м",
+        "CargoText": "ГРУЗ     2 / 8",
+        "MissionText": "КОНТРАКТ\nКВОТА МЕТАЛЛОЛОМА\n2 / 6  •  НАГРАДА 48",
+        "ResultTitle": "",
+        "ResultStats": ""
+      }
+    },
+    {
+      "seconds": 5.623,
+      "hud": {
+        "ObjectiveText": "ДОБЫЧА ↑ 130 м\nСобирайте добычу или возвращайтесь",
+        "NavMarker": "СТАНЦИЯ ← 736 м",
+        "CargoText": "ГРУЗ     2 / 8",
+        "MissionText": "КОНТРАКТ\nКВОТА МЕТАЛЛОЛОМА\n2 / 6  •  НАГРАДА 48",
+        "ResultTitle": "",
+        "ResultStats": ""
+      }
+    },
+    {
+      "seconds": 6.372,
+      "hud": {
+        "ObjectiveText": "ДОБЫЧА ↖ 61 м\nСобирайте добычу или возвращайтесь",
+        "NavMarker": "СТАНЦИЯ ← 766 м",
+        "CargoText": "ГРУЗ     2 / 8",
+        "MissionText": "КОНТРАКТ\nКВОТА МЕТАЛЛОЛОМА\n2 / 6  •  НАГРАДА 48",
+        "ResultTitle": "",
+        "ResultStats": ""
+      }
+    },
+    {
+      "seconds": 6.855,
+      "hud": {
+        "ObjectiveText": "ДОБЫЧА ← 34 м\nСобирайте добычу или возвращайтесь",
+        "NavMarker": "СТАНЦИЯ ← 756 м",
+        "CargoText": "ГРУЗ     2 / 8",
+        "MissionText": "КОНТРАКТ\nКВОТА МЕТАЛЛОЛОМА\n2 / 6  •  НАГРАДА 48",
+        "ResultTitle": "",
+        "ResultStats": ""
+      }
+    },
+    {
+      "seconds": 7.256,
+      "hud": {
+        "ObjectiveText": "ДОБЫЧА ↓ 501 м\nСобирайте добычу или возвращайтесь",
+        "NavMarker": "СТАНЦИЯ ← 733 м",
+        "CargoText": "ГРУЗ     3 / 8",
+        "MissionText": "КОНТРАКТ\nКВОТА МЕТАЛЛОЛОМА\n3 / 6  •  НАГРАДА 48",
+        "ResultTitle": "",
+        "ResultStats": ""
+      }
+    },
+    {
+      "seconds": 8.706,
+      "hud": {
+        "ObjectiveText": "ДОБЫЧА ↘ 344 м\nСобирайте добычу или возвращайтесь",
+        "NavMarker": "СТАНЦИЯ ← 699 м",
+        "CargoText": "ГРУЗ     3 / 8",
+        "MissionText": "КОНТРАКТ\nКВОТА МЕТАЛЛОЛОМА\n3 / 6  •  НАГРАДА 48",
+        "ResultTitle": "",
+        "ResultStats": ""
+      }
+    },
+    {
+      "seconds": 10.159,
+      "hud": {
+        "ObjectiveText": "ДОБЫЧА ↘ 119 м\nСобирайте добычу или возвращайтесь",
+        "NavMarker": "СТАНЦИЯ ← 862 м",
+        "CargoText": "ГРУЗ     3 / 8",
+        "MissionText": "КОНТРАКТ\nКВОТА МЕТАЛЛОЛОМА\n3 / 6  •  НАГРАДА 48",
+        "ResultTitle": "",
+        "ResultStats": ""
+      }
+    },
+    {
+      "seconds": 10.865,
+      "hud": {
+        "ObjectiveText": "ДОБЫЧА ↓ 33 м\nСобирайте добычу или возвращайтесь",
+        "NavMarker": "СТАНЦИЯ ← 946 м",
+        "CargoText": "ГРУЗ     3 / 8",
+        "MissionText": "КОНТРАКТ\nКВОТА МЕТАЛЛОЛОМА\n3 / 6  •  НАГРАДА 48",
+        "ResultTitle": "",
+        "ResultStats": ""
+      }
+    },
+    {
+      "seconds": 11.272,
+      "hud": {
+        "ObjectiveText": "ДОБЫЧА → 430 м\nСобирайте добычу или возвращайтесь",
+        "NavMarker": "СТАНЦИЯ ← 974 м",
+        "CargoText": "ГРУЗ     4 / 8",
+        "MissionText": "КОНТРАКТ\nКВОТА МЕТАЛЛОЛОМА\n4 / 6  •  НАГРАДА 48",
+        "ResultTitle": "",
+        "ResultStats": ""
+      }
+    },
+    {
+      "seconds": 12.723,
+      "hud": {
+        "ObjectiveText": "ДОБЫЧА → 374 м\nСобирайте добычу или возвращайтесь",
+        "NavMarker": "СТАНЦИЯ ← 1031 м",
+        "CargoText": "ГРУЗ     4 / 8",
+        "MissionText": "КОНТРАКТ\nКВОТА МЕТАЛЛОЛОМА\n4 / 6  •  НАГРАДА 48",
+        "ResultTitle": "",
+        "ResultStats": ""
+      }
+    },
+    {
+      "seconds": 14.172,
+      "hud": {
+        "ObjectiveText": "ДОБЫЧА → 373 м\nСобирайте добычу или возвращайтесь",
+        "NavMarker": "СТАНЦИЯ ← 1031 м",
+        "CargoText": "ГРУЗ     4 / 8",
+        "MissionText": "КОНТРАКТ\nКВОТА МЕТАЛЛОЛОМА\n4 / 6  •  НАГРАДА 48",
+        "ResultTitle": "",
+        "ResultStats": ""
+      }
+    },
+    {
+      "seconds": 15.615,
+      "hud": {
+        "ObjectiveText": "ДОБЫЧА → 373 м\nСобирайте добычу или возвращайтесь",
+        "NavMarker": "СТАНЦИЯ ← 1031 м",
+        "CargoText": "ГРУЗ     4 / 8",
+        "MissionText": "КОНТРАКТ\nКВОТА МЕТАЛЛОЛОМА\n4 / 6  •  НАГРАДА 48",
+        "ResultTitle": "",
+        "ResultStats": ""
+      }
+    },
+    {
+      "seconds": 17.063,
+      "hud": {
+        "ObjectiveText": "ДОБЫЧА → 373 м\nСобирайте добычу или возвращайтесь",
+        "NavMarker": "СТАНЦИЯ ← 1031 м",
+        "CargoText": "ГРУЗ     4 / 8",
+        "MissionText": "КОНТРАКТ\nКВОТА МЕТАЛЛОЛОМА\n4 / 6  •  НАГРАДА 48",
+        "ResultTitle": "",
+        "ResultStats": ""
+      }
+    },
+    {
+      "seconds": 20.322,
+      "hud": {
+        "ObjectiveText": "ДОБЫЧА ↗ 587 м\nСобирайте добычу или возвращайтесь",
+        "NavMarker": "СТАНЦИЯ ↖ 1314 м",
+        "CargoText": "ГРУЗ     4 / 8",
+        "MissionText": "КОНТРАКТ\nКВОТА МЕТАЛЛОЛОМА\n4 / 6  •  НАГРАДА 48",
+        "ResultTitle": "",
+        "ResultStats": ""
+      }
+    },
+    {
+      "seconds": 21.772,
+      "hud": {
+        "ObjectiveText": "ДОБЫЧА ↗ 427 м\nСобирайте добычу или возвращайтесь",
+        "NavMarker": "СТАНЦИЯ ↖ 1362 м",
+        "CargoText": "ГРУЗ     4 / 8",
+        "MissionText": "КОНТРАКТ\nКВОТА МЕТАЛЛОЛОМА\n4 / 6  •  НАГРАДА 48",
+        "ResultTitle": "",
+        "ResultStats": ""
+      }
+    },
+    {
+      "seconds": 23.223,
+      "hud": {
+        "ObjectiveText": "ДОБЫЧА ↑ 207 м\nСобирайте добычу или возвращайтесь",
+        "NavMarker": "СТАНЦИЯ ↖ 1422 м",
+        "CargoText": "ГРУЗ     4 / 8",
+        "MissionText": "КОНТРАКТ\nКВОТА МЕТАЛЛОЛОМА\n4 / 6  •  НАГРАДА 48",
+        "ResultTitle": "",
+        "ResultStats": ""
+      }
+    },
+    {
+      "seconds": 24.247,
+      "hud": {
+        "ObjectiveText": "ДОБЫЧА ↗ 64 м\nСобирайте добычу или возвращайтесь",
+        "NavMarker": "СТАНЦИЯ ← 1391 м",
+        "CargoText": "ГРУЗ     4 / 8",
+        "MissionText": "КОНТРАКТ\nКВОТА МЕТАЛЛОЛОМА\n4 / 6  •  НАГРАДА 48",
+        "ResultTitle": "",
+        "ResultStats": ""
+      }
+    },
+    {
+      "seconds": 24.729,
+      "hud": {
+        "ObjectiveText": "ДОБЫЧА ↑ 219 м\nСобирайте добычу или возвращайтесь",
+        "NavMarker": "СТАНЦИЯ ← 1397 м",
+        "CargoText": "ГРУЗ     5 / 8",
+        "MissionText": "КОНТРАКТ\nКВОТА МЕТАЛЛОЛОМА\n5 / 6  •  НАГРАДА 48",
+        "ResultTitle": "",
+        "ResultStats": ""
+      }
+    },
+    {
+      "seconds": 25.807,
+      "hud": {
+        "ObjectiveText": "ДОБЫЧА ↑ 68 м\nСобирайте добычу или возвращайтесь",
+        "NavMarker": "СТАНЦИЯ ← 1372 м",
+        "CargoText": "ГРУЗ     5 / 8",
+        "MissionText": "КОНТРАКТ\nКВОТА МЕТАЛЛОЛОМА\n5 / 6  •  НАГРАДА 48",
+        "ResultTitle": "",
+        "ResultStats": ""
+      }
+    },
+    {
+      "seconds": 26.305,
+      "hud": {
+        "ObjectiveText": "ДОБЫЧА ↑ 219 м\nСобирайте добычу или возвращайтесь",
+        "NavMarker": "СТАНЦИЯ ← 1362 м",
+        "CargoText": "ГРУЗ     6 / 8",
+        "MissionText": "КОНТРАКТ\nКВОТА МЕТАЛЛОЛОМА\n6 / 6  •  НАГРАДА 48",
+        "ResultTitle": "",
+        "ResultStats": ""
+      }
+    },
+    {
+      "seconds": 27.75,
+      "hud": {
+        "ObjectiveText": "ДОБЫЧА ↗ 211 м\nСобирайте добычу или возвращайтесь",
+        "NavMarker": "СТАНЦИЯ ← 1258 м",
+        "CargoText": "ГРУЗ     6 / 8",
+        "MissionText": "КОНТРАКТ\nКВОТА МЕТАЛЛОЛОМА\n6 / 6  •  НАГРАДА 48",
+        "ResultTitle": "",
+        "ResultStats": ""
+      }
+    },
+    {
+      "seconds": 29.207,
+      "hud": {
+        "ObjectiveText": "ДОБЫЧА ↗ 210 м\nСобирайте добычу или возвращайтесь",
+        "NavMarker": "СТАНЦИЯ ← 1258 м",
+        "CargoText": "ГРУЗ     6 / 8",
+        "MissionText": "КОНТРАКТ\nКВОТА МЕТАЛЛОЛОМА\n6 / 6  •  НАГРАДА 48",
+        "ResultTitle": "",
+        "ResultStats": ""
+      }
+    },
+    {
+      "seconds": 30.656,
+      "hud": {
+        "ObjectiveText": "ДОБЫЧА ↗ 210 м\nСобирайте добычу или возвращайтесь",
+        "NavMarker": "СТАНЦИЯ ← 1258 м",
+        "CargoText": "ГРУЗ     6 / 8",
+        "MissionText": "КОНТРАКТ\nКВОТА МЕТАЛЛОЛОМА\n6 / 6  •  НАГРАДА 48",
+        "ResultTitle": "",
+        "ResultStats": ""
+      }
+    },
+    {
+      "seconds": 32.095,
+      "hud": {
+        "ObjectiveText": "ДОБЫЧА ↗ 210 м\nСобирайте добычу или возвращайтесь",
+        "NavMarker": "СТАНЦИЯ ← 1258 м",
+        "CargoText": "ГРУЗ     6 / 8",
+        "MissionText": "КОНТРАКТ\nКВОТА МЕТАЛЛОЛОМА\n6 / 6  •  НАГРАДА 48",
+        "ResultTitle": "",
+        "ResultStats": ""
+      }
+    },
+    {
+      "seconds": 35.341,
+      "hud": {
+        "ObjectiveText": "ДОБЫЧА ↑ 733 м\nСобирайте добычу или возвращайтесь",
+        "NavMarker": "СТАНЦИЯ ↖ 1431 м",
+        "CargoText": "ГРУЗ     6 / 8",
+        "MissionText": "КОНТРАКТ\nКВОТА МЕТАЛЛОЛОМА\n6 / 6  •  НАГРАДА 48",
+        "ResultTitle": "",
+        "ResultStats": ""
+      }
+    },
+    {
+      "seconds": 36.794,
+      "hud": {
+        "ObjectiveText": "ДОБЫЧА ↑ 672 м\nСобирайте добычу или возвращайтесь",
+        "NavMarker": "СТАНЦИЯ ↖ 1261 м",
+        "CargoText": "ГРУЗ     6 / 8",
+        "MissionText": "КОНТРАКТ\nКВОТА МЕТАЛЛОЛОМА\n6 / 6  •  НАГРАДА 48",
+        "ResultTitle": "",
+        "ResultStats": ""
+      }
+    },
+    {
+      "seconds": 38.243,
+      "hud": {
+        "ObjectiveText": "ДОБЫЧА ↗ 617 м\nСобирайте добычу или возвращайтесь",
+        "NavMarker": "СТАНЦИЯ ↖ 1037 м",
+        "CargoText": "ГРУЗ     6 / 8",
+        "MissionText": "КОНТРАКТ\nКВОТА МЕТАЛЛОЛОМА\n6 / 6  •  НАГРАДА 48",
+        "ResultTitle": "",
+        "ResultStats": ""
+      }
+    },
+    {
+      "seconds": 39.693,
+      "hud": {
+        "ObjectiveText": "ДОБЫЧА ↗ 647 м\nСобирайте добычу или возвращайтесь",
+        "NavMarker": "СТАНЦИЯ ← 818 м",
+        "CargoText": "ГРУЗ     6 / 8",
+        "MissionText": "КОНТРАКТ\nКВОТА МЕТАЛЛОЛОМА\n6 / 6  •  НАГРАДА 48",
+        "ResultTitle": "",
+        "ResultStats": ""
+      }
+    },
+    {
+      "seconds": 41.139,
+      "hud": {
+        "ObjectiveText": "ДОБЫЧА → 843 м\nСобирайте добычу или возвращайтесь",
+        "NavMarker": "СТАНЦИЯ ↖ 600 м",
+        "CargoText": "ГРУЗ     6 / 8",
+        "MissionText": "КОНТРАКТ\nКВОТА МЕТАЛЛОЛОМА\n6 / 6  •  НАГРАДА 48",
+        "ResultTitle": "",
+        "ResultStats": ""
+      }
+    },
+    {
+      "seconds": 42.59,
+      "hud": {
+        "ObjectiveText": "ДОБЫЧА → 986 м\nСобирайте добычу или возвращайтесь",
+        "NavMarker": "",
+        "CargoText": "ГРУЗ     6 / 8",
+        "MissionText": "КОНТРАКТ\nКВОТА МЕТАЛЛОЛОМА\n6 / 6  •  НАГРАДА 48",
+        "ResultTitle": "",
+        "ResultStats": ""
+      }
+    },
+    {
+      "seconds": 44.039,
+      "hud": {
+        "ObjectiveText": "ДОБЫЧА → 1145 м\nСобирайте добычу или возвращайтесь",
+        "NavMarker": "",
+        "CargoText": "ГРУЗ     6 / 8",
+        "MissionText": "КОНТРАКТ\nКВОТА МЕТАЛЛОЛОМА\n6 / 6  •  НАГРАДА 48",
+        "ResultTitle": "",
+        "ResultStats": ""
+      }
+    },
+    {
+      "seconds": 45.495,
+      "hud": {
+        "ObjectiveText": "ДОБЫЧА → 1326 м\nСобирайте добычу или возвращайтесь",
+        "NavMarker": "",
+        "CargoText": "ГРУЗ     6 / 8",
+        "MissionText": "КОНТРАКТ\nКВОТА МЕТАЛЛОЛОМА\n6 / 6  •  НАГРАДА 48",
+        "ResultTitle": "",
+        "ResultStats": ""
+      }
+    },
+    {
+      "seconds": 48.746,
+      "hud": {
+        "ObjectiveText": "ДОБЫЧА → 833 м\nСобирайте добычу или возвращайтесь",
+        "NavMarker": "СТАНЦИЯ ↙ 591 м",
+        "CargoText": "ГРУЗ     6 / 8",
+        "MissionText": "КОНТРАКТ\nКВОТА МЕТАЛЛОЛОМА\n6 / 6  •  НАГРАДА 48",
+        "ResultTitle": "",
+        "ResultStats": ""
+      }
+    },
+    {
+      "seconds": 50.195,
+      "hud": {
+        "ObjectiveText": "ДОБЫЧА → 903 м\nСобирайте добычу или возвращайтесь",
+        "NavMarker": "",
+        "CargoText": "ГРУЗ     6 / 8",
+        "MissionText": "КОНТРАКТ\nКВОТА МЕТАЛЛОЛОМА\n6 / 6  •  НАГРАДА 48",
+        "ResultTitle": "",
+        "ResultStats": ""
+      }
+    },
+    {
+      "seconds": 51.647,
+      "hud": {
+        "ObjectiveText": "ДОБЫЧА → 1065 м\nСобирайте добычу или возвращайтесь",
+        "NavMarker": "",
+        "CargoText": "ГРУЗ     6 / 8",
+        "MissionText": "КОНТРАКТ\nКВОТА МЕТАЛЛОЛОМА\n6 / 6  •  НАГРАДА 48",
+        "ResultTitle": "",
+        "ResultStats": ""
+      }
+    },
+    {
+      "seconds": 53.094,
+      "hud": {
+        "ObjectiveText": "ДОБЫЧА → 1252 м\nСобирайте добычу или возвращайтесь",
+        "NavMarker": "",
+        "CargoText": "ГРУЗ     6 / 8",
+        "MissionText": "КОНТРАКТ\nКВОТА МЕТАЛЛОЛОМА\n6 / 6  •  НАГРАДА 48",
+        "ResultTitle": "",
+        "ResultStats": ""
+      }
+    },
+    {
+      "seconds": 56.341,
+      "hud": {
+        "ObjectiveText": "ДОБЫЧА → 767 м\nСобирайте добычу или возвращайтесь",
+        "NavMarker": "СТАНЦИЯ ↖ 672 м",
+        "CargoText": "ГРУЗ     6 / 8",
+        "MissionText": "КОНТРАКТ\nКВОТА МЕТАЛЛОЛОМА\n6 / 6  •  НАГРАДА 48",
+        "ResultTitle": "",
+        "ResultStats": ""
+      }
+    },
+    {
+      "seconds": 57.778,
+      "hud": {
+        "ObjectiveText": "ДОБЫЧА → 827 м\nСобирайте добычу или возвращайтесь",
+        "NavMarker": "СТАНЦИЯ ← 537 м",
+        "CargoText": "ГРУЗ     6 / 8",
+        "MissionText": "КОНТРАКТ\nКВОТА МЕТАЛЛОЛОМА\n6 / 6  •  НАГРАДА 48",
+        "ResultTitle": "",
+        "ResultStats": ""
+      }
+    },
+    {
+      "seconds": 59.227,
+      "hud": {
+        "ObjectiveText": "ДОБЫЧА → 1044 м\nСобирайте добычу или возвращайтесь",
+        "NavMarker": "",
+        "CargoText": "ГРУЗ     6 / 8",
+        "MissionText": "КОНТРАКТ\nКВОТА МЕТАЛЛОЛОМА\n6 / 6  •  НАГРАДА 48",
+        "ResultTitle": "",
+        "ResultStats": ""
+      }
+    },
+    {
+      "seconds": 60.676,
+      "hud": {
+        "ObjectiveText": "ДОБЫЧА → 1278 м\nСобирайте добычу или возвращайтесь",
+        "NavMarker": "",
+        "CargoText": "ГРУЗ     6 / 8",
+        "MissionText": "КОНТРАКТ\nКВОТА МЕТАЛЛОЛОМА\n6 / 6  •  НАГРАДА 48",
+        "ResultTitle": "",
+        "ResultStats": ""
+      }
+    },
+    {
+      "seconds": 62.125,
+      "hud": {
+        "ObjectiveText": "",
+        "NavMarker": "",
+        "CargoText": "",
+        "MissionText": "",
+        "ResultTitle": "ГРУЗ ДОСТАВЛЕН",
+        "ResultStats": "ДОБЫЧА    +87\nВ ТОМ ЧИСЛЕ СЕРИЯ    +15\n\nКОНТРАКТ ВЫПОЛНЕН    +48\nИТОГО    +135\nВРЕМЯ    1:00"
+      }
+    }
+  ],
+  "firstLootSeconds": 2.923,
+  "returnSeconds": 62.125,
+  "seconds": 62.275,
+  "errors": []
+}
