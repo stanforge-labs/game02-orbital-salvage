@@ -1,0 +1,1100 @@
+{
+  "date": "2026-09-10",
+  "baseCommit": "acdafc8326ef6a4e8d4511fa24810a396f8f5513",
+  "sourceSha256": "3a6a3fd24f6ba319d61b78eb37d29acb1383c2c48065b36b0e72968d7a3a2ef0",
+  "natural": [
+    {
+      "id": "complete1",
+      "mode": "fresh storage; keyboard and real clicks; coordinate-aware navigation; no game state writes",
+      "firstLoot": 2.975,
+      "firstReturn": 27.258,
+      "firstUpgrade": 120.375,
+      "sector2Unlock": 467.24,
+      "sector2Enter": 467.52,
+      "signal": 506.419,
+      "key": 521.065,
+      "gate": 534.57,
+      "secretSeconds": 63.083999999999946,
+      "naturalPlaythroughSeconds": 631.101,
+      "secretTemplate": 5,
+      "contracts": 10,
+      "finalHull": 1,
+      "finalCredits": 732,
+      "finalTechParts": 7,
+      "deathObservations": 1
+    },
+    {
+      "id": "complete2",
+      "mode": "fresh storage; keyboard and real clicks; coordinate-aware navigation; no game state writes",
+      "firstLoot": 2.821,
+      "firstReturn": 25.323,
+      "firstUpgrade": 77.881,
+      "sector2Unlock": 457.476,
+      "sector2Enter": 457.787,
+      "signal": 502.581,
+      "key": 515.808,
+      "gate": 528.931,
+      "secretSeconds": 63.24000000000001,
+      "naturalPlaythroughSeconds": 626.42,
+      "secretTemplate": 2,
+      "contracts": 10,
+      "finalHull": 2,
+      "finalCredits": 625,
+      "finalTechParts": 7,
+      "deathObservations": 0
+    }
+  ],
+  "secret": [
+    {
+      "template": 0,
+      "pockets": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "seconds": 80.888,
+      "progress": 6,
+      "cache": true,
+      "stage": 6,
+      "hull": 3,
+      "value": 180,
+      "tech": 1,
+      "state": "play"
+    },
+    {
+      "template": 1,
+      "pockets": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "seconds": 58.492,
+      "progress": 6,
+      "cache": true,
+      "stage": 6,
+      "hull": 3,
+      "value": 180,
+      "tech": 1,
+      "state": "play"
+    },
+    {
+      "template": 2,
+      "pockets": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "seconds": 57.65,
+      "progress": 6,
+      "cache": true,
+      "stage": 6,
+      "hull": 3,
+      "value": 180,
+      "tech": 1,
+      "state": "play"
+    },
+    {
+      "template": 3,
+      "pockets": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "seconds": 57.074,
+      "progress": 6,
+      "cache": true,
+      "stage": 6,
+      "hull": 3,
+      "value": 180,
+      "tech": 1,
+      "state": "play"
+    },
+    {
+      "template": 4,
+      "pockets": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "seconds": 80.59,
+      "progress": 6,
+      "cache": true,
+      "stage": 6,
+      "hull": 3,
+      "value": 180,
+      "tech": 1,
+      "state": "play"
+    },
+    {
+      "template": 5,
+      "pockets": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "seconds": 61.666,
+      "progress": 6,
+      "cache": true,
+      "stage": 6,
+      "hull": 3,
+      "value": 180,
+      "tech": 1,
+      "state": "play"
+    },
+    {
+      "template": 6,
+      "pockets": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "seconds": 70.995,
+      "progress": 6,
+      "cache": true,
+      "stage": 6,
+      "hull": 3,
+      "value": 192,
+      "tech": 1,
+      "state": "play"
+    },
+    {
+      "template": 7,
+      "pockets": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "seconds": 76.639,
+      "progress": 6,
+      "cache": true,
+      "stage": 6,
+      "hull": 3,
+      "value": 180,
+      "tech": 1,
+      "state": "play"
+    }
+  ],
+  "layoutFamilies": 16,
+  "subvariants": 64,
+  "testedSeeds": [
+    130013,
+    230032,
+    330051,
+    430070,
+    530089,
+    630108,
+    730127,
+    830146,
+    930165,
+    1030184,
+    1130203,
+    1230222,
+    1330241,
+    1430260,
+    1530279,
+    1630298,
+    1730317,
+    1830336,
+    1930355,
+    2030374,
+    2130393,
+    2230412,
+    2330431,
+    2430450,
+    2530469,
+    2630488,
+    2730507,
+    2830526,
+    2930545,
+    3030564,
+    3130583,
+    3230602,
+    3330621,
+    3430640,
+    3530659,
+    3630678,
+    3730697,
+    3830716,
+    3930735,
+    4030754
+  ],
+  "contracts": 20,
+  "modules": 15,
+  "resolutions": [
+    {
+      "width": 1920,
+      "height": 1080,
+      "touch": false,
+      "render": {
+        "inner": [
+          1920,
+          1080
+        ],
+        "canvas": [
+          0,
+          0,
+          1920,
+          1080
+        ],
+        "backing": [
+          1920,
+          1080
+        ]
+      },
+      "mouseDoesNotSteer": true
+    },
+    {
+      "width": 1600,
+      "height": 900,
+      "touch": false,
+      "render": {
+        "inner": [
+          1600,
+          900
+        ],
+        "canvas": [
+          0,
+          0,
+          1600,
+          900
+        ],
+        "backing": [
+          1920,
+          1080
+        ]
+      },
+      "mouseDoesNotSteer": true
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "touch": false,
+      "render": {
+        "inner": [
+          1366,
+          768
+        ],
+        "canvas": [
+          0,
+          0,
+          1366,
+          768
+        ],
+        "backing": [
+          1921,
+          1080
+        ]
+      },
+      "mouseDoesNotSteer": true
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "touch": false,
+      "render": {
+        "inner": [
+          1280,
+          720
+        ],
+        "canvas": [
+          0,
+          0,
+          1280,
+          720
+        ],
+        "backing": [
+          1920,
+          1080
+        ]
+      },
+      "mouseDoesNotSteer": true
+    },
+    {
+      "width": 1536,
+      "height": 864,
+      "touch": false,
+      "render": {
+        "inner": [
+          1536,
+          864
+        ],
+        "canvas": [
+          0,
+          0,
+          1536,
+          864
+        ],
+        "backing": [
+          1920,
+          1080
+        ]
+      },
+      "mouseDoesNotSteer": true
+    },
+    {
+      "width": 1917,
+      "height": 920,
+      "touch": false,
+      "render": {
+        "inner": [
+          1917,
+          920
+        ],
+        "canvas": [
+          0,
+          0,
+          1917,
+          920
+        ],
+        "backing": [
+          2250,
+          1080
+        ]
+      },
+      "mouseDoesNotSteer": true
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "touch": true,
+      "render": {
+        "inner": [
+          1280,
+          720
+        ],
+        "canvas": [
+          0,
+          0,
+          1280,
+          720
+        ],
+        "backing": [
+          1920,
+          1080
+        ]
+      },
+      "mouseDoesNotSteer": true,
+      "touchDistance": 45.40315268069534
+    },
+    {
+      "width": 720,
+      "height": 1280,
+      "touch": true,
+      "render": {
+        "inner": [
+          720,
+          1280
+        ],
+        "canvas": [
+          0,
+          0,
+          720,
+          1280
+        ],
+        "backing": [
+          720,
+          1280
+        ]
+      }
+    }
+  ],
+  "staticAudit": {
+    "jsonValid": true,
+    "projectPath": "C:\\Yandex Games\\02 Orbital Salvage\\game.json",
+    "layout": "OrbitalSalvage",
+    "sceneColor": {
+      "r": 0,
+      "v": 0,
+      "b": 0
+    },
+    "objectCount": 141,
+    "instanceCount": 682,
+    "unknownInstances": [],
+    "missingResources": [],
+    "invalidColors": [],
+    "resourceCount": 105
+  },
+  "performance": {
+    "seconds": 302.997,
+    "instancesBefore": 643,
+    "instancesAfter": 682,
+    "observedInstances": [
+      682
+    ],
+    "heapMB": {
+      "start": 31.654575,
+      "end": 51.254273,
+      "min": 23.113084,
+      "max": 62.187308
+    },
+    "frames": {
+      "count": 17661,
+      "median": 16.69999999999709,
+      "p95": 16.899999999965075,
+      "p99": 33.39999999999418,
+      "max": 50.400000000001455
+    }
+  },
+  "effects": {
+    "mode": "isolated effect fixtures; arcade uses ordinary pointer input",
+    "buffer": 1.0499000000000003,
+    "salvage": 6,
+    "decoder": 66,
+    "containment": {
+      "absorbed": true,
+      "hull": 3
+    },
+    "arcade": {
+      "score": 110,
+      "lives": 3,
+      "pool": 42,
+      "deathLives": 0,
+      "restart": true
+    },
+    "audio": {
+      "state": "running",
+      "events": [
+        {
+          "kind": "start",
+          "time": 0
+        },
+        {
+          "kind": "hit",
+          "time": 0.096
+        },
+        {
+          "kind": "gate",
+          "time": 0.448
+        },
+        {
+          "kind": "contract",
+          "time": 0.672
+        },
+        {
+          "kind": "click",
+          "time": 0.9066666666666666
+        },
+        {
+          "kind": "hover",
+          "time": 0.9066666666666666
+        },
+        {
+          "kind": "hover",
+          "time": 1.0986666666666667
+        },
+        {
+          "kind": "click",
+          "time": 1.0986666666666667
+        },
+        {
+          "kind": "pickup",
+          "time": 2.2293333333333334
+        },
+        {
+          "kind": "pickup",
+          "time": 3.392
+        },
+        {
+          "kind": "pickup",
+          "time": 4.586666666666667
+        },
+        {
+          "kind": "pickup",
+          "time": 5.610666666666667
+        },
+        {
+          "kind": "pickup",
+          "time": 6.794666666666667
+        },
+        {
+          "kind": "pickup",
+          "time": 7.808
+        },
+        {
+          "kind": "pickup",
+          "time": 8.992
+        },
+        {
+          "kind": "pickup",
+          "time": 10.176
+        },
+        {
+          "kind": "pickup",
+          "time": 11.189333333333334
+        },
+        {
+          "kind": "pickup",
+          "time": 12.362666666666666
+        },
+        {
+          "kind": "pickup",
+          "time": 12.704
+        },
+        {
+          "kind": "pickup",
+          "time": 14.389333333333333
+        },
+        {
+          "kind": "pickup",
+          "time": 16.245333333333335
+        },
+        {
+          "kind": "hit",
+          "time": 20.938666666666666
+        },
+        {
+          "kind": "hit",
+          "time": 22.794666666666668
+        },
+        {
+          "kind": "hit",
+          "time": 23.701333333333334
+        },
+        {
+          "kind": "click",
+          "time": 23.893333333333334
+        },
+        {
+          "kind": "hover",
+          "time": 23.893333333333334
+        },
+        {
+          "kind": "hover",
+          "time": 24.085333333333335
+        },
+        {
+          "kind": "click",
+          "time": 24.085333333333335
+        },
+        {
+          "kind": "ambient",
+          "time": 24.085333333333335
+        }
+      ],
+      "voices": 0
+    },
+    "restored": {
+      "BufferLevel": 1,
+      "ContainmentLevel": 1,
+      "SalvageLevel": 1,
+      "DecoderLevel": 1
+    },
+    "errors": []
+  },
+  "ads": {
+    "mode": "explicit clicks, localhost rewarded fallback only",
+    "deathActions": 1,
+    "secondChance": true,
+    "double": true,
+    "rerollBefore": [
+      "cargo",
+      "engine",
+      "hull"
+    ],
+    "rerollAfter": [
+      "engine",
+      "hull",
+      "magnet"
+    ],
+    "reroll": true,
+    "emptyTitle": "ВОЗВРАЩЕНИЕ ЗАВЕРШЕНО",
+    "errors": []
+  },
+  "screenshots": [
+    {
+      "name": "1280x720-fail.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "813c0c672c3cb82beb05414cc0faf7204f36076b1e4100183d2cf9c14d7aed20"
+    },
+    {
+      "name": "1280x720-hud.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "4ca2d371c66d4f96415a2a6f683fbb0a74c3c67d585411355877b11f0bb5b81c"
+    },
+    {
+      "name": "1280x720-menu.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "9d540dbf740d1ead206235679f2a411dcd2799c7b83572316cc6e9d91279a47b"
+    },
+    {
+      "name": "1280x720-resetConfirm.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "b8c1a25b7b55fa224e36d981d824d0f5fa51ae43dc383535ab491531f8637fb3"
+    },
+    {
+      "name": "1280x720-result.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "ce97fa9823849bb93cb4099ca74b4009ade1fb7b1c0a67849ff2d76e9150be22"
+    },
+    {
+      "name": "1280x720-sectorSelect.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "ae78446548f944cb32913775d288ad00584bbcd9607234118c0696759397aa10"
+    },
+    {
+      "name": "1280x720-touch-fail.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "813c0c672c3cb82beb05414cc0faf7204f36076b1e4100183d2cf9c14d7aed20"
+    },
+    {
+      "name": "1280x720-touch-hud.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "e4ff9d2db8baf8ded06963fd12f603fafae7ebde64ea3ec05432a979ac26c3d1"
+    },
+    {
+      "name": "1280x720-touch-menu.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "44c103a36707b8040f33d5e90c99fa830382167b017175df7252cd1ff1877db1"
+    },
+    {
+      "name": "1280x720-touch-resetConfirm.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "b8c1a25b7b55fa224e36d981d824d0f5fa51ae43dc383535ab491531f8637fb3"
+    },
+    {
+      "name": "1280x720-touch-result.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "23e2ef1ba63b26ef9d6e1316df5d8d0e3868a844c759b27601acb23f635904c8"
+    },
+    {
+      "name": "1280x720-touch-sectorSelect.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "ae78446548f944cb32913775d288ad00584bbcd9607234118c0696759397aa10"
+    },
+    {
+      "name": "1280x720-touch-upgrades.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "b0fa53256e05431059bfa6e0a9e2439f882fbc24ed008435aa6d71edb2c6adec"
+    },
+    {
+      "name": "1280x720-upgrades.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "b0fa53256e05431059bfa6e0a9e2439f882fbc24ed008435aa6d71edb2c6adec"
+    },
+    {
+      "name": "1366x768-fail.png",
+      "width": 1366,
+      "height": 768,
+      "sha256": "9e5db6b7a4537c7f517b7e61d14c0be7dbc9121022e863da2712564b9a8562a3"
+    },
+    {
+      "name": "1366x768-hud.png",
+      "width": 1366,
+      "height": 768,
+      "sha256": "8acae4de907e529b69a46a9d02c83f9f0b91ceea9033c4c261a4f8a9d3266b9d"
+    },
+    {
+      "name": "1366x768-menu.png",
+      "width": 1366,
+      "height": 768,
+      "sha256": "827dda63c5cd51cbe702a5c90fcfaa91e0f0e580cadefb87007c65206829869d"
+    },
+    {
+      "name": "1366x768-resetConfirm.png",
+      "width": 1366,
+      "height": 768,
+      "sha256": "50c373a3fe738952c7cb7ac3697b6e2bbba1893b7110de118a3fdc2b418a4e14"
+    },
+    {
+      "name": "1366x768-result.png",
+      "width": 1366,
+      "height": 768,
+      "sha256": "1981887a06bde1fa467224636b7c4c1e55eead4d0a544539df370ac5e96b8a05"
+    },
+    {
+      "name": "1366x768-sectorSelect.png",
+      "width": 1366,
+      "height": 768,
+      "sha256": "b9f5ad5c7021a1f8843db925adc550f7f8a42f74a17c52c5b4a08f7da50abd8d"
+    },
+    {
+      "name": "1366x768-upgrades.png",
+      "width": 1366,
+      "height": 768,
+      "sha256": "43169d8ba3fbcbde681045a6a4837c587c3e5db5cb55acc316613546d87138ee"
+    },
+    {
+      "name": "1536x864-fail.png",
+      "width": 1536,
+      "height": 864,
+      "sha256": "30bf3da4e585075cb6bd26a84ef40c902518487f27a326aa7729431d5d473f04"
+    },
+    {
+      "name": "1536x864-hud.png",
+      "width": 1536,
+      "height": 864,
+      "sha256": "69f8430ba8be0aa81c282ac0f8cc2ea835374d7078ade6a68a5ed29823da1e47"
+    },
+    {
+      "name": "1536x864-menu.png",
+      "width": 1536,
+      "height": 864,
+      "sha256": "4e5f5414dd6e7497ffd50b95308ff044ca6ce6a1c9476e532ede9989db07761e"
+    },
+    {
+      "name": "1536x864-resetConfirm.png",
+      "width": 1536,
+      "height": 864,
+      "sha256": "8e48d856d29b7fd9aebdae1b0a1f46028a7c084096a51acfebc2edf396cb9535"
+    },
+    {
+      "name": "1536x864-result.png",
+      "width": 1536,
+      "height": 864,
+      "sha256": "a7d2219ea465f908e15c9e367fca82266e0e33d98ebc95ae52459f1e821414be"
+    },
+    {
+      "name": "1536x864-sectorSelect.png",
+      "width": 1536,
+      "height": 864,
+      "sha256": "d2d0438603be0b761d286b8d5e2d9bd46556d3714815f5371ac5eac658684273"
+    },
+    {
+      "name": "1536x864-upgrades.png",
+      "width": 1536,
+      "height": 864,
+      "sha256": "e7fa1e11e57a58afce67b29604ab277800ed4dd3f032ffa7c56bc150ddb1cbe1"
+    },
+    {
+      "name": "1600x900-fail.png",
+      "width": 1600,
+      "height": 900,
+      "sha256": "86e3a1d23014b20c4fc9304c80ae24f61c269eb68b28657fe5024c281b4ef810"
+    },
+    {
+      "name": "1600x900-hud.png",
+      "width": 1600,
+      "height": 900,
+      "sha256": "2aa084d2d59264af41776721e467a3a5f6c11811a243cc7c8dfd892b24223581"
+    },
+    {
+      "name": "1600x900-menu.png",
+      "width": 1600,
+      "height": 900,
+      "sha256": "95b8c61e226a3554093e8e05851866386eb60bd541fa8501dd94457e501f150e"
+    },
+    {
+      "name": "1600x900-resetConfirm.png",
+      "width": 1600,
+      "height": 900,
+      "sha256": "ceeb03fe8bb64c82c2402b9152d5d8d1e667353f9b80b02d4f9695b2611830d7"
+    },
+    {
+      "name": "1600x900-result.png",
+      "width": 1600,
+      "height": 900,
+      "sha256": "ac04997bb9323ffd57c1b5ecd91274673d1f953778e7b16c7c6ed989a510c0b3"
+    },
+    {
+      "name": "1600x900-sectorSelect.png",
+      "width": 1600,
+      "height": 900,
+      "sha256": "e7fb9578a4346acab8f5eabf324f79b17a849e22fd807163968961bdbc624457"
+    },
+    {
+      "name": "1600x900-upgrades.png",
+      "width": 1600,
+      "height": 900,
+      "sha256": "51b9cf22236f14f1ca56fae04e86ea4c381f5a20d54ae55cdb0f0d37e37886b4"
+    },
+    {
+      "name": "1917x920-fail.png",
+      "width": 1917,
+      "height": 920,
+      "sha256": "0f4dbb30d3b7e369d77ca66c38d00fedf64cfd59c5bebaa98cc96db7ec7bae4f"
+    },
+    {
+      "name": "1917x920-hud.png",
+      "width": 1917,
+      "height": 920,
+      "sha256": "ff3c9f46608aa24e38dd4875516dd310959cb5c6b50b9fd4b22a949a044995e7"
+    },
+    {
+      "name": "1917x920-menu.png",
+      "width": 1917,
+      "height": 920,
+      "sha256": "575c95cfaa7a7c57d5c07920c89ccc36cf9645743a1b5208d33abc4432f47ef3"
+    },
+    {
+      "name": "1917x920-resetConfirm.png",
+      "width": 1917,
+      "height": 920,
+      "sha256": "d02110ffb4f2b8d22608e3f9059e3e8e094c6d8058ca32e581ea86dcf9f9fe1f"
+    },
+    {
+      "name": "1917x920-result.png",
+      "width": 1917,
+      "height": 920,
+      "sha256": "5e2d33bd064f6722888e66eef40fba86423377184b7cd272022a38e16a5bb033"
+    },
+    {
+      "name": "1917x920-sectorSelect.png",
+      "width": 1917,
+      "height": 920,
+      "sha256": "915216e4bef9534b17ffc308a54d7dcfa8088a4963d595ec64f4fd905f5a0dab"
+    },
+    {
+      "name": "1917x920-upgrades.png",
+      "width": 1917,
+      "height": 920,
+      "sha256": "9ebcd390c3b0d042b4510cd7f033a4cb53063be4c4cc5080ac7b2ff94802c619"
+    },
+    {
+      "name": "1920x1080-fail.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "aff018141073ecec4b9404b8e295ecaf8aa66db905bef0639528c12bd3d68ac5"
+    },
+    {
+      "name": "1920x1080-hud.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "8a9001d350265592f14de705cd5bc689614a63f8aef22b981cf39c22630dbdd4"
+    },
+    {
+      "name": "1920x1080-menu.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "0cefaa46f879b57e51d29418e24c0c6ae333b3f3e061609a17e86b200fc1c276"
+    },
+    {
+      "name": "1920x1080-resetConfirm.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "0cb236cdc59cd530b968c877da939e0ac50f85549011e7018ffed6d6f319ab07"
+    },
+    {
+      "name": "1920x1080-result.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "1aa338bd604c974a4d4be38e1af0a1b40fe6998c58e67f3ab11dee4893eceec0"
+    },
+    {
+      "name": "1920x1080-sectorSelect.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "fc2142858f54c2e04c86a226d6eb2d720876f0ef19b497693a991ab3b6fc89e2"
+    },
+    {
+      "name": "1920x1080-upgrades.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "1cbc195f10033eac9b323db26eca0016357082117eed48925aa8a7e3becf7c00"
+    },
+    {
+      "name": "720x1280-touch-menu.png",
+      "width": 720,
+      "height": 1280,
+      "sha256": "53ee3b57473062a109dd11cdb95bb1d437a10bcfd61bdf88fea8c934120de4c9"
+    },
+    {
+      "name": "access-key.png",
+      "width": 1366,
+      "height": 768,
+      "sha256": "a610ed29641df488f5256200d61b0ea376e34c2eafb37e75629ee3926bf1fb46"
+    },
+    {
+      "name": "arcade-score.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "221b71d9465fe8b3935bdfd4768de548547d61e7d2f48c8b01a0faf476b3dd2e"
+    },
+    {
+      "name": "arcade.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "6ec47da3b8d72efd9cc7d7a5a043cf522801a79c97a422c5afc3221de2a3c10f"
+    },
+    {
+      "name": "cargo-full.png",
+      "width": 1366,
+      "height": 768,
+      "sha256": "9220f601e931cdf9501d4d7ba9f687213e23c6fcffdd28f30c422a1eeed79728"
+    },
+    {
+      "name": "chase-warning.png",
+      "width": 1366,
+      "height": 768,
+      "sha256": "8d1b3d887b49dbcf15768947f9916a20f405627411766aa2447c06159a163666"
+    },
+    {
+      "name": "gate-active.png",
+      "width": 1366,
+      "height": 768,
+      "sha256": "96a75df861aee334cb8276f33865b190d56f8c87406d61274c755401c4e7a666"
+    },
+    {
+      "name": "hit.png",
+      "width": 1366,
+      "height": 768,
+      "sha256": "81db42b6cc40e701833fc7f359da6a6feb4bced8a19f941a9cb3432f32b61a36"
+    },
+    {
+      "name": "meteor-chase.png",
+      "width": 1366,
+      "height": 768,
+      "sha256": "d07a9123a02108521e72ed8ae51162721f6381d3a5281e0951bac833473850db"
+    },
+    {
+      "name": "mission-chain.png",
+      "width": 1366,
+      "height": 768,
+      "sha256": "0bd167cc8a248adc568e92158e8bdb98584afcb1889b00adc0cfd53420600ce7"
+    },
+    {
+      "name": "new-modules.png",
+      "width": 1366,
+      "height": 768,
+      "sha256": "4e3bc304a7256451fb1a16816f98268be7e7a0be96ed81183027f76d1010dd67"
+    },
+    {
+      "name": "secret-cache.png",
+      "width": 1366,
+      "height": 768,
+      "sha256": "a146ca4b7e2497a8cf1935dd1364940a4967623939047226f3af071c53330b87"
+    },
+    {
+      "name": "secret-theme-0.png",
+      "width": 1366,
+      "height": 768,
+      "sha256": "07ecfc69eb1f65d281c56ee8e87de9a31ad05ab15fa3f9129cad10837f4ea33c"
+    },
+    {
+      "name": "secret-theme-1.png",
+      "width": 1366,
+      "height": 768,
+      "sha256": "b3796485e6073318e1677b7381feb69fd48897c0b74817c8179932526fc9bf82"
+    },
+    {
+      "name": "secret-theme-2.png",
+      "width": 1366,
+      "height": 768,
+      "sha256": "9809d9a2366ae415222181cb86841c9122b69194f1b111c0d387893c4805eb76"
+    },
+    {
+      "name": "secret-theme-3.png",
+      "width": 1366,
+      "height": 768,
+      "sha256": "ad594de7d06a614874f8a9a0ab88dfb63da902a34e7e789b9ee7d8706cdb86d5"
+    },
+    {
+      "name": "secret-theme-4.png",
+      "width": 1366,
+      "height": 768,
+      "sha256": "907c85590831f701b83219ee6064ab702209d6ac87d6a0a81d790c245152d82b"
+    },
+    {
+      "name": "secret-theme-5.png",
+      "width": 1366,
+      "height": 768,
+      "sha256": "a43cfa4e3d77034228e4f0c2b1fe4bd832c215fc796142d66ca2031e81974ffb"
+    },
+    {
+      "name": "secret-theme-6.png",
+      "width": 1366,
+      "height": 768,
+      "sha256": "c583ef50e834969ef0652ba4d9fccfe4dafef3f8d8c0bb382ea538fbfb2d9dde"
+    },
+    {
+      "name": "secret-theme-7.png",
+      "width": 1366,
+      "height": 768,
+      "sha256": "a3c8021a57da8e12d98e46200436c5caacf351456c3f008b30a7c3cdf41d3a0a"
+    },
+    {
+      "name": "signal-locked.png",
+      "width": 1366,
+      "height": 768,
+      "sha256": "43f3577de7c71626b0dbea1b41bfc2ab54af4f5aca33281e2cbf9a104491e873"
+    },
+    {
+      "name": "streak.png",
+      "width": 1366,
+      "height": 768,
+      "sha256": "8892b556638d8de55c0187ddd6d807d06bf6f7762e2de82b7caeeab231c8a5c1"
+    },
+    {
+      "name": "world-debris.png",
+      "width": 1366,
+      "height": 768,
+      "sha256": "d0b97e66e04f4e61213449521c1355b6937e80a2bd5d90b1a031c83a31ac0fc6"
+    },
+    {
+      "name": "world-graveyard.png",
+      "width": 1366,
+      "height": 768,
+      "sha256": "81192dac6f584e1626c15ffdf6c4c3f370ed1803395434c383782ab047349835"
+    },
+    {
+      "name": "world-meteor.png",
+      "width": 1366,
+      "height": 768,
+      "sha256": "7094c49f27588047dcd49dc2a4ea20dde14ef9da113dae0054ed41d6e2e09949"
+    },
+    {
+      "name": "world-mid.png",
+      "width": 1366,
+      "height": 768,
+      "sha256": "34891ff0c893a340f90642feb1f471bfb39bf802212010acebea51156be3a9ea"
+    },
+    {
+      "name": "world-sector2.png",
+      "width": 1366,
+      "height": 768,
+      "sha256": "bf886d9caaf6ca5700e5eff55daf6333c04083f139a6c1e857a6c3648f1d7e88"
+    },
+    {
+      "name": "world-working.png",
+      "width": 1366,
+      "height": 768,
+      "sha256": "5eac4a75a62a71e11a0efad988c5af20eef7201b882270c344b3bd07fa1bcce2"
+    }
+  ],
+  "limits": [
+    "Coordinate-aware keyboard runs are not novice human pacing measurements.",
+    "Natural runs used the same gameplay revision before final UI-only cleanup and the shorter longitudinal cross-laser arm; all eight final secret routes were checked separately.",
+    "Touch is browser emulation; no physical Android test.",
+    "Rewarded checks are localhost fallback, not production Yandex delivery.",
+    "Procedural ambience is synthesized, not a composed music track.",
+    "16 families x4 variants are finite; repetition is reduced, not mathematically impossible."
+  ],
+  "verdict": "READY FOR MANUAL USER TEST"
+}

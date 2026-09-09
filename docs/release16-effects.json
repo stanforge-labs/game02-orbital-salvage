@@ -1,0 +1,146 @@
+{
+  "mode": "isolated effect fixtures; arcade uses ordinary pointer input",
+  "buffer": 1.0499000000000003,
+  "salvage": 6,
+  "decoder": 66,
+  "containment": {
+    "absorbed": true,
+    "hull": 3
+  },
+  "arcade": {
+    "score": 110,
+    "lives": 3,
+    "pool": 42,
+    "deathLives": 0,
+    "restart": true
+  },
+  "audio": {
+    "state": "running",
+    "events": [
+      {
+        "kind": "start",
+        "time": 0
+      },
+      {
+        "kind": "hit",
+        "time": 0.096
+      },
+      {
+        "kind": "gate",
+        "time": 0.448
+      },
+      {
+        "kind": "contract",
+        "time": 0.672
+      },
+      {
+        "kind": "click",
+        "time": 0.9066666666666666
+      },
+      {
+        "kind": "hover",
+        "time": 0.9066666666666666
+      },
+      {
+        "kind": "hover",
+        "time": 1.0986666666666667
+      },
+      {
+        "kind": "click",
+        "time": 1.0986666666666667
+      },
+      {
+        "kind": "pickup",
+        "time": 2.2293333333333334
+      },
+      {
+        "kind": "pickup",
+        "time": 3.392
+      },
+      {
+        "kind": "pickup",
+        "time": 4.586666666666667
+      },
+      {
+        "kind": "pickup",
+        "time": 5.610666666666667
+      },
+      {
+        "kind": "pickup",
+        "time": 6.794666666666667
+      },
+      {
+        "kind": "pickup",
+        "time": 7.808
+      },
+      {
+        "kind": "pickup",
+        "time": 8.992
+      },
+      {
+        "kind": "pickup",
+        "time": 10.176
+      },
+      {
+        "kind": "pickup",
+        "time": 11.189333333333334
+      },
+      {
+        "kind": "pickup",
+        "time": 12.362666666666666
+      },
+      {
+        "kind": "pickup",
+        "time": 12.704
+      },
+      {
+        "kind": "pickup",
+        "time": 14.389333333333333
+      },
+      {
+        "kind": "pickup",
+        "time": 16.245333333333335
+      },
+      {
+        "kind": "hit",
+        "time": 20.938666666666666
+      },
+      {
+        "kind": "hit",
+        "time": 22.794666666666668
+      },
+      {
+        "kind": "hit",
+        "time": 23.701333333333334
+      },
+      {
+        "kind": "click",
+        "time": 23.893333333333334
+      },
+      {
+        "kind": "hover",
+        "time": 23.893333333333334
+      },
+      {
+        "kind": "hover",
+        "time": 24.085333333333335
+      },
+      {
+        "kind": "click",
+        "time": 24.085333333333335
+      },
+      {
+        "kind": "ambient",
+        "time": 24.085333333333335
+      }
+    ],
+    "voices": 0
+  },
+  "restored": {
+    "BufferLevel": 1,
+    "ContainmentLevel": 1,
+    "SalvageLevel": 1,
+    "DecoderLevel": 1
+  },
+  "errors": []
+}

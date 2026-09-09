@@ -53,6 +53,9 @@ screenshots/ReleaseQualityPass12/*
 !screenshots/ReleaseCandidatePolish15/
 screenshots/ReleaseCandidatePolish15/*
 !screenshots/ReleaseCandidatePolish15/*.png
+!screenshots/ReleaseProduction16/
+screenshots/ReleaseProduction16/*
+!screenshots/ReleaseProduction16/*.png
 
 # Секреты и локальные настройки
 .env

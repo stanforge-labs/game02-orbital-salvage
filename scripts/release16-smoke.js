@@ -1,0 +1,2 @@
+const {open,read,click,fs,path,root}=require('./release16-qa-lib');
+(async()=>{const q=await open({width:1917,height:920}),p=q.p;fs.mkdirSync(path.join(root,'_tmp-export/release16'),{recursive:true});try{await p.screenshot({path:path.join(root,'_tmp-export/release16/menu.png')});await click(p,'ButtonBg');await p.waitForTimeout(500);console.log('STATE',JSON.stringify(await read(p)));await p.screenshot({path:path.join(root,'_tmp-export/release16/play.png')});console.log('ERRORS',q.errors);}finally{await q.browser.close();}})();

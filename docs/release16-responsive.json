@@ -1,0 +1,437 @@
+{
+  "views": [
+    {
+      "w": 1920,
+      "h": 1080,
+      "mobile": false,
+      "render": {
+        "inner": [
+          1920,
+          1080
+        ],
+        "canvas": [
+          0,
+          0,
+          1920,
+          1080
+        ],
+        "backing": [
+          1920,
+          1080
+        ]
+      },
+      "mouseDoesNotSteer": true,
+      "panels": [
+        {
+          "n": "HudPanel",
+          "x": 48,
+          "y": 42,
+          "w": 414,
+          "h": 184,
+          "left": 48
+        },
+        {
+          "n": "HudPanel",
+          "x": 1438,
+          "y": 42,
+          "w": 434,
+          "h": 184,
+          "left": 1438
+        },
+        {
+          "n": "MissionPanel",
+          "x": 702,
+          "y": 42,
+          "w": 516,
+          "h": 184,
+          "left": 702
+        }
+      ],
+      "arcade": {
+        "score": 20,
+        "lives": 3,
+        "pool": 42,
+        "audio": "running",
+        "voices": 3,
+        "events": [
+          {
+            "kind": "start",
+            "time": 0
+          },
+          {
+            "kind": "contract",
+            "time": 0.224
+          },
+          {
+            "kind": "fail",
+            "time": 0.5013333333333333
+          },
+          {
+            "kind": "click",
+            "time": 0.7573333333333333
+          },
+          {
+            "kind": "click",
+            "time": 1.0026666666666666
+          },
+          {
+            "kind": "click",
+            "time": 1.248
+          },
+          {
+            "kind": "click",
+            "time": 1.568
+          },
+          {
+            "kind": "hover",
+            "time": 1.7173333333333334
+          },
+          {
+            "kind": "click",
+            "time": 1.728
+          },
+          {
+            "kind": "pickup",
+            "time": 3.1466666666666665
+          },
+          {
+            "kind": "pickup",
+            "time": 3.7333333333333334
+          },
+          {
+            "kind": "hover",
+            "time": 4.192
+          },
+          {
+            "kind": "click",
+            "time": 4.192
+          },
+          {
+            "kind": "ambient",
+            "time": 4.2026666666666666
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "w": 1600,
+      "h": 900,
+      "mobile": false,
+      "render": {
+        "inner": [
+          1600,
+          900
+        ],
+        "canvas": [
+          0,
+          0,
+          1600,
+          900
+        ],
+        "backing": [
+          1920,
+          1080
+        ]
+      },
+      "mouseDoesNotSteer": true,
+      "panels": [
+        {
+          "n": "HudPanel",
+          "x": 57.6,
+          "y": 42,
+          "w": 414,
+          "h": 184,
+          "left": 57.60000000000002
+        },
+        {
+          "n": "HudPanel",
+          "x": 1428.4,
+          "y": 42,
+          "w": 434,
+          "h": 184,
+          "left": 1428.4
+        },
+        {
+          "n": "MissionPanel",
+          "x": 702,
+          "y": 42,
+          "w": 516,
+          "h": 184,
+          "left": 702
+        }
+      ],
+      "errors": []
+    },
+    {
+      "w": 1366,
+      "h": 768,
+      "mobile": false,
+      "render": {
+        "inner": [
+          1366,
+          768
+        ],
+        "canvas": [
+          0,
+          0,
+          1366,
+          768
+        ],
+        "backing": [
+          1921,
+          1080
+        ]
+      },
+      "mouseDoesNotSteer": true,
+      "panels": [
+        {
+          "n": "HudPanel",
+          "x": 67.03125,
+          "y": 42,
+          "w": 414,
+          "h": 184,
+          "left": 67.5
+        },
+        {
+          "n": "HudPanel",
+          "x": 1418.96875,
+          "y": 42,
+          "w": 434,
+          "h": 184,
+          "left": 1419.4375
+        },
+        {
+          "n": "MissionPanel",
+          "x": 702,
+          "y": 42,
+          "w": 516,
+          "h": 184,
+          "left": 702.46875
+        }
+      ],
+      "errors": []
+    },
+    {
+      "w": 1280,
+      "h": 720,
+      "mobile": false,
+      "render": {
+        "inner": [
+          1280,
+          720
+        ],
+        "canvas": [
+          0,
+          0,
+          1280,
+          720
+        ],
+        "backing": [
+          1920,
+          1080
+        ]
+      },
+      "mouseDoesNotSteer": true,
+      "panels": [
+        {
+          "n": "HudPanel",
+          "x": 72,
+          "y": 42,
+          "w": 414,
+          "h": 184,
+          "left": 72
+        },
+        {
+          "n": "HudPanel",
+          "x": 1414,
+          "y": 42,
+          "w": 434,
+          "h": 184,
+          "left": 1414
+        },
+        {
+          "n": "MissionPanel",
+          "x": 702,
+          "y": 42,
+          "w": 516,
+          "h": 184,
+          "left": 702
+        }
+      ],
+      "errors": []
+    },
+    {
+      "w": 1536,
+      "h": 864,
+      "mobile": false,
+      "render": {
+        "inner": [
+          1536,
+          864
+        ],
+        "canvas": [
+          0,
+          0,
+          1536,
+          864
+        ],
+        "backing": [
+          1920,
+          1080
+        ]
+      },
+      "mouseDoesNotSteer": true,
+      "panels": [
+        {
+          "n": "HudPanel",
+          "x": 60,
+          "y": 42,
+          "w": 414,
+          "h": 184,
+          "left": 60
+        },
+        {
+          "n": "HudPanel",
+          "x": 1426,
+          "y": 42,
+          "w": 434,
+          "h": 184,
+          "left": 1426
+        },
+        {
+          "n": "MissionPanel",
+          "x": 702,
+          "y": 42,
+          "w": 516,
+          "h": 184,
+          "left": 702
+        }
+      ],
+      "errors": []
+    },
+    {
+      "w": 1917,
+      "h": 920,
+      "mobile": false,
+      "render": {
+        "inner": [
+          1917,
+          920
+        ],
+        "canvas": [
+          0,
+          0,
+          1917,
+          920
+        ],
+        "backing": [
+          2250,
+          1080
+        ]
+      },
+      "mouseDoesNotSteer": true,
+      "panels": [
+        {
+          "n": "HudPanel",
+          "x": -108.84782608695647,
+          "y": 42,
+          "w": 414,
+          "h": 184,
+          "left": 56.3478260869565
+        },
+        {
+          "n": "HudPanel",
+          "x": 1594.8478260869565,
+          "y": 42,
+          "w": 434,
+          "h": 184,
+          "left": 1760.0434782608695
+        },
+        {
+          "n": "MissionPanel",
+          "x": 702,
+          "y": 42,
+          "w": 516,
+          "h": 184,
+          "left": 867.195652173913
+        }
+      ],
+      "errors": []
+    },
+    {
+      "w": 1280,
+      "h": 720,
+      "mobile": true,
+      "render": {
+        "inner": [
+          1280,
+          720
+        ],
+        "canvas": [
+          0,
+          0,
+          1280,
+          720
+        ],
+        "backing": [
+          1920,
+          1080
+        ]
+      },
+      "mouseDoesNotSteer": true,
+      "touchDistance": 45.40315268069534,
+      "panels": [
+        {
+          "n": "HudPanel",
+          "x": 72,
+          "y": 42,
+          "w": 414,
+          "h": 184,
+          "left": 72
+        },
+        {
+          "n": "HudPanel",
+          "x": 1414,
+          "y": 42,
+          "w": 434,
+          "h": 184,
+          "left": 1414
+        },
+        {
+          "n": "MissionPanel",
+          "x": 702,
+          "y": 42,
+          "w": 516,
+          "h": 184,
+          "left": 702
+        }
+      ],
+      "errors": []
+    },
+    {
+      "w": 720,
+      "h": 1280,
+      "mobile": true,
+      "render": {
+        "inner": [
+          720,
+          1280
+        ],
+        "canvas": [
+          0,
+          0,
+          720,
+          1280
+        ],
+        "backing": [
+          720,
+          1280
+        ]
+      },
+      "rotate": true,
+      "errors": []
+    }
+  ],
+  "errors": []
+}

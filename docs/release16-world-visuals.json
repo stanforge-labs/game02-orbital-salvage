@@ -1,0 +1,132 @@
+{
+  "mode": "targeted visual fixtures, not natural progression",
+  "views": [
+    {
+      "name": "world-working",
+      "seed": 130013,
+      "sector": 1,
+      "hull": 3,
+      "secret": 0
+    },
+    {
+      "name": "world-debris",
+      "seed": 130013,
+      "sector": 1,
+      "hull": 3,
+      "secret": 0
+    },
+    {
+      "name": "world-graveyard",
+      "seed": 130013,
+      "sector": 1,
+      "hull": 3,
+      "secret": 0
+    },
+    {
+      "name": "world-meteor",
+      "seed": 130013,
+      "sector": 1,
+      "hull": 3,
+      "secret": 0
+    },
+    {
+      "name": "world-mid",
+      "seed": 130013,
+      "sector": 1,
+      "hull": 3,
+      "secret": 0
+    },
+    {
+      "name": "world-sector2",
+      "seed": 230027,
+      "sector": 2,
+      "hull": 3,
+      "secret": 0
+    },
+    {
+      "name": "signal-locked",
+      "seed": 230027,
+      "sector": 2,
+      "hull": 3,
+      "secret": 1
+    },
+    {
+      "name": "access-key",
+      "seed": 230027,
+      "sector": 2,
+      "hull": 3,
+      "secret": 1
+    },
+    {
+      "name": "gate-active",
+      "seed": 230027,
+      "sector": 2,
+      "hull": 3,
+      "secret": 3
+    },
+    {
+      "name": "secret-theme-0",
+      "seed": 130013,
+      "sector": 2,
+      "hull": 3,
+      "secret": 4
+    },
+    {
+      "name": "secret-theme-1",
+      "seed": 130013,
+      "sector": 2,
+      "hull": 3,
+      "secret": 4
+    },
+    {
+      "name": "secret-theme-2",
+      "seed": 130013,
+      "sector": 2,
+      "hull": 3,
+      "secret": 4
+    },
+    {
+      "name": "secret-theme-3",
+      "seed": 130013,
+      "sector": 2,
+      "hull": 3,
+      "secret": 4
+    },
+    {
+      "name": "secret-theme-4",
+      "seed": 130013,
+      "sector": 2,
+      "hull": 3,
+      "secret": 4
+    },
+    {
+      "name": "secret-theme-5",
+      "seed": 130013,
+      "sector": 2,
+      "hull": 3,
+      "secret": 4
+    },
+    {
+      "name": "secret-theme-6",
+      "seed": 130013,
+      "sector": 2,
+      "hull": 3,
+      "secret": 4
+    },
+    {
+      "name": "secret-theme-7",
+      "seed": 130013,
+      "sector": 2,
+      "hull": 3,
+      "secret": 4
+    },
+    {
+      "name": "secret-cache",
+      "seed": 130013,
+      "sector": 2,
+      "hull": 3,
+      "secret": 4
+    }
+  ],
+  "errors": []
+}
