@@ -1,0 +1,144 @@
+{
+  "mode": "isolated contract fixtures; real pickup/stage/settlement handlers; no natural timing claim",
+  "contracts": [
+    {
+      "type": "scrap",
+      "reward": 75,
+      "positive": true,
+      "emptyNegative": true
+    },
+    {
+      "type": "container",
+      "reward": 110,
+      "positive": true,
+      "emptyNegative": true
+    },
+    {
+      "type": "relayrepair",
+      "reward": 130,
+      "positive": true,
+      "emptyNegative": true
+    },
+    {
+      "type": "nodamage",
+      "reward": 96,
+      "positive": true,
+      "emptyNegative": true
+    },
+    {
+      "type": "speed",
+      "reward": 125,
+      "positive": true,
+      "emptyNegative": true
+    },
+    {
+      "type": "danger",
+      "reward": 140,
+      "positive": true,
+      "emptyNegative": true
+    },
+    {
+      "type": "blackbox",
+      "reward": 132,
+      "positive": true,
+      "emptyNegative": true
+    },
+    {
+      "type": "tech",
+      "reward": 138,
+      "positive": true,
+      "emptyNegative": true
+    },
+    {
+      "type": "highrisk",
+      "reward": 152,
+      "positive": true,
+      "emptyNegative": true
+    },
+    {
+      "type": "signal",
+      "reward": 160,
+      "positive": true,
+      "emptyNegative": true
+    },
+    {
+      "type": "relay",
+      "reward": 120,
+      "positive": true,
+      "emptyNegative": true
+    },
+    {
+      "type": "survey",
+      "reward": 100,
+      "positive": true,
+      "emptyNegative": true
+    },
+    {
+      "type": "fragile",
+      "reward": 130,
+      "positive": true,
+      "emptyNegative": true
+    },
+    {
+      "type": "courier",
+      "reward": 115,
+      "positive": true,
+      "emptyNegative": true
+    },
+    {
+      "type": "rescue",
+      "reward": 145,
+      "positive": true,
+      "emptyNegative": true
+    },
+    {
+      "type": "calibrate",
+      "reward": 130,
+      "positive": true,
+      "emptyNegative": true
+    },
+    {
+      "type": "expedition",
+      "reward": 150,
+      "positive": true,
+      "emptyNegative": true
+    },
+    {
+      "type": "streak",
+      "reward": 105,
+      "positive": true,
+      "emptyNegative": true
+    },
+    {
+      "type": "pursuit",
+      "reward": 140,
+      "positive": true,
+      "emptyNegative": true
+    },
+    {
+      "type": "anomaly",
+      "reward": 165,
+      "positive": true,
+      "emptyNegative": true
+    },
+    {
+      "type": "blackboxchain",
+      "reward": 175,
+      "positive": true,
+      "emptyNegative": true
+    },
+    {
+      "type": "rescuechain",
+      "reward": 180,
+      "positive": true,
+      "emptyNegative": true
+    },
+    {
+      "type": "valuable",
+      "reward": 145,
+      "positive": true,
+      "emptyNegative": true
+    }
+  ],
+  "errors": []
+}

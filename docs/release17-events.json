@@ -1,0 +1,48 @@
+{
+  "mode": "isolated event fixtures",
+  "events": [
+    {
+      "sector": 1,
+      "id": "beacon",
+      "value": 20,
+      "done": true,
+      "oneShot": true
+    },
+    {
+      "sector": 1,
+      "id": "distress",
+      "value": 20,
+      "done": true,
+      "oneShot": true
+    },
+    {
+      "sector": 1,
+      "id": "convoy",
+      "value": 20,
+      "done": true,
+      "oneShot": true
+    },
+    {
+      "sector": 2,
+      "id": "beacon",
+      "value": 35,
+      "done": true,
+      "oneShot": true
+    },
+    {
+      "sector": 2,
+      "id": "distress",
+      "value": 35,
+      "done": true,
+      "oneShot": true
+    },
+    {
+      "sector": 2,
+      "id": "convoy",
+      "value": 35,
+      "done": true,
+      "oneShot": true
+    }
+  ],
+  "errors": []
+}

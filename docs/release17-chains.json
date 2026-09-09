@@ -1,0 +1,27 @@
+{
+  "mode": "isolated scenario fixtures with real interaction/return logic; not natural timing",
+  "chains": [
+    {
+      "type": "relayrepair",
+      "reward": 130,
+      "state": "result",
+      "progress": 3,
+      "pass": true
+    },
+    {
+      "type": "blackboxchain",
+      "reward": 175,
+      "state": "result",
+      "progress": 4,
+      "pass": true
+    },
+    {
+      "type": "rescuechain",
+      "reward": 180,
+      "state": "result",
+      "progress": 4,
+      "pass": true
+    }
+  ],
+  "errors": []
+}

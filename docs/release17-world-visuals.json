@@ -1,0 +1,186 @@
+{
+  "mode": "targeted fixtures for visual review, not natural progression",
+  "views": [
+    {
+      "name": "03-working-orbit",
+      "seed": 130013,
+      "region": "working",
+      "secret": 0
+    },
+    {
+      "name": "04-salvage-field",
+      "seed": 130013,
+      "region": "debris",
+      "secret": 0
+    },
+    {
+      "name": "05-satellite-graveyard",
+      "seed": 130013,
+      "region": "graveyard",
+      "secret": 0
+    },
+    {
+      "name": "06-meteor-region",
+      "seed": 130013,
+      "region": "meteor",
+      "secret": 0
+    },
+    {
+      "name": "07-decoration-composition-A",
+      "seed": 130013,
+      "region": "trail",
+      "secret": 0
+    },
+    {
+      "name": "08-decoration-composition-B",
+      "seed": 130013,
+      "region": "relay",
+      "secret": 0
+    },
+    {
+      "name": "seed-130013",
+      "seed": 130013,
+      "region": "working",
+      "secret": 0
+    },
+    {
+      "name": "seed-230032",
+      "seed": 230032,
+      "region": "debris",
+      "secret": 0
+    },
+    {
+      "name": "seed-330051",
+      "seed": 330051,
+      "region": "graveyard",
+      "secret": 0
+    },
+    {
+      "name": "seed-430070",
+      "seed": 430070,
+      "region": "meteor",
+      "secret": 0
+    },
+    {
+      "name": "seed-530089",
+      "seed": 530089,
+      "region": "trail",
+      "secret": 0
+    },
+    {
+      "name": "seed-630108",
+      "seed": 630108,
+      "region": "radiation",
+      "secret": 0
+    },
+    {
+      "name": "seed-730127",
+      "seed": 730127,
+      "region": "ice",
+      "secret": 0
+    },
+    {
+      "name": "seed-830146",
+      "seed": 830146,
+      "region": "signal",
+      "secret": 1
+    },
+    {
+      "name": "seed-930165",
+      "seed": 930165,
+      "region": "caravan",
+      "secret": 0
+    },
+    {
+      "name": "seed-1030184",
+      "seed": 1030184,
+      "region": "working",
+      "secret": 0
+    },
+    {
+      "name": "seed-1130203",
+      "seed": 1130203,
+      "region": "debris",
+      "secret": 0
+    },
+    {
+      "name": "seed-1230222",
+      "seed": 1230222,
+      "region": "graveyard",
+      "secret": 0
+    },
+    {
+      "name": "16-sector2-hazard",
+      "seed": 230027,
+      "region": "meteor",
+      "secret": 0
+    },
+    {
+      "name": "11-meteor-chase",
+      "seed": 230027,
+      "region": "meteor",
+      "secret": 0
+    },
+    {
+      "name": "17-unknown-signal",
+      "seed": 230027,
+      "region": "ore",
+      "secret": 1
+    },
+    {
+      "name": "18-access-key",
+      "seed": 230027,
+      "region": "dock",
+      "secret": 1
+    },
+    {
+      "name": "19-secret-gate",
+      "seed": 230027,
+      "region": "ore",
+      "secret": 3
+    },
+    {
+      "name": "20-secret-entry",
+      "seed": 130013,
+      "region": "transit",
+      "secret": 4
+    },
+    {
+      "name": "21-secret-navigation",
+      "seed": 130013,
+      "region": "transit",
+      "secret": 4
+    },
+    {
+      "name": "22-secret-laser-warning",
+      "seed": 130013,
+      "region": "transit",
+      "secret": 4
+    },
+    {
+      "name": "23-secret-laser-active",
+      "seed": 130013,
+      "region": "ore",
+      "secret": 4
+    },
+    {
+      "name": "24-secret-meteor-room",
+      "seed": 130013,
+      "region": "ore",
+      "secret": 4
+    },
+    {
+      "name": "25-secret-final-section",
+      "seed": 130013,
+      "region": "ore",
+      "secret": 4
+    },
+    {
+      "name": "26-secret-cache",
+      "seed": 130013,
+      "region": "transit",
+      "secret": 4
+    }
+  ],
+  "errors": []
+}

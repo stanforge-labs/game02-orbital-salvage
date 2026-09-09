@@ -86,3 +86,14 @@ pass не добавлялись.
 Аркада переиспользует существующий `ship_player.png` и оригинальный `meteor16-3.svg`.
 Звуки и гармонический ambience синтезируются Web Audio в `release16-systems.js`;
 аудиосэмплы и сторонняя музыка не импортировались.
+
+## Final Pre-Release 17
+
+Новые `composition17-0.svg` … `composition17-15.svg` и `atmosphere17.svg` —
+оригинальные SVG проекта, создаются `scripts/release17-art.js`.
+Спутники, антенны, разбитые корпуса, секции станции и грузовые рамы собраны
+в самостоятельные композиции; сторонние изображения не использованы.
+
+Переиспользован локальный `Exo2-Variable.ttf` (Exo 2, Natanael Gama, SIL OFL 1.1).
+Полный текст лицензии: `assets/game/OFL-Exo2.txt`. CDN не нужен.
+Новых внешних assets, plugins/extensions и платных пакетов в этом pass нет.

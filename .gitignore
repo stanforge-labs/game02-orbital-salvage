@@ -56,6 +56,9 @@ screenshots/ReleaseCandidatePolish15/*
 !screenshots/ReleaseProduction16/
 screenshots/ReleaseProduction16/*
 !screenshots/ReleaseProduction16/*.png
+!screenshots/FinalPreRelease17/
+screenshots/FinalPreRelease17/*
+!screenshots/FinalPreRelease17/*.png
 
 # Секреты и локальные настройки
 .env
