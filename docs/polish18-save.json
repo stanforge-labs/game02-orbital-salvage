@@ -1,0 +1,11 @@
+{
+  "mode": "isolated contract-amplifier settlement and settings persistence regression",
+  "before": {
+    "credits": 169,
+    "saved": 169
+  },
+  "after": 169,
+  "settingsSaved": "{\"master\":false,\"sfx\":true,\"ambience\":true}",
+  "pass": true,
+  "errors": []
+}

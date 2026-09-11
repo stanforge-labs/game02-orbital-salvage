@@ -1,0 +1,29 @@
+{
+  "mode": "isolated starting positions, then ordinary keyboard side flights",
+  "flights": [
+    {
+      "sector": 1,
+      "seed": 130013,
+      "distance": 782,
+      "scenes": 17,
+      "poi": 15
+    },
+    {
+      "sector": 1,
+      "seed": 330051,
+      "distance": 793,
+      "scenes": 18,
+      "poi": 16
+    },
+    {
+      "sector": 2,
+      "seed": 230032,
+      "distance": 784,
+      "scenes": 19,
+      "poi": 12
+    }
+  ],
+  "errors": [],
+  "stableFunctions": true,
+  "framesStable": true
+}

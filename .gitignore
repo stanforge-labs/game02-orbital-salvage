@@ -61,6 +61,9 @@ screenshots/FinalPreRelease17/*
 !screenshots/FinalPreRelease17/*.png
 
 # Секреты и локальные настройки
+!screenshots/Polish18/
+screenshots/Polish18/*
+!screenshots/Polish18/*.png
 .env
 *.pem
 *.key

@@ -1,0 +1,494 @@
+{
+  "mode": "300 second runtime stress traversal; controlled fixture positions, not progression",
+  "samples": [
+    {
+      "seconds": 7.045600000008941,
+      "heap": 24643472,
+      "instances": 869,
+      "visible": 63,
+      "sector": 1,
+      "secret": 0
+    },
+    {
+      "seconds": 12.082600000008942,
+      "heap": 25107636,
+      "instances": 869,
+      "visible": 68,
+      "sector": 1,
+      "secret": 0
+    },
+    {
+      "seconds": 17.127900000005962,
+      "heap": 26145572,
+      "instances": 869,
+      "visible": 67,
+      "sector": 1,
+      "secret": 0
+    },
+    {
+      "seconds": 22.15420000000298,
+      "heap": 28189156,
+      "instances": 869,
+      "visible": 82,
+      "sector": 1,
+      "secret": 0
+    },
+    {
+      "seconds": 27.21329999999702,
+      "heap": 25542773,
+      "instances": 869,
+      "visible": 73,
+      "sector": 1,
+      "secret": 0
+    },
+    {
+      "seconds": 32.22870000000298,
+      "heap": 30086930,
+      "instances": 869,
+      "visible": 82,
+      "sector": 1,
+      "secret": 0
+    },
+    {
+      "seconds": 37.24820000000298,
+      "heap": 24205862,
+      "instances": 869,
+      "visible": 55,
+      "sector": 1,
+      "secret": 0
+    },
+    {
+      "seconds": 42.28079999999702,
+      "heap": 25455029,
+      "instances": 869,
+      "visible": 67,
+      "sector": 1,
+      "secret": 0
+    },
+    {
+      "seconds": 47.32870000000298,
+      "heap": 26137936,
+      "instances": 869,
+      "visible": 66,
+      "sector": 1,
+      "secret": 0
+    },
+    {
+      "seconds": 52.36490000000596,
+      "heap": 27136225,
+      "instances": 869,
+      "visible": 49,
+      "sector": 1,
+      "secret": 0
+    },
+    {
+      "seconds": 57.396,
+      "heap": 25196132,
+      "instances": 869,
+      "visible": 79,
+      "sector": 1,
+      "secret": 0
+    },
+    {
+      "seconds": 62.41420000000298,
+      "heap": 27174541,
+      "instances": 869,
+      "visible": 72,
+      "sector": 1,
+      "secret": 0
+    },
+    {
+      "seconds": 67.46410000000894,
+      "heap": 28189574,
+      "instances": 869,
+      "visible": 79,
+      "sector": 1,
+      "secret": 0
+    },
+    {
+      "seconds": 72.497,
+      "heap": 25434206,
+      "instances": 869,
+      "visible": 72,
+      "sector": 1,
+      "secret": 0
+    },
+    {
+      "seconds": 77.52940000000596,
+      "heap": 30520870,
+      "instances": 869,
+      "visible": 80,
+      "sector": 1,
+      "secret": 0
+    },
+    {
+      "seconds": 82.58160000000895,
+      "heap": 37794475,
+      "instances": 869,
+      "visible": 66,
+      "sector": 1,
+      "secret": 0
+    },
+    {
+      "seconds": 87.63140000000595,
+      "heap": 35496490,
+      "instances": 869,
+      "visible": 60,
+      "sector": 1,
+      "secret": 0
+    },
+    {
+      "seconds": 92.66640000000596,
+      "heap": 24313248,
+      "instances": 869,
+      "visible": 65,
+      "sector": 1,
+      "secret": 0
+    },
+    {
+      "seconds": 97.69720000000298,
+      "heap": 31147765,
+      "instances": 869,
+      "visible": 64,
+      "sector": 1,
+      "secret": 0
+    },
+    {
+      "seconds": 102.73129999999702,
+      "heap": 32948705,
+      "instances": 869,
+      "visible": 69,
+      "sector": 1,
+      "secret": 0
+    },
+    {
+      "seconds": 107.76410000000894,
+      "heap": 34943505,
+      "instances": 869,
+      "visible": 69,
+      "sector": 1,
+      "secret": 0
+    },
+    {
+      "seconds": 112.7885,
+      "heap": 29265659,
+      "instances": 869,
+      "visible": 82,
+      "sector": 1,
+      "secret": 0
+    },
+    {
+      "seconds": 117.833,
+      "heap": 33071884,
+      "instances": 869,
+      "visible": 72,
+      "sector": 1,
+      "secret": 0
+    },
+    {
+      "seconds": 122.85290000000596,
+      "heap": 25378803,
+      "instances": 869,
+      "visible": 83,
+      "sector": 1,
+      "secret": 0
+    },
+    {
+      "seconds": 127.89860000000894,
+      "heap": 33971114,
+      "instances": 869,
+      "visible": 70,
+      "sector": 2,
+      "secret": 0
+    },
+    {
+      "seconds": 132.93120000000297,
+      "heap": 36535911,
+      "instances": 869,
+      "visible": 88,
+      "sector": 2,
+      "secret": 0
+    },
+    {
+      "seconds": 137.952,
+      "heap": 24506579,
+      "instances": 869,
+      "visible": 71,
+      "sector": 2,
+      "secret": 0
+    },
+    {
+      "seconds": 142.9995,
+      "heap": 27461028,
+      "instances": 869,
+      "visible": 80,
+      "sector": 2,
+      "secret": 0
+    },
+    {
+      "seconds": 148.018,
+      "heap": 24580245,
+      "instances": 869,
+      "visible": 77,
+      "sector": 2,
+      "secret": 0
+    },
+    {
+      "seconds": 153.049,
+      "heap": 34832040,
+      "instances": 869,
+      "visible": 97,
+      "sector": 2,
+      "secret": 1
+    },
+    {
+      "seconds": 158.07590000000596,
+      "heap": 32435216,
+      "instances": 869,
+      "visible": 78,
+      "sector": 2,
+      "secret": 0
+    },
+    {
+      "seconds": 163.115700000003,
+      "heap": 34785196,
+      "instances": 869,
+      "visible": 71,
+      "sector": 2,
+      "secret": 0
+    },
+    {
+      "seconds": 168.14940000000595,
+      "heap": 25544621,
+      "instances": 869,
+      "visible": 72,
+      "sector": 2,
+      "secret": 0
+    },
+    {
+      "seconds": 173.18220000000298,
+      "heap": 36081889,
+      "instances": 869,
+      "visible": 53,
+      "sector": 2,
+      "secret": 0
+    },
+    {
+      "seconds": 178.21529999999703,
+      "heap": 34606569,
+      "instances": 869,
+      "visible": 83,
+      "sector": 2,
+      "secret": 0
+    },
+    {
+      "seconds": 183.25310000000894,
+      "heap": 27406233,
+      "instances": 869,
+      "visible": 72,
+      "sector": 2,
+      "secret": 0
+    },
+    {
+      "seconds": 188.28470000000297,
+      "heap": 29524773,
+      "instances": 869,
+      "visible": 82,
+      "sector": 2,
+      "secret": 0
+    },
+    {
+      "seconds": 193.31979999999703,
+      "heap": 38058517,
+      "instances": 869,
+      "visible": 61,
+      "sector": 2,
+      "secret": 0
+    },
+    {
+      "seconds": 198.368,
+      "heap": 38465520,
+      "instances": 869,
+      "visible": 59,
+      "sector": 2,
+      "secret": 0
+    },
+    {
+      "seconds": 203.415799999997,
+      "heap": 31366484,
+      "instances": 869,
+      "visible": 65,
+      "sector": 2,
+      "secret": 0
+    },
+    {
+      "seconds": 208.45270000000298,
+      "heap": 33638170,
+      "instances": 869,
+      "visible": 82,
+      "sector": 2,
+      "secret": 0
+    },
+    {
+      "seconds": 213.48760000000894,
+      "heap": 28554970,
+      "instances": 869,
+      "visible": 66,
+      "sector": 2,
+      "secret": 0
+    },
+    {
+      "seconds": 218.52110000000894,
+      "heap": 23646740,
+      "instances": 869,
+      "visible": 75,
+      "sector": 2,
+      "secret": 1
+    },
+    {
+      "seconds": 223.55010000000894,
+      "heap": 27923875,
+      "instances": 869,
+      "visible": 63,
+      "sector": 2,
+      "secret": 0
+    },
+    {
+      "seconds": 228.5865,
+      "heap": 36972877,
+      "instances": 869,
+      "visible": 68,
+      "sector": 2,
+      "secret": 0
+    },
+    {
+      "seconds": 233.63410000000894,
+      "heap": 33675321,
+      "instances": 869,
+      "visible": 78,
+      "sector": 2,
+      "secret": 0
+    },
+    {
+      "seconds": 238.66629999999702,
+      "heap": 27387113,
+      "instances": 869,
+      "visible": 74,
+      "sector": 2,
+      "secret": 0
+    },
+    {
+      "seconds": 243.7005,
+      "heap": 25590427,
+      "instances": 869,
+      "visible": 85,
+      "sector": 2,
+      "secret": 0
+    },
+    {
+      "seconds": 248.73710000000895,
+      "heap": 29544016,
+      "instances": 869,
+      "visible": 89,
+      "sector": 2,
+      "secret": 4
+    },
+    {
+      "seconds": 253.7845,
+      "heap": 26762920,
+      "instances": 869,
+      "visible": 88,
+      "sector": 2,
+      "secret": 4
+    },
+    {
+      "seconds": 258.8175,
+      "heap": 32744732,
+      "instances": 869,
+      "visible": 89,
+      "sector": 2,
+      "secret": 4
+    },
+    {
+      "seconds": 263.850700000003,
+      "heap": 26594340,
+      "instances": 869,
+      "visible": 88,
+      "sector": 2,
+      "secret": 4
+    },
+    {
+      "seconds": 268.884799999997,
+      "heap": 25575499,
+      "instances": 869,
+      "visible": 89,
+      "sector": 2,
+      "secret": 4
+    },
+    {
+      "seconds": 273.91810000000896,
+      "heap": 20606679,
+      "instances": 869,
+      "visible": 88,
+      "sector": 2,
+      "secret": 4
+    },
+    {
+      "seconds": 278.9556000000089,
+      "heap": 25611015,
+      "instances": 869,
+      "visible": 89,
+      "sector": 2,
+      "secret": 4
+    },
+    {
+      "seconds": 284.00210000000897,
+      "heap": 29848787,
+      "instances": 869,
+      "visible": 88,
+      "sector": 2,
+      "secret": 4
+    },
+    {
+      "seconds": 289.0351000000089,
+      "heap": 30960443,
+      "instances": 869,
+      "visible": 89,
+      "sector": 2,
+      "secret": 4
+    },
+    {
+      "seconds": 294.053400000006,
+      "heap": 28688327,
+      "instances": 869,
+      "visible": 88,
+      "sector": 2,
+      "secret": 4
+    },
+    {
+      "seconds": 299.0845,
+      "heap": 32737639,
+      "instances": 869,
+      "visible": 89,
+      "sector": 2,
+      "secret": 4
+    },
+    {
+      "seconds": 304.12,
+      "heap": 22676811,
+      "instances": 869,
+      "visible": 88,
+      "sector": 2,
+      "secret": 4
+    }
+  ],
+  "seconds": 302.12,
+  "frames": {
+    "count": 18098,
+    "median": 16.69999999999709,
+    "p95": 16.799999999999272,
+    "p99": 16.800000000046566,
+    "max": 50
+  },
+  "errors": []
+}

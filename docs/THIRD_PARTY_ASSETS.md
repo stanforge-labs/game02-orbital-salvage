@@ -97,3 +97,11 @@ pass не добавлялись.
 Переиспользован локальный `Exo2-Variable.ttf` (Exo 2, Natanael Gama, SIL OFL 1.1).
 Полный текст лицензии: `assets/game/OFL-Exo2.txt`. CDN не нужен.
 Новых внешних assets, plugins/extensions и платных пакетов в этом pass нет.
+
+## Polish18
+
+`assets/game/scenic18-0.svg` … `scenic18-23.svg` и
+`secret-scene18-0.svg` … `secret-scene18-5.svg` — оригинальные векторные
+композиции проекта, генератор `scripts/polish18-art.js`. Сторонний арт не
+заимствован. Exo 2 и его локальная OFL-лицензия сохранены без изменений.
+Новых внешних зависимостей и extensions нет.

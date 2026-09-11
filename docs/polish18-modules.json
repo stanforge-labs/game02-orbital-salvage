@@ -1,0 +1,93 @@
+{
+  "mode": "isolated DEV funds + real UI clicks",
+  "purchases": [
+    {
+      "id": "cargo",
+      "paid": 180
+    },
+    {
+      "id": "hull",
+      "paid": 200
+    },
+    {
+      "id": "radar",
+      "paid": 160
+    },
+    {
+      "id": "shield",
+      "paid": 210
+    },
+    {
+      "id": "contract",
+      "paid": 190
+    },
+    {
+      "id": "scanner",
+      "paid": 185
+    },
+    {
+      "id": "containment",
+      "paid": 260
+    },
+    {
+      "id": "decoder",
+      "paid": 300
+    },
+    {
+      "id": "magnet",
+      "paid": 140
+    },
+    {
+      "id": "repair",
+      "paid": 175
+    },
+    {
+      "id": "engine",
+      "paid": 180
+    },
+    {
+      "id": "salvage",
+      "paid": 280
+    },
+    {
+      "id": "insurance",
+      "paid": 180
+    },
+    {
+      "id": "buffer",
+      "paid": 240
+    },
+    {
+      "id": "assist",
+      "paid": 170
+    }
+  ],
+  "before": {
+    "CargoMax": 10,
+    "EngineLevel": 1,
+    "HullMax": 4,
+    "MagnetLevel": 1,
+    "BufferLevel": 1,
+    "ContainmentLevel": 1,
+    "SalvageLevel": 1,
+    "DecoderLevel": 1,
+    "Credits": 700,
+    "TechParts": 15,
+    "SpentCredits": 3050
+  },
+  "after": {
+    "CargoMax": 8,
+    "EngineLevel": 0,
+    "HullMax": 3,
+    "MagnetLevel": 0,
+    "BufferLevel": 0,
+    "ContainmentLevel": 0,
+    "SalvageLevel": 0,
+    "DecoderLevel": 0,
+    "Credits": 2987,
+    "TechParts": 14,
+    "SpentCredits": 0
+  },
+  "saveOffersRestored": true,
+  "errors": []
+}

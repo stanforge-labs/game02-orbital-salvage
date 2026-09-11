@@ -1,0 +1,14 @@
+{
+  "mode": "targeted UI/visual fixtures, not natural progression",
+  "debug": {
+    "poi": true,
+    "hazards": true
+  },
+  "meteorDistance": 431.3930922024598,
+  "chase": {
+    "phase": "chasing",
+    "visible": 2
+  },
+  "productionDevHidden": true,
+  "errors": []
+}

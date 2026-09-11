@@ -137,3 +137,26 @@ QA-скрипты `release17-*` используют 4234 и отдельные 
 
 Не пересобирайте экспорт во время загрузки QA-страниц. Для параллельных проверок
 предпочтителен `node scripts/local-static-server.js exports/release17 4234`.
+
+## Polish18
+
+Запуск текущего экспорта: `PLAY_POLISH18.ps1`, адрес `http://127.0.0.1:4235/`.
+DEV-панель на localhost сохранена, на обычном production-host скрыта.
+Кнопки POI / опасностей, быстрый выбор сектора, метеорный поток и погоня
+сохранены. Escape — пауза; «Орбитальный патруль» — arcade.
+
+Проверки текущего экспорта, не перезаписывающие отчёты Release17:
+
+- `node scripts/polish18-qa-runner.js responsive`
+- `node scripts/polish18-qa-runner.js natural <id>` — чистый storage,
+  реальные клавиши/клики; навигатор читает координаты, не имитирует новичка.
+- `node scripts/polish18-qa-runner.js proof` — DEV/погоня/визуальные fixtures.
+- `node scripts/polish18-qa-runner.js perf` — отдельный 300-секундный stress run.
+- `node scripts/polish18-seeds.js` — 60 seed, зазоры декора, неизменность gameplay.
+- `node scripts/polish18-hud-qa.js` — длинные заголовки, hover, Escape, размеры loot.
+- `node scripts/polish18-side-qa.js` — боковые полёты и одноразовая инициализация.
+
+Декор настраивается в `polish18-world.js`: сетка 345×330, зазор от loot 125,
+от другого scenic 230, от gameplay POI 225, от станции 330 мировых единиц.
+Scenic18 — отдельный статический пул 110 объектов без коллизий; SecretScene18 — 6.
+Нельзя добавлять декоративные точки в `g.pois`: этот список используется миссиями.

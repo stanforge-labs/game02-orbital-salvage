@@ -1,0 +1,115 @@
+{
+  "views": [
+    {
+      "w": 1920,
+      "h": 1080,
+      "touch": false,
+      "canvas": {
+        "w": 1920,
+        "h": 1080,
+        "font": true
+      },
+      "hoverDelta": 0,
+      "paused": true,
+      "arcade": {
+        "lives": 3,
+        "voices": 0,
+        "ctx": "running"
+      },
+      "errors": []
+    },
+    {
+      "w": 1600,
+      "h": 900,
+      "touch": false,
+      "canvas": {
+        "w": 1600,
+        "h": 900,
+        "font": true
+      },
+      "hoverDelta": 0,
+      "paused": true,
+      "errors": []
+    },
+    {
+      "w": 1536,
+      "h": 864,
+      "touch": false,
+      "canvas": {
+        "w": 1536,
+        "h": 864,
+        "font": true
+      },
+      "hoverDelta": 0,
+      "paused": true,
+      "errors": []
+    },
+    {
+      "w": 1366,
+      "h": 768,
+      "touch": false,
+      "canvas": {
+        "w": 1366,
+        "h": 768,
+        "font": true
+      },
+      "hoverDelta": 0,
+      "paused": true,
+      "errors": []
+    },
+    {
+      "w": 1280,
+      "h": 720,
+      "touch": false,
+      "canvas": {
+        "w": 1280,
+        "h": 720,
+        "font": true
+      },
+      "hoverDelta": 0,
+      "paused": true,
+      "errors": []
+    },
+    {
+      "w": 1917,
+      "h": 920,
+      "touch": false,
+      "canvas": {
+        "w": 1917,
+        "h": 920,
+        "font": true
+      },
+      "hoverDelta": 0,
+      "paused": true,
+      "errors": []
+    },
+    {
+      "w": 1280,
+      "h": 720,
+      "touch": true,
+      "canvas": {
+        "w": 1280,
+        "h": 720,
+        "font": true
+      },
+      "hoverDelta": 0,
+      "touchTap": 350,
+      "touchDistance": 89.9510375137198,
+      "paused": true,
+      "errors": []
+    },
+    {
+      "w": 720,
+      "h": 1280,
+      "touch": true,
+      "canvas": {
+        "w": 720,
+        "h": 1280,
+        "font": true
+      },
+      "portrait": "rotate",
+      "errors": []
+    }
+  ],
+  "errors": []
+}
