@@ -228,12 +228,18 @@ remain outside these localhost checks.
 
 ## COMMIT
 
-Implementation and evidence are committed on main after QA. Delivery hash is
-recorded in the final handoff after commit creation; base hash is above.
+Implementation and QA evidence commit on main:
+`c835ef9f03dff4227da3541d22d3342fc4d6ffae`.
+The following documentation-only commit records delivery verification; it does
+not change the tested runtime. Its hash is HEAD in the final handoff.
 
 ## PUSH
 
-Push and remote-hash verification are the final delivery step. The pre-existing
+SUCCESS: implementation pushed to origin/main; `git ls-remote` returned
+`c835ef9f03dff4227da3541d22d3342fc4d6ffae`, equal to local HEAD at verification.
+Tracked working tree was clean. Local build answered HTTP 200 on port 4236.
+This delivery record is committed and pushed afterward, with final HEAD checked
+again in the handoff. The pre-existing
 user archive `screenshots/FullReleaseRebuild14/FullReleaseRebuild14.zip` is retained
 untracked and is not part of this pass.
 
