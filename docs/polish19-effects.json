@@ -1,0 +1,118 @@
+{
+  "mode": "isolated effect fixtures; arcade uses ordinary pointer input",
+  "buffer": 1.0499000000000003,
+  "salvage": 6,
+  "decoder": 66,
+  "containment": {
+    "absorbed": true,
+    "hull": 3
+  },
+  "arcade": {
+    "score": 110,
+    "lives": 3,
+    "pool": 42,
+    "deathLives": 0,
+    "restart": true
+  },
+  "audio": {
+    "state": "running",
+    "events": [
+      {
+        "kind": "gate",
+        "time": 0.23466666666666666
+      },
+      {
+        "kind": "contract",
+        "time": 0.448
+      },
+      {
+        "kind": "click",
+        "time": 0.6826666666666666
+      },
+      {
+        "kind": "click",
+        "time": 0.832
+      },
+      {
+        "kind": "pickup",
+        "time": 1.952
+      },
+      {
+        "kind": "pickup",
+        "time": 2.9546666666666668
+      },
+      {
+        "kind": "pickup",
+        "time": 4.149333333333334
+      },
+      {
+        "kind": "pickup",
+        "time": 5.344
+      },
+      {
+        "kind": "pickup",
+        "time": 5.856
+      },
+      {
+        "kind": "pickup",
+        "time": 7.701333333333333
+      },
+      {
+        "kind": "pickup",
+        "time": 8.725333333333333
+      },
+      {
+        "kind": "pickup",
+        "time": 9.738666666666667
+      },
+      {
+        "kind": "pickup",
+        "time": 10.922666666666666
+      },
+      {
+        "kind": "pickup",
+        "time": 11.936
+      },
+      {
+        "kind": "pickup",
+        "time": 13.109333333333334
+      },
+      {
+        "kind": "pickup",
+        "time": 14.272
+      },
+      {
+        "kind": "hit",
+        "time": 20.672
+      },
+      {
+        "kind": "hit",
+        "time": 21.589333333333332
+      },
+      {
+        "kind": "hit",
+        "time": 22.517333333333333
+      },
+      {
+        "kind": "click",
+        "time": 22.688
+      },
+      {
+        "kind": "click",
+        "time": 22.954666666666668
+      },
+      {
+        "kind": "ambient",
+        "time": 23.04
+      }
+    ],
+    "voices": 0
+  },
+  "restored": {
+    "BufferLevel": 1,
+    "ContainmentLevel": 1,
+    "SalvageLevel": 1,
+    "DecoderLevel": 1
+  },
+  "errors": []
+}

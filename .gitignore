@@ -64,6 +64,9 @@ screenshots/FinalPreRelease17/*
 !screenshots/Polish18/
 screenshots/Polish18/*
 !screenshots/Polish18/*.png
+!screenshots/Polish19/
+screenshots/Polish19/*
+!screenshots/Polish19/*.png
 .env
 *.pem
 *.key

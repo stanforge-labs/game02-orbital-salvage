@@ -160,3 +160,38 @@ DEV-панель на localhost сохранена, на обычном producti
 от другого scenic 230, от gameplay POI 225, от станции 330 мировых единиц.
 Scenic18 — отдельный статический пул 110 объектов без коллизий; SecretScene18 — 6.
 Нельзя добавлять декоративные точки в `g.pois`: этот список используется миссиями.
+
+## Polish19
+
+Текущая сборка: `PLAY_POLISH19.ps1`, http://127.0.0.1:4236/.
+Пересборка: `node scripts/apply-integrated-pass10.js`, затем
+`powershell -ExecutionPolicy Bypass -File scripts/export-core.ps1 -OutputDirectory exports/polish19`.
+
+- `polish19-world.js`: региональные веса 12 art families; 8 групп похожих
+  силуэтов; зазор 620 world units для объектов размером от 90. Если палитра
+  исчерпана на плотном пересечении, вторичный декор уменьшается до 68.
+  Позиции gameplay POI, loot, hazards, ключа и ворот не меняются.
+- `polish19-runtime.js`: композиционная safe-zone подаётся в прежнее плавное
+  слежение. Скорость, инерция, zoom и world bounds корабля не меняются.
+  Верхний HUD получает одного владельца текста; старые UI-проходы больше
+  не вызывают повторную растеризацию его промежуточных состояний.
+- `polish19-ui.js`: фиксированные защищённые полосы текста и боковой feedback.
+- `polish19-art.js`: шесть оригинальных аппаратных вариантов без повторения
+  антенн у ремонтного причала, реактора и станции. Сторонних ресурсов нет.
+
+Проверки:
+
+```powershell
+node scripts/polish19-seeds.js
+node scripts/polish19-safe-qa.js
+node scripts/polish19-visual.js
+node scripts/polish19-qa-runner.js hud
+node scripts/polish19-natural.js final
+```
+
+Natural использует чистый browser context, клавиши/клики и чтение координат.
+DEV-переменные не меняет. Остальные перечисленные visual/safe проверки могут
+использовать явно обозначенные стартовые fixtures. Performance trace собирается
+в natural; не запускать параллельно другие браузерные тесты. Пороговые counts,
+корреляции GC/переходов и ограничения методики — `polish19-performance-analysis.json`.
+Профилировщик не включён в production game.json. F3/F4/F6/F7/F8/F9 сохранены.

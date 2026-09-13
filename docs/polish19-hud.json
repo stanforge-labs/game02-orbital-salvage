@@ -1,0 +1,77 @@
+{
+  "titles": [
+    {
+      "text": "СЛЕД ПРОПАВШЕГО СУДНА",
+      "x": 676,
+      "right": 1244,
+      "y": 116.5,
+      "height": 33,
+      "progressY": 175.5,
+      "rewardY": 223,
+      "panelX": 644,
+      "panelRight": 1276,
+      "panelBottom": 270
+    },
+    {
+      "text": "СПАСАТЕЛЬНЫЙ ПРОТОКОЛ",
+      "x": 676,
+      "right": 1244,
+      "y": 116.5,
+      "height": 33,
+      "progressY": 175.5,
+      "rewardY": 223,
+      "panelX": 644,
+      "panelRight": 1276,
+      "panelBottom": 270
+    },
+    {
+      "text": "ВОССТАНОВИТЬ ПОВРЕЖДЁННЫЙ РЕТРАНСЛЯТОР",
+      "x": 676,
+      "right": 1244,
+      "y": 101.5,
+      "height": 63,
+      "progressY": 175.5,
+      "rewardY": 223,
+      "panelX": 644,
+      "panelRight": 1276,
+      "panelBottom": 270
+    },
+    {
+      "text": "ДОСТАВИТЬ КОНТЕЙНЕР БЕЗ ПОВРЕЖДЕНИЙ",
+      "x": 676,
+      "right": 1244,
+      "y": 101.5,
+      "height": 63,
+      "progressY": 175.5,
+      "rewardY": 223,
+      "panelX": 644,
+      "panelRight": 1276,
+      "panelBottom": 270
+    }
+  ],
+  "errors": [],
+  "loot": {
+    "ProcScrap": {
+      "w": 38,
+      "h": 35
+    },
+    "ProcEnergy": {
+      "w": 45,
+      "h": 45
+    },
+    "ProcData": {
+      "w": 45,
+      "h": 45
+    },
+    "ProcHeavy": {
+      "w": 53,
+      "h": 48
+    },
+    "G13Key": {
+      "w": 104,
+      "h": 104
+    }
+  },
+  "hoverDistance": 0,
+  "escape": true
+}

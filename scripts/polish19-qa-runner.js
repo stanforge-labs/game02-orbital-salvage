@@ -1,0 +1,10 @@
+const fs=require('fs'),path=require('path'),Module=require('module');
+process.env.OS_QA_PORT='4236';
+const name=process.argv[2];if(!/^[a-z0-9-]+$/.test(name||''))throw Error('Scenario required');
+const file=path.join(__dirname,name==='hud'?'polish18-hud-qa.js':'release17-'+name+'.js');
+let source=fs.readFileSync(file,'utf8').replaceAll('screenshots/FinalPreRelease17','screenshots/Polish19').replaceAll('docs/release17-','docs/polish19-').replaceAll("'release17-natural-'","'polish19-natural-'").replaceAll("'release17-natural-'","'polish19-natural-'");
+source=source.replaceAll('http://127.0.0.1:4234','http://127.0.0.1:4236');
+if(name==='hud')source=source.replaceAll('4235','4236').replaceAll('Polish18','Polish19').replaceAll('polish18-','polish19-');
+if(name==='proof')source=source.replace('g.chain17=null;','g.chain17=null;scene15.__ui17.tracked=null;');
+process.argv.splice(2,1);fs.mkdirSync('screenshots/Polish19',{recursive:true});
+const mod=new Module(file,module);mod.filename=file;mod.paths=Module._nodeModulePaths(__dirname);mod._compile(source,file);

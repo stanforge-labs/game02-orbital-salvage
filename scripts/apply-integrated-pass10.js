@@ -7,6 +7,7 @@ run('scripts/release15-art.js');
 run('scripts/release16-art.js');
 run('scripts/release17-art.js');
 run('scripts/polish18-art.js');
+run('scripts/polish19-art.js');
 run('scripts/update-runtime-feature.js');
 run('scripts/smart08-layout.js');
 run('scripts/integrated-pass10-layout.js');

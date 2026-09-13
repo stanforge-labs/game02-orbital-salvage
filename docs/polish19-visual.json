@@ -1,0 +1,168 @@
+{
+  "mode": "explicit visual fixtures, then real keyboard side/diagonal flights; not natural progression",
+  "views": [
+    {
+      "file": "05-working-orbit",
+      "seed": 130013,
+      "sector": 1,
+      "region": "working"
+    },
+    {
+      "file": "06-debris-field",
+      "seed": 130013,
+      "sector": 1,
+      "region": "debris"
+    },
+    {
+      "file": "07-satellite-graveyard",
+      "seed": 130013,
+      "sector": 1,
+      "region": "graveyard"
+    },
+    {
+      "file": "10-meteor-zone",
+      "seed": 130013,
+      "sector": 1,
+      "region": "meteor"
+    },
+    {
+      "file": "08-mixed-decoration-viewport",
+      "seed": 130013,
+      "sector": 1,
+      "region": "trail"
+    },
+    {
+      "file": "seed-130013",
+      "seed": 130013,
+      "sector": 1,
+      "region": "working"
+    },
+    {
+      "file": "seed-230032",
+      "seed": 230032,
+      "sector": 2,
+      "region": "debris"
+    },
+    {
+      "file": "seed-330051",
+      "seed": 330051,
+      "sector": 1,
+      "region": "graveyard"
+    },
+    {
+      "file": "seed-430070",
+      "seed": 430070,
+      "sector": 2,
+      "region": "meteor"
+    },
+    {
+      "file": "seed-530089",
+      "seed": 530089,
+      "sector": 1,
+      "region": "trail"
+    },
+    {
+      "file": "seed-630108",
+      "seed": 630108,
+      "sector": 2,
+      "region": "radiation"
+    },
+    {
+      "file": "seed-730127",
+      "seed": 730127,
+      "sector": 1,
+      "region": "working"
+    },
+    {
+      "file": "seed-830146",
+      "seed": 830146,
+      "sector": 2,
+      "region": "debris"
+    },
+    {
+      "file": "03-sector1-side-route",
+      "seed": 130013,
+      "sector": 1,
+      "region": "transit"
+    },
+    {
+      "file": "04-sector1-diagonal-route",
+      "seed": 130013,
+      "sector": 1,
+      "region": "meteor"
+    },
+    {
+      "file": "15-objective-marker",
+      "seed": 130013,
+      "sector": 1,
+      "region": "meteor"
+    },
+    {
+      "file": "09-loot-readability",
+      "seed": 130013,
+      "sector": 1,
+      "region": "graveyard"
+    },
+    {
+      "file": "feedback-streak",
+      "seed": 130013,
+      "sector": 1,
+      "region": "graveyard"
+    },
+    {
+      "file": "11-meteor-chase",
+      "seed": 130013,
+      "sector": 1,
+      "region": "graveyard"
+    },
+    {
+      "file": "22-sector2-hazard",
+      "seed": 230032,
+      "sector": 2,
+      "region": "meteor"
+    },
+    {
+      "file": "21-sector2-environment",
+      "seed": 230032,
+      "sector": 2,
+      "region": "trail"
+    },
+    {
+      "file": "signal-locked",
+      "seed": 230032,
+      "sector": 2,
+      "region": "signal"
+    },
+    {
+      "file": "access-key",
+      "seed": 230032,
+      "sector": 2,
+      "region": "dock"
+    },
+    {
+      "file": "25-secret-room",
+      "seed": 130013,
+      "sector": 2,
+      "region": "transit"
+    },
+    {
+      "file": "26-laser-challenge",
+      "seed": 130013,
+      "sector": 2,
+      "region": "transit"
+    },
+    {
+      "file": "cache-before-pickup",
+      "seed": 130013,
+      "sector": 2,
+      "region": "transit"
+    },
+    {
+      "file": "30-performance-heavy-viewport",
+      "seed": 730127,
+      "sector": 2,
+      "region": "graveyard"
+    }
+  ],
+  "errors": []
+}

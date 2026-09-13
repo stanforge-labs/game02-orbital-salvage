@@ -1,0 +1,158 @@
+{
+  "seconds": 556.0458,
+  "frames": 33355,
+  "thresholds": {
+    "over20": 9,
+    "over25": 4,
+    "over33_3": 2,
+    "over50": 1,
+    "over100": 0
+  },
+  "median": 16.7,
+  "p95": 17.1,
+  "p99": 17.3,
+  "max": 83.2,
+  "instances": 869,
+  "heapMin": 20218110,
+  "heapMax": 47574133,
+  "objectCreations": 0,
+  "svgDecodeEventsOver1ms": 0,
+  "maxSaveMs": 0.9000000357627869,
+  "maxGenerationMs": 9.200000047683716,
+  "maxAudioUnlockMs": 3,
+  "spikes": [
+    {
+      "t": 6451.9,
+      "dt": 83.19999999999982,
+      "cpu": 11.699999988079071,
+      "context": "play/1/-1/0/idle",
+      "events": [
+        {
+          "t": 6368.100000023842,
+          "name": "audio unlock/context creation",
+          "ms": 0
+        },
+        {
+          "t": 6368.100000023842,
+          "name": "audio click",
+          "ms": 0
+        },
+        {
+          "t": 6370.199999988079,
+          "name": "save write",
+          "ms": 0.09999996423721313
+        },
+        {
+          "t": 6370.199999988079,
+          "name": "save write",
+          "ms": 0
+        },
+        {
+          "t": 6370.399999976158,
+          "name": "save write",
+          "ms": 0.09999996423721313
+        },
+        {
+          "t": 6370.399999976158,
+          "name": "save write",
+          "ms": 0
+        },
+        {
+          "t": 6383.100000023842,
+          "name": "world generation",
+          "ms": 9.200000047683716
+        },
+        {
+          "t": 6401.100000023842,
+          "name": "audio start",
+          "ms": 0.20000004768371582
+        },
+        {
+          "t": 6442.399999976158,
+          "name": "transition play/1/-1/0/idle",
+          "ms": 0
+        }
+      ],
+      "traceCorrelation": [
+        "Layout"
+      ],
+      "explanation": "world/UI transition"
+    },
+    {
+      "t": 43669.4,
+      "dt": 33.400000000001455,
+      "cpu": 11.700000047683716,
+      "context": "play/1/0/0/idle",
+      "events": [],
+      "traceCorrelation": [],
+      "explanation": "isolated scheduling interval; no instrumented long handler"
+    },
+    {
+      "t": 106341.4,
+      "dt": 20.59999999999127,
+      "cpu": 7.5,
+      "context": "play/1/1/0/warning",
+      "events": [],
+      "traceCorrelation": [
+        "MinorGC",
+        "V8.GCScavenger"
+      ],
+      "explanation": "GC coincides; correlation, not exclusive cause"
+    },
+    {
+      "t": 106677.8,
+      "dt": 23.60000000000582,
+      "cpu": 7,
+      "context": "play/1/1/0/warning",
+      "events": [],
+      "traceCorrelation": [],
+      "explanation": "isolated scheduling interval; no instrumented long handler"
+    },
+    {
+      "t": 107025.2,
+      "dt": 21,
+      "cpu": 7.300000011920929,
+      "context": "play/1/1/0/warning",
+      "events": [],
+      "traceCorrelation": [],
+      "explanation": "isolated scheduling interval; no instrumented long handler"
+    },
+    {
+      "t": 220656.7,
+      "dt": 33.30000000001746,
+      "cpu": 8.599999964237213,
+      "context": "play/1/0/0/idle",
+      "events": [],
+      "traceCorrelation": [],
+      "explanation": "isolated scheduling interval; no instrumented long handler"
+    },
+    {
+      "t": 505266.6,
+      "dt": 20.199999999953434,
+      "cpu": 9.5,
+      "context": "play/2/5/4/idle",
+      "events": [],
+      "traceCorrelation": [],
+      "explanation": "isolated scheduling interval; no instrumented long handler"
+    },
+    {
+      "t": 520763.4,
+      "dt": 33.300000000046566,
+      "cpu": 11,
+      "context": "play/2/5/4/idle",
+      "events": [],
+      "traceCorrelation": [],
+      "explanation": "isolated scheduling interval; no instrumented long handler"
+    },
+    {
+      "t": 550134.6,
+      "dt": 20.199999999953434,
+      "cpu": 9.600000023841858,
+      "context": "play/2/1/6/idle",
+      "events": [],
+      "traceCorrelation": [],
+      "explanation": "isolated scheduling interval; no instrumented long handler"
+    }
+  ],
+  "method": "Chromium rAF + handler timings + CDP trace. Read-only coordinate navigator and screenshots add measurement overhead. GC correlation is not proof of exclusive causation."
+}

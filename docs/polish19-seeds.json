@@ -1,0 +1,485 @@
+{
+  "seeds": [
+    {
+      "seed": 130013,
+      "sector": 1,
+      "objects": 134,
+      "families": 12,
+      "minSameFamilyDistance": 621.4659072557945,
+      "gameplayUnchanged": true
+    },
+    {
+      "seed": 230032,
+      "sector": 2,
+      "objects": 138,
+      "families": 12,
+      "minSameFamilyDistance": 623.4468926360722,
+      "gameplayUnchanged": true
+    },
+    {
+      "seed": 330051,
+      "sector": 1,
+      "objects": 127,
+      "families": 12,
+      "minSameFamilyDistance": 620.6650658908643,
+      "gameplayUnchanged": true
+    },
+    {
+      "seed": 430070,
+      "sector": 2,
+      "objects": 129,
+      "families": 12,
+      "minSameFamilyDistance": 620.8947230289648,
+      "gameplayUnchanged": true
+    },
+    {
+      "seed": 530089,
+      "sector": 1,
+      "objects": 129,
+      "families": 12,
+      "minSameFamilyDistance": 620.1854425878478,
+      "gameplayUnchanged": true
+    },
+    {
+      "seed": 630108,
+      "sector": 2,
+      "objects": 129,
+      "families": 12,
+      "minSameFamilyDistance": 620.0415556800172,
+      "gameplayUnchanged": true
+    },
+    {
+      "seed": 730127,
+      "sector": 1,
+      "objects": 129,
+      "families": 12,
+      "minSameFamilyDistance": 621.8058064711171,
+      "gameplayUnchanged": true
+    },
+    {
+      "seed": 830146,
+      "sector": 2,
+      "objects": 135,
+      "families": 12,
+      "minSameFamilyDistance": 622.4887411923119,
+      "gameplayUnchanged": true
+    },
+    {
+      "seed": 930165,
+      "sector": 1,
+      "objects": 133,
+      "families": 12,
+      "minSameFamilyDistance": 620.32881365461,
+      "gameplayUnchanged": true
+    },
+    {
+      "seed": 1030184,
+      "sector": 2,
+      "objects": 133,
+      "families": 12,
+      "minSameFamilyDistance": 628.8691532060234,
+      "gameplayUnchanged": true
+    },
+    {
+      "seed": 1130203,
+      "sector": 1,
+      "objects": 129,
+      "families": 12,
+      "minSameFamilyDistance": 620.837690830118,
+      "gameplayUnchanged": true
+    },
+    {
+      "seed": 1230222,
+      "sector": 2,
+      "objects": 134,
+      "families": 12,
+      "minSameFamilyDistance": 620.8760794732011,
+      "gameplayUnchanged": true
+    },
+    {
+      "seed": 1330241,
+      "sector": 1,
+      "objects": 131,
+      "families": 12,
+      "minSameFamilyDistance": 624.9628632299233,
+      "gameplayUnchanged": true
+    },
+    {
+      "seed": 1430260,
+      "sector": 2,
+      "objects": 135,
+      "families": 12,
+      "minSameFamilyDistance": 621.7615160441777,
+      "gameplayUnchanged": true
+    },
+    {
+      "seed": 1530279,
+      "sector": 1,
+      "objects": 131,
+      "families": 12,
+      "minSameFamilyDistance": 620.8715154618741,
+      "gameplayUnchanged": true
+    },
+    {
+      "seed": 1630298,
+      "sector": 2,
+      "objects": 130,
+      "families": 12,
+      "minSameFamilyDistance": 622.6947412026219,
+      "gameplayUnchanged": true
+    },
+    {
+      "seed": 1730317,
+      "sector": 1,
+      "objects": 134,
+      "families": 12,
+      "minSameFamilyDistance": 621.2959798837989,
+      "gameplayUnchanged": true
+    },
+    {
+      "seed": 1830336,
+      "sector": 2,
+      "objects": 134,
+      "families": 12,
+      "minSameFamilyDistance": 624.0169179651936,
+      "gameplayUnchanged": true
+    },
+    {
+      "seed": 1930355,
+      "sector": 1,
+      "objects": 129,
+      "families": 12,
+      "minSameFamilyDistance": 620.2608111733093,
+      "gameplayUnchanged": true
+    },
+    {
+      "seed": 2030374,
+      "sector": 2,
+      "objects": 131,
+      "families": 11,
+      "minSameFamilyDistance": 620.5556074715834,
+      "gameplayUnchanged": true
+    },
+    {
+      "seed": 2130393,
+      "sector": 1,
+      "objects": 131,
+      "families": 12,
+      "minSameFamilyDistance": 620.4880360228913,
+      "gameplayUnchanged": true
+    },
+    {
+      "seed": 2230412,
+      "sector": 2,
+      "objects": 134,
+      "families": 12,
+      "minSameFamilyDistance": 622.5827061395053,
+      "gameplayUnchanged": true
+    },
+    {
+      "seed": 2330431,
+      "sector": 1,
+      "objects": 135,
+      "families": 12,
+      "minSameFamilyDistance": 620.3957694067913,
+      "gameplayUnchanged": true
+    },
+    {
+      "seed": 2430450,
+      "sector": 2,
+      "objects": 131,
+      "families": 12,
+      "minSameFamilyDistance": 620.987972193184,
+      "gameplayUnchanged": true
+    },
+    {
+      "seed": 2530469,
+      "sector": 1,
+      "objects": 133,
+      "families": 12,
+      "minSameFamilyDistance": 623.0790247593515,
+      "gameplayUnchanged": true
+    },
+    {
+      "seed": 2630488,
+      "sector": 2,
+      "objects": 130,
+      "families": 12,
+      "minSameFamilyDistance": 620.7509823768426,
+      "gameplayUnchanged": true
+    },
+    {
+      "seed": 2730507,
+      "sector": 1,
+      "objects": 133,
+      "families": 12,
+      "minSameFamilyDistance": 620.7104065606065,
+      "gameplayUnchanged": true
+    },
+    {
+      "seed": 2830526,
+      "sector": 2,
+      "objects": 132,
+      "families": 12,
+      "minSameFamilyDistance": 620.654819695088,
+      "gameplayUnchanged": true
+    },
+    {
+      "seed": 2930545,
+      "sector": 1,
+      "objects": 132,
+      "families": 12,
+      "minSameFamilyDistance": 620.4397932123267,
+      "gameplayUnchanged": true
+    },
+    {
+      "seed": 3030564,
+      "sector": 2,
+      "objects": 130,
+      "families": 12,
+      "minSameFamilyDistance": 623.6173482517889,
+      "gameplayUnchanged": true
+    },
+    {
+      "seed": 3130583,
+      "sector": 1,
+      "objects": 133,
+      "families": 12,
+      "minSameFamilyDistance": 621.0848543726706,
+      "gameplayUnchanged": true
+    },
+    {
+      "seed": 3230602,
+      "sector": 2,
+      "objects": 127,
+      "families": 12,
+      "minSameFamilyDistance": 623.0683109114829,
+      "gameplayUnchanged": true
+    },
+    {
+      "seed": 3330621,
+      "sector": 1,
+      "objects": 135,
+      "families": 12,
+      "minSameFamilyDistance": 621.3685644536978,
+      "gameplayUnchanged": true
+    },
+    {
+      "seed": 3430640,
+      "sector": 2,
+      "objects": 129,
+      "families": 12,
+      "minSameFamilyDistance": 622.3545043352932,
+      "gameplayUnchanged": true
+    },
+    {
+      "seed": 3530659,
+      "sector": 1,
+      "objects": 135,
+      "families": 12,
+      "minSameFamilyDistance": 621.0369511990957,
+      "gameplayUnchanged": true
+    },
+    {
+      "seed": 3630678,
+      "sector": 2,
+      "objects": 130,
+      "families": 12,
+      "minSameFamilyDistance": 622.1907625221593,
+      "gameplayUnchanged": true
+    },
+    {
+      "seed": 3730697,
+      "sector": 1,
+      "objects": 132,
+      "families": 12,
+      "minSameFamilyDistance": 620.5964901673008,
+      "gameplayUnchanged": true
+    },
+    {
+      "seed": 3830716,
+      "sector": 2,
+      "objects": 133,
+      "families": 12,
+      "minSameFamilyDistance": 621.9914139054762,
+      "gameplayUnchanged": true
+    },
+    {
+      "seed": 3930735,
+      "sector": 1,
+      "objects": 134,
+      "families": 12,
+      "minSameFamilyDistance": 622.6161719193491,
+      "gameplayUnchanged": true
+    },
+    {
+      "seed": 4030754,
+      "sector": 2,
+      "objects": 125,
+      "families": 12,
+      "minSameFamilyDistance": 625.826937431162,
+      "gameplayUnchanged": true
+    },
+    {
+      "seed": 4130773,
+      "sector": 1,
+      "objects": 131,
+      "families": 12,
+      "minSameFamilyDistance": 626.7938358910067,
+      "gameplayUnchanged": true
+    },
+    {
+      "seed": 4230792,
+      "sector": 2,
+      "objects": 128,
+      "families": 12,
+      "minSameFamilyDistance": 621.8661548444007,
+      "gameplayUnchanged": true
+    },
+    {
+      "seed": 4330811,
+      "sector": 1,
+      "objects": 136,
+      "families": 12,
+      "minSameFamilyDistance": 620.2559677638842,
+      "gameplayUnchanged": true
+    },
+    {
+      "seed": 4430830,
+      "sector": 2,
+      "objects": 131,
+      "families": 12,
+      "minSameFamilyDistance": 621.4889137785017,
+      "gameplayUnchanged": true
+    },
+    {
+      "seed": 4530849,
+      "sector": 1,
+      "objects": 128,
+      "families": 12,
+      "minSameFamilyDistance": 625.0870869158671,
+      "gameplayUnchanged": true
+    },
+    {
+      "seed": 4630868,
+      "sector": 2,
+      "objects": 140,
+      "families": 12,
+      "minSameFamilyDistance": 620.3763104367374,
+      "gameplayUnchanged": true
+    },
+    {
+      "seed": 4730887,
+      "sector": 1,
+      "objects": 129,
+      "families": 12,
+      "minSameFamilyDistance": 621.4891224793744,
+      "gameplayUnchanged": true
+    },
+    {
+      "seed": 4830906,
+      "sector": 2,
+      "objects": 131,
+      "families": 12,
+      "minSameFamilyDistance": 627.560078742333,
+      "gameplayUnchanged": true
+    },
+    {
+      "seed": 4930925,
+      "sector": 1,
+      "objects": 131,
+      "families": 12,
+      "minSameFamilyDistance": 621.9384943867111,
+      "gameplayUnchanged": true
+    },
+    {
+      "seed": 5030944,
+      "sector": 2,
+      "objects": 128,
+      "families": 12,
+      "minSameFamilyDistance": 623.2596965747545,
+      "gameplayUnchanged": true
+    },
+    {
+      "seed": 5130963,
+      "sector": 1,
+      "objects": 132,
+      "families": 12,
+      "minSameFamilyDistance": 621.2711038824627,
+      "gameplayUnchanged": true
+    },
+    {
+      "seed": 5230982,
+      "sector": 2,
+      "objects": 129,
+      "families": 12,
+      "minSameFamilyDistance": 621.9256906571442,
+      "gameplayUnchanged": true
+    },
+    {
+      "seed": 5331001,
+      "sector": 1,
+      "objects": 124,
+      "families": 12,
+      "minSameFamilyDistance": 622.3981351095568,
+      "gameplayUnchanged": true
+    },
+    {
+      "seed": 5431020,
+      "sector": 2,
+      "objects": 130,
+      "families": 12,
+      "minSameFamilyDistance": 621.2895638031758,
+      "gameplayUnchanged": true
+    },
+    {
+      "seed": 5531039,
+      "sector": 1,
+      "objects": 131,
+      "families": 12,
+      "minSameFamilyDistance": 627.7914902866331,
+      "gameplayUnchanged": true
+    },
+    {
+      "seed": 5631058,
+      "sector": 2,
+      "objects": 133,
+      "families": 12,
+      "minSameFamilyDistance": 620.4049423281587,
+      "gameplayUnchanged": true
+    },
+    {
+      "seed": 5731077,
+      "sector": 1,
+      "objects": 126,
+      "families": 12,
+      "minSameFamilyDistance": 623.8703539953486,
+      "gameplayUnchanged": true
+    },
+    {
+      "seed": 5831096,
+      "sector": 2,
+      "objects": 134,
+      "families": 12,
+      "minSameFamilyDistance": 620.1402899808121,
+      "gameplayUnchanged": true
+    },
+    {
+      "seed": 5931115,
+      "sector": 1,
+      "objects": 133,
+      "families": 12,
+      "minSameFamilyDistance": 621.4208450494622,
+      "gameplayUnchanged": true
+    },
+    {
+      "seed": 6031134,
+      "sector": 2,
+      "objects": 135,
+      "families": 12,
+      "minSameFamilyDistance": 626.338899957931,
+      "gameplayUnchanged": true
+    }
+  ],
+  "errors": []
+}

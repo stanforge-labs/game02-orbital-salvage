@@ -1,0 +1,3 @@
+process.env.OS_QA_PORT=process.argv[2]||'4235';
+const {open,click,fs}=require('./release17-qa-lib');
+(async()=>{const q=await open({width:1366,height:768});await q.p.evaluate(require('./polish19-profile'));await click(q.p,'ButtonBg');for(const key of ['d','s','a','w']){await q.p.keyboard.down(key);await q.p.waitForTimeout(4500);await q.p.keyboard.up(key);}const r=await q.p.evaluate(()=>window.__perf19);r.errors=q.errors;fs.writeFileSync('docs/polish19-profile-'+process.env.OS_QA_PORT+'.json',JSON.stringify(r));console.log({frames:r.frames.length,rasters:r.textRasters,textMs:r.textMs,spikes:r.spikes.length,errors:r.errors});await q.browser.close()})();
