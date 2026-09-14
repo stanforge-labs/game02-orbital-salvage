@@ -192,11 +192,16 @@ that every viewport contains three large scene families.
 
 ## COMMIT
 
-Recorded after final QA in the delivery commit and final response.
+Implementation and evidence: cef90bc13b765ef71cdc116c0579c226557b1c2f.
+This report's delivery-verification update is the following documentation commit.
 
 ## PUSH
 
-Pending final verification.
+Implementation push to origin/main succeeded; git ls-remote returned
+cef90bc13b765ef71cdc116c0579c226557b1c2f, matching local HEAD.
+Tracked working tree was clean. The pre-existing user archive
+screenshots/FullReleaseRebuild14/FullReleaseRebuild14.zip remains untracked and
+untouched. Final documentation commit/push hash is supplied in the final response.
 
 ## VERDICT
 
