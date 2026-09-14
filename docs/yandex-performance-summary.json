@@ -1,0 +1,134 @@
+{
+  "mode": "continuous natural run 2 on extracted ZIP, read-only instrumentation and screenshots; no parallel browser QA",
+  "seconds": 557.3791000000001,
+  "frames": 33476,
+  "p50": 16.699999999982538,
+  "p95": 17.10000000000582,
+  "p99": 17.300000000046566,
+  "max": 50,
+  "over": {
+    "20": 1,
+    "25": 1,
+    "50": 0,
+    "100": 0,
+    "33.3": 1
+  },
+  "instances": [
+    865,
+    865
+  ],
+  "heapBytes": {
+    "first": 24908046,
+    "last": 34449843,
+    "min": 21507694,
+    "max": 36161540
+  },
+  "largest": [
+    {
+      "t": 1843.5,
+      "dt": 50,
+      "cpu": 5.900000035762787,
+      "context": "play/1/0/0/idle",
+      "events": [
+        {
+          "t": 1796.199999988079,
+          "name": "audio unlock/context creation",
+          "ms": 3.100000023841858
+        },
+        {
+          "t": 1796.3999999761581,
+          "name": "audio click",
+          "ms": 0.09999996423721313
+        },
+        {
+          "t": 1797,
+          "name": "save write",
+          "ms": 0.10000002384185791
+        },
+        {
+          "t": 1797,
+          "name": "save write",
+          "ms": 0
+        },
+        {
+          "t": 1797.0999999642372,
+          "name": "save write",
+          "ms": 0.09999996423721313
+        },
+        {
+          "t": 1797.0999999642372,
+          "name": "save write",
+          "ms": 0
+        },
+        {
+          "t": 1807.5999999642372,
+          "name": "world generation",
+          "ms": 8.899999976158142
+        },
+        {
+          "t": 1820.5999999642372,
+          "name": "audio start",
+          "ms": 0.09999996423721313
+        }
+      ]
+    }
+  ],
+  "audioEvents": [
+    "audio unlock/context creation",
+    "audio click",
+    "audio start",
+    "audio pickup",
+    "audio contract",
+    "audio gate",
+    "audio hover",
+    "audio hit",
+    "audio warning"
+  ],
+  "contexts": [
+    "menu/1/-1/0/",
+    "play/1/0/0/idle",
+    "play/1/1/0/idle",
+    "play/1/-1/0/idle",
+    "play/1/6/0/idle",
+    "play/1/4/0/idle",
+    "upgrades/1/0/0/idle",
+    "play/1/1/0/warning",
+    "play/1/1/0/chasing",
+    "play/1/0/0/escape",
+    "result/1/0/0/idle",
+    "play/1/2/0/idle",
+    "play/1/3/0/idle",
+    "play/1/8/0/idle",
+    "play/1/3/0/warning",
+    "play/1/3/0/chasing",
+    "play/1/1/0/escape",
+    "play/1/8/0/escape",
+    "play/1/8/0/warning",
+    "play/1/8/0/chasing",
+    "play/1/6/0/escape",
+    "play/2/-1/0/idle",
+    "play/2/0/0/idle",
+    "play/2/1/0/idle",
+    "play/2/2/0/idle",
+    "play/2/3/0/idle",
+    "play/2/4/0/idle",
+    "play/2/7/0/idle",
+    "play/2/7/1/warning",
+    "play/2/7/1/chasing",
+    "play/2/4/1/escape",
+    "play/2/4/2/escape",
+    "play/2/4/2/idle",
+    "play/2/7/2/idle",
+    "play/2/7/3/idle",
+    "play/2/7/4/idle",
+    "play/2/5/4/idle",
+    "play/2/5/5/idle",
+    "play/2/7/6/idle",
+    "play/2/3/6/idle",
+    "play/2/3/6/warning",
+    "play/2/3/6/chasing",
+    "play/2/1/6/escape",
+    "play/2/1/6/idle",
+    "play/2/0/6/idle"
+  ]
+}

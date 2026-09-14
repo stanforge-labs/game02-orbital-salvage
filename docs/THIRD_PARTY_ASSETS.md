@@ -114,3 +114,17 @@ large compositions, 24 medium variants (8×3), 30 small variants (10×3).
 Reference-only research and source/license decisions are in `ART_DIRECTION.md`.
 Existing Kenney CC0 and Exo 2 OFL resources/licenses remain unchanged.
 No external packages, fonts, plugins or extensions were installed for World20.
+
+## Final Yandex release
+
+No new artwork, font or audio samples were imported. Original SVGs remain
+project-original; the existing Kenney CC0 assets permit commercial redistribution,
+modification and do not require attribution. Exo 2 / Russo One retain their OFL
+notices, now explicitly copied into the release archive. GDevelop's existing
+LICENSE.GDevelop.txt is retained. Engine diagnostic renderer is replaced by an
+inert compatibility class; normal rendering is unchanged.
+
+Build-only dependencies in tools/release: acorn, acorn-walk, terser (MIT, notices
+in their installed packages; exact versions pinned in package-lock.json).
+They are NOT shipped in the game ZIP. They parse/remove developer statements and
+compress production code. No third-party runtime extension has been added.

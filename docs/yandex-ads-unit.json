@@ -1,0 +1,20 @@
+{
+  "pass": true,
+  "checks": [
+    "ready deferred and once",
+    "init once",
+    "duplicate click rejected",
+    "close without reward false",
+    "duplicate reward callback one settlement",
+    "error then late reward false",
+    "SDK pause/menu resume",
+    "synchronous SDK exception false",
+    "late SDK after startup timeout restores ads (accelerated timer fixture)"
+  ],
+  "counts": {
+    "initCount": 1,
+    "ready": 1,
+    "starts": 4,
+    "stops": 4
+  }
+}

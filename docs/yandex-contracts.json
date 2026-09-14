@@ -1,0 +1,167 @@
+{
+  "mode": "isolated contract fixtures; real pickup/stage/settlement handlers; no natural timing claim",
+  "contracts": [
+    {
+      "type": "scrap",
+      "reward": 75,
+      "saved": 1,
+      "positive": true,
+      "emptyNegative": true
+    },
+    {
+      "type": "container",
+      "reward": 110,
+      "saved": 2,
+      "positive": true,
+      "emptyNegative": true
+    },
+    {
+      "type": "relayrepair",
+      "reward": 130,
+      "saved": 3,
+      "positive": true,
+      "emptyNegative": true
+    },
+    {
+      "type": "nodamage",
+      "reward": 96,
+      "saved": 4,
+      "positive": true,
+      "emptyNegative": true
+    },
+    {
+      "type": "speed",
+      "reward": 125,
+      "saved": 5,
+      "positive": true,
+      "emptyNegative": true
+    },
+    {
+      "type": "danger",
+      "reward": 140,
+      "saved": 6,
+      "positive": true,
+      "emptyNegative": true
+    },
+    {
+      "type": "blackbox",
+      "reward": 132,
+      "saved": 7,
+      "positive": true,
+      "emptyNegative": true
+    },
+    {
+      "type": "tech",
+      "reward": 138,
+      "saved": 8,
+      "positive": true,
+      "emptyNegative": true
+    },
+    {
+      "type": "highrisk",
+      "reward": 152,
+      "saved": 9,
+      "positive": true,
+      "emptyNegative": true
+    },
+    {
+      "type": "signal",
+      "reward": 160,
+      "saved": 10,
+      "positive": true,
+      "emptyNegative": true
+    },
+    {
+      "type": "relay",
+      "reward": 120,
+      "saved": 11,
+      "positive": true,
+      "emptyNegative": true
+    },
+    {
+      "type": "survey",
+      "reward": 100,
+      "saved": 12,
+      "positive": true,
+      "emptyNegative": true
+    },
+    {
+      "type": "fragile",
+      "reward": 130,
+      "saved": 13,
+      "positive": true,
+      "emptyNegative": true
+    },
+    {
+      "type": "courier",
+      "reward": 115,
+      "saved": 14,
+      "positive": true,
+      "emptyNegative": true
+    },
+    {
+      "type": "rescue",
+      "reward": 145,
+      "saved": 15,
+      "positive": true,
+      "emptyNegative": true
+    },
+    {
+      "type": "calibrate",
+      "reward": 130,
+      "saved": 16,
+      "positive": true,
+      "emptyNegative": true
+    },
+    {
+      "type": "expedition",
+      "reward": 150,
+      "saved": 17,
+      "positive": true,
+      "emptyNegative": true
+    },
+    {
+      "type": "streak",
+      "reward": 105,
+      "saved": 18,
+      "positive": true,
+      "emptyNegative": true
+    },
+    {
+      "type": "pursuit",
+      "reward": 140,
+      "saved": 19,
+      "positive": true,
+      "emptyNegative": true
+    },
+    {
+      "type": "anomaly",
+      "reward": 165,
+      "saved": 20,
+      "positive": true,
+      "emptyNegative": true
+    },
+    {
+      "type": "blackboxchain",
+      "reward": 175,
+      "saved": 22,
+      "positive": true,
+      "emptyNegative": true
+    },
+    {
+      "type": "rescuechain",
+      "reward": 180,
+      "saved": 23,
+      "positive": true,
+      "emptyNegative": true
+    },
+    {
+      "type": "valuable",
+      "reward": 145,
+      "saved": 33,
+      "positive": true,
+      "emptyNegative": true
+    }
+  ],
+  "errors": []
+}

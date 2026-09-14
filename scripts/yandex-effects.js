@@ -1,0 +1,4 @@
+const fs=require('fs'),Module=require('module'),path=require('path');const file=path.join(__dirname,'release17-effects-qa.js');
+let source=fs.readFileSync(file,'utf8').replace("require('./release17-qa-lib')","require('./yandex-qa-lib')").replaceAll('screenshots/FinalPreRelease17/arcade-score.png','screenshots/FinalYandexRelease/18-arcade.png').replaceAll('docs/release17-effects.json','docs/yandex-effects.json');
+source=source.replace("await p.keyboard.press('Escape');await p.waitForTimeout(150);assert.equal((await read(p)).state,'menu');","await p.getByRole('button',{name:'ВЫЙТИ ИЗ ПАТРУЛЯ',exact:true}).click();await p.waitForTimeout(150);assert.equal((await read(p)).state,'menu');");
+const mod=new Module(file,module);mod.filename=file;mod.paths=Module._nodeModulePaths(__dirname);mod._compile(source,file);

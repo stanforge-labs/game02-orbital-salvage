@@ -1,0 +1,10 @@
+{
+  "checks": [
+    "query + mobile child flags cannot enable tools",
+    "F3/F4/F6/F7/F8/F9/F10/F11/F12 no save mutation",
+    "no DEV button",
+    "no shipped QA window hooks"
+  ],
+  "errors": [],
+  "pass": true
+}

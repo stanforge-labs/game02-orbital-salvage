@@ -1,0 +1,92 @@
+{
+  "mode": "isolated state fixtures, not natural progression",
+  "modules": [
+    {
+      "id": "cargo",
+      "price": 180,
+      "installed": true
+    },
+    {
+      "id": "hull",
+      "price": 200,
+      "installed": true
+    },
+    {
+      "id": "radar",
+      "price": 160,
+      "installed": true
+    },
+    {
+      "id": "shield",
+      "price": 210,
+      "installed": true
+    },
+    {
+      "id": "contract",
+      "price": 190,
+      "installed": true
+    },
+    {
+      "id": "scanner",
+      "price": 185,
+      "installed": true
+    },
+    {
+      "id": "containment",
+      "price": 260,
+      "installed": true
+    },
+    {
+      "id": "decoder",
+      "price": 300,
+      "installed": true
+    },
+    {
+      "id": "magnet",
+      "price": 140,
+      "installed": true
+    },
+    {
+      "id": "repair",
+      "price": 175,
+      "installed": true
+    },
+    {
+      "id": "engine",
+      "price": 180,
+      "installed": true
+    },
+    {
+      "id": "salvage",
+      "price": 280,
+      "installed": true
+    },
+    {
+      "id": "insurance",
+      "price": 180,
+      "installed": true
+    },
+    {
+      "id": "buffer",
+      "price": 240,
+      "installed": true
+    },
+    {
+      "id": "assist",
+      "price": 170,
+      "installed": true
+    }
+  ],
+  "checks": [
+    "15 modules buy/save/reload",
+    "reset 75% refund",
+    "rewarded reroll: cancel unchanged, confirmed free offer change",
+    "pause and SDK pause freeze timers/audio",
+    "x2 close no reward; duplicate success exactly once",
+    "rewarded second chance",
+    "Arcade pause/resume",
+    "corrupt saves null array malformed recover"
+  ],
+  "errors": [],
+  "pass": true
+}

@@ -1,0 +1,126 @@
+{
+  "mode": "isolated effect fixtures; arcade uses ordinary pointer input",
+  "buffer": 1.05,
+  "salvage": 6,
+  "decoder": 66,
+  "containment": {
+    "absorbed": true,
+    "hull": 3
+  },
+  "arcade": {
+    "score": 100,
+    "lives": 3,
+    "pool": 42,
+    "deathLives": 0,
+    "restart": true
+  },
+  "audio": {
+    "state": "running",
+    "events": [
+      {
+        "kind": "hit",
+        "time": 0.10666666666666667
+      },
+      {
+        "kind": "gate",
+        "time": 0.39466666666666667
+      },
+      {
+        "kind": "contract",
+        "time": 0.608
+      },
+      {
+        "kind": "click",
+        "time": 0.8426666666666667
+      },
+      {
+        "kind": "click",
+        "time": 0.9813333333333333
+      },
+      {
+        "kind": "pickup",
+        "time": 1.9413333333333334
+      },
+      {
+        "kind": "pickup",
+        "time": 3.104
+      },
+      {
+        "kind": "pickup",
+        "time": 4.469333333333333
+      },
+      {
+        "kind": "pickup",
+        "time": 5.472
+      },
+      {
+        "kind": "pickup",
+        "time": 6.677333333333333
+      },
+      {
+        "kind": "pickup",
+        "time": 7.690666666666667
+      },
+      {
+        "kind": "pickup",
+        "time": 8.874666666666666
+      },
+      {
+        "kind": "pickup",
+        "time": 9.408
+      },
+      {
+        "kind": "pickup",
+        "time": 11.072
+      },
+      {
+        "kind": "pickup",
+        "time": 12.256
+      },
+      {
+        "kind": "pickup",
+        "time": 13.269333333333334
+      },
+      {
+        "kind": "pickup",
+        "time": 13.589333333333334
+      },
+      {
+        "kind": "pickup",
+        "time": 15.296
+      },
+      {
+        "kind": "hit",
+        "time": 21.738666666666667
+      },
+      {
+        "kind": "hit",
+        "time": 22.677333333333333
+      },
+      {
+        "kind": "hit",
+        "time": 23.594666666666665
+      },
+      {
+        "kind": "click",
+        "time": 23.776
+      },
+      {
+        "kind": "click",
+        "time": 24
+      },
+      {
+        "kind": "ambient",
+        "time": 24.074666666666666
+      }
+    ],
+    "voices": 0
+  },
+  "restored": {
+    "BufferLevel": 1,
+    "ContainmentLevel": 1,
+    "SalvageLevel": 1,
+    "DecoderLevel": 1
+  },
+  "errors": []
+}

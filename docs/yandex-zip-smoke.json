@@ -1,0 +1,68 @@
+{
+  "source": "extracted production ZIP; keyboard/navigation and UI, explicit danger fixture noted",
+  "checks": [
+    "menu/start/movement/collect/return/result",
+    "upgrades screen/reload",
+    "10 real restart actions; instance/DOM counts stable",
+    "sector select",
+    "collision and death: explicit placement fixture"
+  ],
+  "instances": [
+    {
+      "count": 865,
+      "buttons": 11,
+      "audioVoices": 3
+    },
+    {
+      "count": 865,
+      "buttons": 11,
+      "audioVoices": 4
+    },
+    {
+      "count": 865,
+      "buttons": 11,
+      "audioVoices": 3
+    },
+    {
+      "count": 865,
+      "buttons": 11,
+      "audioVoices": 4
+    },
+    {
+      "count": 865,
+      "buttons": 11,
+      "audioVoices": 4
+    },
+    {
+      "count": 865,
+      "buttons": 11,
+      "audioVoices": 4
+    },
+    {
+      "count": 865,
+      "buttons": 11,
+      "audioVoices": 4
+    },
+    {
+      "count": 865,
+      "buttons": 11,
+      "audioVoices": 4
+    },
+    {
+      "count": 865,
+      "buttons": 11,
+      "audioVoices": 3
+    },
+    {
+      "count": 865,
+      "buttons": 11,
+      "audioVoices": 3
+    }
+  ],
+  "errors": [],
+  "collisionHull": 2,
+  "pass": true,
+  "networkErrors": [
+    "external host gc.kis.v2.scr.kaspersky-labs.com"
+  ]
+}

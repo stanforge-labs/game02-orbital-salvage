@@ -1,5 +1,6 @@
 param(
-  [string]$OutputDirectory = 'exports\core-playable'
+  [string]$OutputDirectory = 'exports\core-playable',
+  [string]$InputProject = 'game.json'
 )
 
 $ErrorActionPreference = 'Stop'
@@ -7,7 +8,8 @@ $ErrorActionPreference = 'Stop'
 $projectRoot = Split-Path -Parent $PSScriptRoot
 $exportPath = Join-Path $projectRoot $OutputDirectory
 
-npx --yes gdexporter --in (Join-Path $projectRoot 'game.json') --out $exportPath
+npx --yes gdexporter --in (Join-Path $projectRoot $InputProject) --out $exportPath
+if ($LASTEXITCODE -ne 0) { throw 'GDevelop export failed' }
 
 # gdexporter flattens project resources to the export root but, for this
 # hand-authored project, keeps the source folder in sprite animation paths.
@@ -50,7 +52,7 @@ Set-Content -LiteralPath $dataPath -Value $data -Encoding UTF8
 
 # gdexporter 5.6.281 on this host replaces Cyrillic literals with U+FFFD.
 # Restore only player-facing/source strings while preserving its exported assets.
-node (Join-Path $PSScriptRoot 'restore-export-cyrillic.js') $dataPath (Join-Path $projectRoot 'game.json')
+node (Join-Path $PSScriptRoot 'restore-export-cyrillic.js') $dataPath (Join-Path $projectRoot $InputProject)
 
 # The browser requests this conventional root icon during static smoke tests.
 Copy-Item -LiteralPath (Join-Path $projectRoot 'assets\game\favicon.ico') -Destination (Join-Path $exportPath 'favicon.ico') -Force

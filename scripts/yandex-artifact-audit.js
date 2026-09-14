@@ -1,0 +1,8 @@
+const fs=require('fs'),path=require('path'),vm=require('vm'),assert=require('assert'),acorn=require('../tools/release/node_modules/acorn'),walk=require('../tools/release/node_modules/acorn-walk');
+const root=path.resolve(process.argv[2]||'exports/yandex-production'),r={root,missing:[],unknown:[],dangerousLiterals:[],files:0,bytes:0};
+const sandbox={gdjs:{}};vm.runInNewContext(fs.readFileSync(path.join(root,'data.js'),'utf8'),sandbox);const data=sandbox.gdjs.projectData;
+for(const item of data.resources.resources||[])if(item.file&&!item.file.startsWith('data:')&&!fs.existsSync(path.join(root,item.file)))r.missing.push(item.file);
+for(const layout of data.layouts){const names=new Set([...data.objects||[],...layout.objects].map(o=>o.name));for(const i of layout.instances)if(!names.has(i.name))r.unknown.push(i.name);}
+const code=fs.readFileSync(path.join(root,'code0.js'),'utf8');walk.simple(acorn.parse(code,{ecmaVersion:'latest'}),{Literal(n){if(typeof n.value==='string'&&(/dev=1|MOBILE TEST MODE|СБРОС СОХРАНЕНИЯ|^DEV(?:[ :·]|$)|^F(?:3|4|6|7|8|9|10|11|12)$/.test(n.value)))r.dangerousLiterals.push(n.value.slice(0,100));}});
+function visit(dir){for(const f of fs.readdirSync(dir,{withFileTypes:true})){const p=path.join(dir,f.name);if(f.isDirectory())visit(p);else{r.files++;r.bytes+=fs.statSync(p).size;assert(!/[а-яА-Я\s]/.test(path.relative(root,p)));assert(!/\.(zip|map)$/.test(p));}}}visit(root);
+assert(fs.existsSync(path.join(root,'index.html')));assert(r.bytes<100*1024*1024);assert.equal(r.missing.length,0);assert.equal(r.unknown.length,0);assert.equal(r.dangerousLiterals.length,0);r.pass=true;fs.writeFileSync('docs/yandex-artifact-audit.json',JSON.stringify(r,null,2));console.log(r);

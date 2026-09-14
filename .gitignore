@@ -74,3 +74,5 @@ cookies*.json
 auth*.json
 PHONE_QR.png
 tools/phone/node_modules/
+tools/release/node_modules/
+release-game.json

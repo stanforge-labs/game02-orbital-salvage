@@ -1,0 +1,20 @@
+{
+  "checks": [
+    "input while SDK paused cannot unlock audio or change state"
+  ],
+  "errors": [],
+  "before": {
+    "time": 0.6899000000000001,
+    "focus": true,
+    "hidden": false,
+    "audio": "running"
+  },
+  "after": {
+    "time": 0.6899000000000001,
+    "focus": true,
+    "hidden": false,
+    "audio": "running"
+  },
+  "tabSwitch": "NOT VERIFIED: automation browser kept target focused",
+  "pass": false
+}
