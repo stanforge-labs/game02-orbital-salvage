@@ -1,0 +1,768 @@
+{
+  "mode": "explicit DEV visual fixtures; real keyboard traversal in 5 distinct seeds, not natural progression",
+  "views": [
+    {
+      "file": "01-menu",
+      "seed": 0,
+      "sector": 1
+    },
+    {
+      "file": "02-sector1-working-orbit",
+      "seed": 130013,
+      "sector": 1,
+      "region": "working"
+    },
+    {
+      "file": "03-sector1-debris",
+      "seed": 130013,
+      "sector": 1,
+      "region": "debris"
+    },
+    {
+      "file": "04-satellite-graveyard",
+      "seed": 130013,
+      "sector": 1,
+      "region": "graveyard"
+    },
+    {
+      "file": "07-meteor-zone",
+      "seed": 130013,
+      "sector": 1,
+      "region": "meteor"
+    },
+    {
+      "file": "05-cargo-route",
+      "seed": 130013,
+      "sector": 1,
+      "region": "trail"
+    },
+    {
+      "file": "06-wreck-field",
+      "seed": 130013,
+      "sector": 2,
+      "region": "wreck"
+    },
+    {
+      "file": "15-radiation-region",
+      "seed": 130013,
+      "sector": 2,
+      "region": "radiation"
+    },
+    {
+      "file": "seed-130013",
+      "seed": 130013,
+      "sector": 1,
+      "region": "graveyard"
+    },
+    {
+      "file": "20-different-seed-a",
+      "seed": 130013,
+      "sector": 1,
+      "region": "graveyard"
+    },
+    {
+      "file": "seed-230032",
+      "seed": 230032,
+      "sector": 2,
+      "region": "debris"
+    },
+    {
+      "file": "21-different-seed-b",
+      "seed": 230032,
+      "sector": 2,
+      "region": "debris"
+    },
+    {
+      "file": "seed-330051",
+      "seed": 330051,
+      "sector": 1,
+      "region": "debris"
+    },
+    {
+      "file": "22-different-seed-c",
+      "seed": 330051,
+      "sector": 1,
+      "region": "debris"
+    },
+    {
+      "file": "seed-430070",
+      "seed": 430070,
+      "sector": 2,
+      "region": "graveyard"
+    },
+    {
+      "file": "seed-530089",
+      "seed": 530089,
+      "sector": 1,
+      "region": "debris"
+    },
+    {
+      "file": "seed-630108",
+      "seed": 630108,
+      "sector": 2,
+      "region": "debris"
+    },
+    {
+      "file": "seed-730127",
+      "seed": 730127,
+      "sector": 1,
+      "region": "graveyard"
+    },
+    {
+      "file": "seed-830146",
+      "seed": 830146,
+      "sector": 2,
+      "region": "debris"
+    },
+    {
+      "file": "seed-930165",
+      "seed": 930165,
+      "sector": 1,
+      "region": "debris"
+    },
+    {
+      "file": "seed-1030184",
+      "seed": 1030184,
+      "sector": 2,
+      "region": "graveyard"
+    },
+    {
+      "file": "seed-1130203",
+      "seed": 1130203,
+      "sector": 1,
+      "region": "debris"
+    },
+    {
+      "file": "seed-1230222",
+      "seed": 1230222,
+      "sector": 2,
+      "region": "debris"
+    },
+    {
+      "file": "seed-1330241",
+      "seed": 1330241,
+      "sector": 1,
+      "region": "graveyard"
+    },
+    {
+      "file": "seed-1430260",
+      "seed": 1430260,
+      "sector": 2,
+      "region": "debris"
+    },
+    {
+      "file": "seed-1530279",
+      "seed": 1530279,
+      "sector": 1,
+      "region": "debris"
+    },
+    {
+      "file": "11-large-landmark-a",
+      "seed": 530089,
+      "sector": 2,
+      "region": "working"
+    },
+    {
+      "file": "12-large-landmark-b",
+      "seed": 530089,
+      "sector": 2
+    },
+    {
+      "file": "13-large-landmark-c",
+      "seed": 530089,
+      "sector": 2,
+      "region": "debris"
+    },
+    {
+      "file": "14-sector2",
+      "seed": 130013,
+      "sector": 2,
+      "region": "debris"
+    },
+    {
+      "file": "18-dense-region",
+      "seed": 130013,
+      "sector": 2,
+      "region": "debris"
+    },
+    {
+      "file": "19-breathing-space",
+      "seed": 130013,
+      "sector": 1
+    },
+    {
+      "file": "17-loot-vs-decor",
+      "seed": 130013,
+      "sector": 1,
+      "region": "trail"
+    },
+    {
+      "file": "16-secret-approach",
+      "seed": 130013,
+      "sector": 2,
+      "region": "ore"
+    },
+    {
+      "file": "23-mobile-390x844",
+      "seed": 130013,
+      "sector": 2,
+      "region": "ore"
+    },
+    {
+      "file": "24-mobile-412x915",
+      "seed": 130013,
+      "sector": 2,
+      "region": "ore"
+    },
+    {
+      "file": "25-mobile-landscape",
+      "seed": 130013,
+      "sector": 2,
+      "region": "ore"
+    },
+    {
+      "file": "26-mobile-safe-area-overlay",
+      "seed": 130013,
+      "sector": 2,
+      "region": "ore"
+    },
+    {
+      "file": "27-mobile-touch-simulation",
+      "seed": 130013,
+      "sector": 2,
+      "region": "ore"
+    },
+    {
+      "file": "28-dev-mobile-panel",
+      "seed": 130013,
+      "sector": 2,
+      "region": "ore"
+    }
+  ],
+  "flights": [
+    {
+      "seed": 130013,
+      "paths": [
+        {
+          "keys": [
+            "d"
+          ],
+          "from": [
+            2400,
+            1450
+          ],
+          "to": [
+            2867.3167787813018,
+            1450
+          ],
+          "state": "play"
+        },
+        {
+          "keys": [
+            "w"
+          ],
+          "from": [
+            2400,
+            1450
+          ],
+          "to": [
+            2400,
+            982.5172973043544
+          ],
+          "state": "play"
+        },
+        {
+          "keys": [
+            "s"
+          ],
+          "from": [
+            2400,
+            1449.9999999999998
+          ],
+          "to": [
+            2400,
+            1917.3530763476952
+          ],
+          "state": "play"
+        },
+        {
+          "keys": [
+            "a",
+            "s"
+          ],
+          "from": [
+            2400,
+            1450.0000000000002
+          ],
+          "to": [
+            2120.663637026039,
+            1722.8787640152373
+          ],
+          "state": "play"
+        }
+      ]
+    },
+    {
+      "seed": 230032,
+      "paths": [
+        {
+          "keys": [
+            "d"
+          ],
+          "from": [
+            2400,
+            1450.0000000000002
+          ],
+          "to": [
+            2864.290994854153,
+            1450.0000000000002
+          ],
+          "state": "play"
+        },
+        {
+          "keys": [
+            "w"
+          ],
+          "from": [
+            2400,
+            1449.9999999999998
+          ],
+          "to": [
+            2400,
+            982.6480436297709
+          ],
+          "state": "play"
+        },
+        {
+          "keys": [
+            "s"
+          ],
+          "from": [
+            2400,
+            1449.9999999999998
+          ],
+          "to": [
+            2400,
+            1917.4640526582307
+          ],
+          "state": "play"
+        },
+        {
+          "keys": [
+            "a",
+            "s"
+          ],
+          "from": [
+            2400,
+            1449.9999999999998
+          ],
+          "to": [
+            2069.4531748720037,
+            1780.5468251280026
+          ],
+          "state": "play"
+        }
+      ]
+    },
+    {
+      "seed": 330051,
+      "paths": [
+        {
+          "keys": [
+            "d"
+          ],
+          "from": [
+            2400,
+            1450.0000000000002
+          ],
+          "to": [
+            2867.482509162885,
+            1450.0000000000002
+          ],
+          "state": "play"
+        },
+        {
+          "keys": [
+            "w"
+          ],
+          "from": [
+            2400,
+            1449.9999999999998
+          ],
+          "to": [
+            2400,
+            985.6713134251514
+          ],
+          "state": "play"
+        },
+        {
+          "keys": [
+            "s"
+          ],
+          "from": [
+            2400,
+            1449.9999999999998
+          ],
+          "to": [
+            2400,
+            1846.8815157831734
+          ],
+          "state": "play"
+        },
+        {
+          "keys": [
+            "a",
+            "s"
+          ],
+          "from": [
+            2400,
+            1449.9999999999998
+          ],
+          "to": [
+            2150.2273517577387,
+            1693.6461948643434
+          ],
+          "state": "play"
+        }
+      ]
+    },
+    {
+      "seed": 430070,
+      "paths": [
+        {
+          "keys": [
+            "d"
+          ],
+          "from": [
+            2400,
+            1450
+          ],
+          "to": [
+            2867.4639670810566,
+            1450
+          ],
+          "state": "play"
+        },
+        {
+          "keys": [
+            "w"
+          ],
+          "from": [
+            2400,
+            1450
+          ],
+          "to": [
+            2400,
+            982.5360181558916
+          ],
+          "state": "play"
+        },
+        {
+          "keys": [
+            "s"
+          ],
+          "from": [
+            2400,
+            1450
+          ],
+          "to": [
+            2400,
+            1914.3099367612986
+          ],
+          "state": "play"
+        },
+        {
+          "keys": [
+            "a",
+            "s"
+          ],
+          "from": [
+            2400,
+            1450
+          ],
+          "to": [
+            2069.4396285642547,
+            1780.5603714357333
+          ],
+          "state": "play"
+        }
+      ]
+    },
+    {
+      "seed": 530089,
+      "paths": [
+        {
+          "keys": [
+            "d"
+          ],
+          "from": [
+            2400,
+            1450
+          ],
+          "to": [
+            2870.561219460918,
+            1450
+          ],
+          "state": "play"
+        },
+        {
+          "keys": [
+            "w"
+          ],
+          "from": [
+            2400,
+            1450
+          ],
+          "to": [
+            2400,
+            1050.417572421935
+          ],
+          "state": "play"
+        },
+        {
+          "keys": [
+            "s"
+          ],
+          "from": [
+            2400,
+            1450
+          ],
+          "to": [
+            2400,
+            1802.3755639280978
+          ],
+          "state": "play"
+        },
+        {
+          "keys": [
+            "a",
+            "s"
+          ],
+          "from": [
+            2400,
+            1450
+          ],
+          "to": [
+            2071.669747761503,
+            1778.3302522384836
+          ],
+          "state": "play"
+        }
+      ]
+    }
+  ],
+  "mobile": [
+    {
+      "width": 360,
+      "height": 640,
+      "logical": [
+        607.5,
+        1080
+      ],
+      "hudCamera": [
+        303.75,
+        540
+      ],
+      "orientation": "portrait",
+      "dpr": 1,
+      "uiScale": 0.5925925925925926,
+      "fps": 60,
+      "instances": 869,
+      "input": "touch simulation",
+      "state": "rotate",
+      "safeInsets": [
+        24,
+        16,
+        24,
+        16
+      ],
+      "save": "isolated in-memory copy"
+    },
+    {
+      "width": 375,
+      "height": 667,
+      "logical": [
+        607.1964017991005,
+        1080
+      ],
+      "hudCamera": [
+        303.59820089955025,
+        540
+      ],
+      "orientation": "portrait",
+      "dpr": 1,
+      "uiScale": 0.6175925925925926,
+      "fps": 59,
+      "instances": 869,
+      "input": "touch simulation",
+      "state": "rotate",
+      "safeInsets": [
+        24,
+        16,
+        24,
+        16
+      ],
+      "save": "isolated in-memory copy"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "logical": [
+        499.0521327014218,
+        1080
+      ],
+      "hudCamera": [
+        249.5260663507109,
+        540
+      ],
+      "orientation": "portrait",
+      "dpr": 1,
+      "uiScale": 0.7814814814814814,
+      "fps": 59,
+      "instances": 869,
+      "input": "touch simulation",
+      "state": "rotate",
+      "safeInsets": [
+        24,
+        16,
+        24,
+        16
+      ],
+      "save": "isolated in-memory copy"
+    },
+    {
+      "width": 393,
+      "height": 873,
+      "logical": [
+        486.1855670103093,
+        1080
+      ],
+      "hudCamera": [
+        243.09278350515464,
+        540
+      ],
+      "orientation": "portrait",
+      "dpr": 1,
+      "uiScale": 0.8083333333333333,
+      "fps": 61,
+      "instances": 869,
+      "input": "touch simulation",
+      "state": "rotate",
+      "safeInsets": [
+        24,
+        16,
+        24,
+        16
+      ],
+      "save": "isolated in-memory copy"
+    },
+    {
+      "width": 412,
+      "height": 915,
+      "logical": [
+        486.2950819672131,
+        1080
+      ],
+      "hudCamera": [
+        243.14754098360655,
+        540
+      ],
+      "orientation": "portrait",
+      "dpr": 1,
+      "uiScale": 0.8472222222222222,
+      "fps": 60,
+      "instances": 869,
+      "input": "touch simulation",
+      "state": "rotate",
+      "safeInsets": [
+        24,
+        16,
+        24,
+        16
+      ],
+      "save": "isolated in-memory copy"
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "logical": [
+        498.2832618025751,
+        1080
+      ],
+      "hudCamera": [
+        249.14163090128756,
+        540
+      ],
+      "orientation": "portrait",
+      "dpr": 1,
+      "uiScale": 0.8629629629629629,
+      "fps": 60,
+      "instances": 869,
+      "input": "touch simulation",
+      "state": "rotate",
+      "safeInsets": [
+        24,
+        16,
+        24,
+        16
+      ],
+      "save": "isolated in-memory copy"
+    },
+    {
+      "width": 720,
+      "height": 1280,
+      "logical": [
+        607.5,
+        1080
+      ],
+      "hudCamera": [
+        303.75,
+        540
+      ],
+      "orientation": "portrait",
+      "dpr": 1,
+      "uiScale": 1.1851851851851851,
+      "fps": 60,
+      "instances": 869,
+      "input": "touch simulation",
+      "state": "rotate",
+      "safeInsets": [
+        24,
+        16,
+        24,
+        16
+      ],
+      "save": "isolated in-memory copy"
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "logical": [
+        1920,
+        1080
+      ],
+      "hudCamera": [
+        960,
+        540
+      ],
+      "orientation": "landscape",
+      "dpr": 1,
+      "uiScale": 0.6666666666666666,
+      "fps": 58,
+      "instances": 869,
+      "input": "touch simulation",
+      "state": "menu",
+      "safeInsets": [
+        24,
+        16,
+        24,
+        16
+      ],
+      "save": "isolated in-memory copy"
+    }
+  ],
+  "errors": [],
+  "touchMoved": 283.1860968253686,
+  "saveIsolated": true,
+  "closed": true
+}

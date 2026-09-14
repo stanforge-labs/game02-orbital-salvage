@@ -1,0 +1,46 @@
+{
+  "mode": "isolated DEV mobile fixtures plus real clicks; not natural progression",
+  "checks": [
+    "arcade enter and exit",
+    "sector selector",
+    "clickable pause and resume",
+    "upgrade screen",
+    "secret fixture and UI",
+    "small landscape, navigation-toolbar clearance and reset"
+  ],
+  "frames": {
+    "count": 598,
+    "p95": 17,
+    "over33": 0,
+    "max": 17.5
+  },
+  "smallLandscape": {
+    "width": 844,
+    "height": 390,
+    "logical": [
+      2337.230769230769,
+      1080
+    ],
+    "hudCamera": [
+      960,
+      540
+    ],
+    "orientation": "landscape",
+    "dpr": 1,
+    "uiScale": 0.3611111111111111,
+    "fps": 60,
+    "instances": 869,
+    "input": "touch simulation",
+    "state": "play",
+    "safeInsets": [
+      24,
+      16,
+      24,
+      16
+    ],
+    "save": "isolated in-memory copy"
+  },
+  "navClearance": 12,
+  "pass": true,
+  "errors": []
+}

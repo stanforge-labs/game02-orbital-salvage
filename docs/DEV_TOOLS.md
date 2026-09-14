@@ -195,3 +195,19 @@ DEV-переменные не меняет. Остальные перечисл�
 в natural; не запускать параллельно другие браузерные тесты. Пороговые counts,
 корреляции GC/переходов и ограничения методики — `polish19-performance-analysis.json`.
 Профилировщик не включён в production game.json. F3/F4/F6/F7/F8/F9 сохранены.
+
+## World20: Mobile Test Mode
+
+Локальная сборка → DEV → MOBILE TEST MODE. Восемь viewport presets,
+поворот, touch simulation, safe/UI/gameplay bounds, hazard outlines и telemetry.
+Вложенный тест работает с отдельной in-memory копией save; основной вылет
+приостановлен. Закрытие удаляет тест и возобновляет основной полёт.
+Подробности и ограничения: `MOBILE_TEST_MODE.md`.
+
+`node scripts/world20-seeds.js` — 100 структурных seed.
+`node scripts/world20-visual-qa.js` — 15 visual seed, 5 keyboard traversal seed,
+8 mobile presets. Explicit fixtures, не natural progression.
+`node scripts/world20-responsive.js` — viewport/hover/touch/safe-zone regression.
+`node scripts/world20-natural.js final` — fresh-storage full progression and
+continuous performance trace; coordinate-aware read-only navigator, no DEV writes.
+Не запускать другие браузерные тесты параллельно natural/performance.

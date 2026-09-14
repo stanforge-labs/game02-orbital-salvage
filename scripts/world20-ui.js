@@ -1,0 +1,6 @@
+module.exports=function ui20(scene){
+ if(!scene.__navSafe20){scene.__navSafe20=true;const style=document.createElement('style');style.textContent='#shell17 .nav{bottom:max(10%,78px)}';document.head.appendChild(style);}
+ const g=scene.__g13,s=scene.__os,st=scene.getVariables().get('GameState').getAsString();if(!g?.env20)return;
+ const visible=st==='play'&&!(g.secret.stage>=4&&g.secret.stage<6),draw=(name,list,alpha)=>{const pool=scene.getObjects(name);for(let i=0;i<pool.length;i++){const o=pool[i],d=list[i];if(!visible||!d){o.hide();continue;}const camera=scene.__osCam,visibleW=scene.getGame().getGameResolutionWidth()/4,visibleH=scene.getGame().getGameResolutionHeight()/4;const culled=Math.abs(d.x-camera.x)>visibleW+d.size||Math.abs(d.y-camera.y)>visibleH+d.size;o.hide(culled);if(culled)continue;if(o.__art20!==d||Math.abs(o.getWidth()-d.size)>.01||o.getAnimationFrame()!==d.frame){o.__art20=d;o.pauseAnimation();o.setAnimationFrame(d.frame);o.setWidth(d.size);o.setHeight(d.size*320/440);o.setAngle(d.angle);o.setCenterPositionInScene(d.x,d.y);o.setOpacity(d.tier==='large'?211:alpha);o.setColor('255;255;255');}}};
+ draw('ProcPOI',g.anchors20,135);draw('Scenic18',g.env20,180);draw('ProcDecor',g.micro20,106);
+};

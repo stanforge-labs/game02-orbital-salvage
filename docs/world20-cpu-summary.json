@@ -1,0 +1,242 @@
+[
+  {
+    "selfMs": 77158.516,
+    "functionName": "(idle)",
+    "scriptId": "0",
+    "url": "",
+    "lineNumber": -1,
+    "columnNumber": -1
+  },
+  {
+    "selfMs": 8641.412,
+    "functionName": "(program)",
+    "scriptId": "0",
+    "url": "",
+    "lineNumber": -1,
+    "columnNumber": -1
+  },
+  {
+    "selfMs": 1860.689,
+    "functionName": "ne.experimentalLetterSpacing",
+    "scriptId": "51",
+    "url": "http://127.0.0.1:4234/pixi-renderers/pixi.js",
+    "lineNumber": 676,
+    "columnNumber": 2418
+  },
+  {
+    "selfMs": 960.316,
+    "functionName": "ne.experimentalLetterSpacing",
+    "scriptId": "51",
+    "url": "http://127.0.0.1:4234/pixi-renderers/pixi.js",
+    "lineNumber": 676,
+    "columnNumber": 2418
+  },
+  {
+    "selfMs": 957.207,
+    "functionName": "GDJSInlineCode",
+    "scriptId": "78",
+    "url": "http://127.0.0.1:4234/code0.js",
+    "lineNumber": 831,
+    "columnNumber": 66
+  },
+  {
+    "selfMs": 921.733,
+    "functionName": "renderAndStep",
+    "scriptId": "19",
+    "url": "http://127.0.0.1:4234/runtimescene.js",
+    "lineNumber": 0,
+    "columnNumber": 4797
+  },
+  {
+    "selfMs": 893.752,
+    "functionName": "updateText",
+    "scriptId": "51",
+    "url": "http://127.0.0.1:4234/pixi-renderers/pixi.js",
+    "lineNumber": 676,
+    "columnNumber": 8405
+  },
+  {
+    "selfMs": 773.124,
+    "functionName": "ne.experimentalLetterSpacing",
+    "scriptId": "51",
+    "url": "http://127.0.0.1:4234/pixi-renderers/pixi.js",
+    "lineNumber": 676,
+    "columnNumber": 2418
+  },
+  {
+    "selfMs": 743.361,
+    "functionName": "ne.experimentalLetterSpacing",
+    "scriptId": "51",
+    "url": "http://127.0.0.1:4234/pixi-renderers/pixi.js",
+    "lineNumber": 676,
+    "columnNumber": 2418
+  },
+  {
+    "selfMs": 681.095,
+    "functionName": "(garbage collector)",
+    "scriptId": "0",
+    "url": "",
+    "lineNumber": -1,
+    "columnNumber": -1
+  },
+  {
+    "selfMs": 640.717,
+    "functionName": "ne.experimentalLetterSpacing",
+    "scriptId": "51",
+    "url": "http://127.0.0.1:4234/pixi-renderers/pixi.js",
+    "lineNumber": 676,
+    "columnNumber": 2418
+  },
+  {
+    "selfMs": 572.527,
+    "functionName": "texSubImage2D",
+    "scriptId": "0",
+    "url": "",
+    "lineNumber": -1,
+    "columnNumber": -1
+  },
+  {
+    "selfMs": 525.676,
+    "functionName": "ne.experimentalLetterSpacing",
+    "scriptId": "51",
+    "url": "http://127.0.0.1:4234/pixi-renderers/pixi.js",
+    "lineNumber": 676,
+    "columnNumber": 2418
+  },
+  {
+    "selfMs": 524.493,
+    "functionName": "ne.experimentalLetterSpacing",
+    "scriptId": "51",
+    "url": "http://127.0.0.1:4234/pixi-renderers/pixi.js",
+    "lineNumber": 676,
+    "columnNumber": 2418
+  },
+  {
+    "selfMs": 475.264,
+    "functionName": "measureText",
+    "scriptId": "0",
+    "url": "",
+    "lineNumber": -1,
+    "columnNumber": -1
+  },
+  {
+    "selfMs": 434.16,
+    "functionName": "fillText",
+    "scriptId": "0",
+    "url": "",
+    "lineNumber": -1,
+    "columnNumber": -1
+  },
+  {
+    "selfMs": 426.128,
+    "functionName": "scale",
+    "scriptId": "0",
+    "url": "",
+    "lineNumber": -1,
+    "columnNumber": -1
+  },
+  {
+    "selfMs": 403.728,
+    "functionName": "measureText",
+    "scriptId": "51",
+    "url": "http://127.0.0.1:4234/pixi-renderers/pixi.js",
+    "lineNumber": 675,
+    "columnNumber": 5252
+  },
+  {
+    "selfMs": 400.573,
+    "functionName": "updateTimers",
+    "scriptId": "16",
+    "url": "http://127.0.0.1:4234/runtimeobject.js",
+    "lineNumber": 0,
+    "columnNumber": 17171
+  },
+  {
+    "selfMs": 397.152,
+    "functionName": "ne.experimentalLetterSpacing",
+    "scriptId": "51",
+    "url": "http://127.0.0.1:4234/pixi-renderers/pixi.js",
+    "lineNumber": 676,
+    "columnNumber": 2418
+  },
+  {
+    "selfMs": 385.049,
+    "functionName": "update",
+    "scriptId": "33",
+    "url": "http://127.0.0.1:4234/spriteruntimeobject.js",
+    "lineNumber": 0,
+    "columnNumber": 2247
+  },
+  {
+    "selfMs": 384.146,
+    "functionName": "measureText",
+    "scriptId": "0",
+    "url": "",
+    "lineNumber": -1,
+    "columnNumber": -1
+  },
+  {
+    "selfMs": 377.569,
+    "functionName": "scale",
+    "scriptId": "0",
+    "url": "",
+    "lineNumber": -1,
+    "columnNumber": -1
+  },
+  {
+    "selfMs": 351.802,
+    "functionName": "updateText",
+    "scriptId": "51",
+    "url": "http://127.0.0.1:4234/pixi-renderers/pixi.js",
+    "lineNumber": 676,
+    "columnNumber": 8405
+  },
+  {
+    "selfMs": 350.17,
+    "functionName": "GDJSInlineCode",
+    "scriptId": "78",
+    "url": "http://127.0.0.1:4234/code0.js",
+    "lineNumber": 672,
+    "columnNumber": 66
+  },
+  {
+    "selfMs": 347.563,
+    "functionName": "scale",
+    "scriptId": "0",
+    "url": "",
+    "lineNumber": -1,
+    "columnNumber": -1
+  },
+  {
+    "selfMs": 339.754,
+    "functionName": "ne.experimentalLetterSpacing",
+    "scriptId": "51",
+    "url": "http://127.0.0.1:4234/pixi-renderers/pixi.js",
+    "lineNumber": 676,
+    "columnNumber": 2418
+  },
+  {
+    "selfMs": 332.925,
+    "functionName": "updateText",
+    "scriptId": "51",
+    "url": "http://127.0.0.1:4234/pixi-renderers/pixi.js",
+    "lineNumber": 676,
+    "columnNumber": 8405
+  },
+  {
+    "selfMs": 323.895,
+    "functionName": "ui17",
+    "scriptId": "78",
+    "url": "http://127.0.0.1:4234/code0.js",
+    "lineNumber": 1010,
+    "columnNumber": 14
+  },
+  {
+    "selfMs": 313.139,
+    "functionName": "updateText",
+    "scriptId": "51",
+    "url": "http://127.0.0.1:4234/pixi-renderers/pixi.js",
+    "lineNumber": 676,
+    "columnNumber": 8405
+  }
+]

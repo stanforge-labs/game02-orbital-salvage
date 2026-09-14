@@ -1,0 +1,15 @@
+{
+  "errors": [],
+  "checks": [
+    "all three HUD panels inside viewport after repeated orientation changes",
+    "DEV credit grant and real save remain isolated",
+    "mobile localhost rewarded stub succeeds",
+    "emulator mouse hover does not steer",
+    "open world scenery restored after secret completion"
+  ],
+  "externalAnalytics": [
+    "Failed to load resource: the server responded with a status of 409 ()",
+    "Error while creating the session Response"
+  ],
+  "consoleErrors": []
+}

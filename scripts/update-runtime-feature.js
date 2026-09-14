@@ -104,5 +104,6 @@ require('./release16-runtime')(layout);
 require('./release17-runtime')(layout);
 require('./polish18-runtime')(layout);
 require('./polish19-runtime')(layout);
+require('./world20-runtime')(layout);
 fs.writeFileSync(file, JSON.stringify(project, null, 2) + '\n', 'utf8');
 console.log('Gameplay Depth 07 runtime applied');

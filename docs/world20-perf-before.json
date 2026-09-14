@@ -1,0 +1,30 @@
+{
+  "mode": "controlled 120-second keyboard traversal; no screenshots/CDP trace/natural navigator; DEV starting fixture",
+  "segments": [],
+  "data": {
+    "frames": 7098,
+    "p95": 17.200000000000728,
+    "p99": 33.30000000000291,
+    "max": 66.89999999999418,
+    "counts": {
+      "20": 102,
+      "25": 101,
+      "50": 9,
+      "100": 0,
+      "33.3": 76
+    },
+    "cpuMax": 46.80000001192093,
+    "cpuMean": 3.811823562409187,
+    "instances": [
+      869,
+      869
+    ],
+    "setters": {
+      "ProcPOI": 17250,
+      "Scenic18": 12,
+      "ProcDecor": 7
+    },
+    "finalState": "result"
+  },
+  "errors": []
+}

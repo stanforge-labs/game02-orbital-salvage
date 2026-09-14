@@ -105,3 +105,12 @@ pass не добавлялись.
 композиции проекта, генератор `scripts/polish18-art.js`. Сторонний арт не
 заимствован. Exo 2 и его локальная OFL-лицензия сохранены без изменений.
 Новых внешних зависимостей и extensions нет.
+
+## WorldArtGeneration20
+
+`assets/game/world20/*.svg`: 70 original project vectors, created by
+`scripts/world20-art.js`; no third-party artwork copied/imported. 16 authored
+large compositions, 24 medium variants (8×3), 30 small variants (10×3).
+Reference-only research and source/license decisions are in `ART_DIRECTION.md`.
+Existing Kenney CC0 and Exo 2 OFL resources/licenses remain unchanged.
+No external packages, fonts, plugins or extensions were installed for World20.

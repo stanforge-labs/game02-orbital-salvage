@@ -1,0 +1,21 @@
+process.env.OS_QA_PORT='4237';
+const{open,fs,assert}=require('./release17-qa-lib');
+(async()=>{const q=await open({width:1366,height:768}),p=q.p,r={mode:'isolated DEV mobile fixtures plus real clicks; not natural progression',checks:[]};
+try{
+ await p.getByRole('button',{name:'DEV',exact:true}).click();await p.getByRole('button',{name:'MOBILE TEST MODE'}).click();await p.waitForTimeout(2500);
+ await p.getByLabel('Device preset').selectOption('1280x720');const f=p.frames()[1];await f.waitForFunction(()=>window.__osQAState?.state==='menu');
+ await f.getByRole('button',{name:'ОРБИТАЛЬНЫЙ ПАТРУЛЬ',exact:true}).click();await f.waitForFunction(()=>window.__osQAState.state==='arcade');await p.waitForTimeout(1200);await f.getByRole('button',{name:'ВЫЙТИ ИЗ ПАТРУЛЯ',exact:true}).click();r.checks.push('arcade enter and exit');
+ await f.getByRole('button',{name:'ВЫБОР СЕКТОРА',exact:true}).click();await f.waitForFunction(()=>window.__osQAState.state==='sectorSelect');r.checks.push('sector selector');
+ await f.getByRole('button',{name:'DEV',exact:true}).click();await f.getByRole('button',{name:'СЕКТОР 1',exact:true}).click();await f.getByRole('button',{name:'DEV',exact:true}).click();await f.waitForFunction(()=>window.__osQAState.state==='play');
+ await f.getByRole('button',{name:'Ⅱ ПАУЗА',exact:true}).click();await f.waitForFunction(()=>window.__osQAState.state==='pause17');await f.getByRole('button',{name:'ПРОДОЛЖИТЬ',exact:true}).click();await f.waitForFunction(()=>window.__osQAState.state==='play');r.checks.push('clickable pause and resume');
+ await f.getByRole('button',{name:'DEV',exact:true}).click();await f.getByRole('button',{name:'УЛУЧШЕНИЯ',exact:true}).click();await f.waitForFunction(()=>window.__osQAState.state==='upgrades');r.checks.push('upgrade screen');
+ await f.getByRole('button',{name:'СЕКРЕТ',exact:true}).click();await f.waitForFunction(()=>window.__osQAState.secretStage===4);await f.getByRole('button',{name:'DEV',exact:true}).click();r.checks.push('secret fixture and UI');
+ for(const label of ['Safe area','UI bounds','Gameplay bounds','Hazard hitboxes'])await p.getByLabel(label,{exact:true}).check();
+ await f.evaluate(()=>{window.__guideFrames20=[];let last=performance.now();function frame(t){__guideFrames20.push(t-last);last=t;if(__guideFrames20.length<1800)requestAnimationFrame(frame);}requestAnimationFrame(frame);});await p.waitForTimeout(10000);
+ r.frames=await f.evaluate(()=>{const a=__guideFrames20.slice(3).sort((a,b)=>a-b);return{count:a.length,p95:a[Math.floor(a.length*.95)],over33:a.filter(x=>x>33.3).length,max:a.at(-1)};});
+ await p.screenshot({path:'screenshots/WorldArtGeneration20/mobile-secret-guides.png'});
+ await p.getByLabel('Device preset').selectOption('390x844');await p.getByRole('button',{name:'Landscape',exact:true}).click();await p.waitForTimeout(700);r.smallLandscape=await f.evaluate(()=>__mobile20Telemetry());assert.equal(r.smallLandscape.width,844);assert.equal(r.smallLandscape.height,390);await p.screenshot({path:'screenshots/WorldArtGeneration20/mobile-844x390.png'});
+ r.navClearance=await f.evaluate(()=>{const n=document.querySelector('#shell17 .nav').getBoundingClientRect(),t=document.querySelector('#shell17 .toolbar').getBoundingClientRect();return t.top-n.bottom;});assert(r.navClearance>=10,'Navigation must clear toolbar');
+ await p.getByRole('button',{name:'Reset viewport'}).click();await p.waitForTimeout(500);assert.equal(await f.evaluate(()=>innerWidth),390);r.checks.push('small landscape, navigation-toolbar clearance and reset');
+ await p.getByRole('button',{name:'ЗАКРЫТЬ ТЕСТ'}).click();r.pass=true;
+}catch(e){r.failure=e.stack;}finally{r.errors=q.errors;fs.writeFileSync('docs/world20-mobile-flow.json',JSON.stringify(r,null,2));await q.browser.close();console.log(r);}})();

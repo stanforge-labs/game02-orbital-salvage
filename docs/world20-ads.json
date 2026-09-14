@@ -1,0 +1,19 @@
+{
+  "mode": "explicit clicks, localhost rewarded fallback only",
+  "deathActions": 1,
+  "secondChance": true,
+  "double": true,
+  "rerollBefore": [
+    "cargo",
+    "engine",
+    "hull"
+  ],
+  "rerollAfter": [
+    "engine",
+    "hull",
+    "magnet"
+  ],
+  "reroll": true,
+  "emptyTitle": "ВОЗВРАЩЕНИЕ ЗАВЕРШЕНО",
+  "errors": []
+}

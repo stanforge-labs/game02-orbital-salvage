@@ -1,0 +1,2 @@
+process.env.OS_QA_PORT='4237';const{open,fs}=require('./release17-qa-lib');
+(async()=>{const q=await open();try{const cdp=await q.browser.newBrowserCDPSession();const info=await cdp.send('SystemInfo.getInfo');const r={method:'same Playwright headless Chromium launch as QA',gpu:info.gpu,errors:q.errors};fs.writeFileSync('docs/world20-gpu-info.json',JSON.stringify(r,null,2));console.log(info.gpu.auxAttributes);await cdp.detach();}finally{await q.browser.close();}})();

@@ -1,0 +1,17 @@
+process.env.OS_QA_PORT='4237';
+const {open,click,read,fs,assert}=require('./release17-qa-lib');
+(async()=>{const q=await open({width:1366,height:768}),p=q.p,r={errors:[],checks:[]},consoleErrors=[];p.on('console',m=>{if(m.type()==='error')consoleErrors.push(m.text());});
+try{
+ await click(p,'ButtonBg');await p.getByRole('button',{name:'DEV',exact:true}).click();await p.getByRole('button',{name:'MOBILE TEST MODE'}).click();await p.waitForTimeout(2300);const frame=p.frames()[1];
+ for(const size of ['720x1280','1280x720','390x844','1280x720']){await p.getByLabel('Device preset').selectOption(size);await p.waitForTimeout(450);}
+ await frame.getByRole('button',{name:/НАЧАТЬ ВЫЛЕТ|ПРОДОЛЖИТЬ — НОВЫЙ ВЫЛЕТ/}).click();
+ await frame.evaluate(()=>{const old=gdjs.RuntimeScene.prototype.renderAndStep;gdjs.RuntimeScene.prototype.renderAndStep=function(...a){window.testScene20=this;return old.apply(this,a);};});await p.waitForTimeout(450);
+ const bounds=await frame.evaluate(()=>{const s=testScene20;return s.getObjects('HudPanel').concat(s.getObjects('MissionPanel')).map(o=>o.getRendererObject().getBounds().clone());});assert.ok(bounds.every(b=>b.x>=0&&b.x+b.width<=1920&&b.y>=0));r.checks.push('all three HUD panels inside viewport after repeated orientation changes');
+ const oldSave=await p.evaluate(()=>JSON.stringify(localStorage));await frame.getByRole('button',{name:'DEV',exact:true}).click();await frame.getByRole('button',{name:'+500 КРЕДИТОВ',exact:true}).click();await frame.evaluate(()=>testScene20.__osSave());assert.equal(await p.evaluate(()=>JSON.stringify(localStorage)),oldSave);r.checks.push('DEV credit grant and real save remain isolated');
+ const ad=await frame.evaluate(async()=>await window.__osYandex.showRewarded('world20-local-smoke'));assert.equal(ad,true);r.checks.push('mobile localhost rewarded stub succeeds');
+ await frame.getByRole('button',{name:'DEV',exact:true}).click();await p.getByLabel('Touch simulation',{exact:true}).uncheck();const before=await frame.evaluate(()=>({x:testScene20.__os.x,y:testScene20.__os.y}));const canvas=await frame.locator('canvas').first().boundingBox();await p.mouse.move(canvas.x+canvas.width*.75,canvas.y+canvas.height*.6);await p.waitForTimeout(500);const after=await frame.evaluate(()=>({x:testScene20.__os.x,y:testScene20.__os.y}));assert.ok(Math.hypot(after.x-before.x,after.y-before.y)<1);r.checks.push('emulator mouse hover does not steer');
+ await p.getByRole('button',{name:'ЗАКРЫТЬ ТЕСТ'}).click();await p.getByRole('button',{name:'DEV',exact:true}).click();
+ await p.evaluate(()=>{scene15.getVariables().get('CurrentSector').setNumber(2);scene15.__g13Generate(130013);scene15.__g13.secret.stage=6;Object.assign(scene15.__os,{x:1600,y:1200,vx:0,vy:0});scene15.__osCam={x:1600,y:1200};});await p.waitForTimeout(400);assert.ok(await p.evaluate(()=>scene15.getObjects('Scenic18').some(o=>!o.isHidden())));r.checks.push('open world scenery restored after secret completion');
+ r.externalAnalytics=consoleErrors.filter(e=>/status of 409|Error while creating the session Response/.test(e));
+ r.consoleErrors=consoleErrors.filter(e=>!/status of 409|Error while creating the session Response/.test(e));assert.equal(r.consoleErrors.length,0);r.errors=q.errors;
+}catch(e){r.failure=e.stack;console.error(e);}finally{r.errors=q.errors;fs.writeFileSync('docs/world20-regression.json',JSON.stringify(r,null,2));await q.browser.close();console.log(r);}})();
