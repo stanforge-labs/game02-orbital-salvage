@@ -1,0 +1,8 @@
+{
+  "name": "orbital-salvage-phone-tool",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local LAN launcher only; not shipped in the game",
+  "dependencies": { "qrcode": "1.5.4" },
+  "devDependencies": { "jsqr": "1.4.0" }
+}

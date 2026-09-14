@@ -72,3 +72,5 @@ screenshots/Polish19/*
 *.key
 cookies*.json
 auth*.json
+PHONE_QR.png
+tools/phone/node_modules/
