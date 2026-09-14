@@ -32,6 +32,23 @@ The main game's save implementation is not changed. The parent remains paused.
 The child uses localhost ad fallback and never tries to fetch production SDK
 just because an iframe has an empty hostname.
 
+## Mobile UI21 additions
+
+The emulator now offers Browser UI height (0/56/96 px) and simulated safe
+insets (top/right/bottom/left: 8/20/12/28 px). These change the child usable
+viewport and layout; they do not reproduce an actual browser toolbar or OS.
+Reset viewport clears both settings. All eight existing presets remain.
+
+Phone layout follows visualViewport size/offset and safe-area env values.
+HUD height is 54 CSS px (48 below 321 px usable height). Contract details and
+region context are available in the journal. Navigation uses a compact bottom
+dock; camera composition reserves space without changing ship physics/zoom.
+Mobile dialogs have a scrolling body and pinned primary/back actions.
+
+Regression commands: `node scripts/mobile21-qa.js`,
+`node scripts/mobile21-extended-qa.js`, `node scripts/mobile21-input-qa.js`.
+These are explicit layout/input fixtures, not natural playthroughs.
+
 ## Limits
 
 This is a desktop viewport/input emulator, NOT physical Android verification.

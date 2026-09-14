@@ -1,0 +1,49 @@
+{
+  "checks": [
+    "desktop native HUD retained",
+    "DEV preset 360x640",
+    "DEV preset 375x667",
+    "DEV preset 390x844",
+    "DEV preset 393x873",
+    "DEV preset 412x915",
+    "DEV preset 430x932",
+    "DEV preset 720x1280",
+    "DEV preset 1280x720",
+    "DEV browser chrome, safe insets, modal and reset",
+    "emulator close resumes parent"
+  ],
+  "errors": [],
+  "emulator": {
+    "width": 844,
+    "height": 294,
+    "logical": [
+      3100.408163265306,
+      1080
+    ],
+    "hudCamera": [
+      960,
+      540
+    ],
+    "orientation": "landscape",
+    "dpr": 1,
+    "uiScale": 0.2722222222222222,
+    "fps": 60,
+    "instances": 869,
+    "input": "touch simulation",
+    "state": "play",
+    "safeInsets": [
+      8,
+      20,
+      12,
+      28
+    ],
+    "save": "isolated in-memory copy"
+  },
+  "shortModal": {
+    "bottom": 273,
+    "height": 294,
+    "scroll": true,
+    "body": 144
+  },
+  "pass": true
+}

@@ -1,0 +1,117 @@
+{
+  "mode": "mobile browser layout fixtures; real device not available",
+  "checks": [
+    "touch gameplay, journal and pause",
+    "upgrades bounds",
+    "sectorSelect bounds",
+    "result bounds",
+    "fail bounds",
+    "resetConfirm bounds",
+    "confirm17 bounds",
+    "settings17 bounds",
+    "native purchase/save and reset cancel",
+    "844x390",
+    "844x300",
+    "640x280",
+    "390x844",
+    "412x915",
+    "360x800",
+    "reload existing save"
+  ],
+  "screenshots": [
+    "01-menu-640x360",
+    "02-flight-640x360",
+    "03-journal-640x360",
+    "04-pause-640x360",
+    "05-ship-safe-upward",
+    "06-upgrades",
+    "06-sectorSelect",
+    "06-result",
+    "06-fail",
+    "06-resetConfirm",
+    "06-confirm17",
+    "06-settings17",
+    "07-arcade",
+    "08-size-844x390",
+    "08-size-844x300",
+    "08-size-640x280",
+    "08-size-390x844",
+    "08-size-412x915",
+    "08-size-360x800",
+    "09-safe-insets",
+    "10-reload"
+  ],
+  "errors": [],
+  "initial": {
+    "viewport": {
+      "w": 640,
+      "h": 360
+    },
+    "hud": {
+      "x": 8,
+      "y": 6,
+      "w": 624,
+      "h": 54,
+      "right": 632,
+      "bottom": 60
+    },
+    "nav": {
+      "x": 8,
+      "y": 310,
+      "w": 460,
+      "h": 44,
+      "right": 468,
+      "bottom": 354
+    },
+    "toolbar": {
+      "x": 484.78125,
+      "y": 310,
+      "w": 147.21875,
+      "h": 44,
+      "right": 632,
+      "bottom": 354
+    },
+    "card": [],
+    "body": [],
+    "active": true
+  },
+  "shipMinY": 120.28795086251966,
+  "purchase": {
+    "credits": 320,
+    "save": "{\"Credits\":320,\"TechParts\":2,\"CargoMax\":10,\"HullMax\":3,\"Hull\":3,\"EngineLevel\":0,\"MagnetLevel\":0,\"RadarLevel\":0,\"InsuranceLevel\":0,\"RunCount\":1,\"RerollCount\":0,\"ResetCount\":0,\"DoubleRewardUsed\":0,\"SecondChanceUsed\":0,\"SectorUnlocked\":0,\"CurrentSector\":1,\"OnboardingSeen\":0,\"MissionBonusClaimed\":0,\"ContractsCompleted\":0,\"SpentCredits\":180,\"OfferSeed\":1,\"OffersReady\":1,\"Offer1\":\"hull\",\"Offer2\":\"magnet\",\"Offer3\":\"radar\",\"ShieldLevel\":0,\"AssistLevel\":0,\"ContractLevel\":0,\"RepairLevel\":0,\"ScannerLevel\":0,\"BufferLevel\":0,\"ContainmentLevel\":0,\"SalvageLevel\":0,\"DecoderLevel\":0,\"AudioEnabled16\":true}"
+  },
+  "safe": {
+    "viewport": {
+      "w": 844,
+      "h": 390
+    },
+    "hud": {
+      "x": 36,
+      "y": 14,
+      "w": 780,
+      "h": 54,
+      "right": 816,
+      "bottom": 68
+    },
+    "nav": {
+      "x": 36,
+      "y": 328,
+      "w": 460,
+      "h": 44,
+      "right": 496,
+      "bottom": 372
+    },
+    "toolbar": {
+      "x": 668.78125,
+      "y": 328,
+      "w": 147.21875,
+      "h": 44,
+      "right": 816,
+      "bottom": 372
+    },
+    "card": [],
+    "body": [],
+    "active": true
+  },
+  "pass": true
+}

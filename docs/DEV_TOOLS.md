@@ -211,3 +211,12 @@ DEV-переменные не меняет. Остальные перечисл�
 `node scripts/world20-natural.js final` — fresh-storage full progression and
 continuous performance trace; coordinate-aware read-only navigator, no DEV writes.
 Не запускать другие браузерные тесты параллельно natural/performance.
+
+## Mobile UI21
+
+DEV → MOBILE TEST MODE сохраняет восемь пресетов и изоляцию сохранений.
+Добавлены Browser UI height 0/56/96 px и Safe insets для проверки короткого
+landscape с вырезом/нижней системной зоной. Это симуляция, не реальный телефон.
+Reset viewport сбрасывает оба параметра. В production кнопка DEV не добавляется.
+Мобильный HUD и модалки используют visualViewport и safe-area; подробности:
+`MOBILE_TEST_MODE.md`, результаты: `MOBILE_UI21_REVIEW.md`.

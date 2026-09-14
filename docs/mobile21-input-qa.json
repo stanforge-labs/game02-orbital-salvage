@@ -1,0 +1,20 @@
+{
+  "mode": "touch browser; synthetic visualViewport chrome; localhost rewarded stub",
+  "errors": [],
+  "checks": [
+    "visualViewport smaller than innerHeight with offset and physical-pixel canvas",
+    "HUD touch drag does not steer",
+    "mobile second-chance button uses existing rewarded stub",
+    "mobile x2 result reward",
+    "ad reroll button clickable inside scroll body",
+    "mobile sector2 launch action"
+  ],
+  "visualViewport": {
+    "height": 286,
+    "y": 10,
+    "canvasHeight": 286,
+    "logicalWidth": 3187.132867132867,
+    "pixelHeight": 572
+  },
+  "pass": true
+}
