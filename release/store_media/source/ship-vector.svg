@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="196" height="150" viewBox="0 0 98 75">
+<!-- Vector interpretation of the shipped Kenney CC0 ship_player.png silhouette. -->
+<path d="M3 31L9 34 11 41 31 29 39 26 44 1H55L59 26 68 29 88 41 89 34 95 31 97 33 95 61 89 63 87 57 64 64 57 73H42L35 64 11 57 9 63 3 61 1 33Z" fill="#e8f2ef" stroke="#85989d" stroke-width="1.5" stroke-linejoin="round"/>
+<path d="M46 5H52L56 29H42Z" fill="#37b5e7"/><path d="M40 34H58V43H40Z" fill="#143b65"/>
+<path d="M40 45H58V65L54 72H44L40 65Z" fill="#42bee9"/>
+<path d="M5 34L8 36 10 57 7 60 4 58Z M90 36L94 34 94 58 91 60 88 57Z" fill="#38b5e4"/>
+<path d="M12 42L34 33 34 55 12 50Z M64 33L87 42 86 50 64 55Z" fill="#b5d9de"/>
+<path d="M14 51L33 56 33 61 14 56Z M65 56L84 51 84 56 65 61Z" fill="#ffd239"/>
+<path d="M36 29V65M62 29V65" stroke="#9cbbbe" stroke-width="1"/>
+</svg>

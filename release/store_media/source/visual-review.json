@@ -1,0 +1,33 @@
+{
+  "reviewedAt": "2026-09-15T11:27:11.657Z",
+  "reviewer": "Codex: each final PNG opened with view_image at full size; previews and contact sheet inspected",
+  "method": "Explicit visual review attestation, not an automated image-quality classifier",
+  "checks": [
+    "No browser/system UI or DEV",
+    "Readable ship/loot/hazards and HUD",
+    "Distinct chosen mechanics and compositions",
+    "No invented screenshot overlays or scene edits",
+    "No alternate game title",
+    "Icon at 512/256/128/64"
+  ],
+  "files": {
+    "icon/icon_512.png": "F65EE8953A4744336404434D93D515448D438820BB73FE9B2AAC296677229BDC",
+    "cover/cover_800x470.png": "4EA8BE15DBCE2F65DE72177DF63A101278E333578252504E607829AB47A5CF76",
+    "icon/icon_preview_256.png": "1A895D6ACB0DD79677714CAAF786DF18057B9700935C5B367370372F1144C55C",
+    "icon/icon_preview_128.png": "A83C6199A7E240AA062894FF6389E3D5F3EB0004B0BDBB4F3D77245B1A609BDC",
+    "icon/icon_preview_64.png": "67B58B0E2984335B1B7AC498B62515E87725CB39B5F977940DA294B6F5CD4A6E",
+    "screenshots/desktop/01_sector1_salvage.png": "BC185EE938A345C6171CA36FC624E9BCB7031292D32808E21347D3BDD6ABA83D",
+    "screenshots/desktop/02_meteor_chase.png": "9BBA6F7A6C80720221DC7BE27213F7F6E05FAF14053116436E470F280C9EF9F7",
+    "screenshots/desktop/03_contract_gameplay.png": "852A6E1865C5C094058862B110B22FBE64DCC1F3F49E4B0B8B5F2D92655563C0",
+    "screenshots/desktop/04_sector2.png": "87A6E199054AA563B1C26DC1A57175CECA00EF77C7B44516DC1EF275B66BC4E1",
+    "screenshots/desktop/05_secret_lasers.png": "2FCDF177674E0D11E8BE95519DD2C6B6C39A9DBF8DDB6D376EF98BEDB26F78D8",
+    "screenshots/desktop/06_upgraded_ship.png": "607BA31004E04C44769828394BFEBC9EACBF45667A2894F42DBF173FDAFCA85E",
+    "screenshots/mobile/01_mobile_salvage.png": "C5D21D534A13F6C6CE773A63D91468F09A6B54E2A3491A56CB205F75DD729A60",
+    "screenshots/mobile/02_mobile_meteor.png": "9E05450DFE351206D88887A7CD12B00D1EE1469970BBC4D642AB2DF61820C9DE",
+    "screenshots/mobile/03_mobile_sector2.png": "2831790C0C71685D60D8A1F903B3D1B1976E0EBC3B06DE84C9FDEC7437F10C71",
+    "screenshots/mobile/04_mobile_secret.png": "E3A7FA4A98C877AACE51F32E046AF12FD409CBFB42E32D78888D76C7823163D8",
+    "store_media_contact_sheet.png": "B5E3B1F82F17AAE85D5732BC49A6ED2C4D37F5D1D94E6F875DADF579CAC04C42"
+  },
+  "videoSHA256": "1F78C5AA337CE84537B7F46DE6DD46B5795B974EC51A694F08F630DEA8E99EE4",
+  "videoReview": "52 decoded frames at 0.5-second cadence and all edit boundaries inspected; complete browser playback and complete FFmpeg decode; silent"
+}

@@ -1,0 +1,15 @@
+{
+  "productionSHA256": "110E4C820112195FC7AACEFDC65A3E8CE49AA33646C64D36C99CA3040C3EE23E",
+  "source": "Fresh desktop production gameplay capture, store-desktop/capture.json",
+  "edit": "Five continuous real-time clips; straight cuts; no slideshow, title card, speed changes, overlays or audio",
+  "fps": 25,
+  "width": 1920,
+  "height": 1080,
+  "clips": [
+    { "label": "Salvage and pickup streak", "sourceStart": 27, "duration": 5 },
+    { "label": "Meteor pursuit during urgent delivery", "sourceStart": 198, "duration": 5 },
+    { "label": "Sector 2 signal and anomaly", "sourceStart": 438, "duration": 5 },
+    { "label": "Secret laser checkpoint traversal", "sourceStart": 534, "duration": 6 },
+    { "label": "Return to station with upgraded ship", "sourceStart": 578, "duration": 5 }
+  ]
+}

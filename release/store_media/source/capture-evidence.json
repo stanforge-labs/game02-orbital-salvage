@@ -1,0 +1,3428 @@
+{
+  "sha256": "110E4C820112195FC7AACEFDC65A3E8CE49AA33646C64D36C99CA3040C3EE23E",
+  "captureDate": "2026-09-15",
+  "runs": [
+    {
+      "id": "desktop",
+      "sha256": "110E4C820112195FC7AACEFDC65A3E8CE49AA33646C64D36C99CA3040C3EE23E",
+      "platform": "desktop",
+      "seconds": 585.354,
+      "mode": "fresh storage; keyboard and real clicks; coordinate-aware navigation; no game state writes",
+      "errors": [],
+      "timeline": [
+        {
+          "file": "loot-1.png",
+          "seconds": 12.793,
+          "sector": 1,
+          "seed": 863236917
+        },
+        {
+          "file": "loot-2.png",
+          "seconds": 16.532,
+          "sector": 1,
+          "seed": 863236917
+        },
+        {
+          "file": "loot-3.png",
+          "seconds": 21.589,
+          "sector": 1,
+          "seed": 863236917
+        },
+        {
+          "file": "loot-4.png",
+          "seconds": 28.079,
+          "sector": 1,
+          "seed": 863236917
+        },
+        {
+          "file": "loot-5.png",
+          "seconds": 31.174,
+          "sector": 1,
+          "seed": 863236917
+        },
+        {
+          "file": "loot-6.png",
+          "seconds": 34.381,
+          "sector": 1,
+          "seed": 863236917
+        },
+        {
+          "file": "chain-1-1.png",
+          "seconds": 126.129,
+          "sector": 1,
+          "seed": 418316839
+        },
+        {
+          "file": "chase-1.png",
+          "seconds": 127.487,
+          "sector": 1,
+          "seed": 418316839
+        },
+        {
+          "file": "chase-2.png",
+          "seconds": 129.313,
+          "sector": 1,
+          "seed": 418316839
+        },
+        {
+          "file": "chase-3.png",
+          "seconds": 131.074,
+          "sector": 1,
+          "seed": 418316839
+        },
+        {
+          "file": "chase-4.png",
+          "seconds": 133.174,
+          "sector": 1,
+          "seed": 418316839
+        },
+        {
+          "file": "chase-5.png",
+          "seconds": 199.524,
+          "sector": 1,
+          "seed": 2050177980
+        },
+        {
+          "file": "chase-6.png",
+          "seconds": 201.394,
+          "sector": 1,
+          "seed": 2050177980
+        },
+        {
+          "file": "sector2-1.png",
+          "seconds": 426.597,
+          "sector": 2,
+          "seed": 3688557504
+        },
+        {
+          "file": "gate-1.png",
+          "seconds": 480.499,
+          "sector": 2,
+          "seed": 3688557504
+        },
+        {
+          "file": "secret-point-0-1.png",
+          "seconds": 482.933,
+          "sector": 2,
+          "seed": 3688557504
+        },
+        {
+          "file": "secret-point-1-1.png",
+          "seconds": 485.708,
+          "sector": 2,
+          "seed": 3688557504
+        },
+        {
+          "file": "secret-point-2-1.png",
+          "seconds": 488.307,
+          "sector": 2,
+          "seed": 3688557504
+        },
+        {
+          "file": "secret-point-3-1.png",
+          "seconds": 494.619,
+          "sector": 2,
+          "seed": 3688557504
+        },
+        {
+          "file": "secret-1-1.png",
+          "seconds": 495.606,
+          "sector": 2,
+          "seed": 3688557504
+        },
+        {
+          "file": "secret-1-2.png",
+          "seconds": 497.35,
+          "sector": 2,
+          "seed": 3688557504
+        },
+        {
+          "file": "secret-point-4-1.png",
+          "seconds": 498.333,
+          "sector": 2,
+          "seed": 3688557504
+        },
+        {
+          "file": "secret-1-3.png",
+          "seconds": 499.211,
+          "sector": 2,
+          "seed": 3688557504
+        },
+        {
+          "file": "secret-point-5-1.png",
+          "seconds": 500.919,
+          "sector": 2,
+          "seed": 3688557504
+        },
+        {
+          "file": "secret-1-4.png",
+          "seconds": 501.406,
+          "sector": 2,
+          "seed": 3688557504
+        },
+        {
+          "file": "secret-1-5.png",
+          "seconds": 502.771,
+          "sector": 2,
+          "seed": 3688557504
+        },
+        {
+          "file": "secret-point-6-1.png",
+          "seconds": 504.586,
+          "sector": 2,
+          "seed": 3688557504
+        },
+        {
+          "file": "secret-1-6.png",
+          "seconds": 505.163,
+          "sector": 2,
+          "seed": 3688557504
+        },
+        {
+          "file": "secret-point-7-1.png",
+          "seconds": 508.398,
+          "sector": 2,
+          "seed": 3688557504
+        },
+        {
+          "file": "secret-2-1.png",
+          "seconds": 510.009,
+          "sector": 2,
+          "seed": 3688557504
+        },
+        {
+          "file": "secret-2-2.png",
+          "seconds": 511.801,
+          "sector": 2,
+          "seed": 3688557504
+        },
+        {
+          "file": "secret-point-8-1.png",
+          "seconds": 512.424,
+          "sector": 2,
+          "seed": 3688557504
+        },
+        {
+          "file": "secret-2-3.png",
+          "seconds": 513.62,
+          "sector": 2,
+          "seed": 3688557504
+        },
+        {
+          "file": "secret-point-9-1.png",
+          "seconds": 515.024,
+          "sector": 2,
+          "seed": 3688557504
+        },
+        {
+          "file": "secret-2-4.png",
+          "seconds": 515.713,
+          "sector": 2,
+          "seed": 3688557504
+        },
+        {
+          "file": "secret-2-5.png",
+          "seconds": 517.282,
+          "sector": 2,
+          "seed": 3688557504
+        },
+        {
+          "file": "secret-point-10-1.png",
+          "seconds": 517.864,
+          "sector": 2,
+          "seed": 3688557504
+        },
+        {
+          "file": "secret-2-6.png",
+          "seconds": 518.96,
+          "sector": 2,
+          "seed": 3688557504
+        },
+        {
+          "file": "secret-point-11-1.png",
+          "seconds": 522.602,
+          "sector": 2,
+          "seed": 3688557504
+        },
+        {
+          "file": "secret-3-1.png",
+          "seconds": 524.561,
+          "sector": 2,
+          "seed": 3688557504
+        },
+        {
+          "file": "secret-3-2.png",
+          "seconds": 526.178,
+          "sector": 2,
+          "seed": 3688557504
+        },
+        {
+          "file": "secret-point-12-1.png",
+          "seconds": 527.628,
+          "sector": 2,
+          "seed": 3688557504
+        },
+        {
+          "file": "secret-3-3.png",
+          "seconds": 528.193,
+          "sector": 2,
+          "seed": 3688557504
+        },
+        {
+          "file": "secret-3-4.png",
+          "seconds": 529.823,
+          "sector": 2,
+          "seed": 3688557504
+        },
+        {
+          "file": "secret-point-13-1.png",
+          "seconds": 530.359,
+          "sector": 2,
+          "seed": 3688557504
+        },
+        {
+          "file": "secret-3-5.png",
+          "seconds": 531.699,
+          "sector": 2,
+          "seed": 3688557504
+        },
+        {
+          "file": "secret-3-6.png",
+          "seconds": 533.54,
+          "sector": 2,
+          "seed": 3688557504
+        },
+        {
+          "file": "secret-point-14-1.png",
+          "seconds": 536.491,
+          "sector": 2,
+          "seed": 3688557504
+        },
+        {
+          "file": "secret-4-1.png",
+          "seconds": 537.119,
+          "sector": 2,
+          "seed": 3688557504
+        },
+        {
+          "file": "secret-4-2.png",
+          "seconds": 538.882,
+          "sector": 2,
+          "seed": 3688557504
+        },
+        {
+          "file": "secret-point-15-1.png",
+          "seconds": 540.507,
+          "sector": 2,
+          "seed": 3688557504
+        },
+        {
+          "file": "secret-4-3.png",
+          "seconds": 541.03,
+          "sector": 2,
+          "seed": 3688557504
+        },
+        {
+          "file": "secret-4-4.png",
+          "seconds": 542.549,
+          "sector": 2,
+          "seed": 3688557504
+        },
+        {
+          "file": "secret-point-16-1.png",
+          "seconds": 543.307,
+          "sector": 2,
+          "seed": 3688557504
+        },
+        {
+          "file": "secret-4-5.png",
+          "seconds": 544.354,
+          "sector": 2,
+          "seed": 3688557504
+        },
+        {
+          "file": "secret-point-17-1.png",
+          "seconds": 546.265,
+          "sector": 2,
+          "seed": 3688557504
+        },
+        {
+          "file": "secret-4-6.png",
+          "seconds": 546.805,
+          "sector": 2,
+          "seed": 3688557504
+        },
+        {
+          "file": "secret-point-18-1.png",
+          "seconds": 550.27,
+          "sector": 2,
+          "seed": 3688557504
+        },
+        {
+          "file": "secret-5-1.png",
+          "seconds": 551.543,
+          "sector": 2,
+          "seed": 3688557504
+        },
+        {
+          "file": "secret-5-2.png",
+          "seconds": 553.277,
+          "sector": 2,
+          "seed": 3688557504
+        },
+        {
+          "file": "secret-point-19-1.png",
+          "seconds": 554.981,
+          "sector": 2,
+          "seed": 3688557504
+        },
+        {
+          "file": "secret-5-3.png",
+          "seconds": 555.563,
+          "sector": 2,
+          "seed": 3688557504
+        },
+        {
+          "file": "secret-5-4.png",
+          "seconds": 556.961,
+          "sector": 2,
+          "seed": 3688557504
+        },
+        {
+          "file": "secret-point-20-1.png",
+          "seconds": 557.595,
+          "sector": 2,
+          "seed": 3688557504
+        },
+        {
+          "file": "secret-5-5.png",
+          "seconds": 558.72,
+          "sector": 2,
+          "seed": 3688557504
+        },
+        {
+          "file": "secret-point-21-1.png",
+          "seconds": 560.226,
+          "sector": 2,
+          "seed": 3688557504
+        },
+        {
+          "file": "secret-5-6.png",
+          "seconds": 560.795,
+          "sector": 2,
+          "seed": 3688557504
+        },
+        {
+          "file": "secret-point-22-1.png",
+          "seconds": 564.745,
+          "sector": 2,
+          "seed": 3688557504
+        },
+        {
+          "file": "secret-6-1.png",
+          "seconds": 565.892,
+          "sector": 2,
+          "seed": 3688557504
+        },
+        {
+          "file": "secret-6-2.png",
+          "seconds": 567.719,
+          "sector": 2,
+          "seed": 3688557504
+        },
+        {
+          "file": "secret-point-23-1.png",
+          "seconds": 568.278,
+          "sector": 2,
+          "seed": 3688557504
+        },
+        {
+          "file": "secret-end-1.png",
+          "seconds": 571.469,
+          "sector": 2,
+          "seed": 3688557504
+        }
+      ],
+      "progression": [
+        {
+          "name": "start",
+          "seconds": 0.779,
+          "state": "play",
+          "sector": 1,
+          "seed": 863236917,
+          "credits": 0,
+          "contracts": 0,
+          "cargo": 0,
+          "hull": 3,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 3.503,
+          "state": "play",
+          "sector": 1,
+          "seed": 863236917,
+          "credits": 0,
+          "contracts": 0,
+          "cargo": 1,
+          "hull": 3,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 11.652,
+          "state": "play",
+          "sector": 1,
+          "seed": 863236917,
+          "credits": 0,
+          "contracts": 0,
+          "cargo": 2,
+          "hull": 3,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 16.695,
+          "state": "play",
+          "sector": 1,
+          "seed": 863236917,
+          "credits": 0,
+          "contracts": 0,
+          "cargo": 3,
+          "hull": 3,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 23.645,
+          "state": "play",
+          "sector": 1,
+          "seed": 863236917,
+          "credits": 0,
+          "contracts": 0,
+          "cargo": 4,
+          "hull": 3,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 26.685,
+          "state": "play",
+          "sector": 1,
+          "seed": 863236917,
+          "credits": 0,
+          "contracts": 0,
+          "cargo": 5,
+          "hull": 3,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 29.964,
+          "state": "play",
+          "sector": 1,
+          "seed": 863236917,
+          "credits": 0,
+          "contracts": 0,
+          "cargo": 6,
+          "hull": 3,
+          "secretStage": 0
+        },
+        {
+          "name": "return",
+          "seconds": 42.957,
+          "state": "result",
+          "sector": 1,
+          "seed": 863236917,
+          "credits": 135,
+          "contracts": 1,
+          "cargo": 6,
+          "hull": 3,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 71.074,
+          "state": "play",
+          "sector": 1,
+          "seed": 719793503,
+          "credits": 135,
+          "contracts": 1,
+          "cargo": 3,
+          "hull": 3,
+          "secretStage": 0
+        },
+        {
+          "name": "return",
+          "seconds": 99.755,
+          "state": "result",
+          "sector": 1,
+          "seed": 719793503,
+          "credits": 320,
+          "contracts": 2,
+          "cargo": 3,
+          "hull": 3,
+          "secretStage": 0
+        },
+        {
+          "name": "purchase",
+          "seconds": 100.808,
+          "state": "upgrades",
+          "sector": 1,
+          "seed": 719793503,
+          "credits": 140,
+          "contracts": 2,
+          "cargo": 3,
+          "hull": 3,
+          "secretStage": 0
+        },
+        {
+          "name": "chain-0",
+          "seconds": 103.798,
+          "state": "play",
+          "sector": 1,
+          "seed": 418316839,
+          "credits": 140,
+          "contracts": 2,
+          "cargo": 1,
+          "hull": 3,
+          "secretStage": 0
+        },
+        {
+          "name": "chain-0",
+          "seconds": 106.492,
+          "state": "play",
+          "sector": 1,
+          "seed": 418316839,
+          "credits": 140,
+          "contracts": 2,
+          "cargo": 2,
+          "hull": 3,
+          "secretStage": 0
+        },
+        {
+          "name": "chain-0",
+          "seconds": 109.339,
+          "state": "play",
+          "sector": 1,
+          "seed": 418316839,
+          "credits": 140,
+          "contracts": 2,
+          "cargo": 3,
+          "hull": 3,
+          "secretStage": 0
+        },
+        {
+          "name": "chain-1",
+          "seconds": 121.729,
+          "state": "play",
+          "sector": 1,
+          "seed": 418316839,
+          "credits": 140,
+          "contracts": 2,
+          "cargo": 3,
+          "hull": 3,
+          "secretStage": 0
+        },
+        {
+          "name": "chain-2",
+          "seconds": 140.042,
+          "state": "result",
+          "sector": 1,
+          "seed": 418316839,
+          "credits": 311,
+          "contracts": 3,
+          "cargo": 3,
+          "hull": 1,
+          "secretStage": 0
+        },
+        {
+          "name": "return",
+          "seconds": 140.126,
+          "state": "result",
+          "sector": 1,
+          "seed": 418316839,
+          "credits": 311,
+          "contracts": 3,
+          "cargo": 3,
+          "hull": 1,
+          "secretStage": 0
+        },
+        {
+          "name": "purchase",
+          "seconds": 141.196,
+          "state": "upgrades",
+          "sector": 1,
+          "seed": 418316839,
+          "credits": 111,
+          "contracts": 3,
+          "cargo": 3,
+          "hull": 1,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 144.268,
+          "state": "play",
+          "sector": 1,
+          "seed": 765246428,
+          "credits": 111,
+          "contracts": 3,
+          "cargo": 1,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 147.013,
+          "state": "play",
+          "sector": 1,
+          "seed": 765246428,
+          "credits": 111,
+          "contracts": 3,
+          "cargo": 2,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 150.365,
+          "state": "play",
+          "sector": 1,
+          "seed": 765246428,
+          "credits": 111,
+          "contracts": 3,
+          "cargo": 3,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 154.804,
+          "state": "play",
+          "sector": 1,
+          "seed": 765246428,
+          "credits": 111,
+          "contracts": 3,
+          "cargo": 4,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 157.638,
+          "state": "play",
+          "sector": 1,
+          "seed": 765246428,
+          "credits": 111,
+          "contracts": 3,
+          "cargo": 5,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 160.504,
+          "state": "play",
+          "sector": 1,
+          "seed": 765246428,
+          "credits": 111,
+          "contracts": 3,
+          "cargo": 6,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "return",
+          "seconds": 171.687,
+          "state": "result",
+          "sector": 1,
+          "seed": 765246428,
+          "credits": 266,
+          "contracts": 4,
+          "cargo": 6,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "purchase",
+          "seconds": 172.672,
+          "state": "upgrades",
+          "sector": 1,
+          "seed": 765246428,
+          "credits": 106,
+          "contracts": 4,
+          "cargo": 6,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 190.725,
+          "state": "play",
+          "sector": 1,
+          "seed": 2050177980,
+          "credits": 106,
+          "contracts": 4,
+          "cargo": 3,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 193.888,
+          "state": "play",
+          "sector": 1,
+          "seed": 2050177980,
+          "credits": 106,
+          "contracts": 4,
+          "cargo": 4,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "return",
+          "seconds": 217.391,
+          "state": "result",
+          "sector": 1,
+          "seed": 2050177980,
+          "credits": 334,
+          "contracts": 5,
+          "cargo": 5,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "purchase",
+          "seconds": 218.434,
+          "state": "upgrades",
+          "sector": 1,
+          "seed": 2050177980,
+          "credits": 124,
+          "contracts": 5,
+          "cargo": 5,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 228.406,
+          "state": "play",
+          "sector": 1,
+          "seed": 3070939587,
+          "credits": 124,
+          "contracts": 5,
+          "cargo": 2,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 231.673,
+          "state": "play",
+          "sector": 1,
+          "seed": 3070939587,
+          "credits": 124,
+          "contracts": 5,
+          "cargo": 3,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 235.759,
+          "state": "play",
+          "sector": 1,
+          "seed": 3070939587,
+          "credits": 124,
+          "contracts": 5,
+          "cargo": 4,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "return",
+          "seconds": 245.463,
+          "state": "result",
+          "sector": 1,
+          "seed": 3070939587,
+          "credits": 282,
+          "contracts": 6,
+          "cargo": 4,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "purchase",
+          "seconds": 246.334,
+          "state": "upgrades",
+          "sector": 1,
+          "seed": 3070939587,
+          "credits": 92,
+          "contracts": 6,
+          "cargo": 4,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 274.191,
+          "state": "play",
+          "sector": 1,
+          "seed": 1258432210,
+          "credits": 92,
+          "contracts": 6,
+          "cargo": 4,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "return",
+          "seconds": 300.432,
+          "state": "result",
+          "sector": 1,
+          "seed": 1258432210,
+          "credits": 391,
+          "contracts": 7,
+          "cargo": 4,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "purchase",
+          "seconds": 301.342,
+          "state": "upgrades",
+          "sector": 1,
+          "seed": 1258432210,
+          "credits": 206,
+          "contracts": 7,
+          "cargo": 4,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 321.814,
+          "state": "play",
+          "sector": 1,
+          "seed": 4269223291,
+          "credits": 206,
+          "contracts": 7,
+          "cargo": 3,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 324.189,
+          "state": "play",
+          "sector": 1,
+          "seed": 4269223291,
+          "credits": 206,
+          "contracts": 7,
+          "cargo": 4,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "return",
+          "seconds": 347.93,
+          "state": "result",
+          "sector": 1,
+          "seed": 4269223291,
+          "credits": 439,
+          "contracts": 8,
+          "cargo": 5,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "purchase",
+          "seconds": 348.806,
+          "state": "upgrades",
+          "sector": 1,
+          "seed": 4269223291,
+          "credits": 179,
+          "contracts": 8,
+          "cargo": 5,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 369.222,
+          "state": "play",
+          "sector": 1,
+          "seed": 888491278,
+          "credits": 179,
+          "contracts": 8,
+          "cargo": 2,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 371.465,
+          "state": "play",
+          "sector": 1,
+          "seed": 888491278,
+          "credits": 179,
+          "contracts": 8,
+          "cargo": 3,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "return",
+          "seconds": 393.992,
+          "state": "result",
+          "sector": 1,
+          "seed": 888491278,
+          "credits": 402,
+          "contracts": 9,
+          "cargo": 4,
+          "hull": 3,
+          "secretStage": 0
+        },
+        {
+          "name": "purchase",
+          "seconds": 395.004,
+          "state": "upgrades",
+          "sector": 1,
+          "seed": 888491278,
+          "credits": 102,
+          "contracts": 9,
+          "cargo": 4,
+          "hull": 3,
+          "secretStage": 0
+        },
+        {
+          "name": "mission-step",
+          "seconds": 400.348,
+          "state": "play",
+          "sector": 1,
+          "seed": 2370345305,
+          "credits": 102,
+          "contracts": 9,
+          "cargo": 1,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "mission-step",
+          "seconds": 409.688,
+          "state": "play",
+          "sector": 1,
+          "seed": 2370345305,
+          "credits": 102,
+          "contracts": 9,
+          "cargo": 2,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "return",
+          "seconds": 420.742,
+          "state": "result",
+          "sector": 1,
+          "seed": 2370345305,
+          "credits": 287,
+          "contracts": 10,
+          "cargo": 3,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "purchase",
+          "seconds": 421.582,
+          "state": "upgrades",
+          "sector": 1,
+          "seed": 2370345305,
+          "credits": 147,
+          "contracts": 10,
+          "cargo": 3,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "unlock",
+          "seconds": 421.907,
+          "state": "sectorSelect",
+          "sector": 1,
+          "seed": 2370345305,
+          "credits": 147,
+          "contracts": 10,
+          "cargo": 3,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "sector2",
+          "seconds": 422.202,
+          "state": "play",
+          "sector": 2,
+          "seed": 3688557504,
+          "credits": 147,
+          "contracts": 10,
+          "cargo": 0,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "signal",
+          "seconds": 436.61,
+          "state": "play",
+          "sector": 2,
+          "seed": 3688557504,
+          "credits": 147,
+          "contracts": 10,
+          "cargo": 0,
+          "hull": 4,
+          "secretStage": 1
+        },
+        {
+          "name": "key",
+          "seconds": 458.144,
+          "state": "play",
+          "sector": 2,
+          "seed": 3688557504,
+          "credits": 147,
+          "contracts": 10,
+          "cargo": 4,
+          "hull": 4,
+          "secretStage": 2
+        },
+        {
+          "name": "gate",
+          "seconds": 475.999,
+          "state": "play",
+          "sector": 2,
+          "seed": 3688557504,
+          "credits": 147,
+          "contracts": 10,
+          "cargo": 4,
+          "hull": 4,
+          "secretStage": 4,
+          "secretProgress": 0
+        },
+        {
+          "name": "secret-end",
+          "seconds": 567.054,
+          "state": "play",
+          "sector": 2,
+          "seed": 3688557504,
+          "credits": 147,
+          "contracts": 10,
+          "cargo": 4,
+          "hull": 4,
+          "secretStage": 6,
+          "secretProgress": 6
+        },
+        {
+          "name": "sector2-return",
+          "seconds": 581.545,
+          "state": "result",
+          "sector": 2,
+          "seed": 3688557504,
+          "credits": 655,
+          "contracts": 11,
+          "cargo": 4,
+          "hull": 4,
+          "secretStage": 6,
+          "secretProgress": 6
+        },
+        {
+          "name": "upgrades-final",
+          "seconds": 581.846,
+          "state": "upgrades",
+          "sector": 2,
+          "seed": 3688557504,
+          "credits": 655,
+          "contracts": 11,
+          "cargo": 4,
+          "hull": 4,
+          "secretStage": 6,
+          "secretProgress": 6
+        },
+        {
+          "name": "reload-continue",
+          "seconds": 585.353,
+          "state": "play",
+          "sector": 2,
+          "seed": 1842625101,
+          "credits": 655,
+          "contracts": 11,
+          "cargo": 0,
+          "hull": 4,
+          "secretStage": 0
+        }
+      ]
+    },
+    {
+      "id": "mobile",
+      "sha256": "110E4C820112195FC7AACEFDC65A3E8CE49AA33646C64D36C99CA3040C3EE23E",
+      "platform": "mobile",
+      "seconds": 588.705,
+      "mode": "fresh storage; keyboard and real clicks; coordinate-aware navigation; no game state writes",
+      "errors": [],
+      "timeline": [
+        {
+          "file": "loot-1.png",
+          "seconds": 9.405,
+          "sector": 1,
+          "seed": 2190449292
+        },
+        {
+          "file": "loot-2.png",
+          "seconds": 12.302,
+          "sector": 1,
+          "seed": 2190449292
+        },
+        {
+          "file": "loot-3.png",
+          "seconds": 16.06,
+          "sector": 1,
+          "seed": 2190449292
+        },
+        {
+          "file": "loot-4.png",
+          "seconds": 19.114,
+          "sector": 1,
+          "seed": 2190449292
+        },
+        {
+          "file": "loot-5.png",
+          "seconds": 21.816,
+          "sector": 1,
+          "seed": 2190449292
+        },
+        {
+          "file": "loot-6.png",
+          "seconds": 24.297,
+          "sector": 1,
+          "seed": 2190449292
+        },
+        {
+          "file": "chain-1-1.png",
+          "seconds": 137.812,
+          "sector": 1,
+          "seed": 4161142426
+        },
+        {
+          "file": "chase-1.png",
+          "seconds": 139.282,
+          "sector": 1,
+          "seed": 4161142426
+        },
+        {
+          "file": "chase-2.png",
+          "seconds": 141.062,
+          "sector": 1,
+          "seed": 4161142426
+        },
+        {
+          "file": "chase-3.png",
+          "seconds": 142.962,
+          "sector": 1,
+          "seed": 4161142426
+        },
+        {
+          "file": "chase-4.png",
+          "seconds": 229.782,
+          "sector": 1,
+          "seed": 1470818333
+        },
+        {
+          "file": "chase-5.png",
+          "seconds": 231.552,
+          "sector": 1,
+          "seed": 1470818333
+        },
+        {
+          "file": "chase-6.png",
+          "seconds": 233.298,
+          "sector": 1,
+          "seed": 1470818333
+        },
+        {
+          "file": "sector2-1.png",
+          "seconds": 438.258,
+          "sector": 2,
+          "seed": 3711175844
+        },
+        {
+          "file": "gate-1.png",
+          "seconds": 489.332,
+          "sector": 2,
+          "seed": 3711175844
+        },
+        {
+          "file": "secret-point-0-1.png",
+          "seconds": 491.569,
+          "sector": 2,
+          "seed": 3711175844
+        },
+        {
+          "file": "secret-point-1-1.png",
+          "seconds": 494.102,
+          "sector": 2,
+          "seed": 3711175844
+        },
+        {
+          "file": "secret-point-2-1.png",
+          "seconds": 496.54,
+          "sector": 2,
+          "seed": 3711175844
+        },
+        {
+          "file": "secret-point-3-1.png",
+          "seconds": 501.715,
+          "sector": 2,
+          "seed": 3711175844
+        },
+        {
+          "file": "secret-1-1.png",
+          "seconds": 502.423,
+          "sector": 2,
+          "seed": 3711175844
+        },
+        {
+          "file": "secret-1-2.png",
+          "seconds": 504.292,
+          "sector": 2,
+          "seed": 3711175844
+        },
+        {
+          "file": "secret-point-4-1.png",
+          "seconds": 505.855,
+          "sector": 2,
+          "seed": 3711175844
+        },
+        {
+          "file": "secret-1-3.png",
+          "seconds": 506.157,
+          "sector": 2,
+          "seed": 3711175844
+        },
+        {
+          "file": "secret-1-4.png",
+          "seconds": 507.888,
+          "sector": 2,
+          "seed": 3711175844
+        },
+        {
+          "file": "secret-point-5-1.png",
+          "seconds": 508.471,
+          "sector": 2,
+          "seed": 3711175844
+        },
+        {
+          "file": "secret-1-5.png",
+          "seconds": 509.702,
+          "sector": 2,
+          "seed": 3711175844
+        },
+        {
+          "file": "secret-point-6-1.png",
+          "seconds": 510.874,
+          "sector": 2,
+          "seed": 3711175844
+        },
+        {
+          "file": "secret-1-6.png",
+          "seconds": 511.48,
+          "sector": 2,
+          "seed": 3711175844
+        },
+        {
+          "file": "secret-point-7-1.png",
+          "seconds": 517.266,
+          "sector": 2,
+          "seed": 3711175844
+        },
+        {
+          "file": "secret-2-1.png",
+          "seconds": 518.668,
+          "sector": 2,
+          "seed": 3711175844
+        },
+        {
+          "file": "secret-2-2.png",
+          "seconds": 520.511,
+          "sector": 2,
+          "seed": 3711175844
+        },
+        {
+          "file": "secret-point-8-1.png",
+          "seconds": 520.8,
+          "sector": 2,
+          "seed": 3711175844
+        },
+        {
+          "file": "secret-2-3.png",
+          "seconds": 522.315,
+          "sector": 2,
+          "seed": 3711175844
+        },
+        {
+          "file": "secret-point-9-1.png",
+          "seconds": 523.383,
+          "sector": 2,
+          "seed": 3711175844
+        },
+        {
+          "file": "secret-2-4.png",
+          "seconds": 524.181,
+          "sector": 2,
+          "seed": 3711175844
+        },
+        {
+          "file": "secret-point-10-1.png",
+          "seconds": 525.741,
+          "sector": 2,
+          "seed": 3711175844
+        },
+        {
+          "file": "secret-2-5.png",
+          "seconds": 526.151,
+          "sector": 2,
+          "seed": 3711175844
+        },
+        {
+          "file": "secret-2-6.png",
+          "seconds": 527.647,
+          "sector": 2,
+          "seed": 3711175844
+        },
+        {
+          "file": "secret-point-11-1.png",
+          "seconds": 532.432,
+          "sector": 2,
+          "seed": 3711175844
+        },
+        {
+          "file": "secret-3-1.png",
+          "seconds": 533.094,
+          "sector": 2,
+          "seed": 3711175844
+        },
+        {
+          "file": "secret-3-2.png",
+          "seconds": 534.823,
+          "sector": 2,
+          "seed": 3711175844
+        },
+        {
+          "file": "secret-point-12-1.png",
+          "seconds": 536.498,
+          "sector": 2,
+          "seed": 3711175844
+        },
+        {
+          "file": "secret-3-3.png",
+          "seconds": 536.823,
+          "sector": 2,
+          "seed": 3711175844
+        },
+        {
+          "file": "secret-3-4.png",
+          "seconds": 538.575,
+          "sector": 2,
+          "seed": 3711175844
+        },
+        {
+          "file": "secret-point-13-1.png",
+          "seconds": 539.168,
+          "sector": 2,
+          "seed": 3711175844
+        },
+        {
+          "file": "secret-3-5.png",
+          "seconds": 540.259,
+          "sector": 2,
+          "seed": 3711175844
+        },
+        {
+          "file": "secret-3-6.png",
+          "seconds": 542.014,
+          "sector": 2,
+          "seed": 3711175844
+        },
+        {
+          "file": "secret-point-14-1.png",
+          "seconds": 542.419,
+          "sector": 2,
+          "seed": 3711175844
+        },
+        {
+          "file": "secret-4-1.png",
+          "seconds": 543.923,
+          "sector": 2,
+          "seed": 3711175844
+        },
+        {
+          "file": "secret-4-2.png",
+          "seconds": 545.726,
+          "sector": 2,
+          "seed": 3711175844
+        },
+        {
+          "file": "secret-point-15-1.png",
+          "seconds": 546.45,
+          "sector": 2,
+          "seed": 3711175844
+        },
+        {
+          "file": "secret-4-3.png",
+          "seconds": 547.521,
+          "sector": 2,
+          "seed": 3711175844
+        },
+        {
+          "file": "secret-point-16-1.png",
+          "seconds": 548.744,
+          "sector": 2,
+          "seed": 3711175844
+        },
+        {
+          "file": "secret-4-4.png",
+          "seconds": 549.269,
+          "sector": 2,
+          "seed": 3711175844
+        },
+        {
+          "file": "secret-4-5.png",
+          "seconds": 551.273,
+          "sector": 2,
+          "seed": 3711175844
+        },
+        {
+          "file": "secret-point-17-1.png",
+          "seconds": 551.518,
+          "sector": 2,
+          "seed": 3711175844
+        },
+        {
+          "file": "secret-4-6.png",
+          "seconds": 552.916,
+          "sector": 2,
+          "seed": 3711175844
+        },
+        {
+          "file": "secret-point-18-1.png",
+          "seconds": 557.451,
+          "sector": 2,
+          "seed": 3711175844
+        },
+        {
+          "file": "secret-5-1.png",
+          "seconds": 558.379,
+          "sector": 2,
+          "seed": 3711175844
+        },
+        {
+          "file": "secret-5-2.png",
+          "seconds": 560.249,
+          "sector": 2,
+          "seed": 3711175844
+        },
+        {
+          "file": "secret-point-19-1.png",
+          "seconds": 561.519,
+          "sector": 2,
+          "seed": 3711175844
+        },
+        {
+          "file": "secret-5-3.png",
+          "seconds": 562.023,
+          "sector": 2,
+          "seed": 3711175844
+        },
+        {
+          "file": "secret-5-4.png",
+          "seconds": 563.856,
+          "sector": 2,
+          "seed": 3711175844
+        },
+        {
+          "file": "secret-point-20-1.png",
+          "seconds": 564.188,
+          "sector": 2,
+          "seed": 3711175844
+        },
+        {
+          "file": "secret-5-5.png",
+          "seconds": 565.712,
+          "sector": 2,
+          "seed": 3711175844
+        },
+        {
+          "file": "secret-point-21-1.png",
+          "seconds": 566.877,
+          "sector": 2,
+          "seed": 3711175844
+        },
+        {
+          "file": "secret-5-6.png",
+          "seconds": 567.601,
+          "sector": 2,
+          "seed": 3711175844
+        },
+        {
+          "file": "secret-point-22-1.png",
+          "seconds": 572.626,
+          "sector": 2,
+          "seed": 3711175844
+        },
+        {
+          "file": "secret-6-1.png",
+          "seconds": 574.646,
+          "sector": 2,
+          "seed": 3711175844
+        },
+        {
+          "file": "secret-point-23-1.png",
+          "seconds": 575.615,
+          "sector": 2,
+          "seed": 3711175844
+        },
+        {
+          "file": "secret-end-1.png",
+          "seconds": 578.438,
+          "sector": 2,
+          "seed": 3711175844
+        }
+      ],
+      "progression": [
+        {
+          "name": "start",
+          "seconds": 0.944,
+          "state": "play",
+          "sector": 1,
+          "seed": 2190449292,
+          "credits": 0,
+          "contracts": 0,
+          "cargo": 0,
+          "hull": 3,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 3.763,
+          "state": "play",
+          "sector": 1,
+          "seed": 2190449292,
+          "credits": 0,
+          "contracts": 0,
+          "cargo": 1,
+          "hull": 3,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 6.741,
+          "state": "play",
+          "sector": 1,
+          "seed": 2190449292,
+          "credits": 0,
+          "contracts": 0,
+          "cargo": 2,
+          "hull": 3,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 10.521,
+          "state": "play",
+          "sector": 1,
+          "seed": 2190449292,
+          "credits": 0,
+          "contracts": 0,
+          "cargo": 3,
+          "hull": 3,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 13.662,
+          "state": "play",
+          "sector": 1,
+          "seed": 2190449292,
+          "credits": 0,
+          "contracts": 0,
+          "cargo": 4,
+          "hull": 3,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 16.259,
+          "state": "play",
+          "sector": 1,
+          "seed": 2190449292,
+          "credits": 0,
+          "contracts": 0,
+          "cargo": 5,
+          "hull": 3,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 18.698,
+          "state": "play",
+          "sector": 1,
+          "seed": 2190449292,
+          "credits": 0,
+          "contracts": 0,
+          "cargo": 6,
+          "hull": 3,
+          "secretStage": 0
+        },
+        {
+          "name": "return",
+          "seconds": 32.161,
+          "state": "result",
+          "sector": 1,
+          "seed": 2190449292,
+          "credits": 135,
+          "contracts": 1,
+          "cargo": 6,
+          "hull": 3,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 70.843,
+          "state": "play",
+          "sector": 1,
+          "seed": 450309371,
+          "credits": 135,
+          "contracts": 1,
+          "cargo": 3,
+          "hull": 3,
+          "secretStage": 0
+        },
+        {
+          "name": "return",
+          "seconds": 107.715,
+          "state": "result",
+          "sector": 1,
+          "seed": 450309371,
+          "credits": 320,
+          "contracts": 2,
+          "cargo": 3,
+          "hull": 3,
+          "secretStage": 0
+        },
+        {
+          "name": "purchase",
+          "seconds": 108.855,
+          "state": "upgrades",
+          "sector": 1,
+          "seed": 450309371,
+          "credits": 140,
+          "contracts": 2,
+          "cargo": 3,
+          "hull": 3,
+          "secretStage": 0
+        },
+        {
+          "name": "chain-0",
+          "seconds": 111.829,
+          "state": "play",
+          "sector": 1,
+          "seed": 4161142426,
+          "credits": 140,
+          "contracts": 2,
+          "cargo": 1,
+          "hull": 3,
+          "secretStage": 0
+        },
+        {
+          "name": "chain-0",
+          "seconds": 115.062,
+          "state": "play",
+          "sector": 1,
+          "seed": 4161142426,
+          "credits": 140,
+          "contracts": 2,
+          "cargo": 2,
+          "hull": 3,
+          "secretStage": 0
+        },
+        {
+          "name": "chain-0",
+          "seconds": 118.88,
+          "state": "play",
+          "sector": 1,
+          "seed": 4161142426,
+          "credits": 140,
+          "contracts": 2,
+          "cargo": 3,
+          "hull": 3,
+          "secretStage": 0
+        },
+        {
+          "name": "chain-1",
+          "seconds": 132.28,
+          "state": "play",
+          "sector": 1,
+          "seed": 4161142426,
+          "credits": 140,
+          "contracts": 2,
+          "cargo": 3,
+          "hull": 3,
+          "secretStage": 0
+        },
+        {
+          "name": "chain-2",
+          "seconds": 146.896,
+          "state": "result",
+          "sector": 1,
+          "seed": 4161142426,
+          "credits": 323,
+          "contracts": 3,
+          "cargo": 4,
+          "hull": 2,
+          "secretStage": 0
+        },
+        {
+          "name": "return",
+          "seconds": 147.045,
+          "state": "result",
+          "sector": 1,
+          "seed": 4161142426,
+          "credits": 323,
+          "contracts": 3,
+          "cargo": 4,
+          "hull": 2,
+          "secretStage": 0
+        },
+        {
+          "name": "purchase",
+          "seconds": 148.261,
+          "state": "upgrades",
+          "sector": 1,
+          "seed": 4161142426,
+          "credits": 123,
+          "contracts": 3,
+          "cargo": 4,
+          "hull": 2,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 151.247,
+          "state": "play",
+          "sector": 1,
+          "seed": 934803587,
+          "credits": 123,
+          "contracts": 3,
+          "cargo": 1,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 154.005,
+          "state": "play",
+          "sector": 1,
+          "seed": 934803587,
+          "credits": 123,
+          "contracts": 3,
+          "cargo": 2,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 158.396,
+          "state": "play",
+          "sector": 1,
+          "seed": 934803587,
+          "credits": 123,
+          "contracts": 3,
+          "cargo": 3,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 161.685,
+          "state": "play",
+          "sector": 1,
+          "seed": 934803587,
+          "credits": 123,
+          "contracts": 3,
+          "cargo": 4,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 165.891,
+          "state": "play",
+          "sector": 1,
+          "seed": 934803587,
+          "credits": 123,
+          "contracts": 3,
+          "cargo": 5,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 168.112,
+          "state": "play",
+          "sector": 1,
+          "seed": 934803587,
+          "credits": 123,
+          "contracts": 3,
+          "cargo": 6,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "return",
+          "seconds": 180.707,
+          "state": "result",
+          "sector": 1,
+          "seed": 934803587,
+          "credits": 278,
+          "contracts": 4,
+          "cargo": 6,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "purchase",
+          "seconds": 181.962,
+          "state": "upgrades",
+          "sector": 1,
+          "seed": 934803587,
+          "credits": 118,
+          "contracts": 4,
+          "cargo": 6,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 213.79,
+          "state": "play",
+          "sector": 1,
+          "seed": 1470818333,
+          "credits": 118,
+          "contracts": 4,
+          "cargo": 5,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "return",
+          "seconds": 242.764,
+          "state": "result",
+          "sector": 1,
+          "seed": 1470818333,
+          "credits": 368,
+          "contracts": 5,
+          "cargo": 6,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "purchase",
+          "seconds": 243.7,
+          "state": "upgrades",
+          "sector": 1,
+          "seed": 1470818333,
+          "credits": 158,
+          "contracts": 5,
+          "cargo": 6,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 254.63,
+          "state": "play",
+          "sector": 1,
+          "seed": 626788845,
+          "credits": 158,
+          "contracts": 5,
+          "cargo": 2,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 257.008,
+          "state": "play",
+          "sector": 1,
+          "seed": 626788845,
+          "credits": 158,
+          "contracts": 5,
+          "cargo": 3,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 260.981,
+          "state": "play",
+          "sector": 1,
+          "seed": 626788845,
+          "credits": 158,
+          "contracts": 5,
+          "cargo": 4,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "return",
+          "seconds": 274.152,
+          "state": "result",
+          "sector": 1,
+          "seed": 626788845,
+          "credits": 316,
+          "contracts": 6,
+          "cargo": 4,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "purchase",
+          "seconds": 275.209,
+          "state": "upgrades",
+          "sector": 1,
+          "seed": 626788845,
+          "credits": 126,
+          "contracts": 6,
+          "cargo": 4,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 294.613,
+          "state": "play",
+          "sector": 1,
+          "seed": 450774255,
+          "credits": 126,
+          "contracts": 6,
+          "cargo": 2,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "return",
+          "seconds": 313.833,
+          "state": "result",
+          "sector": 1,
+          "seed": 450774255,
+          "credits": 325,
+          "contracts": 7,
+          "cargo": 2,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "purchase",
+          "seconds": 314.946,
+          "state": "upgrades",
+          "sector": 1,
+          "seed": 450774255,
+          "credits": 140,
+          "contracts": 7,
+          "cargo": 2,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 327.91,
+          "state": "play",
+          "sector": 1,
+          "seed": 3710962058,
+          "credits": 140,
+          "contracts": 7,
+          "cargo": 2,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 335.679,
+          "state": "play",
+          "sector": 1,
+          "seed": 3710962058,
+          "credits": 140,
+          "contracts": 7,
+          "cargo": 3,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "return",
+          "seconds": 352.854,
+          "state": "result",
+          "sector": 1,
+          "seed": 3710962058,
+          "credits": 339,
+          "contracts": 8,
+          "cargo": 3,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "purchase",
+          "seconds": 353.835,
+          "state": "upgrades",
+          "sector": 1,
+          "seed": 3710962058,
+          "credits": 79,
+          "contracts": 8,
+          "cargo": 3,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 370.718,
+          "state": "play",
+          "sector": 1,
+          "seed": 2207551734,
+          "credits": 79,
+          "contracts": 8,
+          "cargo": 3,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 376.339,
+          "state": "play",
+          "sector": 1,
+          "seed": 2207551734,
+          "credits": 79,
+          "contracts": 8,
+          "cargo": 4,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "return",
+          "seconds": 398.371,
+          "state": "result",
+          "sector": 1,
+          "seed": 2207551734,
+          "credits": 367,
+          "contracts": 9,
+          "cargo": 5,
+          "hull": 3,
+          "secretStage": 0
+        },
+        {
+          "name": "purchase",
+          "seconds": 399.375,
+          "state": "upgrades",
+          "sector": 1,
+          "seed": 2207551734,
+          "credits": 67,
+          "contracts": 9,
+          "cargo": 5,
+          "hull": 3,
+          "secretStage": 0
+        },
+        {
+          "name": "mission-step",
+          "seconds": 406.506,
+          "state": "play",
+          "sector": 1,
+          "seed": 694940427,
+          "credits": 67,
+          "contracts": 9,
+          "cargo": 0,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "mission-step",
+          "seconds": 416.622,
+          "state": "play",
+          "sector": 1,
+          "seed": 694940427,
+          "credits": 67,
+          "contracts": 9,
+          "cargo": 1,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "return",
+          "seconds": 430.906,
+          "state": "result",
+          "sector": 1,
+          "seed": 694940427,
+          "credits": 223,
+          "contracts": 10,
+          "cargo": 1,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "purchase",
+          "seconds": 431.954,
+          "state": "upgrades",
+          "sector": 1,
+          "seed": 694940427,
+          "credits": 83,
+          "contracts": 10,
+          "cargo": 1,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "unlock",
+          "seconds": 432.352,
+          "state": "sectorSelect",
+          "sector": 1,
+          "seed": 694940427,
+          "credits": 83,
+          "contracts": 10,
+          "cargo": 1,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "sector2",
+          "seconds": 432.721,
+          "state": "play",
+          "sector": 2,
+          "seed": 3711175844,
+          "credits": 83,
+          "contracts": 10,
+          "cargo": 0,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "signal",
+          "seconds": 446.879,
+          "state": "play",
+          "sector": 2,
+          "seed": 3711175844,
+          "credits": 83,
+          "contracts": 10,
+          "cargo": 0,
+          "hull": 4,
+          "secretStage": 1
+        },
+        {
+          "name": "key",
+          "seconds": 465.928,
+          "state": "play",
+          "sector": 2,
+          "seed": 3711175844,
+          "credits": 83,
+          "contracts": 10,
+          "cargo": 1,
+          "hull": 4,
+          "secretStage": 2
+        },
+        {
+          "name": "gate",
+          "seconds": 483.81,
+          "state": "play",
+          "sector": 2,
+          "seed": 3711175844,
+          "credits": 83,
+          "contracts": 10,
+          "cargo": 2,
+          "hull": 4,
+          "secretStage": 4,
+          "secretProgress": 0
+        },
+        {
+          "name": "secret-end",
+          "seconds": 573.036,
+          "state": "play",
+          "sector": 2,
+          "seed": 3711175844,
+          "credits": 83,
+          "contracts": 10,
+          "cargo": 2,
+          "hull": 4,
+          "secretStage": 6,
+          "secretProgress": 6
+        },
+        {
+          "name": "sector2-return",
+          "seconds": 585.934,
+          "state": "result",
+          "sector": 2,
+          "seed": 3711175844,
+          "credits": 491,
+          "contracts": 11,
+          "cargo": 2,
+          "hull": 4,
+          "secretStage": 6,
+          "secretProgress": 6
+        },
+        {
+          "name": "upgrades-final",
+          "seconds": 586.261,
+          "state": "upgrades",
+          "sector": 2,
+          "seed": 3711175844,
+          "credits": 491,
+          "contracts": 11,
+          "cargo": 2,
+          "hull": 4,
+          "secretStage": 6,
+          "secretProgress": 6
+        },
+        {
+          "name": "reload-continue",
+          "seconds": 588.704,
+          "state": "play",
+          "sector": 2,
+          "seed": 445284524,
+          "credits": 491,
+          "contracts": 11,
+          "cargo": 0,
+          "hull": 4,
+          "secretStage": 0
+        }
+      ]
+    },
+    {
+      "id": "mobile-detail",
+      "sha256": "110E4C820112195FC7AACEFDC65A3E8CE49AA33646C64D36C99CA3040C3EE23E",
+      "platform": "mobile",
+      "seconds": 575.805,
+      "mode": "fresh storage; keyboard and real clicks; coordinate-aware navigation; no game state writes",
+      "errors": [],
+      "timeline": [
+        {
+          "file": "loot-1.png",
+          "seconds": 5.458,
+          "sector": 1,
+          "seed": 1388834305
+        },
+        {
+          "file": "loot-2.png",
+          "seconds": 8.213,
+          "sector": 1,
+          "seed": 1388834305
+        },
+        {
+          "file": "loot-3.png",
+          "seconds": 11.446,
+          "sector": 1,
+          "seed": 1388834305
+        },
+        {
+          "file": "loot-4.png",
+          "seconds": 14.714,
+          "sector": 1,
+          "seed": 1388834305
+        },
+        {
+          "file": "loot-5.png",
+          "seconds": 18.035,
+          "sector": 1,
+          "seed": 1388834305
+        },
+        {
+          "file": "loot-6.png",
+          "seconds": 20.299,
+          "sector": 1,
+          "seed": 1388834305
+        },
+        {
+          "file": "chain-1-1.png",
+          "seconds": 114.241,
+          "sector": 1,
+          "seed": 2917869445
+        },
+        {
+          "file": "chase-1.png",
+          "seconds": 116.689,
+          "sector": 1,
+          "seed": 2917869445
+        },
+        {
+          "file": "chase-2.png",
+          "seconds": 118.449,
+          "sector": 1,
+          "seed": 2917869445
+        },
+        {
+          "file": "chase-3.png",
+          "seconds": 120.268,
+          "sector": 1,
+          "seed": 2917869445
+        },
+        {
+          "file": "chase-4.png",
+          "seconds": 326.141,
+          "sector": 1,
+          "seed": 1468918954
+        },
+        {
+          "file": "chase-5.png",
+          "seconds": 327.928,
+          "sector": 1,
+          "seed": 1468918954
+        },
+        {
+          "file": "chase-6.png",
+          "seconds": 329.76,
+          "sector": 1,
+          "seed": 1468918954
+        },
+        {
+          "file": "sector2-1.png",
+          "seconds": 419.867,
+          "sector": 2,
+          "seed": 2601890043
+        },
+        {
+          "file": "signal-1.png",
+          "seconds": 460.59,
+          "sector": 2,
+          "seed": 2601890043
+        },
+        {
+          "file": "key-1.png",
+          "seconds": 468.22,
+          "sector": 2,
+          "seed": 2601890043
+        },
+        {
+          "file": "gate-1.png",
+          "seconds": 477.337,
+          "sector": 2,
+          "seed": 2601890043
+        },
+        {
+          "file": "secret-point-0-1.png",
+          "seconds": 479.398,
+          "sector": 2,
+          "seed": 2601890043
+        },
+        {
+          "file": "secret-point-1-1.png",
+          "seconds": 481.56,
+          "sector": 2,
+          "seed": 2601890043
+        },
+        {
+          "file": "secret-point-2-1.png",
+          "seconds": 483.58,
+          "sector": 2,
+          "seed": 2601890043
+        },
+        {
+          "file": "secret-1-1.png",
+          "seconds": 485.338,
+          "sector": 2,
+          "seed": 2601890043
+        },
+        {
+          "file": "secret-1-2.png",
+          "seconds": 487.156,
+          "sector": 2,
+          "seed": 2601890043
+        },
+        {
+          "file": "secret-point-3-1.png",
+          "seconds": 487.737,
+          "sector": 2,
+          "seed": 2601890043
+        },
+        {
+          "file": "secret-1-3.png",
+          "seconds": 488.94,
+          "sector": 2,
+          "seed": 2601890043
+        },
+        {
+          "file": "secret-1-4.png",
+          "seconds": 490.829,
+          "sector": 2,
+          "seed": 2601890043
+        },
+        {
+          "file": "secret-1-5.png",
+          "seconds": 492.597,
+          "sector": 2,
+          "seed": 2601890043
+        },
+        {
+          "file": "secret-point-4-1.png",
+          "seconds": 493.882,
+          "sector": 2,
+          "seed": 2601890043
+        },
+        {
+          "file": "secret-2-1.png",
+          "seconds": 494.376,
+          "sector": 2,
+          "seed": 2601890043
+        },
+        {
+          "file": "secret-2-2.png",
+          "seconds": 496.211,
+          "sector": 2,
+          "seed": 2601890043
+        },
+        {
+          "file": "secret-point-5-1.png",
+          "seconds": 497.871,
+          "sector": 2,
+          "seed": 2601890043
+        },
+        {
+          "file": "secret-2-3.png",
+          "seconds": 498.147,
+          "sector": 2,
+          "seed": 2601890043
+        },
+        {
+          "file": "secret-2-4.png",
+          "seconds": 499.784,
+          "sector": 2,
+          "seed": 2601890043
+        },
+        {
+          "file": "secret-point-6-1.png",
+          "seconds": 500.507,
+          "sector": 2,
+          "seed": 2601890043
+        },
+        {
+          "file": "secret-2-5.png",
+          "seconds": 501.589,
+          "sector": 2,
+          "seed": 2601890043
+        },
+        {
+          "file": "secret-2-6.png",
+          "seconds": 503.377,
+          "sector": 2,
+          "seed": 2601890043
+        },
+        {
+          "file": "secret-point-7-1.png",
+          "seconds": 504.071,
+          "sector": 2,
+          "seed": 2601890043
+        },
+        {
+          "file": "secret-3-1.png",
+          "seconds": 505.181,
+          "sector": 2,
+          "seed": 2601890043
+        },
+        {
+          "file": "secret-3-2.png",
+          "seconds": 506.997,
+          "sector": 2,
+          "seed": 2601890043
+        },
+        {
+          "file": "secret-point-8-1.png",
+          "seconds": 508.024,
+          "sector": 2,
+          "seed": 2601890043
+        },
+        {
+          "file": "secret-3-3.png",
+          "seconds": 508.813,
+          "sector": 2,
+          "seed": 2601890043
+        },
+        {
+          "file": "secret-3-4.png",
+          "seconds": 510.669,
+          "sector": 2,
+          "seed": 2601890043
+        },
+        {
+          "file": "secret-3-5.png",
+          "seconds": 512.434,
+          "sector": 2,
+          "seed": 2601890043
+        },
+        {
+          "file": "secret-point-9-1.png",
+          "seconds": 513.6,
+          "sector": 2,
+          "seed": 2601890043
+        },
+        {
+          "file": "secret-4-1.png",
+          "seconds": 514.238,
+          "sector": 2,
+          "seed": 2601890043
+        },
+        {
+          "file": "secret-4-2.png",
+          "seconds": 516.035,
+          "sector": 2,
+          "seed": 2601890043
+        },
+        {
+          "file": "secret-point-10-1.png",
+          "seconds": 517.529,
+          "sector": 2,
+          "seed": 2601890043
+        },
+        {
+          "file": "secret-4-3.png",
+          "seconds": 517.877,
+          "sector": 2,
+          "seed": 2601890043
+        },
+        {
+          "file": "secret-4-4.png",
+          "seconds": 519.762,
+          "sector": 2,
+          "seed": 2601890043
+        },
+        {
+          "file": "secret-4-5.png",
+          "seconds": 521.435,
+          "sector": 2,
+          "seed": 2601890043
+        },
+        {
+          "file": "secret-point-11-1.png",
+          "seconds": 523.219,
+          "sector": 2,
+          "seed": 2601890043
+        },
+        {
+          "file": "secret-4-6.png",
+          "seconds": 523.439,
+          "sector": 2,
+          "seed": 2601890043
+        },
+        {
+          "file": "secret-5-1.png",
+          "seconds": 525.084,
+          "sector": 2,
+          "seed": 2601890043
+        },
+        {
+          "file": "secret-5-2.png",
+          "seconds": 526.9,
+          "sector": 2,
+          "seed": 2601890043
+        },
+        {
+          "file": "secret-point-12-1.png",
+          "seconds": 527.279,
+          "sector": 2,
+          "seed": 2601890043
+        },
+        {
+          "file": "secret-5-3.png",
+          "seconds": 528.68,
+          "sector": 2,
+          "seed": 2601890043
+        },
+        {
+          "file": "secret-point-13-1.png",
+          "seconds": 529.723,
+          "sector": 2,
+          "seed": 2601890043
+        },
+        {
+          "file": "secret-5-4.png",
+          "seconds": 530.51,
+          "sector": 2,
+          "seed": 2601890043
+        },
+        {
+          "file": "secret-5-5.png",
+          "seconds": 532.354,
+          "sector": 2,
+          "seed": 2601890043
+        },
+        {
+          "file": "secret-point-14-1.png",
+          "seconds": 532.805,
+          "sector": 2,
+          "seed": 2601890043
+        },
+        {
+          "file": "secret-6-1.png",
+          "seconds": 534.078,
+          "sector": 2,
+          "seed": 2601890043
+        },
+        {
+          "file": "secret-point-15-1.png",
+          "seconds": 535.753,
+          "sector": 2,
+          "seed": 2601890043
+        },
+        {
+          "file": "secret-end-1.png",
+          "seconds": 538.592,
+          "sector": 2,
+          "seed": 2601890043
+        }
+      ],
+      "progression": [
+        {
+          "name": "start",
+          "seconds": 0.473,
+          "state": "play",
+          "sector": 1,
+          "seed": 1388834305,
+          "credits": 0,
+          "contracts": 0,
+          "cargo": 0,
+          "hull": 3,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 2.919,
+          "state": "play",
+          "sector": 1,
+          "seed": 1388834305,
+          "credits": 0,
+          "contracts": 0,
+          "cargo": 1,
+          "hull": 3,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 5.69,
+          "state": "play",
+          "sector": 1,
+          "seed": 1388834305,
+          "credits": 0,
+          "contracts": 0,
+          "cargo": 2,
+          "hull": 3,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 8.922,
+          "state": "play",
+          "sector": 1,
+          "seed": 1388834305,
+          "credits": 0,
+          "contracts": 0,
+          "cargo": 3,
+          "hull": 3,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 12.185,
+          "state": "play",
+          "sector": 1,
+          "seed": 1388834305,
+          "credits": 0,
+          "contracts": 0,
+          "cargo": 4,
+          "hull": 3,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 15.498,
+          "state": "play",
+          "sector": 1,
+          "seed": 1388834305,
+          "credits": 0,
+          "contracts": 0,
+          "cargo": 5,
+          "hull": 3,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 17.764,
+          "state": "play",
+          "sector": 1,
+          "seed": 1388834305,
+          "credits": 0,
+          "contracts": 0,
+          "cargo": 6,
+          "hull": 3,
+          "secretStage": 0
+        },
+        {
+          "name": "return",
+          "seconds": 28.844,
+          "state": "result",
+          "sector": 1,
+          "seed": 1388834305,
+          "credits": 135,
+          "contracts": 1,
+          "cargo": 6,
+          "hull": 3,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 59.513,
+          "state": "play",
+          "sector": 1,
+          "seed": 1722453937,
+          "credits": 135,
+          "contracts": 1,
+          "cargo": 3,
+          "hull": 3,
+          "secretStage": 0
+        },
+        {
+          "name": "return",
+          "seconds": 90.029,
+          "state": "result",
+          "sector": 1,
+          "seed": 1722453937,
+          "credits": 337,
+          "contracts": 2,
+          "cargo": 4,
+          "hull": 3,
+          "secretStage": 0
+        },
+        {
+          "name": "purchase",
+          "seconds": 90.901,
+          "state": "upgrades",
+          "sector": 1,
+          "seed": 1722453937,
+          "credits": 157,
+          "contracts": 2,
+          "cargo": 4,
+          "hull": 3,
+          "secretStage": 0
+        },
+        {
+          "name": "chain-0",
+          "seconds": 93.638,
+          "state": "play",
+          "sector": 1,
+          "seed": 2917869445,
+          "credits": 157,
+          "contracts": 2,
+          "cargo": 1,
+          "hull": 3,
+          "secretStage": 0
+        },
+        {
+          "name": "chain-0",
+          "seconds": 96.336,
+          "state": "play",
+          "sector": 1,
+          "seed": 2917869445,
+          "credits": 157,
+          "contracts": 2,
+          "cargo": 2,
+          "hull": 3,
+          "secretStage": 0
+        },
+        {
+          "name": "chain-0",
+          "seconds": 99.702,
+          "state": "play",
+          "sector": 1,
+          "seed": 2917869445,
+          "credits": 157,
+          "contracts": 2,
+          "cargo": 3,
+          "hull": 3,
+          "secretStage": 0
+        },
+        {
+          "name": "chain-1",
+          "seconds": 111.594,
+          "state": "play",
+          "sector": 1,
+          "seed": 2917869445,
+          "credits": 157,
+          "contracts": 2,
+          "cargo": 3,
+          "hull": 3,
+          "secretStage": 0
+        },
+        {
+          "name": "chain-2",
+          "seconds": 126.171,
+          "state": "result",
+          "sector": 1,
+          "seed": 2917869445,
+          "credits": 340,
+          "contracts": 3,
+          "cargo": 4,
+          "hull": 2,
+          "secretStage": 0
+        },
+        {
+          "name": "return",
+          "seconds": 126.225,
+          "state": "result",
+          "sector": 1,
+          "seed": 2917869445,
+          "credits": 340,
+          "contracts": 3,
+          "cargo": 4,
+          "hull": 2,
+          "secretStage": 0
+        },
+        {
+          "name": "purchase",
+          "seconds": 127.05,
+          "state": "upgrades",
+          "sector": 1,
+          "seed": 2917869445,
+          "credits": 140,
+          "contracts": 3,
+          "cargo": 4,
+          "hull": 2,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 129.751,
+          "state": "play",
+          "sector": 1,
+          "seed": 2849783170,
+          "credits": 140,
+          "contracts": 3,
+          "cargo": 1,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 132.404,
+          "state": "play",
+          "sector": 1,
+          "seed": 2849783170,
+          "credits": 140,
+          "contracts": 3,
+          "cargo": 2,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 135.266,
+          "state": "play",
+          "sector": 1,
+          "seed": 2849783170,
+          "credits": 140,
+          "contracts": 3,
+          "cargo": 3,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 138.722,
+          "state": "play",
+          "sector": 1,
+          "seed": 2849783170,
+          "credits": 140,
+          "contracts": 3,
+          "cargo": 4,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 142.439,
+          "state": "play",
+          "sector": 1,
+          "seed": 2849783170,
+          "credits": 140,
+          "contracts": 3,
+          "cargo": 5,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 145.152,
+          "state": "play",
+          "sector": 1,
+          "seed": 2849783170,
+          "credits": 140,
+          "contracts": 3,
+          "cargo": 6,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "return",
+          "seconds": 155.376,
+          "state": "result",
+          "sector": 1,
+          "seed": 2849783170,
+          "credits": 295,
+          "contracts": 4,
+          "cargo": 6,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "purchase",
+          "seconds": 156.154,
+          "state": "upgrades",
+          "sector": 1,
+          "seed": 2849783170,
+          "credits": 135,
+          "contracts": 4,
+          "cargo": 6,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 193.614,
+          "state": "play",
+          "sector": 1,
+          "seed": 2514152726,
+          "credits": 135,
+          "contracts": 4,
+          "cargo": 3,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 197.424,
+          "state": "play",
+          "sector": 1,
+          "seed": 2514152726,
+          "credits": 135,
+          "contracts": 4,
+          "cargo": 4,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "return",
+          "seconds": 231.585,
+          "state": "result",
+          "sector": 1,
+          "seed": 2514152726,
+          "credits": 363,
+          "contracts": 5,
+          "cargo": 5,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "purchase",
+          "seconds": 232.408,
+          "state": "upgrades",
+          "sector": 1,
+          "seed": 2514152726,
+          "credits": 153,
+          "contracts": 5,
+          "cargo": 5,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 242.223,
+          "state": "play",
+          "sector": 1,
+          "seed": 3931374383,
+          "credits": 153,
+          "contracts": 5,
+          "cargo": 1,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 244.485,
+          "state": "play",
+          "sector": 1,
+          "seed": 3931374383,
+          "credits": 153,
+          "contracts": 5,
+          "cargo": 2,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 247.308,
+          "state": "play",
+          "sector": 1,
+          "seed": 3931374383,
+          "credits": 153,
+          "contracts": 5,
+          "cargo": 3,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "return",
+          "seconds": 258.212,
+          "state": "result",
+          "sector": 1,
+          "seed": 3931374383,
+          "credits": 299,
+          "contracts": 6,
+          "cargo": 3,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "purchase",
+          "seconds": 258.979,
+          "state": "upgrades",
+          "sector": 1,
+          "seed": 3931374383,
+          "credits": 109,
+          "contracts": 6,
+          "cargo": 3,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 277.551,
+          "state": "play",
+          "sector": 1,
+          "seed": 2119021832,
+          "credits": 109,
+          "contracts": 6,
+          "cargo": 2,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "return",
+          "seconds": 296.558,
+          "state": "result",
+          "sector": 1,
+          "seed": 2119021832,
+          "credits": 308,
+          "contracts": 7,
+          "cargo": 2,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "purchase",
+          "seconds": 297.338,
+          "state": "upgrades",
+          "sector": 1,
+          "seed": 2119021832,
+          "credits": 123,
+          "contracts": 7,
+          "cargo": 2,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 309.67,
+          "state": "play",
+          "sector": 1,
+          "seed": 1468918954,
+          "credits": 123,
+          "contracts": 7,
+          "cargo": 2,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 323.483,
+          "state": "play",
+          "sector": 1,
+          "seed": 1468918954,
+          "credits": 123,
+          "contracts": 7,
+          "cargo": 3,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "return",
+          "seconds": 341.805,
+          "state": "result",
+          "sector": 1,
+          "seed": 1468918954,
+          "credits": 334,
+          "contracts": 8,
+          "cargo": 4,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "purchase",
+          "seconds": 342.635,
+          "state": "upgrades",
+          "sector": 1,
+          "seed": 1468918954,
+          "credits": 74,
+          "contracts": 8,
+          "cargo": 4,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 365.219,
+          "state": "play",
+          "sector": 1,
+          "seed": 3675202515,
+          "credits": 74,
+          "contracts": 8,
+          "cargo": 2,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 367.825,
+          "state": "play",
+          "sector": 1,
+          "seed": 3675202515,
+          "credits": 74,
+          "contracts": 8,
+          "cargo": 3,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "return",
+          "seconds": 389.426,
+          "state": "result",
+          "sector": 1,
+          "seed": 3675202515,
+          "credits": 302,
+          "contracts": 9,
+          "cargo": 4,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "purchase",
+          "seconds": 390.256,
+          "state": "upgrades",
+          "sector": 1,
+          "seed": 3675202515,
+          "credits": 2,
+          "contracts": 9,
+          "cargo": 4,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "mission-step",
+          "seconds": 396.432,
+          "state": "play",
+          "sector": 1,
+          "seed": 2728483804,
+          "credits": 2,
+          "contracts": 9,
+          "cargo": 0,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "mission-step",
+          "seconds": 403.206,
+          "state": "play",
+          "sector": 1,
+          "seed": 2728483804,
+          "credits": 2,
+          "contracts": 9,
+          "cargo": 1,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "return",
+          "seconds": 415.842,
+          "state": "result",
+          "sector": 1,
+          "seed": 2728483804,
+          "credits": 158,
+          "contracts": 10,
+          "cargo": 1,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "purchase",
+          "seconds": 416.635,
+          "state": "upgrades",
+          "sector": 1,
+          "seed": 2728483804,
+          "credits": 18,
+          "contracts": 10,
+          "cargo": 1,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "unlock",
+          "seconds": 416.975,
+          "state": "sectorSelect",
+          "sector": 1,
+          "seed": 2728483804,
+          "credits": 18,
+          "contracts": 10,
+          "cargo": 1,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "sector2",
+          "seconds": 417.304,
+          "state": "play",
+          "sector": 2,
+          "seed": 2601890043,
+          "credits": 18,
+          "contracts": 10,
+          "cargo": 0,
+          "hull": 4,
+          "secretStage": 0
+        },
+        {
+          "name": "signal",
+          "seconds": 457.999,
+          "state": "play",
+          "sector": 2,
+          "seed": 2601890043,
+          "credits": 18,
+          "contracts": 10,
+          "cargo": 2,
+          "hull": 4,
+          "secretStage": 1
+        },
+        {
+          "name": "key",
+          "seconds": 465.637,
+          "state": "play",
+          "sector": 2,
+          "seed": 2601890043,
+          "credits": 18,
+          "contracts": 10,
+          "cargo": 2,
+          "hull": 4,
+          "secretStage": 2
+        },
+        {
+          "name": "gate",
+          "seconds": 474.758,
+          "state": "play",
+          "sector": 2,
+          "seed": 2601890043,
+          "credits": 18,
+          "contracts": 10,
+          "cargo": 2,
+          "hull": 4,
+          "secretStage": 3
+        },
+        {
+          "name": "secret-end",
+          "seconds": 536.054,
+          "state": "play",
+          "sector": 2,
+          "seed": 2601890043,
+          "credits": 18,
+          "contracts": 10,
+          "cargo": 2,
+          "hull": 4,
+          "secretStage": 6,
+          "secretProgress": 6
+        },
+        {
+          "name": "sector2-return",
+          "seconds": 572.958,
+          "state": "result",
+          "sector": 2,
+          "seed": 2601890043,
+          "credits": 484,
+          "contracts": 11,
+          "cargo": 2,
+          "hull": 4,
+          "secretStage": 6,
+          "secretProgress": 6
+        },
+        {
+          "name": "upgrades-final",
+          "seconds": 573.284,
+          "state": "upgrades",
+          "sector": 2,
+          "seed": 2601890043,
+          "credits": 484,
+          "contracts": 11,
+          "cargo": 2,
+          "hull": 4,
+          "secretStage": 6,
+          "secretProgress": 6
+        },
+        {
+          "name": "reload-continue",
+          "seconds": 575.805,
+          "state": "play",
+          "sector": 2,
+          "seed": 1185212961,
+          "credits": 484,
+          "contracts": 11,
+          "cargo": 0,
+          "hull": 4,
+          "secretStage": 0
+        }
+      ]
+    }
+  ],
+  "desktopDetail": {
+    "mode": "Normal continue from captured earned storage; real keys/clicks only",
+    "events": [
+      {
+        "label": "signal",
+        "sector": 2,
+        "seed": 247350549,
+        "ship": [
+          3975.455178006011,
+          2396.3498091523015
+        ],
+        "hull": 4,
+        "credits": 484,
+        "contracts": 11,
+        "sourceSave": "_tmp-export/store-mobile-detail/earned-storage.json"
+      },
+      {
+        "label": "key",
+        "sector": 2,
+        "seed": 247350549,
+        "ship": [
+          4138.860196711329,
+          2451.905001796646
+        ],
+        "hull": 4,
+        "credits": 484,
+        "contracts": 11,
+        "sourceSave": "_tmp-export/store-mobile-detail/earned-storage.json"
+      }
+    ],
+    "errors": []
+  },
+  "earnedStorageSHA256": "5dfbe7628541c16df8d5e940d7caad8c836dd24d57afb1ea645a2258a757a47b"
+}

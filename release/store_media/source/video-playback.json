@@ -1,0 +1,13 @@
+{
+  "browser": "Chromium",
+  "ended": true,
+  "currentTime": 26,
+  "width": 1920,
+  "height": 1080,
+  "frames": 649,
+  "quality": {
+    "totalVideoFrames": 650,
+    "droppedVideoFrames": 0
+  },
+  "errors": []
+}

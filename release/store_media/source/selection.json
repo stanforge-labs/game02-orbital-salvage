@@ -1,0 +1,15 @@
+{
+  "productionSHA256": "110E4C820112195FC7AACEFDC65A3E8CE49AA33646C64D36C99CA3040C3EE23E",
+  "screenshots": [
+    {"platform":"desktop","output":"01_sector1_salvage.png","source":"store-desktop/loot-5.png","mechanic":"Pickup streak in debris field"},
+    {"platform":"desktop","output":"02_meteor_chase.png","source":"store-desktop/chase-6.png","mechanic":"Close meteor pursuit during delivery"},
+    {"platform":"desktop","output":"03_contract_gameplay.png","source":"store-desktop/chain-1-1.png","mechanic":"Multi-stage beacon restoration, 2/3"},
+    {"platform":"desktop","output":"04_sector2.png","source":"store-desktop-detail/key.png","mechanic":"Sector 2 access key, activated gate and hazards; ordinary continuation of earned save"},
+    {"platform":"desktop","output":"05_secret_lasers.png","source":"store-desktop/secret-point-14-1.png","mechanic":"Laser checkpoint in secret corridor"},
+    {"platform":"desktop","output":"06_upgraded_ship.png","source":"store-desktop/sector2-1.png","mechanic":"Earned ship modules on departure from station"},
+    {"platform":"mobile","output":"01_mobile_salvage.png","source":"store-mobile/loot-5.png","mechanic":"Pickup streak with compact mobile HUD"},
+    {"platform":"mobile","output":"02_mobile_meteor.png","source":"store-mobile/chase-4.png","mechanic":"Meteor flow with nearby collectible resources"},
+    {"platform":"mobile","output":"03_mobile_sector2.png","source":"store-mobile-detail/signal-1.png","mechanic":"Sector 2 signal exploration"},
+    {"platform":"mobile","output":"04_mobile_secret.png","source":"store-mobile/secret-point-14-1.png","mechanic":"Mobile secret laser checkpoint"}
+  ]
+}
