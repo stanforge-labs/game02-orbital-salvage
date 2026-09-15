@@ -1,0 +1,277 @@
+{
+  "sha": "110E4C820112195FC7AACEFDC65A3E8CE49AA33646C64D36C99CA3040C3EE23E",
+  "recordedAt": "2026-09-15T10:22:04.398Z",
+  "browserVisibility": {
+    "observed": {
+      "hidden": false,
+      "focus": true
+    },
+    "realTransition": false
+  },
+  "cycles": [
+    {
+      "i": 0,
+      "paused": {
+        "x": 397.1758138911829,
+        "y": 700,
+        "phase": 1.1200999999999997,
+        "run": 1.1200999999999997,
+        "hp": 3,
+        "mission": "{\"stage\":0,\"hold\":0,\"pickups\":0,\"damage\":0,\"radiation\":0}",
+        "arcade": 0,
+        "audio": "suspended",
+        "paused": true
+      },
+      "after": {
+        "x": 403.0614970815619,
+        "y": 700,
+        "phase": 1.3366999999999996,
+        "run": 1.3366999999999996,
+        "hp": 3,
+        "mission": "{\"stage\":0,\"hold\":0,\"pickups\":0,\"damage\":0,\"radiation\":0}",
+        "arcade": 0,
+        "audio": "running",
+        "paused": false
+      },
+      "pass": true
+    },
+    {
+      "i": 1,
+      "paused": {
+        "x": 403.0614970815619,
+        "y": 700,
+        "phase": 1.3366999999999996,
+        "run": 1.3366999999999996,
+        "hp": 3,
+        "mission": "{\"stage\":0,\"hold\":0,\"pickups\":0,\"damage\":0,\"radiation\":0}",
+        "arcade": 0,
+        "audio": "suspended",
+        "paused": true
+      },
+      "after": {
+        "x": 406.4683489495292,
+        "y": 700,
+        "phase": 1.553399999999999,
+        "run": 1.553399999999999,
+        "hp": 3,
+        "mission": "{\"stage\":0,\"hold\":0,\"pickups\":0,\"damage\":0,\"radiation\":0}",
+        "arcade": 0,
+        "audio": "running",
+        "paused": false
+      },
+      "pass": true
+    },
+    {
+      "i": 2,
+      "paused": {
+        "x": 406.4683489495292,
+        "y": 700,
+        "phase": 1.553399999999999,
+        "run": 1.553399999999999,
+        "hp": 3,
+        "mission": "{\"stage\":0,\"hold\":0,\"pickups\":0,\"damage\":0,\"radiation\":0}",
+        "arcade": 0,
+        "audio": "suspended",
+        "paused": true
+      },
+      "after": {
+        "x": 408.4385313177068,
+        "y": 700,
+        "phase": 1.7699999999999994,
+        "run": 1.7699999999999994,
+        "hp": 3,
+        "mission": "{\"stage\":0,\"hold\":0,\"pickups\":0,\"damage\":0,\"radiation\":0}",
+        "arcade": 0,
+        "audio": "running",
+        "paused": false
+      },
+      "pass": true
+    },
+    {
+      "i": 3,
+      "paused": {
+        "x": 408.4385313177068,
+        "y": 700,
+        "phase": 1.7699999999999994,
+        "run": 1.7699999999999994,
+        "hp": 3,
+        "mission": "{\"stage\":0,\"hold\":0,\"pickups\":0,\"damage\":0,\"radiation\":0}",
+        "arcade": 0,
+        "audio": "suspended",
+        "paused": true
+      },
+      "after": {
+        "x": 409.57932984607305,
+        "y": 700,
+        "phase": 1.9867999999999995,
+        "run": 1.9867999999999995,
+        "hp": 3,
+        "mission": "{\"stage\":0,\"hold\":0,\"pickups\":0,\"damage\":0,\"radiation\":0}",
+        "arcade": 0,
+        "audio": "running",
+        "paused": false
+      },
+      "pass": true
+    },
+    {
+      "i": 4,
+      "paused": {
+        "x": 409.57932984607305,
+        "y": 700,
+        "phase": 1.9867999999999995,
+        "run": 1.9867999999999995,
+        "hp": 3,
+        "mission": "{\"stage\":0,\"hold\":0,\"pickups\":0,\"damage\":0,\"radiation\":0}",
+        "arcade": 0,
+        "audio": "suspended",
+        "paused": true
+      },
+      "after": {
+        "x": 410.2391084493575,
+        "y": 700,
+        "phase": 2.2036,
+        "run": 2.2036,
+        "hp": 3,
+        "mission": "{\"stage\":0,\"hold\":0,\"pickups\":0,\"damage\":0,\"radiation\":0}",
+        "arcade": 0,
+        "audio": "running",
+        "paused": false
+      },
+      "pass": true
+    },
+    {
+      "i": 5,
+      "paused": {
+        "x": 410.2391084493575,
+        "y": 700,
+        "phase": 2.2036,
+        "run": 2.2036,
+        "hp": 3,
+        "mission": "{\"stage\":0,\"hold\":0,\"pickups\":0,\"damage\":0,\"radiation\":0}",
+        "arcade": 0,
+        "audio": "suspended",
+        "paused": true
+      },
+      "after": {
+        "x": 410.5980083007164,
+        "y": 700,
+        "phase": 2.4035999999999995,
+        "run": 2.4035999999999995,
+        "hp": 3,
+        "mission": "{\"stage\":0,\"hold\":0,\"pickups\":0,\"damage\":0,\"radiation\":0}",
+        "arcade": 0,
+        "audio": "running",
+        "paused": false
+      },
+      "pass": true
+    },
+    {
+      "i": 6,
+      "paused": {
+        "x": 410.5980083007164,
+        "y": 700,
+        "phase": 2.4035999999999995,
+        "run": 2.4035999999999995,
+        "hp": 3,
+        "mission": "{\"stage\":0,\"hold\":0,\"pickups\":0,\"damage\":0,\"radiation\":0}",
+        "arcade": 0,
+        "audio": "suspended",
+        "paused": true
+      },
+      "after": {
+        "x": 410.8281886128338,
+        "y": 700,
+        "phase": 2.620299999999999,
+        "run": 2.620299999999999,
+        "hp": 3,
+        "mission": "{\"stage\":0,\"hold\":0,\"pickups\":0,\"damage\":0,\"radiation\":0}",
+        "arcade": 0,
+        "audio": "running",
+        "paused": false
+      },
+      "pass": true
+    },
+    {
+      "i": 7,
+      "paused": {
+        "x": 410.8281886128338,
+        "y": 700,
+        "phase": 2.620299999999999,
+        "run": 2.620299999999999,
+        "hp": 3,
+        "mission": "{\"stage\":0,\"hold\":0,\"pickups\":0,\"damage\":0,\"radiation\":0}",
+        "arcade": 0,
+        "audio": "suspended",
+        "paused": true
+      },
+      "after": {
+        "x": 410.95361232488267,
+        "y": 700,
+        "phase": 2.8206,
+        "run": 2.8206,
+        "hp": 3,
+        "mission": "{\"stage\":0,\"hold\":0,\"pickups\":0,\"damage\":0,\"radiation\":0}",
+        "arcade": 0,
+        "audio": "running",
+        "paused": false
+      },
+      "pass": true
+    },
+    {
+      "i": 8,
+      "paused": {
+        "x": 410.95361232488267,
+        "y": 700,
+        "phase": 2.8206,
+        "run": 2.8206,
+        "hp": 3,
+        "mission": "{\"stage\":0,\"hold\":0,\"pickups\":0,\"damage\":0,\"radiation\":0}",
+        "arcade": 0,
+        "audio": "suspended",
+        "paused": true
+      },
+      "after": {
+        "x": 411.03368481149425,
+        "y": 700,
+        "phase": 3.036500000000002,
+        "run": 3.036500000000002,
+        "hp": 3,
+        "mission": "{\"stage\":0,\"hold\":0,\"pickups\":0,\"damage\":0,\"radiation\":0}",
+        "arcade": 0,
+        "audio": "running",
+        "paused": false
+      },
+      "pass": true
+    },
+    {
+      "i": 9,
+      "paused": {
+        "x": 411.03368481149425,
+        "y": 700,
+        "phase": 3.036500000000002,
+        "run": 3.036500000000002,
+        "hp": 3,
+        "mission": "{\"stage\":0,\"hold\":0,\"pickups\":0,\"damage\":0,\"radiation\":0}",
+        "arcade": 0,
+        "audio": "suspended",
+        "paused": true
+      },
+      "after": {
+        "x": 411.07745637382357,
+        "y": 700,
+        "phase": 3.236400000000004,
+        "run": 3.236400000000004,
+        "hp": 3,
+        "mission": "{\"stage\":0,\"hold\":0,\"pickups\":0,\"damage\":0,\"radiation\":0}",
+        "arcade": 0,
+        "audio": "running",
+        "paused": false
+      },
+      "pass": true
+    }
+  ],
+  "arcade": true,
+  "pass": true,
+  "mode": "Browser visibility observation separate from controlled blur/focus/visibility + SDK event contract. No OS background claim.",
+  "errors": []
+}

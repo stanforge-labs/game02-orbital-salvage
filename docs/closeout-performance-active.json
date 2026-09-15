@@ -1,0 +1,129 @@
+{
+  "sha": "110E4C820112195FC7AACEFDC65A3E8CE49AA33646C64D36C99CA3040C3EE23E",
+  "recordedAt": "2026-09-15T10:31:37.493Z",
+  "instances": [
+    {
+      "seconds": 0,
+      "count": 865,
+      "heap": 26094146,
+      "run": 3.623499999999998,
+      "state": "play"
+    },
+    {
+      "seconds": 63.422,
+      "count": 865,
+      "heap": 25098748,
+      "run": 67.04150000000185,
+      "state": "play"
+    },
+    {
+      "seconds": 181.864,
+      "count": 865,
+      "heap": 30243633,
+      "run": 185.49420000001808,
+      "state": "play"
+    },
+    {
+      "seconds": 300.107,
+      "count": 865,
+      "heap": 24328381,
+      "run": 303.7301000000378,
+      "state": "play"
+    },
+    {
+      "seconds": 300.108,
+      "count": 865,
+      "heap": 24328381,
+      "run": 303.7301000000378,
+      "state": "play"
+    }
+  ],
+  "restarts": [
+    {
+      "seconds": 300.694,
+      "count": 865,
+      "heap": 22566130,
+      "run": 0.2999000000000233,
+      "state": "play"
+    },
+    {
+      "seconds": 300.975,
+      "count": 865,
+      "heap": 30914505,
+      "run": 0.23339999999996514,
+      "state": "play"
+    },
+    {
+      "seconds": 301.272,
+      "count": 865,
+      "heap": 23111903,
+      "run": 0.23349999999999996,
+      "state": "play"
+    },
+    {
+      "seconds": 301.57,
+      "count": 865,
+      "heap": 31359770,
+      "run": 0.2332999999999884,
+      "state": "play"
+    },
+    {
+      "seconds": 301.867,
+      "count": 865,
+      "heap": 23237281,
+      "run": 0.2333999999999651,
+      "state": "play"
+    },
+    {
+      "seconds": 302.163,
+      "count": 865,
+      "heap": 30447572,
+      "run": 0.23320000000001168,
+      "state": "play"
+    },
+    {
+      "seconds": 302.476,
+      "count": 865,
+      "heap": 23739027,
+      "run": 0.2334000000000233,
+      "state": "play"
+    },
+    {
+      "seconds": 302.757,
+      "count": 865,
+      "heap": 30859690,
+      "run": 0.2334000000000233,
+      "state": "play"
+    },
+    {
+      "seconds": 303.056,
+      "count": 865,
+      "heap": 23918176,
+      "run": 0.23329999999998838,
+      "state": "play"
+    },
+    {
+      "seconds": 303.352,
+      "count": 865,
+      "heap": 31413550,
+      "run": 0.23250000000000004,
+      "state": "play"
+    }
+  ],
+  "metrics": {
+    "seconds": 300.252,
+    "frameCount": 18005,
+    "p50": 16.69999999999709,
+    "p95": 17,
+    "p99": 17.20000000001164,
+    "max": 19.69999999999709,
+    ">20": 0,
+    ">25": 0,
+    ">33.3": 0,
+    ">50": 0,
+    ">100": 0
+  },
+  "pass": true,
+  "errors": [],
+  "environment": "Headless Chromium, active keyboard traversal near station; other QA browsers may be running. Not a physical-device benchmark."
+}

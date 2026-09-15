@@ -1,0 +1,5 @@
+const{open,click,read,save}=require('./closeout-lib'),assert=require('assert');
+(async()=>{const q=await open(),p=q.p,r={hp:[],inputOnly:true};try{await click(p,'ButtonBg');const held=new Set(),start=Date.now();
+ while(Date.now()-start<120000){const s=await read(p);if(r.hp.at(-1)!==s.hull)r.hp.push(s.hull);if(s.state==='fail')break;const h=s.hazards[0],want=new Set();if(Math.abs(h.x-s.shipX)>8)want.add(h.x>s.shipX?'d':'a');if(Math.abs(h.y-s.shipY)>8)want.add(h.y>s.shipY?'s':'w');for(const k of held)if(!want.has(k)){await p.keyboard.up(k);held.delete(k)}for(const k of want)if(!held.has(k)){await p.keyboard.down(k);held.add(k)}await p.waitForTimeout(80);}
+ for(const k of held)await p.keyboard.up(k);assert.equal((await read(p)).state,'fail');r.seconds=(Date.now()-start)/1000;await p.screenshot({path:'screenshots/YandexCloseout/death-input-only.png'});await click(p,'ResultButtonBg');assert.equal((await read(p)).state,'play');assert.equal((await read(p)).hull,3);r.pass=true;
+}catch(e){r.failure=e.stack;r.pass=false;}finally{r.errors=q.errors;save('death',r);await q.browser.close();console.log(r);}})();

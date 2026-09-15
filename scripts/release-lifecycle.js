@@ -8,6 +8,8 @@ module.exports=function releaseLifecycle(scene){
  });
  if(a){const unlock=a.unlock;a.unlock=()=>{if(!api?.isPaused())unlock();};}
  document.addEventListener('contextmenu',e=>e.preventDefault());
+ document.addEventListener('dragstart',e=>e.preventDefault(),true);
+ document.addEventListener('selectstart',e=>e.preventDefault(),true);
  const shell=scene.__ui17,v=scene.getVariables(),state=s=>v.get('GameState').setString(s);
  const pause=document.createElement('button');pause.textContent='Ⅱ ПАУЗА';pause.onclick=()=>state('arcadePause');shell.toolbar.appendChild(pause);
  const modal=document.createElement('div');modal.className='overlay';modal.style.display='none';modal.innerHTML='<section class="card"><h1>ПАТРУЛЬ НА ПАУЗЕ</h1><div class="actions"><button class="primary">ПРОДОЛЖИТЬ</button><button>ВЫЙТИ ИЗ ПАТРУЛЯ</button></div></section>';shell.root.appendChild(modal);

@@ -1,0 +1,393 @@
+{
+  "sha": "110E4C820112195FC7AACEFDC65A3E8CE49AA33646C64D36C99CA3040C3EE23E",
+  "recordedAt": "2026-09-15T10:22:59.483Z",
+  "rows": [
+    {
+      "action": "double",
+      "scenario": "success",
+      "before": {
+        "Credits": 1000,
+        "SecondChanceUsed": 0,
+        "OfferSeed": 0
+      },
+      "after": {
+        "Credits": 1100,
+        "SecondChanceUsed": 0,
+        "OfferSeed": 0
+      },
+      "delta": 100,
+      "pass": true
+    },
+    {
+      "action": "double",
+      "scenario": "close",
+      "before": {
+        "Credits": 1000,
+        "SecondChanceUsed": 0,
+        "OfferSeed": 0
+      },
+      "after": {
+        "Credits": 1000,
+        "SecondChanceUsed": 0,
+        "OfferSeed": 0
+      },
+      "delta": 0,
+      "pass": true
+    },
+    {
+      "action": "double",
+      "scenario": "error",
+      "before": {
+        "Credits": 1000,
+        "SecondChanceUsed": 0,
+        "OfferSeed": 0
+      },
+      "after": {
+        "Credits": 1000,
+        "SecondChanceUsed": 0,
+        "OfferSeed": 0
+      },
+      "delta": 0,
+      "pass": true
+    },
+    {
+      "action": "double",
+      "scenario": "duplicateReward",
+      "before": {
+        "Credits": 1000,
+        "SecondChanceUsed": 0,
+        "OfferSeed": 0
+      },
+      "after": {
+        "Credits": 1100,
+        "SecondChanceUsed": 0,
+        "OfferSeed": 0
+      },
+      "delta": 100,
+      "pass": true
+    },
+    {
+      "action": "double",
+      "scenario": "duplicateClose",
+      "before": {
+        "Credits": 1000,
+        "SecondChanceUsed": 0,
+        "OfferSeed": 0
+      },
+      "after": {
+        "Credits": 1100,
+        "SecondChanceUsed": 0,
+        "OfferSeed": 0
+      },
+      "delta": 100,
+      "pass": true
+    },
+    {
+      "action": "double",
+      "scenario": "doubleClick",
+      "before": {
+        "Credits": 1000,
+        "SecondChanceUsed": 0,
+        "OfferSeed": 0
+      },
+      "after": {
+        "Credits": 1100,
+        "SecondChanceUsed": 0,
+        "OfferSeed": 0
+      },
+      "delta": 100,
+      "pass": true
+    },
+    {
+      "action": "double",
+      "scenario": "busy",
+      "before": {
+        "Credits": 1000,
+        "SecondChanceUsed": 0,
+        "OfferSeed": 0
+      },
+      "after": {
+        "Credits": 1100,
+        "SecondChanceUsed": 0,
+        "OfferSeed": 0
+      },
+      "delta": 100,
+      "pass": true
+    },
+    {
+      "action": "double",
+      "scenario": "late",
+      "before": {
+        "Credits": 1000,
+        "SecondChanceUsed": 0,
+        "OfferSeed": 0
+      },
+      "after": {
+        "Credits": 1100,
+        "SecondChanceUsed": 0,
+        "OfferSeed": 0
+      },
+      "delta": 100,
+      "pass": true
+    },
+    {
+      "action": "revive",
+      "scenario": "success",
+      "before": {
+        "Credits": 1000,
+        "SecondChanceUsed": 0,
+        "OfferSeed": 0
+      },
+      "after": {
+        "Credits": 1000,
+        "SecondChanceUsed": 1,
+        "OfferSeed": 0
+      },
+      "delta": 1,
+      "pass": true
+    },
+    {
+      "action": "revive",
+      "scenario": "close",
+      "before": {
+        "Credits": 1000,
+        "SecondChanceUsed": 0,
+        "OfferSeed": 0
+      },
+      "after": {
+        "Credits": 1000,
+        "SecondChanceUsed": 0,
+        "OfferSeed": 0
+      },
+      "delta": 0,
+      "pass": true
+    },
+    {
+      "action": "revive",
+      "scenario": "error",
+      "before": {
+        "Credits": 1000,
+        "SecondChanceUsed": 0,
+        "OfferSeed": 0
+      },
+      "after": {
+        "Credits": 1000,
+        "SecondChanceUsed": 0,
+        "OfferSeed": 0
+      },
+      "delta": 0,
+      "pass": true
+    },
+    {
+      "action": "revive",
+      "scenario": "duplicateReward",
+      "before": {
+        "Credits": 1000,
+        "SecondChanceUsed": 0,
+        "OfferSeed": 0
+      },
+      "after": {
+        "Credits": 1000,
+        "SecondChanceUsed": 1,
+        "OfferSeed": 0
+      },
+      "delta": 1,
+      "pass": true
+    },
+    {
+      "action": "revive",
+      "scenario": "duplicateClose",
+      "before": {
+        "Credits": 1000,
+        "SecondChanceUsed": 0,
+        "OfferSeed": 0
+      },
+      "after": {
+        "Credits": 1000,
+        "SecondChanceUsed": 1,
+        "OfferSeed": 0
+      },
+      "delta": 1,
+      "pass": true
+    },
+    {
+      "action": "revive",
+      "scenario": "doubleClick",
+      "before": {
+        "Credits": 1000,
+        "SecondChanceUsed": 0,
+        "OfferSeed": 0
+      },
+      "after": {
+        "Credits": 1000,
+        "SecondChanceUsed": 1,
+        "OfferSeed": 0
+      },
+      "delta": 1,
+      "pass": true
+    },
+    {
+      "action": "revive",
+      "scenario": "busy",
+      "before": {
+        "Credits": 1000,
+        "SecondChanceUsed": 0,
+        "OfferSeed": 0
+      },
+      "after": {
+        "Credits": 1000,
+        "SecondChanceUsed": 1,
+        "OfferSeed": 0
+      },
+      "delta": 1,
+      "pass": true
+    },
+    {
+      "action": "revive",
+      "scenario": "late",
+      "before": {
+        "Credits": 1000,
+        "SecondChanceUsed": 0,
+        "OfferSeed": 0
+      },
+      "after": {
+        "Credits": 1000,
+        "SecondChanceUsed": 1,
+        "OfferSeed": 0
+      },
+      "delta": 1,
+      "pass": true
+    },
+    {
+      "action": "reroll",
+      "scenario": "success",
+      "before": {
+        "Credits": 1000,
+        "SecondChanceUsed": 0,
+        "OfferSeed": 0
+      },
+      "after": {
+        "Credits": 1000,
+        "SecondChanceUsed": 0,
+        "OfferSeed": 1
+      },
+      "delta": 1,
+      "pass": true
+    },
+    {
+      "action": "reroll",
+      "scenario": "close",
+      "before": {
+        "Credits": 1000,
+        "SecondChanceUsed": 0,
+        "OfferSeed": 1
+      },
+      "after": {
+        "Credits": 1000,
+        "SecondChanceUsed": 0,
+        "OfferSeed": 1
+      },
+      "delta": 0,
+      "pass": true
+    },
+    {
+      "action": "reroll",
+      "scenario": "error",
+      "before": {
+        "Credits": 1000,
+        "SecondChanceUsed": 0,
+        "OfferSeed": 1
+      },
+      "after": {
+        "Credits": 1000,
+        "SecondChanceUsed": 0,
+        "OfferSeed": 1
+      },
+      "delta": 0,
+      "pass": true
+    },
+    {
+      "action": "reroll",
+      "scenario": "duplicateReward",
+      "before": {
+        "Credits": 1000,
+        "SecondChanceUsed": 0,
+        "OfferSeed": 1
+      },
+      "after": {
+        "Credits": 1000,
+        "SecondChanceUsed": 0,
+        "OfferSeed": 2
+      },
+      "delta": 1,
+      "pass": true
+    },
+    {
+      "action": "reroll",
+      "scenario": "duplicateClose",
+      "before": {
+        "Credits": 1000,
+        "SecondChanceUsed": 0,
+        "OfferSeed": 2
+      },
+      "after": {
+        "Credits": 1000,
+        "SecondChanceUsed": 0,
+        "OfferSeed": 3
+      },
+      "delta": 1,
+      "pass": true
+    },
+    {
+      "action": "reroll",
+      "scenario": "doubleClick",
+      "before": {
+        "Credits": 1000,
+        "SecondChanceUsed": 0,
+        "OfferSeed": 3
+      },
+      "after": {
+        "Credits": 1000,
+        "SecondChanceUsed": 0,
+        "OfferSeed": 4
+      },
+      "delta": 1,
+      "pass": true
+    },
+    {
+      "action": "reroll",
+      "scenario": "busy",
+      "before": {
+        "Credits": 1000,
+        "SecondChanceUsed": 0,
+        "OfferSeed": 4
+      },
+      "after": {
+        "Credits": 1000,
+        "SecondChanceUsed": 0,
+        "OfferSeed": 5
+      },
+      "delta": 1,
+      "pass": true
+    },
+    {
+      "action": "reroll",
+      "scenario": "late",
+      "before": {
+        "Credits": 1000,
+        "SecondChanceUsed": 0,
+        "OfferSeed": 5
+      },
+      "after": {
+        "Credits": 1000,
+        "SecondChanceUsed": 0,
+        "OfferSeed": 6
+      },
+      "delta": 1,
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "pass": true,
+  "transport": "LOCAL QA SDK route only; production resources unchanged"
+}

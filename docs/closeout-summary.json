@@ -1,0 +1,2153 @@
+{
+  "sha": "110E4C820112195FC7AACEFDC65A3E8CE49AA33646C64D36C99CA3040C3EE23E",
+  "recordedAt": "2026-09-15T10:43:30.187Z",
+  "zip": "release/OrbitalSalvage_Yandex_1.0.0_closeout_final.zip",
+  "runs": [
+    {
+      "id": 1,
+      "seconds": 474.041,
+      "seed": 3582882524,
+      "sector2Seconds": 343.054,
+      "secret": {
+        "stage": 6,
+        "gate": 1.5169000000000228,
+        "cache": true,
+        "template": 2,
+        "map15": {
+          "name": "СКАНИРУЮЩИЕ КАМЕРЫ",
+          "template": 2,
+          "walls": [
+            [
+              4880,
+              1711,
+              900,
+              18
+            ],
+            [
+              5060,
+              1891,
+              360,
+              18
+            ],
+            [
+              4520,
+              2071,
+              360,
+              18
+            ],
+            [
+              5060,
+              2071,
+              180,
+              18
+            ],
+            [
+              5600,
+              2071,
+              180,
+              18
+            ],
+            [
+              4520,
+              2251,
+              360,
+              18
+            ],
+            [
+              5600,
+              2251,
+              540,
+              18
+            ],
+            [
+              4880,
+              2431,
+              360,
+              18
+            ],
+            [
+              5780,
+              2431,
+              180,
+              18
+            ],
+            [
+              5420,
+              2611,
+              360,
+              18
+            ],
+            [
+              5960,
+              2791,
+              180,
+              18
+            ],
+            [
+              4511,
+              2080,
+              18,
+              180
+            ],
+            [
+              4871,
+              1720,
+              18,
+              360
+            ],
+            [
+              4871,
+              2260,
+              18,
+              180
+            ],
+            [
+              5051,
+              1900,
+              18,
+              180
+            ],
+            [
+              5231,
+              2080,
+              18,
+              360
+            ],
+            [
+              5411,
+              1900,
+              18,
+              720
+            ],
+            [
+              5591,
+              2080,
+              18,
+              180
+            ],
+            [
+              5771,
+              1720,
+              18,
+              360
+            ],
+            [
+              5771,
+              2440,
+              18,
+              180
+            ],
+            [
+              5951,
+              2440,
+              18,
+              360
+            ],
+            [
+              6131,
+              2260,
+              18,
+              540
+            ]
+          ],
+          "points": [
+            [
+              4610,
+              2170
+            ],
+            [
+              4790,
+              2170
+            ],
+            [
+              4970,
+              2170
+            ],
+            [
+              4970,
+              1990
+            ],
+            [
+              4970,
+              1810
+            ],
+            [
+              5150,
+              1810
+            ],
+            [
+              5330,
+              1810
+            ],
+            [
+              5510,
+              1810
+            ],
+            [
+              5510,
+              1990
+            ],
+            [
+              5510,
+              2170
+            ],
+            [
+              5510,
+              2350
+            ],
+            [
+              5690,
+              2350
+            ],
+            [
+              5870,
+              2350
+            ],
+            [
+              6050,
+              2350
+            ],
+            [
+              6050,
+              2530
+            ],
+            [
+              6050,
+              2710
+            ]
+          ],
+          "route": [
+            [
+              4970,
+              2170
+            ],
+            [
+              4970,
+              1810
+            ],
+            [
+              5510,
+              1810
+            ],
+            [
+              5510,
+              2170
+            ],
+            [
+              5690,
+              2350
+            ],
+            [
+              6050,
+              2530
+            ]
+          ],
+          "gates": [
+            {
+              "x": 4880,
+              "y": 2170,
+              "vertical": true,
+              "pattern": 0,
+              "idx": 2
+            },
+            {
+              "x": 4970,
+              "y": 1900,
+              "vertical": false,
+              "pattern": 1,
+              "idx": 4
+            },
+            {
+              "x": 5420,
+              "y": 1810,
+              "vertical": true,
+              "pattern": 2,
+              "idx": 7
+            },
+            {
+              "x": 5510,
+              "y": 2080,
+              "vertical": false,
+              "pattern": 3,
+              "idx": 9
+            },
+            {
+              "x": 5600,
+              "y": 2350,
+              "vertical": true,
+              "pattern": 4,
+              "idx": 11
+            },
+            {
+              "x": 6050,
+              "y": 2440,
+              "vertical": false,
+              "pattern": 5,
+              "idx": 14
+            }
+          ],
+          "cache": [
+            6050,
+            2710
+          ],
+          "cells": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              4,
+              0
+            ],
+            [
+              5,
+              0
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              5,
+              2
+            ],
+            [
+              5,
+              3
+            ],
+            [
+              6,
+              3
+            ],
+            [
+              7,
+              3
+            ],
+            [
+              8,
+              3
+            ],
+            [
+              8,
+              4
+            ],
+            [
+              8,
+              5
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              6,
+              0
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              5,
+              4
+            ],
+            [
+              6,
+              4
+            ]
+          ],
+          "origin": [
+            4520,
+            1720
+          ],
+          "cell": 180
+        },
+        "route": [
+          [
+            4970,
+            2170
+          ],
+          [
+            4970,
+            1810
+          ],
+          [
+            5510,
+            1810
+          ],
+          [
+            5510,
+            2170
+          ],
+          [
+            5690,
+            2350
+          ],
+          [
+            6050,
+            2530
+          ]
+        ],
+        "walls": [
+          [
+            4880,
+            1711,
+            900,
+            18
+          ],
+          [
+            5060,
+            1891,
+            360,
+            18
+          ],
+          [
+            4520,
+            2071,
+            360,
+            18
+          ],
+          [
+            5060,
+            2071,
+            180,
+            18
+          ],
+          [
+            5600,
+            2071,
+            180,
+            18
+          ],
+          [
+            4520,
+            2251,
+            360,
+            18
+          ],
+          [
+            5600,
+            2251,
+            540,
+            18
+          ],
+          [
+            4880,
+            2431,
+            360,
+            18
+          ],
+          [
+            5780,
+            2431,
+            180,
+            18
+          ],
+          [
+            5420,
+            2611,
+            360,
+            18
+          ],
+          [
+            5960,
+            2791,
+            180,
+            18
+          ],
+          [
+            4511,
+            2080,
+            18,
+            180
+          ],
+          [
+            4871,
+            1720,
+            18,
+            360
+          ],
+          [
+            4871,
+            2260,
+            18,
+            180
+          ],
+          [
+            5051,
+            1900,
+            18,
+            180
+          ],
+          [
+            5231,
+            2080,
+            18,
+            360
+          ],
+          [
+            5411,
+            1900,
+            18,
+            720
+          ],
+          [
+            5591,
+            2080,
+            18,
+            180
+          ],
+          [
+            5771,
+            1720,
+            18,
+            360
+          ],
+          [
+            5771,
+            2440,
+            18,
+            180
+          ],
+          [
+            5951,
+            2440,
+            18,
+            360
+          ],
+          [
+            6131,
+            2260,
+            18,
+            540
+          ]
+        ],
+        "progress": 6,
+        "scan16": 0,
+        "exit": -0.0006000000000365817,
+        "decoder16": true
+      },
+      "pass": true,
+      "timeline": [
+        {
+          "name": "start",
+          "seconds": 0.412,
+          "state": "play",
+          "credits": 0,
+          "contracts": 0,
+          "stage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 3.221,
+          "state": "play",
+          "credits": 0,
+          "contracts": 0,
+          "stage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 6.017,
+          "state": "play",
+          "credits": 0,
+          "contracts": 0,
+          "stage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 9.634,
+          "state": "play",
+          "credits": 0,
+          "contracts": 0,
+          "stage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 14.913,
+          "state": "play",
+          "credits": 0,
+          "contracts": 0,
+          "stage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 16.808,
+          "state": "play",
+          "credits": 0,
+          "contracts": 0,
+          "stage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 21.025,
+          "state": "play",
+          "credits": 0,
+          "contracts": 0,
+          "stage": 0
+        },
+        {
+          "name": "return",
+          "seconds": 29.966,
+          "state": "result",
+          "credits": 135,
+          "contracts": 1,
+          "stage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 47.568,
+          "state": "play",
+          "credits": 135,
+          "contracts": 1,
+          "stage": 0
+        },
+        {
+          "name": "return",
+          "seconds": 64.164,
+          "state": "result",
+          "credits": 355,
+          "contracts": 2,
+          "stage": 0
+        },
+        {
+          "name": "purchase",
+          "seconds": 64.989,
+          "state": "upgrades",
+          "credits": 175,
+          "contracts": 2,
+          "stage": 0
+        },
+        {
+          "name": "chain-0",
+          "seconds": 67.895,
+          "state": "play",
+          "credits": 175,
+          "contracts": 2,
+          "stage": 0
+        },
+        {
+          "name": "chain-0",
+          "seconds": 70.334,
+          "state": "play",
+          "credits": 175,
+          "contracts": 2,
+          "stage": 0
+        },
+        {
+          "name": "chain-0",
+          "seconds": 72.561,
+          "state": "play",
+          "credits": 175,
+          "contracts": 2,
+          "stage": 0
+        },
+        {
+          "name": "chain-1",
+          "seconds": 81.25,
+          "state": "play",
+          "credits": 175,
+          "contracts": 2,
+          "stage": 0
+        },
+        {
+          "name": "chain-2",
+          "seconds": 94.594,
+          "state": "result",
+          "credits": 346,
+          "contracts": 3,
+          "stage": 0
+        },
+        {
+          "name": "return",
+          "seconds": 94.656,
+          "state": "result",
+          "credits": 346,
+          "contracts": 3,
+          "stage": 0
+        },
+        {
+          "name": "purchase",
+          "seconds": 95.418,
+          "state": "upgrades",
+          "credits": 146,
+          "contracts": 3,
+          "stage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 98.301,
+          "state": "play",
+          "credits": 146,
+          "contracts": 3,
+          "stage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 101.104,
+          "state": "play",
+          "credits": 146,
+          "contracts": 3,
+          "stage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 104.862,
+          "state": "play",
+          "credits": 146,
+          "contracts": 3,
+          "stage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 109.348,
+          "state": "play",
+          "credits": 146,
+          "contracts": 3,
+          "stage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 111.985,
+          "state": "play",
+          "credits": 146,
+          "contracts": 3,
+          "stage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 115.976,
+          "state": "play",
+          "credits": 146,
+          "contracts": 3,
+          "stage": 0
+        },
+        {
+          "name": "return",
+          "seconds": 128.515,
+          "state": "result",
+          "credits": 301,
+          "contracts": 4,
+          "stage": 0
+        },
+        {
+          "name": "purchase",
+          "seconds": 129.313,
+          "state": "upgrades",
+          "credits": 141,
+          "contracts": 4,
+          "stage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 147.411,
+          "state": "play",
+          "credits": 141,
+          "contracts": 4,
+          "stage": 0
+        },
+        {
+          "name": "return",
+          "seconds": 165.711,
+          "state": "result",
+          "credits": 357,
+          "contracts": 5,
+          "stage": 0
+        },
+        {
+          "name": "purchase",
+          "seconds": 166.458,
+          "state": "upgrades",
+          "credits": 147,
+          "contracts": 5,
+          "stage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 174.016,
+          "state": "play",
+          "credits": 147,
+          "contracts": 5,
+          "stage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 176.822,
+          "state": "play",
+          "credits": 147,
+          "contracts": 5,
+          "stage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 179.232,
+          "state": "play",
+          "credits": 147,
+          "contracts": 5,
+          "stage": 0
+        },
+        {
+          "name": "return",
+          "seconds": 190.529,
+          "state": "result",
+          "credits": 305,
+          "contracts": 6,
+          "stage": 0
+        },
+        {
+          "name": "purchase",
+          "seconds": 191.268,
+          "state": "upgrades",
+          "credits": 115,
+          "contracts": 6,
+          "stage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 211.556,
+          "state": "play",
+          "credits": 115,
+          "contracts": 6,
+          "stage": 0
+        },
+        {
+          "name": "return",
+          "seconds": 231.545,
+          "state": "result",
+          "credits": 302,
+          "contracts": 7,
+          "stage": 0
+        },
+        {
+          "name": "purchase",
+          "seconds": 232.293,
+          "state": "upgrades",
+          "credits": 117,
+          "contracts": 7,
+          "stage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 248.287,
+          "state": "play",
+          "credits": 117,
+          "contracts": 7,
+          "stage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 254.221,
+          "state": "play",
+          "credits": 117,
+          "contracts": 7,
+          "stage": 0
+        },
+        {
+          "name": "return",
+          "seconds": 272.488,
+          "state": "result",
+          "credits": 328,
+          "contracts": 8,
+          "stage": 0
+        },
+        {
+          "name": "purchase",
+          "seconds": 273.234,
+          "state": "upgrades",
+          "credits": 68,
+          "contracts": 8,
+          "stage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 291.421,
+          "state": "play",
+          "credits": 68,
+          "contracts": 8,
+          "stage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 294.723,
+          "state": "play",
+          "credits": 68,
+          "contracts": 8,
+          "stage": 0
+        },
+        {
+          "name": "return",
+          "seconds": 314.411,
+          "state": "result",
+          "credits": 413,
+          "contracts": 9,
+          "stage": 0
+        },
+        {
+          "name": "purchase",
+          "seconds": 315.188,
+          "state": "upgrades",
+          "credits": 113,
+          "contracts": 9,
+          "stage": 0
+        },
+        {
+          "name": "mission-step",
+          "seconds": 322.045,
+          "state": "play",
+          "credits": 113,
+          "contracts": 9,
+          "stage": 0
+        },
+        {
+          "name": "mission-step",
+          "seconds": 330.145,
+          "state": "play",
+          "credits": 113,
+          "contracts": 9,
+          "stage": 0
+        },
+        {
+          "name": "return",
+          "seconds": 341.317,
+          "state": "result",
+          "credits": 281,
+          "contracts": 10,
+          "stage": 0
+        },
+        {
+          "name": "purchase",
+          "seconds": 342.065,
+          "state": "upgrades",
+          "credits": 141,
+          "contracts": 10,
+          "stage": 0
+        },
+        {
+          "name": "unlock",
+          "seconds": 342.51,
+          "state": "sectorSelect",
+          "credits": 141,
+          "contracts": 10,
+          "stage": 0
+        },
+        {
+          "name": "sector2",
+          "seconds": 343.054,
+          "state": "play",
+          "credits": 141,
+          "contracts": 10,
+          "stage": 0
+        },
+        {
+          "name": "signal",
+          "seconds": 361.168,
+          "state": "play",
+          "credits": 141,
+          "contracts": 10,
+          "stage": 1
+        },
+        {
+          "name": "key",
+          "seconds": 375.931,
+          "state": "play",
+          "credits": 141,
+          "contracts": 10,
+          "stage": 2
+        },
+        {
+          "name": "gate",
+          "seconds": 388.607,
+          "state": "play",
+          "credits": 141,
+          "contracts": 10,
+          "stage": 4,
+          "checkpoints": 0
+        },
+        {
+          "name": "secret-end",
+          "seconds": 447.83,
+          "state": "play",
+          "credits": 141,
+          "contracts": 10,
+          "stage": 6,
+          "checkpoints": 6
+        },
+        {
+          "name": "sector2-return",
+          "seconds": 471.107,
+          "state": "result",
+          "credits": 602,
+          "contracts": 11,
+          "stage": 6,
+          "checkpoints": 6
+        },
+        {
+          "name": "upgrades-final",
+          "seconds": 471.588,
+          "state": "upgrades",
+          "credits": 602,
+          "contracts": 11,
+          "stage": 6,
+          "checkpoints": 6
+        },
+        {
+          "name": "reload-continue",
+          "seconds": 474.041,
+          "state": "play",
+          "credits": 602,
+          "contracts": 11,
+          "stage": 0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seconds": 596.822,
+      "seed": 2872852834,
+      "sector2Seconds": 426.697,
+      "secret": {
+        "stage": 6,
+        "gate": 1.5167999999999882,
+        "cache": true,
+        "template": 5,
+        "map15": {
+          "name": "ЭНЕРГЕТИЧЕСКИЙ АРХИВ",
+          "template": 5,
+          "walls": [
+            [
+              4880,
+              1711,
+              900,
+              18
+            ],
+            [
+              5060,
+              1891,
+              360,
+              18
+            ],
+            [
+              4520,
+              2071,
+              360,
+              18
+            ],
+            [
+              5060,
+              2071,
+              360,
+              18
+            ],
+            [
+              4520,
+              2251,
+              360,
+              18
+            ],
+            [
+              5420,
+              2251,
+              180,
+              18
+            ],
+            [
+              4880,
+              2431,
+              360,
+              18
+            ],
+            [
+              5420,
+              2431,
+              180,
+              18
+            ],
+            [
+              5780,
+              2431,
+              180,
+              18
+            ],
+            [
+              5240,
+              2611,
+              540,
+              18
+            ],
+            [
+              5960,
+              2611,
+              180,
+              18
+            ],
+            [
+              5780,
+              2791,
+              360,
+              18
+            ],
+            [
+              4511,
+              2080,
+              18,
+              180
+            ],
+            [
+              4871,
+              1720,
+              18,
+              360
+            ],
+            [
+              4871,
+              2260,
+              18,
+              180
+            ],
+            [
+              5051,
+              1900,
+              18,
+              180
+            ],
+            [
+              5231,
+              2440,
+              18,
+              180
+            ],
+            [
+              5411,
+              1900,
+              18,
+              180
+            ],
+            [
+              5411,
+              2260,
+              18,
+              180
+            ],
+            [
+              5591,
+              2260,
+              18,
+              180
+            ],
+            [
+              5771,
+              1720,
+              18,
+              720
+            ],
+            [
+              5771,
+              2620,
+              18,
+              180
+            ],
+            [
+              5951,
+              2440,
+              18,
+              180
+            ],
+            [
+              6131,
+              2620,
+              18,
+              180
+            ]
+          ],
+          "points": [
+            [
+              4610,
+              2170
+            ],
+            [
+              4790,
+              2170
+            ],
+            [
+              4970,
+              2170
+            ],
+            [
+              4970,
+              1990
+            ],
+            [
+              4970,
+              1810
+            ],
+            [
+              5150,
+              1810
+            ],
+            [
+              5330,
+              1810
+            ],
+            [
+              5510,
+              1810
+            ],
+            [
+              5690,
+              1810
+            ],
+            [
+              5690,
+              1990
+            ],
+            [
+              5690,
+              2170
+            ],
+            [
+              5510,
+              2170
+            ],
+            [
+              5330,
+              2170
+            ],
+            [
+              5330,
+              2350
+            ],
+            [
+              5330,
+              2530
+            ],
+            [
+              5510,
+              2530
+            ],
+            [
+              5690,
+              2530
+            ],
+            [
+              5870,
+              2530
+            ],
+            [
+              5870,
+              2710
+            ],
+            [
+              6050,
+              2710
+            ]
+          ],
+          "route": [
+            [
+              4970,
+              1990
+            ],
+            [
+              5330,
+              1810
+            ],
+            [
+              5690,
+              1990
+            ],
+            [
+              5330,
+              2170
+            ],
+            [
+              5510,
+              2530
+            ],
+            [
+              5870,
+              2710
+            ]
+          ],
+          "gates": [
+            {
+              "x": 4970,
+              "y": 2080,
+              "vertical": false,
+              "pattern": 0,
+              "idx": 3
+            },
+            {
+              "x": 5240,
+              "y": 1810,
+              "vertical": true,
+              "pattern": 1,
+              "idx": 6
+            },
+            {
+              "x": 5690,
+              "y": 1900,
+              "vertical": false,
+              "pattern": 2,
+              "idx": 9
+            },
+            {
+              "x": 5420,
+              "y": 2170,
+              "vertical": true,
+              "pattern": 3,
+              "idx": 12
+            },
+            {
+              "x": 5420,
+              "y": 2530,
+              "vertical": true,
+              "pattern": 4,
+              "idx": 15
+            },
+            {
+              "x": 5870,
+              "y": 2620,
+              "vertical": false,
+              "pattern": 5,
+              "idx": 18
+            }
+          ],
+          "cache": [
+            6050,
+            2710
+          ],
+          "cells": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              4,
+              0
+            ],
+            [
+              5,
+              0
+            ],
+            [
+              6,
+              0
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              6,
+              2
+            ],
+            [
+              5,
+              2
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              4
+            ],
+            [
+              6,
+              4
+            ],
+            [
+              7,
+              4
+            ],
+            [
+              7,
+              5
+            ],
+            [
+              8,
+              5
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              6,
+              3
+            ]
+          ],
+          "origin": [
+            4520,
+            1720
+          ],
+          "cell": 180
+        },
+        "route": [
+          [
+            4970,
+            1990
+          ],
+          [
+            5330,
+            1810
+          ],
+          [
+            5690,
+            1990
+          ],
+          [
+            5330,
+            2170
+          ],
+          [
+            5510,
+            2530
+          ],
+          [
+            5870,
+            2710
+          ]
+        ],
+        "walls": [
+          [
+            4880,
+            1711,
+            900,
+            18
+          ],
+          [
+            5060,
+            1891,
+            360,
+            18
+          ],
+          [
+            4520,
+            2071,
+            360,
+            18
+          ],
+          [
+            5060,
+            2071,
+            360,
+            18
+          ],
+          [
+            4520,
+            2251,
+            360,
+            18
+          ],
+          [
+            5420,
+            2251,
+            180,
+            18
+          ],
+          [
+            4880,
+            2431,
+            360,
+            18
+          ],
+          [
+            5420,
+            2431,
+            180,
+            18
+          ],
+          [
+            5780,
+            2431,
+            180,
+            18
+          ],
+          [
+            5240,
+            2611,
+            540,
+            18
+          ],
+          [
+            5960,
+            2611,
+            180,
+            18
+          ],
+          [
+            5780,
+            2791,
+            360,
+            18
+          ],
+          [
+            4511,
+            2080,
+            18,
+            180
+          ],
+          [
+            4871,
+            1720,
+            18,
+            360
+          ],
+          [
+            4871,
+            2260,
+            18,
+            180
+          ],
+          [
+            5051,
+            1900,
+            18,
+            180
+          ],
+          [
+            5231,
+            2440,
+            18,
+            180
+          ],
+          [
+            5411,
+            1900,
+            18,
+            180
+          ],
+          [
+            5411,
+            2260,
+            18,
+            180
+          ],
+          [
+            5591,
+            2260,
+            18,
+            180
+          ],
+          [
+            5771,
+            1720,
+            18,
+            720
+          ],
+          [
+            5771,
+            2620,
+            18,
+            180
+          ],
+          [
+            5951,
+            2440,
+            18,
+            180
+          ],
+          [
+            6131,
+            2620,
+            18,
+            180
+          ]
+        ],
+        "progress": 6,
+        "scan16": 0,
+        "exit": -0.016199999999953776,
+        "decoder16": true
+      },
+      "pass": true,
+      "timeline": [
+        {
+          "name": "start",
+          "seconds": 0.43,
+          "state": "play",
+          "credits": 0,
+          "contracts": 0,
+          "stage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 3.341,
+          "state": "play",
+          "credits": 0,
+          "contracts": 0,
+          "stage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 6.011,
+          "state": "play",
+          "credits": 0,
+          "contracts": 0,
+          "stage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 9.298,
+          "state": "play",
+          "credits": 0,
+          "contracts": 0,
+          "stage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 16.054,
+          "state": "play",
+          "credits": 0,
+          "contracts": 0,
+          "stage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 18.937,
+          "state": "play",
+          "credits": 0,
+          "contracts": 0,
+          "stage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 22.013,
+          "state": "play",
+          "credits": 0,
+          "contracts": 0,
+          "stage": 0
+        },
+        {
+          "name": "return",
+          "seconds": 30.996,
+          "state": "result",
+          "credits": 135,
+          "contracts": 1,
+          "stage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 65.952,
+          "state": "play",
+          "credits": 135,
+          "contracts": 1,
+          "stage": 0
+        },
+        {
+          "name": "return",
+          "seconds": 100.586,
+          "state": "result",
+          "credits": 337,
+          "contracts": 2,
+          "stage": 0
+        },
+        {
+          "name": "purchase",
+          "seconds": 101.352,
+          "state": "upgrades",
+          "credits": 157,
+          "contracts": 2,
+          "stage": 0
+        },
+        {
+          "name": "chain-0",
+          "seconds": 104.215,
+          "state": "play",
+          "credits": 157,
+          "contracts": 2,
+          "stage": 0
+        },
+        {
+          "name": "chain-0",
+          "seconds": 106.871,
+          "state": "play",
+          "credits": 157,
+          "contracts": 2,
+          "stage": 0
+        },
+        {
+          "name": "chain-0",
+          "seconds": 110.333,
+          "state": "play",
+          "credits": 157,
+          "contracts": 2,
+          "stage": 0
+        },
+        {
+          "name": "chain-1",
+          "seconds": 121.571,
+          "state": "play",
+          "credits": 157,
+          "contracts": 2,
+          "stage": 0
+        },
+        {
+          "name": "chain-2",
+          "seconds": 135.742,
+          "state": "result",
+          "credits": 340,
+          "contracts": 3,
+          "stage": 0
+        },
+        {
+          "name": "return",
+          "seconds": 135.802,
+          "state": "result",
+          "credits": 340,
+          "contracts": 3,
+          "stage": 0
+        },
+        {
+          "name": "purchase",
+          "seconds": 136.536,
+          "state": "upgrades",
+          "credits": 140,
+          "contracts": 3,
+          "stage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 139.398,
+          "state": "play",
+          "credits": 140,
+          "contracts": 3,
+          "stage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 142.089,
+          "state": "play",
+          "credits": 140,
+          "contracts": 3,
+          "stage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 145.397,
+          "state": "play",
+          "credits": 140,
+          "contracts": 3,
+          "stage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 151.276,
+          "state": "play",
+          "credits": 140,
+          "contracts": 3,
+          "stage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 153.803,
+          "state": "play",
+          "credits": 140,
+          "contracts": 3,
+          "stage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 155.987,
+          "state": "play",
+          "credits": 140,
+          "contracts": 3,
+          "stage": 0
+        },
+        {
+          "name": "return",
+          "seconds": 166.852,
+          "state": "result",
+          "credits": 295,
+          "contracts": 4,
+          "stage": 0
+        },
+        {
+          "name": "purchase",
+          "seconds": 167.585,
+          "state": "upgrades",
+          "credits": 135,
+          "contracts": 4,
+          "stage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 194.27,
+          "state": "play",
+          "credits": 135,
+          "contracts": 4,
+          "stage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 196.478,
+          "state": "play",
+          "credits": 135,
+          "contracts": 4,
+          "stage": 0
+        },
+        {
+          "name": "return",
+          "seconds": 226.137,
+          "state": "result",
+          "credits": 351,
+          "contracts": 5,
+          "stage": 0
+        },
+        {
+          "name": "purchase",
+          "seconds": 226.88,
+          "state": "upgrades",
+          "credits": 141,
+          "contracts": 5,
+          "stage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 236.187,
+          "state": "play",
+          "credits": 141,
+          "contracts": 5,
+          "stage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 239.395,
+          "state": "play",
+          "credits": 141,
+          "contracts": 5,
+          "stage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 242.367,
+          "state": "play",
+          "credits": 141,
+          "contracts": 5,
+          "stage": 0
+        },
+        {
+          "name": "return",
+          "seconds": 254.74,
+          "state": "result",
+          "credits": 287,
+          "contracts": 6,
+          "stage": 0
+        },
+        {
+          "name": "purchase",
+          "seconds": 255.487,
+          "state": "upgrades",
+          "credits": 97,
+          "contracts": 6,
+          "stage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 275.808,
+          "state": "play",
+          "credits": 97,
+          "contracts": 6,
+          "stage": 0
+        },
+        {
+          "name": "return",
+          "seconds": 295.415,
+          "state": "result",
+          "credits": 313,
+          "contracts": 7,
+          "stage": 0
+        },
+        {
+          "name": "purchase",
+          "seconds": 296.197,
+          "state": "upgrades",
+          "credits": 128,
+          "contracts": 7,
+          "stage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 308.193,
+          "state": "play",
+          "credits": 128,
+          "contracts": 7,
+          "stage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 318.856,
+          "state": "play",
+          "credits": 128,
+          "contracts": 7,
+          "stage": 0
+        },
+        {
+          "name": "return",
+          "seconds": 340.424,
+          "state": "result",
+          "credits": 339,
+          "contracts": 8,
+          "stage": 0
+        },
+        {
+          "name": "purchase",
+          "seconds": 341.161,
+          "state": "upgrades",
+          "credits": 79,
+          "contracts": 8,
+          "stage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 359.899,
+          "state": "play",
+          "credits": 79,
+          "contracts": 8,
+          "stage": 0
+        },
+        {
+          "name": "loot",
+          "seconds": 369.768,
+          "state": "play",
+          "credits": 79,
+          "contracts": 8,
+          "stage": 0
+        },
+        {
+          "name": "return",
+          "seconds": 397.017,
+          "state": "result",
+          "credits": 337,
+          "contracts": 9,
+          "stage": 0
+        },
+        {
+          "name": "purchase",
+          "seconds": 397.812,
+          "state": "upgrades",
+          "credits": 37,
+          "contracts": 9,
+          "stage": 0
+        },
+        {
+          "name": "mission-step",
+          "seconds": 404.575,
+          "state": "play",
+          "credits": 37,
+          "contracts": 9,
+          "stage": 0
+        },
+        {
+          "name": "mission-step",
+          "seconds": 413.572,
+          "state": "play",
+          "credits": 37,
+          "contracts": 9,
+          "stage": 0
+        },
+        {
+          "name": "return",
+          "seconds": 424.889,
+          "state": "result",
+          "credits": 181,
+          "contracts": 10,
+          "stage": 0
+        },
+        {
+          "name": "purchase",
+          "seconds": 425.64,
+          "state": "upgrades",
+          "credits": 41,
+          "contracts": 10,
+          "stage": 0
+        },
+        {
+          "name": "unlock",
+          "seconds": 426.152,
+          "state": "sectorSelect",
+          "credits": 41,
+          "contracts": 10,
+          "stage": 0
+        },
+        {
+          "name": "sector2",
+          "seconds": 426.697,
+          "state": "play",
+          "credits": 41,
+          "contracts": 10,
+          "stage": 0
+        },
+        {
+          "name": "signal",
+          "seconds": 465.044,
+          "state": "play",
+          "credits": 41,
+          "contracts": 10,
+          "stage": 1
+        },
+        {
+          "name": "key",
+          "seconds": 479.012,
+          "state": "play",
+          "credits": 41,
+          "contracts": 10,
+          "stage": 2
+        },
+        {
+          "name": "gate",
+          "seconds": 493.011,
+          "state": "play",
+          "credits": 41,
+          "contracts": 10,
+          "stage": 4,
+          "checkpoints": 0
+        },
+        {
+          "name": "secret-end",
+          "seconds": 555.031,
+          "state": "play",
+          "credits": 41,
+          "contracts": 10,
+          "stage": 6,
+          "checkpoints": 6
+        },
+        {
+          "name": "sector2-return",
+          "seconds": 592.277,
+          "state": "result",
+          "credits": 662,
+          "contracts": 11,
+          "stage": 6,
+          "checkpoints": 6
+        },
+        {
+          "name": "upgrades-final",
+          "seconds": 592.788,
+          "state": "upgrades",
+          "credits": 662,
+          "contracts": 11,
+          "stage": 6,
+          "checkpoints": 6
+        },
+        {
+          "name": "reload-continue",
+          "seconds": 596.821,
+          "state": "play",
+          "credits": 662,
+          "contracts": 11,
+          "stage": 0
+        }
+      ]
+    }
+  ],
+  "engines": [
+    {
+      "name": "chromium",
+      "pass": true,
+      "version": "153.0.8010.12",
+      "errors": [],
+      "failed": []
+    },
+    {
+      "name": "firefox",
+      "pass": true,
+      "version": "153.0",
+      "errors": [],
+      "failed": []
+    },
+    {
+      "name": "webkit",
+      "pass": true,
+      "version": "26.5",
+      "errors": [],
+      "failed": []
+    }
+  ],
+  "modules": true,
+  "contracts": 23,
+  "ads": true,
+  "touch": true,
+  "lifecycle": true,
+  "performance": {
+    "seconds": 300.252,
+    "frameCount": 18005,
+    "p50": 16.69999999999709,
+    "p95": 17,
+    "p99": 17.20000000001164,
+    "max": 19.69999999999709,
+    ">20": 0,
+    ">25": 0,
+    ">33.3": 0,
+    ">50": 0,
+    ">100": 0
+  },
+  "store": "NOT PRESENT"
+}

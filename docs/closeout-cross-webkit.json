@@ -1,0 +1,23 @@
+{
+  "sha": "110E4C820112195FC7AACEFDC65A3E8CE49AA33646C64D36C99CA3040C3EE23E",
+  "recordedAt": "2026-09-15T10:41:33.511Z",
+  "engine": "webkit",
+  "checks": [
+    "exact rendered title",
+    "movement/HUD/loot/2 completed contracts",
+    "pause/resume/journal",
+    "station/result/earned upgrade purchase/sector select",
+    "credits and module survive reload",
+    "collision death/new flight (placement fixture)"
+  ],
+  "version": "26.5",
+  "purchase": {
+    "module": "cargo",
+    "creditsAfterReload": 187
+  },
+  "pass": true,
+  "errors": [],
+  "consoleErrors": [],
+  "failed": [],
+  "critical": []
+}

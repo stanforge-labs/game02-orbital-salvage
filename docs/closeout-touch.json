@@ -1,0 +1,35 @@
+{
+  "sha": "110E4C820112195FC7AACEFDC65A3E8CE49AA33646C64D36C99CA3040C3EE23E",
+  "recordedAt": "2026-09-15T10:30:36.661Z",
+  "lives": [
+    3,
+    2,
+    1,
+    0
+  ],
+  "press": [
+    {
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "selection": false
+    },
+    {
+      "viewport": {
+        "width": 780,
+        "height": 360
+      },
+      "selection": false
+    }
+  ],
+  "movement": {
+    "left": 101.83348254252462,
+    "right": 801.8334825425246
+  },
+  "score": 140,
+  "arcadePass": true,
+  "pass": true,
+  "errors": [],
+  "scope": "CDP touch input, DOM layer only; no native OS callout claim"
+}

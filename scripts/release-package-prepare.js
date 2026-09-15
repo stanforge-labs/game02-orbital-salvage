@@ -5,6 +5,9 @@ const fs=require('fs'),path=require('path'),terser=require('../tools/release/nod
  html=html.replace(/<script>if \(location.hostname[\s\S]*?<\/script>/,'');
  fs.writeFileSync(path.join(root,'index.html'),html);
  fs.copyFileSync('assets/game/yandex-production.js',path.join(root,'yandex-adapter.js'));
+ // WebKit exposes screen.orientation without lock/unlock on some platforms.
+ const renderer=path.join(root,'pixi-renderers/runtimegame-pixi-renderer.js');
+ fs.writeFileSync(renderer,fs.readFileSync(renderer,'utf8').replace('window.screen.orientation.unlock()','window.screen.orientation.unlock?.()').replace('window.screen.orientation.lock(e).catch','window.screen.orientation.lock?.(e)?.catch'));
  // Engine renderer constructor remains compatible; diagnostic drawing is absent.
  fs.writeFileSync(path.join(root,'pixi-renderers/DebuggerPixiRenderer.js'),'gdjs.DebuggerRenderer=gdjs.DebuggerPixiRenderer=class{getRendererObject(){return null}renderDebugDraw(){}clearDebugDraw(){}};');
  for(const name of ['OFL-Exo2.txt','OFL-RussoOne.txt'])fs.copyFileSync('assets/game/'+name,path.join(root,name));

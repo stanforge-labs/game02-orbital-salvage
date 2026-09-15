@@ -1,0 +1,612 @@
+{
+  "sha": "110E4C820112195FC7AACEFDC65A3E8CE49AA33646C64D36C99CA3040C3EE23E",
+  "recordedAt": "2026-09-15T10:31:48.040Z",
+  "rows": [
+    {
+      "size": [
+        640,
+        360
+      ],
+      "state": "menu",
+      "overflowX": 0,
+      "overflowY": 0,
+      "cards": [
+        {
+          "x": 8,
+          "y": 34.109375,
+          "w": 624,
+          "h": 291.765625,
+          "scroll": false,
+          "overflow": "hidden"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "size": [
+        640,
+        360
+      ],
+      "state": "play",
+      "overflowX": 0,
+      "overflowY": 0,
+      "cards": [],
+      "pass": true
+    },
+    {
+      "size": [
+        640,
+        360
+      ],
+      "state": "pause17",
+      "overflowX": 0,
+      "overflowY": 0,
+      "cards": [
+        {
+          "x": 8,
+          "y": 25.90625,
+          "w": 624,
+          "h": 308.1875,
+          "scroll": false,
+          "overflow": "hidden"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "size": [
+        640,
+        360
+      ],
+      "state": "journal17",
+      "overflowX": 0,
+      "overflowY": 0,
+      "cards": [
+        {
+          "x": 8,
+          "y": 46.609375,
+          "w": 624,
+          "h": 266.78125,
+          "scroll": false,
+          "overflow": "hidden"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "size": [
+        640,
+        360
+      ],
+      "state": "result",
+      "overflowX": 0,
+      "overflowY": 0,
+      "cards": [
+        {
+          "x": 8,
+          "y": 55.96875,
+          "w": 624,
+          "h": 248.0625,
+          "scroll": false,
+          "overflow": "hidden"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "size": [
+        640,
+        360
+      ],
+      "state": "fail",
+      "overflowX": 0,
+      "overflowY": 0,
+      "cards": [
+        {
+          "x": 8,
+          "y": 71.65625,
+          "w": 624,
+          "h": 216.6875,
+          "scroll": false,
+          "overflow": "hidden"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "size": [
+        640,
+        360
+      ],
+      "state": "upgrades",
+      "overflowX": 0,
+      "overflowY": 0,
+      "cards": [
+        {
+          "x": 8,
+          "y": 8,
+          "w": 624,
+          "h": 344,
+          "scroll": false,
+          "overflow": "hidden"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "size": [
+        640,
+        360
+      ],
+      "state": "sectorSelect",
+      "overflowX": 0,
+      "overflowY": 0,
+      "cards": [
+        {
+          "x": 8,
+          "y": 8,
+          "w": 624,
+          "h": 344,
+          "scroll": false,
+          "overflow": "hidden"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "size": [
+        844,
+        390
+      ],
+      "state": "menu",
+      "overflowX": 0,
+      "overflowY": 0,
+      "cards": [
+        {
+          "x": 62,
+          "y": 58.203125,
+          "w": 720,
+          "h": 273.578125,
+          "scroll": false,
+          "overflow": "hidden"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "size": [
+        844,
+        390
+      ],
+      "state": "play",
+      "overflowX": 0,
+      "overflowY": 0,
+      "cards": [],
+      "pass": true
+    },
+    {
+      "size": [
+        844,
+        390
+      ],
+      "state": "pause17",
+      "overflowX": 0,
+      "overflowY": 0,
+      "cards": [
+        {
+          "x": 62,
+          "y": 40.90625,
+          "w": 720,
+          "h": 308.1875,
+          "scroll": false,
+          "overflow": "hidden"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "size": [
+        844,
+        390
+      ],
+      "state": "journal17",
+      "overflowX": 0,
+      "overflowY": 0,
+      "cards": [
+        {
+          "x": 62,
+          "y": 61.609375,
+          "w": 720,
+          "h": 266.78125,
+          "scroll": false,
+          "overflow": "hidden"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "size": [
+        844,
+        390
+      ],
+      "state": "result",
+      "overflowX": 0,
+      "overflowY": 0,
+      "cards": [
+        {
+          "x": 62,
+          "y": 70.96875,
+          "w": 720,
+          "h": 248.0625,
+          "scroll": false,
+          "overflow": "hidden"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "size": [
+        844,
+        390
+      ],
+      "state": "fail",
+      "overflowX": 0,
+      "overflowY": 0,
+      "cards": [
+        {
+          "x": 62,
+          "y": 86.65625,
+          "w": 720,
+          "h": 216.6875,
+          "scroll": false,
+          "overflow": "hidden"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "size": [
+        844,
+        390
+      ],
+      "state": "upgrades",
+      "overflowX": 0,
+      "overflowY": 0,
+      "cards": [
+        {
+          "x": 62,
+          "y": 8,
+          "w": 720,
+          "h": 374,
+          "scroll": false,
+          "overflow": "hidden"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "size": [
+        844,
+        390
+      ],
+      "state": "sectorSelect",
+      "overflowX": 0,
+      "overflowY": 0,
+      "cards": [
+        {
+          "x": 62,
+          "y": 19.546875,
+          "w": 720,
+          "h": 350.90625,
+          "scroll": false,
+          "overflow": "hidden"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "size": [
+        780,
+        360
+      ],
+      "state": "menu",
+      "overflowX": 0,
+      "overflowY": 0,
+      "cards": [
+        {
+          "x": 30,
+          "y": 43.203125,
+          "w": 720,
+          "h": 273.578125,
+          "scroll": false,
+          "overflow": "hidden"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "size": [
+        780,
+        360
+      ],
+      "state": "play",
+      "overflowX": 0,
+      "overflowY": 0,
+      "cards": [],
+      "pass": true
+    },
+    {
+      "size": [
+        780,
+        360
+      ],
+      "state": "pause17",
+      "overflowX": 0,
+      "overflowY": 0,
+      "cards": [
+        {
+          "x": 30,
+          "y": 25.90625,
+          "w": 720,
+          "h": 308.1875,
+          "scroll": false,
+          "overflow": "hidden"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "size": [
+        780,
+        360
+      ],
+      "state": "journal17",
+      "overflowX": 0,
+      "overflowY": 0,
+      "cards": [
+        {
+          "x": 30,
+          "y": 46.609375,
+          "w": 720,
+          "h": 266.78125,
+          "scroll": false,
+          "overflow": "hidden"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "size": [
+        780,
+        360
+      ],
+      "state": "result",
+      "overflowX": 0,
+      "overflowY": 0,
+      "cards": [
+        {
+          "x": 30,
+          "y": 55.96875,
+          "w": 720,
+          "h": 248.0625,
+          "scroll": false,
+          "overflow": "hidden"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "size": [
+        780,
+        360
+      ],
+      "state": "fail",
+      "overflowX": 0,
+      "overflowY": 0,
+      "cards": [
+        {
+          "x": 30,
+          "y": 71.65625,
+          "w": 720,
+          "h": 216.6875,
+          "scroll": false,
+          "overflow": "hidden"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "size": [
+        780,
+        360
+      ],
+      "state": "upgrades",
+      "overflowX": 0,
+      "overflowY": 0,
+      "cards": [
+        {
+          "x": 30,
+          "y": 8,
+          "w": 720,
+          "h": 344,
+          "scroll": false,
+          "overflow": "hidden"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "size": [
+        780,
+        360
+      ],
+      "state": "sectorSelect",
+      "overflowX": 0,
+      "overflowY": 0,
+      "cards": [
+        {
+          "x": 30,
+          "y": 8,
+          "w": 720,
+          "h": 344,
+          "scroll": false,
+          "overflow": "hidden"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "size": [
+        720,
+        360
+      ],
+      "state": "menu",
+      "overflowX": 0,
+      "overflowY": 0,
+      "cards": [
+        {
+          "x": 8,
+          "y": 43.203125,
+          "w": 704,
+          "h": 273.578125,
+          "scroll": false,
+          "overflow": "hidden"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "size": [
+        720,
+        360
+      ],
+      "state": "play",
+      "overflowX": 0,
+      "overflowY": 0,
+      "cards": [],
+      "pass": true
+    },
+    {
+      "size": [
+        720,
+        360
+      ],
+      "state": "pause17",
+      "overflowX": 0,
+      "overflowY": 0,
+      "cards": [
+        {
+          "x": 8,
+          "y": 25.90625,
+          "w": 704,
+          "h": 308.1875,
+          "scroll": false,
+          "overflow": "hidden"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "size": [
+        720,
+        360
+      ],
+      "state": "journal17",
+      "overflowX": 0,
+      "overflowY": 0,
+      "cards": [
+        {
+          "x": 8,
+          "y": 46.609375,
+          "w": 704,
+          "h": 266.78125,
+          "scroll": false,
+          "overflow": "hidden"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "size": [
+        720,
+        360
+      ],
+      "state": "result",
+      "overflowX": 0,
+      "overflowY": 0,
+      "cards": [
+        {
+          "x": 8,
+          "y": 55.96875,
+          "w": 704,
+          "h": 248.0625,
+          "scroll": false,
+          "overflow": "hidden"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "size": [
+        720,
+        360
+      ],
+      "state": "fail",
+      "overflowX": 0,
+      "overflowY": 0,
+      "cards": [
+        {
+          "x": 8,
+          "y": 71.65625,
+          "w": 704,
+          "h": 216.6875,
+          "scroll": false,
+          "overflow": "hidden"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "size": [
+        720,
+        360
+      ],
+      "state": "upgrades",
+      "overflowX": 0,
+      "overflowY": 0,
+      "cards": [
+        {
+          "x": 8,
+          "y": 8,
+          "w": 704,
+          "h": 344,
+          "scroll": false,
+          "overflow": "hidden"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "size": [
+        720,
+        360
+      ],
+      "state": "sectorSelect",
+      "overflowX": 0,
+      "overflowY": 0,
+      "cards": [
+        {
+          "x": 8,
+          "y": 8,
+          "w": 704,
+          "h": 344,
+          "scroll": false,
+          "overflow": "hidden"
+        }
+      ],
+      "pass": true
+    }
+  ],
+  "pass": true,
+  "scope": "mobile contexts; isolated screen-state fixture, DOM geometry and screenshots"
+}

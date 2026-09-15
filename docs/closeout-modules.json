@@ -1,0 +1,549 @@
+{
+  "sha": "110E4C820112195FC7AACEFDC65A3E8CE49AA33646C64D36C99CA3040C3EE23E",
+  "recordedAt": "2026-09-15T10:20:13.384Z",
+  "mode": "isolated input-state fixtures invoke actual production frame/purchase/save/reset handlers; no module-level writes",
+  "rows": [
+    {
+      "module": "cargo",
+      "level": 1,
+      "measuredBefore": {
+        "value": 0,
+        "visual": {
+          "visible": false,
+          "frame": 0
+        }
+      },
+      "price": 180,
+      "measuredAfter": {
+        "value": 1,
+        "visual": {
+          "visible": true,
+          "frame": 0
+        }
+      },
+      "reloadEffect": {
+        "value": 1,
+        "visual": {
+          "visible": true,
+          "frame": 0
+        }
+      },
+      "refund": 135,
+      "resetEffect": {
+        "value": 0,
+        "visual": {
+          "visible": false,
+          "frame": 0
+        }
+      },
+      "expectedEffect": "capacity permits ninth item",
+      "pass": true
+    },
+    {
+      "module": "engine",
+      "level": 1,
+      "measuredBefore": {
+        "value": 190,
+        "visual": {
+          "visible": false,
+          "frame": 0
+        }
+      },
+      "price": 180,
+      "measuredAfter": {
+        "value": 209.00000000000003,
+        "visual": {
+          "visible": true,
+          "frame": 1
+        }
+      },
+      "reloadEffect": {
+        "value": 209.00000000000003,
+        "visual": {
+          "visible": true,
+          "frame": 1
+        }
+      },
+      "refund": 135,
+      "resetEffect": {
+        "value": 182.15252832256465,
+        "visual": {
+          "visible": false,
+          "frame": 1
+        }
+      },
+      "expectedEffect": "+10% thrust/speed",
+      "pass": true
+    },
+    {
+      "module": "hull",
+      "level": 1,
+      "measuredBefore": {
+        "value": 3,
+        "visual": {
+          "visible": false,
+          "frame": 0
+        }
+      },
+      "price": 200,
+      "measuredAfter": {
+        "value": 4,
+        "visual": {
+          "visible": true,
+          "frame": 2
+        }
+      },
+      "reloadEffect": {
+        "value": 4,
+        "visual": {
+          "visible": true,
+          "frame": 2
+        }
+      },
+      "refund": 150,
+      "resetEffect": {
+        "value": 3,
+        "visual": {
+          "visible": false,
+          "frame": 2
+        }
+      },
+      "expectedEffect": "3 to 4 health",
+      "pass": true
+    },
+    {
+      "module": "magnet",
+      "level": 1,
+      "measuredBefore": {
+        "value": 0,
+        "visual": {
+          "visible": false,
+          "frame": 0
+        }
+      },
+      "price": 140,
+      "measuredAfter": {
+        "value": 1,
+        "visual": {
+          "visible": true,
+          "frame": 3
+        }
+      },
+      "reloadEffect": {
+        "value": 1,
+        "visual": {
+          "visible": true,
+          "frame": 3
+        }
+      },
+      "refund": 105,
+      "resetEffect": {
+        "value": 0,
+        "visual": {
+          "visible": false,
+          "frame": 3
+        }
+      },
+      "expectedEffect": "pickup at 36 units",
+      "pass": true
+    },
+    {
+      "module": "radar",
+      "level": 1,
+      "measuredBefore": {
+        "value": 0,
+        "visual": {
+          "visible": false,
+          "frame": 0
+        }
+      },
+      "price": 160,
+      "measuredAfter": {
+        "value": 1,
+        "visual": {
+          "visible": true,
+          "frame": 4
+        }
+      },
+      "reloadEffect": {
+        "value": 1,
+        "visual": {
+          "visible": true,
+          "frame": 4
+        }
+      },
+      "refund": 120,
+      "resetEffect": {
+        "value": 0,
+        "visual": {
+          "visible": false,
+          "frame": 4
+        }
+      },
+      "expectedEffect": "station ETA",
+      "pass": true
+    },
+    {
+      "module": "insurance",
+      "level": 1,
+      "measuredBefore": {
+        "value": 0,
+        "visual": {
+          "visible": false,
+          "frame": 0
+        }
+      },
+      "price": 180,
+      "measuredAfter": {
+        "value": 25,
+        "visual": {
+          "visible": true,
+          "frame": 5
+        }
+      },
+      "reloadEffect": {
+        "value": 25,
+        "visual": {
+          "visible": true,
+          "frame": 5
+        }
+      },
+      "refund": 135,
+      "resetEffect": {
+        "value": 0,
+        "visual": {
+          "visible": false,
+          "frame": 5
+        }
+      },
+      "expectedEffect": "25% cargo recovery",
+      "pass": true
+    },
+    {
+      "module": "shield",
+      "level": 1,
+      "measuredBefore": {
+        "value": 2,
+        "visual": {
+          "visible": false,
+          "frame": 0
+        }
+      },
+      "price": 210,
+      "measuredAfter": {
+        "value": 3,
+        "visual": {
+          "visible": true,
+          "frame": 6
+        }
+      },
+      "reloadEffect": {
+        "value": 3,
+        "visual": {
+          "visible": true,
+          "frame": 6
+        }
+      },
+      "refund": 157,
+      "resetEffect": {
+        "value": 2,
+        "visual": {
+          "visible": false,
+          "frame": 6
+        }
+      },
+      "expectedEffect": "absorb first damage",
+      "pass": true
+    },
+    {
+      "module": "assist",
+      "level": 1,
+      "measuredBefore": {
+        "value": 12,
+        "visual": {
+          "visible": false,
+          "frame": 0
+        }
+      },
+      "price": 170,
+      "measuredAfter": {
+        "value": 15,
+        "visual": {
+          "visible": true,
+          "frame": 7
+        }
+      },
+      "reloadEffect": {
+        "value": 15,
+        "visual": {
+          "visible": true,
+          "frame": 7
+        }
+      },
+      "refund": 127,
+      "resetEffect": {
+        "value": 12,
+        "visual": {
+          "visible": false,
+          "frame": 7
+        }
+      },
+      "expectedEffect": "+3 per collected slot",
+      "pass": true
+    },
+    {
+      "module": "contract",
+      "level": 1,
+      "measuredBefore": {
+        "value": 100,
+        "visual": {
+          "visible": false,
+          "frame": 0
+        }
+      },
+      "price": 190,
+      "measuredAfter": {
+        "value": 120,
+        "visual": {
+          "visible": true,
+          "frame": 8
+        }
+      },
+      "reloadEffect": {
+        "value": 120,
+        "visual": {
+          "visible": true,
+          "frame": 8
+        }
+      },
+      "refund": 142,
+      "resetEffect": {
+        "value": 100,
+        "visual": {
+          "visible": false,
+          "frame": 8
+        }
+      },
+      "expectedEffect": "+20% contract payout",
+      "pass": true
+    },
+    {
+      "module": "repair",
+      "level": 1,
+      "measuredBefore": {
+        "value": 1,
+        "visual": {
+          "visible": false,
+          "frame": 0
+        }
+      },
+      "price": 175,
+      "measuredAfter": {
+        "value": 2,
+        "visual": {
+          "visible": true,
+          "frame": 9
+        }
+      },
+      "reloadEffect": {
+        "value": 2,
+        "visual": {
+          "visible": true,
+          "frame": 9
+        }
+      },
+      "refund": 131,
+      "resetEffect": {
+        "value": 1,
+        "visual": {
+          "visible": false,
+          "frame": 9
+        }
+      },
+      "expectedEffect": "critical hull +1 once",
+      "pass": true
+    },
+    {
+      "module": "scanner",
+      "level": 1,
+      "measuredBefore": {
+        "value": 0,
+        "visual": {
+          "visible": false,
+          "frame": 0
+        }
+      },
+      "price": 185,
+      "measuredAfter": {
+        "value": 1,
+        "visual": {
+          "visible": true,
+          "frame": 10
+        }
+      },
+      "reloadEffect": {
+        "value": 1,
+        "visual": {
+          "visible": true,
+          "frame": 10
+        }
+      },
+      "refund": 138,
+      "resetEffect": {
+        "value": 0,
+        "visual": {
+          "visible": false,
+          "frame": 10
+        }
+      },
+      "expectedEffect": "early meteor warning",
+      "pass": true
+    },
+    {
+      "module": "buffer",
+      "level": 1,
+      "measuredBefore": {
+        "value": 0,
+        "visual": {
+          "visible": false,
+          "frame": 0
+        }
+      },
+      "price": 240,
+      "measuredAfter": {
+        "value": 0.9997000000000001,
+        "visual": {
+          "visible": true,
+          "frame": 11
+        }
+      },
+      "reloadEffect": {
+        "value": 0.9999999999999999,
+        "visual": {
+          "visible": true,
+          "frame": 11
+        }
+      },
+      "refund": 180,
+      "resetEffect": {
+        "value": 0,
+        "visual": {
+          "visible": false,
+          "frame": 11
+        }
+      },
+      "expectedEffect": "1.1 seconds invulnerability",
+      "pass": true
+    },
+    {
+      "module": "containment",
+      "level": 1,
+      "measuredBefore": {
+        "value": 0,
+        "visual": {
+          "visible": false,
+          "frame": 0
+        }
+      },
+      "price": 260,
+      "measuredAfter": {
+        "value": 1,
+        "visual": {
+          "visible": true,
+          "frame": 12
+        }
+      },
+      "reloadEffect": {
+        "value": 1,
+        "visual": {
+          "visible": true,
+          "frame": 12
+        }
+      },
+      "refund": 195,
+      "resetEffect": {
+        "value": 0,
+        "visual": {
+          "visible": false,
+          "frame": 12
+        }
+      },
+      "expectedEffect": "first radiation strike absorbed",
+      "pass": true
+    },
+    {
+      "module": "salvage",
+      "level": 1,
+      "measuredBefore": {
+        "value": 30,
+        "visual": {
+          "visible": false,
+          "frame": 0
+        }
+      },
+      "price": 280,
+      "measuredAfter": {
+        "value": 36,
+        "visual": {
+          "visible": true,
+          "frame": 13
+        }
+      },
+      "reloadEffect": {
+        "value": 36,
+        "visual": {
+          "visible": true,
+          "frame": 13
+        }
+      },
+      "refund": 210,
+      "resetEffect": {
+        "value": 30,
+        "visual": {
+          "visible": false,
+          "frame": 13
+        }
+      },
+      "expectedEffect": "+20% energy value",
+      "pass": true
+    },
+    {
+      "module": "decoder",
+      "level": 1,
+      "measuredBefore": {
+        "value": 0,
+        "visual": {
+          "visible": false,
+          "frame": 0
+        }
+      },
+      "price": 300,
+      "measuredAfter": {
+        "value": 60,
+        "visual": {
+          "visible": true,
+          "frame": 14
+        }
+      },
+      "reloadEffect": {
+        "value": 60,
+        "visual": {
+          "visible": true,
+          "frame": 14
+        }
+      },
+      "refund": 225,
+      "resetEffect": {
+        "value": 0,
+        "visual": {
+          "visible": false,
+          "frame": 14
+        }
+      },
+      "expectedEffect": "+60 secret cache",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "pass": true
+}

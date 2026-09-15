@@ -1,0 +1,9 @@
+const{open,save}=require('./closeout-lib'),assert=require('assert');
+(async()=>{const rows=[];for(const size of [[640,360],[844,390],[780,360],[720,360]]){const q=await open({width:size[0],height:size[1]},true),p=q.p;try{for(const state of ['menu','play','pause17','journal17','result','fail','upgrades','sectorSelect']){
+ await p.evaluate(st=>{if(st==='play')scene15.__start17();else scene15.getVariables().get('GameState').setString(st)},state);await p.waitForTimeout(250);
+ const row={size,state,...await p.evaluate(()=>({overflowX:Math.max(0,document.documentElement.scrollWidth-innerWidth),overflowY:Math.max(0,document.documentElement.scrollHeight-innerHeight),cards:[...document.querySelectorAll('#shell17 .card')].filter(o=>o.getBoundingClientRect().width&&getComputedStyle(o).visibility!=='hidden').map(o=>{const b=o.getBoundingClientRect();return{x:b.x,y:b.y,w:b.width,h:b.height,scroll:o.scrollHeight>o.clientHeight,overflow:getComputedStyle(o).overflowY}})}))};
+ row.pass=row.overflowX===0&&row.overflowY===0&&row.cards.every(b=>b.x>=-1&&b.y>=-1&&b.x+b.w<=size[0]+1&&b.y+b.h<=size[1]+1);rows.push(row);
+ if(size[0]===640||state==='play')await p.screenshot({path:`screenshots/YandexCloseout/mobile-${size.join('x')}-${state}.png`});
+ // Same event protection on mobile DOM; native OS menus are out of scope.
+ const prevent=await p.evaluate(()=>{const t=document.querySelector('canvas'),a=['contextmenu','selectstart','dragstart'].map(type=>{const e=new Event(type,{bubbles:true,cancelable:true});t.dispatchEvent(e);return e.defaultPrevented});return a.every(Boolean)});assert(prevent);
+ }}catch(e){rows.push({size,failure:e.stack,pass:false})}finally{if(q.errors.length)rows.push({size,errors:q.errors,pass:false});await q.browser.close();}}save('mobile-layout',{rows,pass:rows.every(r=>r.pass),scope:'mobile contexts; isolated screen-state fixture, DOM geometry and screenshots'});console.log(rows.filter(r=>!r.pass));})();
